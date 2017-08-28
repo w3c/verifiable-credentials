@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Verifiable Claims Working Group Charter</title>
+    <link rel="stylesheet" href="https://www.w3.org/2005/10/w3cdoc.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="https://www.w3.org/Guide/pubrules-style.css"/>
+    <link rel="stylesheet" type="text/css" href="https://www.w3.org/2006/02/charter-style.css"/>
+</head>
+
+<body>
+<div id="template">
+    <ul id="navbar" style="font-size: small">
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#scope">Scope</a></li>
+        <li><a href="#deliverables">Deliverables</a></li>
+        <li><a href="#coordination">Dependencies and Liaisons</a></li>
+        <li><a href="#participation">Participation</a></li>
+        <li><a href="#communication">Communication</a></li>
+        <li><a href="#decisions">Decision Policy</a></li>
+        <li><a href="#patentpolicy">Patent Policy</a></li>
+        <li><a href="#licensing">Licensing</a></li>
+        <li><a href="#about">About this Charter</a></li>
+    </ul>
+    <p><a href="http://www.w3.org/"><img alt="W3C" height="48" src="https://www.w3.org/Icons/w3c_home" width="72"/></a></p>
+
+    <h1 id="title">Verifiable Claims Working Group Charter</h1>
+
+    <p class="mission">It is currently difficult to express banking account information, education qualifications, healthcare data, and other sorts of machine-readable personal information that has been verified by a 3rd party on the Web. These sorts of data are often referred to as <strong>verifiable claims</strong>. The <strong>mission</strong> of the Verifiable Claims Working Group is to make expressing, exchanging, and verifying claims easier and more secure on the Web. This charter focuses on use cases for education.</p>
+
+        <p class="motivation">Readers that are new to this work should examine the <a href="https://w3c.github.io/webpayments-ig/VCTF/charter/charter-motivation.html">motivations that led to this charter</a>. The <a href="https://w3c.github.io/webpayments-ig/VCTF/primer/">Verifiable Claims Working Group Primer</a> may be particularly helpful to W3C Members. In brief, the work will make it easier for users to assert their verifiable qualifications to a service provider (e.g. my loyalty card number is X, I have an account at Bank Y, I am over the age of 21, I am a citizen of country Z, I am a Chartered Financial Analyst, etc.).</p>
+
+    <div class="noprint">
+        <p class="join"><a href="https://www.w3.org/2004/01/pp-impl/98922/join">Join the Verifiable Claims Working Group</a>.</p>
+    </div>
+
+    <table class="summary-table">
+        <tr id="StartDate">
+            <th rowspan="1" colspan="1">Start date</th>
+            
+      <td rowspan="1" colspan="1">14 April 2017</td>
+        </tr>
+        <tr id="Duration">
+            <th rowspan="1" colspan="1">End date</th>
+            <td rowspan="1" colspan="1">31 March 2019</td>
+        </tr>
+<!--        <tr id="extension">
+            <th rowspan="1" colspan="1">Charter Extension</th>
+            <td rowspan="1" colspan="1">See <a href="#history">Charter History</a></td>
+        </tr> -->
+        <tr>
+            <th rowspan="1" colspan="1">Confidentiality</th>
+            <td rowspan="1" colspan="1">Proceedings are
+                <a href="http://www.w3.org/Consortium/Process/#confidentiality-levels">
+                    public
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <th rowspan="1" colspan="1">Initial Chairs</th>
+            <td rowspan="1" colspan="1">Matt Stone, Pearson;<br />Richard Varn, ETS<br />Daniel Burnett, Invited Expert
+            </td>
+        </tr>
+        <tr>
+            <th rowspan="1" colspan="1">Initial Team Contacts
+                <br/> 
+            </th>
+            <td rowspan="1" colspan="1">Liam Quin (FTE: 0.1)</td>
+        </tr>
+        <tr>
+            <th rowspan="1" colspan="1">Usual Meeting Schedule</th>
+            <td rowspan="1" colspan="1">Teleconferences: Weekly
+                <br/>Face-to-face: 2 per year
+            </td>
+        </tr>
+    </table>
+
+    <div class="introduction">
+        <h2 id="introduction">Introduction</h2>
+
+      <p>This working group is tasked with the standardization of a data model and syntax for the expression of verifiable claims. The work proposed by this charter has been incubated for over two years and has been demonstrated to be <a href="https://w3c.github.io/webpayments-ig/VCTF/support/">broadly supported by various industries</a>.
+The <a href="https://www.w3.org/Payments/IG/">Web Payments Interest Group</a> has identified this work as being critical to achieving specific <a href="https://opencreds.github.io/vc-use-cases/">use cases</a> related to commerce, education, and healthcare on the Web. A document is available to those that wish to understand the <a href="https://w3c.github.io/webpayments-ig/VCTF/charter/charter-motivation.html">motivations behind the creation of this charter</a> and how this work fits into a broader vision for a <a href="https://w3c.github.io/webpayments-ig/VCTF/architecture/">verifiable claims ecosystem</a>.</p>
+
+      <p>This initial charter for the Verifiable Claims Working Group will focus on use cases for education, and will place a strong emphasis on security and privacy. In particular, the Working Group will make a detailed analysis of threats to privacy and how they may be mitigated. As experience is gained, it is expected that future revisions to this charter will expand the scope to a broader range of use cases.</p>
+    </div>
+
+    <div class="scope">
+        <h2 id="scope">Scope</h2>
+	<p>The Working Group will:</p>
+  <ol>
+    <li>Recommend a data model and syntax(es) for the expression of verifiable claims,
+including one or more core vocabularies.</li>
+    <li>Create a note specifying one or more of<ol style="list-style-type:lower-roman">
+    <li>how these data models should be used with existing attribute exchange protocols;</li>
+    <li>a suggestion that existing protocols be modified;</li>
+    <li>a suggestion that a new protocol is required.</li></ol></li>
+    <li>Focus their efforts on the identified <a href="https://w3c.github.io/webpayments-ig/VCTF/use-cases/">use cases</a> with a particular focus on the education sector. As a secondary focus, the group may address use cases on digital offers, receipts, and loyalty programs; discussion of these topics is not exclusive to this Working Group. Use cases from other industries may be included if there is significant industry participation.</li>
+    
+  </ol>
+
+        <h3 id="ooscope">Out of Scope</h3>
+	<p>The Working Group will not:</p>
+  <ol>
+    <li>Define browser-based APIs for interacting with verifiable claims. This work may be performed by a future Working Group if there is interest, but is not required for the Working Group to be successful.</li>
+    <li>Define a new protocol for attribute exchange. This work may be performed by a future Working Group if there is interest, but is not required for the Working Group to be successful.</li>
+    <li>Attempt to lead the creation of a specific style of supporting infrastructure, other than a data model and syntax(es), for a verifiable claims ecosystem.</li>
+    <li>Attempt to address the larger problem of "Identity on the Web/Internet".</li>
+  </ol>
+
+	<h3 id="interop-criteria">Success Criteria</h3>
+	<p>The Working Group will fulfill the <a href="http://www.w3.org/Consortium/Process/#implementation-experience">implementation experience required by the W3C Process</a> as follows:</p>
+	<ul>
+	  <li>The Working Group will develop test suites for Recommendation-track specifications.</li>
+	  <li>The group will seek evidence of independent interoperable uses of the vocabulary by at least two independent entities in the education sector. For example, academic qualifications (for a job application etc.).</li>
+	  <li>The group will undertake, in consultation with experts in security and privacy, a detailed analysis of threats to privacy, and techniques and practices for their mitigation.</li>
+	  <li>For any implementation cited to establish interoperability success, the Working Group will work with the <a href="https://www.w3.org/WAI/APA/">Accessible Platform Architectures</a> (APA) Working Group to help communicate accessibility issues to the developers.</li>
+	</ul>
+
+	<h3 id="terminology">Terminology</h3>
+	<dl>
+	  <dt id="claim"><strong>verifiable claim</strong></dt>
+    <dd>A machine-readable statement made by an entity that is cryptographically authentic (non-repudiable).</dd>
+	  <dt id="credential"><strong>credential (aka attestation)</strong></dt>
+	  <dd>A set of verifiable claims that refer to a qualification, achievement, personal quality, aspect of an identity such as a name, government ID, preferred payment processor, home address, or university degree typically used to indicate suitability.</dd>
+	</dl>
+
+    <h3 id="security">Security and Privacy Considerations</h3>
+   <p>In general, the issuers of verifiable claims want to ensure that their reputation is protected, the holders of verifiable claims want to ensure their data is protected, and the inspectors of verifiable claims want to be confident in their claims-based decisions. As a result, both security and privacy are critical for verifiable claims.</p>
+
+   <p>From a security perspective it is important that verifiable claims are protected from forgery and that interactions with verifiable claims are protected from bad actors at all stages of the lifecycle.   </p>
+
+    <p>From a privacy perspective it is important that information that is intended to remain private is handled appropriately. Maintaining the trust of a verifiable claims ecosystem is important. Verifiable claims technology defined by this group should not disclose private details of the participants' identity or other sensitive information unless required for operational purposes, by legal or jurisdictional rules, or when deliberately consented to (e.g. as part of a request for information) by the holder of the information. The design of any data model and syntax(es) should guard against the unwanted leakage of such data.</p>
+
+	<p>The Working Group will work with the security and privacy organizations listed in the <a href="#coordination">liaisons</a> section of the charter to help ensure that both security and privacy are considered.</p>
+
+    <h3 id="i18n-a11y">Internationalization and Accessibility Considerations</h3>
+   <p>Verifiable claims are made throughout the world and are issued and used by a variety of organizations and people with varying languages and levels of disabilities. The technology developed by the working group must be able to express verifiable claims in a variety of languages and must be able to be used by people with a variety of disabilities.</p>
+
+   <p>The Working Group will work with the internationalization and accessibility organizations listed in the <a href="#coordination">liaisons</a> section of the charter to help ensure that both internationalization and accessibility are considered.</p>
+
+    </div>
+    <div>
+      <h2 id="deliverables">Deliverables</h2>
+        <h3 id="vc-ucr">Verifiable Claims Use Cases &amp; Requirements NOTE</h3>
+<p>The Working Group will develop a set of use cases and requirements to underpin its work. Abstract use cases will be supported by real world evidence of applicability. The document will include an analysis of gaps in existing solutions, notably <a href="http://openid.net/connect/">OpenID Connect</a> and <a href="https://wiki.oasis-open.org/security/FrontPage">SAML</a>, that the new work will address. It will further take very careful note of the serious privacy risks associated with Verifiable Claims and the solutions offered by technologies such as <a href="https://www.microsoft.com/en-us/research/project/u-prove/">U-Prove</a>. NB. the <a href="https://www.w3.org/community/credentials/">Credentials Community Group</a> and the <a href="https://www.w3.org/Payments/IG/wiki/Main_Page/ProposalsQ42015/Credentials">Verifiable Claims Task Force</a> of the <a href="https://www.w3.org/Payments/IG/">Web Payments Interest Group</a> has developed a set of <a href="https://opencreds.github.io/vc-use-cases/">use cases and requirements</a> already.</p>
+
+        <h3 id="vc-data-model">Verifiable Claims Data Model and Syntax Recommendation</h3>
+        <p>This Recommendation will define or identify:</p>
+        <ul>
+            <li>A <strong>Data Model and Core Vocabularies</strong>: for expressing verifiable claims in a semantically extensible way.</li>
+            <li><strong>Syntax(es)</strong>: that are machine-readable and capable of expressing the data model across a variety of formats.</li>
+            <li><strong>Signature Mechanism(s)</strong>: that are capable of protecting the verifiable claims from attack such that the claims can be trusted by consumers of those claims.</li>
+            <li>Risks to <strong>privacy</strong> and how the model and syntax minimizes those risks.</li>
+        </ul>
+
+        <h3 id="vc-privacy-analysis">Verifiable Claims Privacy NOTE</h3>
+
+        <p>This NOTE will identify:</p>
+        <ul>
+            <li>Potential threats to privacy, and technical measures and best practices for their mitigation.</li>
+        </ul>
+
+        <h3 id="vc-implementation-guidance">Verifiable Claims Implementation Guidance NOTE</h3>
+
+        <p>This NOTE will define or identify:</p>
+        <ul>
+            <li>how the data model and syntax can be used with existing attribute exchange architectures to address all of the problems stated in this charter; or</li>
+            <li>how the data model and syntax can be used with a set of modifications to existing attribute exchange architectures; or</li>
+            <li>whether a new attribute exchange protocol is needed and, if so, requirements for that protocol to address.</li>
+        </ul>
+
+
+	<h3 id="process-planning">Process and Planning</h3>
+
+        <h4 id="community-specs">Preference for Community Developed Specifications</h4>
+
+	<p>The Working Group will actively seek to base its deliverables on specifications that have been socialized in <a href="/community/">W3C Community Groups</a> or contributed as <a href="http://www.w3.org/Submission/">W3C Member Submissions</a>. The work of the <a href="https://www.w3.org/community/credentials/">Credentials Community Group</a> and the Verifiable Claims Task Force of the <a href="https://www.w3.org/Payments/IG/">Web Payments Interest Group</a> are of direct relevance and will be the Working Group's starting point.</p>
+
+        <h4 id="milestones">Milestones</h4>
+        <table class="roadmap">
+            <tfoot>
+            <tr>
+                <td colspan="5" rowspan="1">Note: The group will document significant changes from this initial schedule
+                    on the group home page.
+                </td>
+            </tr>
+            </tfoot>
+            <tbody>
+            <tr>
+                <th rowspan="1" colspan="1">Specification</th>
+                <th rowspan="1" colspan="1">
+                    <abbr title="First Working Draft">FPWD</abbr>
+                </th>
+                <th rowspan="1" colspan="1">
+                    <abbr title="Candidate Recommendation">CR</abbr>
+                </th>
+                <th rowspan="1" colspan="1">
+                    <abbr title="Proposed Recommendation">PR</abbr>
+                </th>
+                <th rowspan="1" colspan="1">
+                    <abbr title="Recommendation">Rec</abbr>
+                </th>
+            </tr>
+            <tr>
+                <th rowspan="1" colspan="1">Verifiable Claims Use Cases &amp; Requirements</th>
+                <td class="WD1" rowspan="1" colspan="3">June 2017</td>
+                <td class="REC" rowspan="1" colspan="3">(NOTE) November 2017</td>
+            </tr>
+            <tr>
+                <th rowspan="1" colspan="1">Verifiable Claims Data Model and Syntax(es)</th>
+                <td class="WD1" rowspan="1" colspan="1">June 2017</td>
+                <td class="CR" rowspan="1" colspan="1">February 2018</td>
+                <td class="PR" rowspan="1" colspan="1">September 2018</td>
+                <td class="REC" rowspan="1" colspan="1">December 2018</td>
+            </tr>
+            <tr>
+                <th rowspan="1" colspan="1">Verifiable Claims Privacy Analysis</th>
+                <td class="WD1" rowspan="1" colspan="3">June 2017</td>
+                <td class="REC" rowspan="1" colspan="3">(NOTE) November 2018</td>
+            </tr>
+            <tr>
+                <th rowspan="1" colspan="1">Verifiable Claims Implementation Guidance</th>
+                <td class="WD1" rowspan="1" colspan="3">March 2018</td>
+                <td class="REC" rowspan="1" colspan="3">(NOTE) November 2018</td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+    <div class="dependencies">
+      <h2 id="coordination">Dependencies and Liaisons</h2>
+
+        <h3 id="w3c-groups">W3C Groups</h3>
+        <dl>
+            <dt><a href="https://www.w3.org/Payments/IG/">Web Payments Interest Group</a></dt>
+            <dd>Reviews with respect to Web Payments use cases.</dd>
+            <dt><a href="http://www.w3.org//International/core/">Internationalization Core Working Group</a></dt>
+            <dd>Internationalization and localization review.</dd>
+            <dt><a href="http://www.w3.org/Privacy/">Privacy Interest Group</a></dt>
+            <dd>For privacy reviews.</dd>
+            <dt><a href="https://www.w3.org/WAI/APA/">Accessible Platform Architectures Working Group</a></dt>
+            <dd>To help ensure the protocols provide support for accessibility to people with disabilities.</dd>
+            <dt><a href="http://www.w3.org/2011/webappsec/">Web Application Security</a></dt>
+            <dd>For security reviews. If the Working Group perceives the need for IETF review, W3C will arrange discussion through its IETF liaison.</dd>
+            <dt><a href="http://www.w3.org/community/credentials/">Credentials Community Group</a></dt>
+            <dd>Research and incubation of ideas for consideration by this group.</dd>
+            <dt><a href="http://www.w3.org/Security/wiki/IG">Web Security Interest Group</a></dt>
+            <dd>For security reviews.</dd>
+            <dt><a href="https://www.w3.org/2016/poe/">Permissions and Obligations Expression Working Group</a></dt>
+            <dd>To help ensure that data rights around verifiable claims can be expressed.</dd>
+
+        </dl>
+        <p>This group will also collaborate with future W3C Working Groups developing authentication protocols.</p>
+
+        <h3 id="groups-outside-w3c">Groups Outside W3C</h3>
+        <dl>
+           <dt><a href="http://x9.org/">ASC (Accredited Standards Committee) X9</a></dt>
+            <dd>Coordination with X9 will help achieve broad interoperability of payment systems (e.g. through alignment between Web protocols and ISO 12812).</dd>
+           <dt><a href="https://www.credentialtransparencyinitiative.org/">Credentials Transparency Initiative</a></dt>
+            <dd>Ensure that the credentials being modeled and expressed by CTI are compatible with the work of the Verifiable Claims WG.</dd>
+           <dt><a href="https://openbadges.org/">Mozilla Open Badges</a></dt>
+            <dd>Ensure that the badges being modeled and expressed by the Open Badges community are compatible with the Verifiable Claims WG.</dd>
+        </dl>
+
+    </div>
+    <div class="participation">
+        <h2 id="participation">Participation</h2>
+
+        <p>To be successful, the Verifiable Claims Working Group is expected to have 10 active participants for its duration. Effective participation in Verifiable Claims Working Group may consume .1 FTE for each participant; for editors this commitment may be higher.</p>
+<p>The range of industries and sectors in which verifiable claims are important is very broad. For example, verification of a claim of a professional qualification is as important to potential employers and partners as it is to end users. Therefore, professions such as finance, insurance, medicine, legal, marketing and more will find this work relevant.  A verifiable claim that a customer is over a minimum age will clearly be relevant to retailers of alcohol, movies and more. Providers of public services will be able to use the technology when verifying that a citizen is eligible for a given service or benefit etc. </p>
+    </div>
+    <div class="communication">
+        <h2 id="communication">Communication</h2>
+
+        <p>This group primarily conducts its work on the public mailing list public-vc-wg@w3.org (<a href="https://lists.w3.org/Archives/Public/public-vc-wg/">archive</a>). Administrative tasks may be conducted in Member-only communications.</p>
+
+	<p>Information about the group (deliverables, participants, face-to-face meetings, teleconferences, etc.) is available from the <a href="/2017/vc/">Verifiable Claims Working Group
+		home page</a>.</p>
+    </div>
+    <div class="decisions">
+        <h2 id="decisions">Decision Policy</h2>
+
+        <p>As explained in the Process Document (<a href="https://www.w3.org/Consortium/Process/policies#Consensus">section 3.3</a>), this
+            group will seek to make decisions when there is consensus. When a Chair puts a question and observes
+            dissent, after due consideration of different opinions, the Chair should put a question out for voting
+            within the group (allowing for remote asynchronous participation -- using, for example, email and/or
+            web-based survey techniques) and record a decision, along with any objections. The matter should then be
+            considered resolved unless and until new information becomes available.</p>
+
+        <p>Any resolution first taken in a face-to-face meeting or teleconference (i.e., that does not follow a 7 day
+            call for consensus on the mailing list) is to be considered provisional until 5 working days after the
+            publication of the draft resolution. If no
+            objections are raised on the mailing list within that time, the resolution will be considered to have
+            consensus as a resolution of the Working Group.</p>
+    </div>
+    <div class="patent">
+        <h2 id="patentpolicy">Patent Policy</h2>
+
+        <p>This Working Group operates under the <a href="https://www.w3.org/Consortium/Patent-Policy-20040205/">W3C Patent Policy</a> (5 February 2004 Version). To promote the widest adoption of Web standards, W3C seeks to issue Recommendations that can be
+            implemented, according to this policy, on a Royalty-Free basis.</p>
+
+        <p>For more information about disclosure obligations for this group, please see the <a href="https://www.w3.org/2004/01/pp-impl/">W3C
+            Patent Policy Implementation</a>.</p>
+    </div>
+
+    <div class="licensing">
+      <h2 id="licensing">Licensing</h2>
+              <p>This Working Group will use the <a href='http://www.w3.org/Consortium/Legal/copyright-software'>W3C Software and Document license</a> for all its deliverables.</p>
+    </div>
+
+    <h2 id="about">About this Charter</h2>
+
+   <p>Research that went into the creation of this charter was performed by the <a href="https://www.w3.org/Payments/IG/">Web Payments Interest Group</a> via the <a href="http://w3c.github.io/vctf/">Verifiable Claims Task Force</a>. The research findings can be found in the <a href="https://w3c.github.io/webpayments-ig/VCTF/charter/VCTF-final-report.html">Verifiable Claims Task Force Final Report</a>. The Web Payments Interest Group recommended that the Task Force draft a charter to determine whether there is consensus within the community (including those interviewed) for the scope of work.</p>
+
+
+    <p>This charter for the Verifiable Claims Working Group has been created according to <a href="https://www.w3.org/Consortium/Process/groups#GAGeneral">section 5.2</a> of the <a href="https://www.w3.org/Consortium/Process">Process Document</a>. In the event of a conflict between this document or the provisions of any charter and the W3C Process, the W3C Process shall take precedence.</p>
+
+<!--        <section id="history">
+          <h3>
+            Charter History
+          </h3>
+          <p>The following table lists details of all changes from the initial charter, per the <a href="https://www.w3.org/Consortium/Process/#CharterReview">W3C Process Document (section 5.2.3)</a>:</p>
+
+          <table class="history">
+            <tbody>
+              <tr>
+                <th>
+                  Charter Period
+                </th>
+                <th>
+                  Start Date
+                </th>
+                <th>
+                  End Date
+                </th>
+                <th>
+                  Changes
+                </th>
+              </tr>
+              <tr>
+                <th>
+                  <a href="">Initial Charter</a>
+                </th>
+                <td>
+                  <i class="todo">[15 January 2017] Expected</i>
+                </td>
+                <td>
+                  <i class="todo">[31 December 2018] Expected</i>
+                </td>
+                <td>
+                  <i class="todo">none</i>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+-->
+      <hr/>
+    <address>Originally based on text developed by participants of the Verifiable Claims Task Force, which is a Task Force of the Web Payments Interest Group.
+    </address>
+    <p class="copyright">
+        <a rel="Copyright" href="/Consortium/Legal/ipr-notice#Copyright">Copyright</a> © 2017
+        <a href="/"><abbr title="World Wide Web Consortium">W3C</abbr></a>
+        <sup>®</sup> (<a href="http://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>,
+        <a href="http://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>,
+        <a href="http://www.keio.ac.jp/">Keio</a>,
+        <a href="http://ev.buaa.edu.cn/">Beihang</a>), All Rights Reserved.</p>
+
+    <p class="autoId" style="font-style:italic; text-align:right">$Id: charter.html,v 1.14 2017/04/14 05:28:49 liam Exp $</p>
+</div>
+</body>
+
+</html>
