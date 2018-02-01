@@ -103,6 +103,10 @@ blockquote {
 	font-style: italic;
 }
 
+blockquote ul {
+    list-style: none inside none;
+}
+
 nav ul, nav ul li {
 	display:	block;
 	margin:		0;
