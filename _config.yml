@@ -1,0 +1,9 @@
+theme: jekyll-theme-minimal
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+exclude:
+  - Gemfile
+  - Gemfile.lock
