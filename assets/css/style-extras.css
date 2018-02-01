@@ -1,0 +1,67 @@
+
+section#content h2:before {
+    content: counter(h2) ". ";
+    display: inline;
+
+}
+section#content h2 {
+    counter-increment: h2;
+    counter-reset: h3;
+}
+
+section#content h3:before {
+    content: counter(h2) "." counter(h3) ". ";
+    display: inline;
+}
+
+section#content h3 {
+    counter-increment: h3;
+    counter-reset: h4;
+}
+
+section#content h4:before {
+    content: counter(h2) "." counter(h3) "." counter(h4) ". ";
+    display: inline;
+}
+
+section#content h4 {
+    counter-increment: h4;
+    counter-reset: h5;
+}
+
+
+/* Table zebra style... */
+table.zebra {
+    font-size:inherit;
+    font:100%;
+    margin:1em;
+    width: 95%;
+}
+
+table.zebra td {
+    padding-left: 0.3em;
+}
+
+table.zebra th {
+    font-weight: bold;
+    text-align: center;
+    background-color: NavyBlue !important;
+    font-size: 110%;
+    background: hsl(180, 30%, 50%);
+    color: #fff;
+}
+
+table.zebra th a:link {
+  color: #fff;
+}
+
+table.zebra th a:visited {
+  color: #aaa;
+}
+
+table.zebra tr:nth-child(even) {
+    background-color: hsl(180, 30%, 93%)
+}
+
+table.zebra th{border-bottom:1px solid #bbb;padding:.2em 1em;}
+table.zebra td{border-bottom:1px solid #ddd;padding:.2em 1em;}
