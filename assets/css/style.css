@@ -1,0 +1,336 @@
+/*
+	Mostly stolen from the Web Performance WG's style sheet.
+*/
+
+@font-face {
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 400;
+	src:  local('Noto Sans'), local('NotoSans'), url(https://fonts.gstatic.com/s/notosans/v6/LeFlHvsZjXu2c3ZRgBq9nFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+}
+@font-face {
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Noto Sans Bold'), local('NotoSans-Bold'), url(https://fonts.gstatic.com/s/notosans/v6/PIbvSEyHEdL91QLOQRnZ1z0LW-43aMEzIO6XUTLjad8.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Noto Sans Bold'), local('NotoSans-Bold'), url(https://fonts.gstatic.com/s/notosans/v6/PIbvSEyHEdL91QLOQRnZ1-gdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+@font-face {
+	font-family: 'Noto Sans';
+	font-style: italic;
+	font-weight: 400;
+	src: local('Noto Sans Italic'), local('NotoSans-Italic'), url(https://fonts.gstatic.com/s/notosans/v6/ByLA_FLEa-16SpQuTcQn4CYE0-AqJ3nfInTTiDXDjU4.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+	font-family: 'Noto Sans';
+	font-style: italic;
+	font-weight: 400;
+	src: local('Noto Sans Italic'), local('NotoSans-Italic'), url(https://fonts.gstatic.com/s/notosans/v6/ByLA_FLEa-16SpQuTcQn4I4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+	font-family: 'Noto Sans';
+	font-style: italic;
+	font-weight: 700;
+	src: local('Noto Sans Bold Italic'), local('NotoSans-BoldItalic'), url(https://fonts.gstatic.com/s/notosans/v6/9Z3uUWMRR7crzm1TjRicDujkDdvhIIFj_YMdgqpnSB0.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+	font-family: 'Noto Sans';
+	font-style: italic;
+	font-weight: 700;
+	src: local('Noto Sans Bold Italic'), local('NotoSans-BoldItalic'), url(https://fonts.gstatic.com/s/notosans/v6/9Z3uUWMRR7crzm1TjRicDolIZu-HDpmDIZMigmsroc4.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+body {
+	margin:			0;
+	padding: 		0;
+	background: 	white;
+	max-width: 		100%;
+	font-family:	'Noto Sans', Helvetica, sans-serif;
+}
+
+code {
+	background-color: SeaShell;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.smaller {
+	font-size: smaller
+}
+
+h1 {
+	color: black;
+	text-align:		center;
+	font-size: 		2rem;
+	font-weight:	500;
+	text-shadow:	1px 1px #ccc;
+}
+
+h2, h3, h4, h5, h6 {
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 1.6rem;
+	border-bottom: 1px solid #ccc;
+}
+
+h3 {
+	font-size: 1.4rem;
+}
+
+h4 {
+	font-size: 1.2rem;
+}
+
+blockquote {
+	font-style: italic;
+}
+
+nav ul, nav ul li {
+	display:	block;
+	margin:		0;
+	padding:	0;
+}
+
+a, a:visited, a:hover, a:focus {
+	color: 		#4184F3;
+	background: transparent;
+}
+
+a, a:visited {
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+ 	text-decoration: underline;
+}
+
+
+/*** header ***/
+header {
+	background: #005A9C;
+	color: 		white;
+	margin: 	0;
+}
+
+header ul {
+	display: 			flex;
+	flex-wrap: 			wrap;
+	justify-content: 	space-around;
+}
+
+header a, header a:visited {
+	border-bottom:		1px solid #005A9C;
+	display: 			block;
+	color: 				white;
+	text-decoration: 	none;
+	font-weight: 		bold;
+	padding: 			0.5rem;
+}
+
+header a:hover, header a:focus {
+	background: 		white;
+	color: 				black;
+	text-decoration:	none;
+	font-weight:		bold;
+}
+
+
+/*** main ***/
+/*
+The flex consists of three columns:
+ - a nav element
+ - a section with the main content
+ - an aside
+
+ Note that the default setups are for a mobile site; the larger screens have slightly different flex values set below!
+*/
+main {
+	display: 		flex;
+	flex-direction: column;
+	flex-wrap: 		wrap;
+	background: 	white;
+	color: 			black;
+	line-height: 	1.2;
+	margin-left: 	1rem;
+	margin-right: 	1rem;
+}
+
+main > * {
+	padding-right:	0;
+	padding-left:	0;
+}
+
+/* --- */
+main nav {
+	font-size: 		0.9em;
+	order:			1;
+	margin-top:		1rem;
+	margin-bottom:	1rem;
+	padding-top:	0.5ex;
+	padding-bottom:	0.5ex;
+	border-top: 	2px solid #ccc;
+}
+
+main nav h3 {
+	padding-bottom:	0.2ex;
+	border-bottom:	3px solid #eee;
+}
+main nav li {
+	font-weight:	500;
+	padding:		0.5ex;
+	border-bottom:	1px solid #ccc;
+}
+
+main #content li {
+	margin-top: 0.3em;
+}
+
+aside {
+	font-size: 		0.9em;
+	margin-top:		1rem;
+	margin-bottom:	1rem;
+	border-top: 	2px solid #ddd;
+}
+
+aside ul li {
+	margin-bottom: 0.5rem;
+}
+
+figcaption {
+ 	text-align: left;
+	font-style: italic;
+	font-size: 	small;
+}
+
+#mission {
+	font-style: 	italic;
+	margin-bottom: 	1rem;
+	border-bottom: 	1px solid #ccc;
+}
+
+#mission p {
+	margin-left: 	1rem;
+	margin-right: 	1rem;
+	text-align:     justify;
+	hyphens: 		auto;
+}
+
+/*section#articles {
+	border-top: 2px solid #ddd;
+}*/
+
+article {
+  margin-top: 	 0.5rem;
+  padding:       1rem;
+  border: 		 1px solid #ddd;
+  border-radius: 0.5rem;
+}
+
+article h3 {
+  padding-top: 		0.5ex; margin: 0;
+  width: 			100%;
+  font-style: 		italic;
+}
+
+article h2 {
+	font-style: normal;
+	font-size:  1rem;
+}
+
+article p {
+	margin-left: 0.5rem;
+}
+
+article time {
+	font-style: italic;
+}
+
+/*** footer ***/
+
+footer {
+	background: 		#005A9C;
+	color: 				white;
+	margin: 			0;
+	padding-right: 		0.5rem;
+	padding-left: 		0.5rem;
+	padding-top: 		0.5rem;
+	padding-bottom:		1rem;
+	text-align: 		left;
+	display: 			flex;
+	flex-direction: 	row;
+	justify-content:	space-around;
+}
+
+footer p {
+	margin: 0;
+	padding: 0;
+}
+
+footer a, footer a:visited, footer a:focus, footer a:hover {
+  color:		white;
+  font-weight:	bold;
+}
+
+@media screen and (min-width: 78rem) {
+	main {
+		flex-flow: 			row;
+		justify-content:	space-around;
+		align-items:		flex-start;
+	}
+
+	main > * {
+	    padding-right:	1rem;
+	    padding-left: 	1rem;
+	}
+
+	/* --- */
+	main nav {
+		order:		 	0;
+		border-top: 	none;
+		border-right: 	1px solid #ccc;
+	}
+
+	main nav h3 {
+		text-align:		right;
+	}
+
+	main #content {
+	    max-width:		60rem;
+	}
+
+	aside {
+	    max-width:		20rem;
+	    border-top:		none;
+	    border-left:	1px solid #ccc;
+	}
+
+	article {
+		margin-top: 	2rem;
+		border-top: 	0.5ex solid #ddd;
+	}
+
+	footer {
+		box-sizing: 	border-box;
+		width: 			100%;
+		margin-top: 	5rem;
+		padding-bottom: 2rem;
+	}
+}
