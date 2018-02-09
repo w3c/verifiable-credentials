@@ -8,4 +8,4 @@ Group page: [https://www.w3.org/2017/vc/WG/](https://www.w3.org/2017/vc/WG/)
 * [Use Cases](https://github.com/w3c/vc-use-cases)
 
 ### Other useful links
-* [public group email archive](https://lists.w3.org/Archives/Public/public-vc-wg/)
+* [Public group email archive](https://lists.w3.org/Archives/Public/public-vc-wg/)
