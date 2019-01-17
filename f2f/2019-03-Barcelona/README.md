@@ -4,7 +4,7 @@ This is the logistics page for the W3C Verifiable Claims WG F2F meeting on 4-5 M
 
 TBD
 
-'''NOTE:'''
+_NOTE:_
 This is a W3C Member meeting and participation in this meeting is basically restricted to the W3C Members.
 
 [ We should have a dedicated mailinglist for logistics discussion including the local contacts. What do you think? ]
@@ -41,24 +41,12 @@ TBD
 
 Channel: #vcwg
 
-Please use the [http://irc.w3.org/?channels=#vcwg Web-based IRC client] to joint the channel.
+Please use the [Web-based IRC client](http://irc.w3.org/?channels=#vcwg) to joint the channel.
 
 # Agenda
-
-{| class="wikitable"
-|-
-! Day !! Agenda !! Comment
-|-
-| Mon, 4 March 2019 || @@@
-|-
-| Tue, 5 March 2019 || @@@
-|-
-|}
-
-# Possible topics
 
 TBD
 
-# Agenda
+# Possible topics
 
 TBD
