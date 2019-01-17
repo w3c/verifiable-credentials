@@ -1,0 +1,176 @@
+This is the logistics page for the W3C Verifiable Claims WG F2F meeting on 4-5 March 2019 in Barcelona.
+
+== Registration ==
+
+* [https://www.w3.org/2002/09/wbs/1/WoTF2F201901/ Register]
+* [https://www.w3.org/2002/09/wbs/1/WoTF2F201901/results Attendees]
+
+'''NOTE:'''
+This is a W3C Member meeting and participation in this meeting is basically restricted to the W3C Members. So if you're interested in joining the meeting but not a W3C Member, please contact the [mailto:team-wot-f2f-logistics@w3.org meeting logistics Team] before getting registered.
+
+=== Visa Letters ===
+
+If coming to the US from Europe, may need [https://esta.cbp.dhs.gov/esta/application.html?execution=e2s1 ESTA application].
+
+If you need an invitation letter, please contact us as soon as possible!
+
+== Venue ==
+Siemens Corporate Technology, 755 College Road East, Princeton, NJ, USA, 08540 - [https://new.siemens.com/global/en/company/innovation/corporate-technology.html Website]
+
+Please come at 9:00am on Monday to get access.
+
+== Nearby Hotels ==
+* Crowne Plaza Princeton, 900 Scudders Mill Road, Plainsboro, NJ, USA, 08536 - [https://www.princetoncp.com Website]<br />
+* Holiday Inn Express Princeton Southeast, 870 Scudders Mill Road, Plainsboro, NJ, USA, 08536<br />
+* Hampton Inn Princeton, 4385 US 1 South, Princeton, NJ, USA, 08540
+
+== Transportation from the airports ==
+
+=== From Newark airport ===
+Newark airport is the most convenient choice to go to Princeton (1.5h).
+
+==== How to get there ====
+# Go to "Newark Liberty Airport Station" using the Air Train.
+# Buy a ticket and get the NJ Transit train for "Trenton". You can reach "Princeton Junction" in around 50mins.
+# And then you can go to Siemens Princeton (755 College Road East) by Taxi/bus. (0.5h)
+
+=== From JFK airport ===
+It takes longer than Newark (3.5h).
+
+==== How to get there ====
+# Go to "Pen Station (Pennsylvania Station)", e.g., using the AirTrain JFK Green and subway. (1.5h)
+# Buy a ticket and get the NJ Transition train for "Trenton". You can reach "Princeton Junction" in around 1.5 hours.
+# And then you can go to Siemens Princeton (755 College Road East) by Taxi/bus. (0.5h)
+
+Some information available below:
+* [https://www.princeton.edu/meet-princeton/visit-us Visit US (Princeton Univ.)]
+* [https://sites.google.com/site/princetonjapan/top-3/short/transp How to get Princeton (Japanese)]
+
+== WebEx coordinate ==
+
+[https://lists.w3.org/Archives/Member/member-wot-ig/2019Jan/0001.html WebEx coordinate on the IG archive (Member-only)]
+
+[https://lists.w3.org/Archives/Member/member-wot-wg/2019Jan/0005.html WebEx coordinate on the WG archive (Member-only)]
+
+== IRC ==
+
+Channel: #wot
+
+Please use the [http://irc.w3.org/?channels=#wot Web-based IRC client] to joint the channel.
+
+== Agenda ==
+
+{| class="wikitable"
+|-
+! Day !! Agenda !! Comment
+|-
+| Mon, 28 Jan 2019 || TestFest || Open for implementers
+|-
+| Tue, 29 Jan 2019 || TestFest || Open for implementers
+|-
+| Wed, 30 Jan 2019 || TestFest, OpenDay || Open for visitors
+|-
+| Thu, 31 Jan 2019 || Technical Sessions || Members and registered observers only
+|-
+| Fri, 1 Feb 2019 || Technical Sessions || Members and registered observers only
+|-
+| Sat, 2 Feb 2019 || Flextime || Members and registered observers only; for finishing REC track documents
+|}
+
+== Input ==
+
+=== OpenDay ===
+
+We currently plan for an afternoon on Wednesday.
+
+==== Speakers (preliminary) ====
+
+Presentations should be approx. 20 minutes + 5 minutes for questions.
+Note: if the NIST speaker cannot make it the rest of the schedule will
+be moved up and more time allocated to demos.
+
+{| class="wikitable"
+|-
+! Time !! Speaker, Organization !! Topic
+|-
+| 14:00–14:25 || Kurt Bettenhausen, Siemens || Welcome to CT US @ Princeton
+|-
+| 14:25-14:50 || {Kajimoto,Sebastian}, tbd || Introduction to WoT
+|-
+| 14:50-15:15 || tbd, NIST || tbd (Dependent on Government Shutdown)
+|-
+| 15:15-15:30 || || Coffee Break
+|-
+| 15:30-15:55 || Michael McCool, Intel || Smart City
+|-
+| 15:55-16:20 || Michael Lagally, Oracle || WoT and Oracle IoT Cloud Applications
+|-
+| 16:20-16:45 || Christian Glomb, Siemens || WoT & Princeton Island Grid
+|-
+| 16:45-17:00 || || Coffee Break and Demo Preparation
+|-
+| 17:00–18:00 || || Demos from WoT Testing, Time for Chats
+|}
+
+==== Observers ====
+FORMAT: name, organization
+
+=== Remote Participants and Constraints ===
+* Elena Reshetova, Zoltan Kis, Daniel Peintner
+** CET; can attend sessions up to 3:00pm
+
+=== Plenary and Breakouts ===
+FORMAT: (Priority) Topic (session leader(s); time required)
+
+* REC Track Documents
+** WoT Architecture (Michael Lagally; 30m)
+** WoT Thing Description
+** WoT Scripting API
+* WG Notes
+** WoT Binding Templates
+** WoT Security and Privacy Considerations
+** WoT Security Testing Plan
+** WoT Security Best Practices
+* Implementation Reports
+** Assertion Validation
+** Implementation Documentation
+** TestFest Results
+*** At-Risk and Modified Assertions
+** Testing
+* Other Testing
+** Security Testing Results
+*** Functional
+*** Adversarial
+** Interoperability Testing
+* Rechartering
+** Interest Group (IG)
+** Working Group (WG)
+* Administration
+** Next F2F meeting (assuming recharter)
+** WoT Workshop planning
+** Smart Cities BG Coordination
+** Other Liaisons
+*** ITU
+*** One Data Model
+*** Others..
+* Plannings WoT Workshop (Mon 27th - Wed 29th, Munich, Germany)
+
+== TestFest ==
+
+Instead of interoperability and scenarios, we will focus on REC Track testing.
+
+An isolated local wired/wireless network provided with internet access via a NAT.
+* Note we will be doing penetration testing on devices within this networks
+
+Ports which will be open: 
+* Standard TCP ports: 22 (ssh), 80 (http), 443 (https), 1883 (mqtt), 1880 (nodered)
+* Test TCP ports: 8000-8200 (incl in particular 8003), 9000-9200.
+* Standard UDP ports: 5683 (coap), 1194 (vpn)
+
+Requirements for other local network behaviors?
+* Peer-to-peer connections?
+* Multicast: (Intel) OCF devices use UDP multicast for discovery
+* UPnP?
+* mDNS: (Intel) local URLs
+
+Any other global network behaviors needed?
