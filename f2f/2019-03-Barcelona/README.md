@@ -2,16 +2,10 @@ This is the logistics page for the W3C Verifiable Claims WG F2F meeting on 4-5 M
 
 # Registration
 
-TBD
+To register, add your info [here](https://docs.google.com/spreadsheets/d/1G1ygbZMI5nJB94ROuX-Vtic4FgbeYl-S58E_DoXa7-w/edit#gid=913829325).
 
 _NOTE:_
-This is a W3C Member meeting and participation in this meeting is basically restricted to the W3C Members.
-
-[ We should have a dedicated mailinglist for logistics discussion including the local contacts. What do you think? ]
-
-<!--
-So if you're interested in joining the meeting but not a W3C Member, please contact the [mailto:team-wot-f2f-logistics@w3.org meeting logistics Team] before getting registered.
--->
+This is a W3C Member meeting.  Participation in this meeting is restricted to W3C Members and to approved guests.  If you would like to join as a guest, please contact one of the chairs, either Matt Stone or Dan Burnett, using their email addresses from the Credentials CG mailing list or the VC Working Group mailing list.
 
 <!--
 === Visa Letters ===
@@ -21,9 +15,7 @@ If you need an invitation letter, please contact us as soon as possible!
 
 # Venue
 
-TBD
-
-Please come at 9:00am on Monday to get access.
+TBD.  Expected to be colocated with [Rebooting the Web of Trust 8](https://www.weboftrust.info/next-event-page.html).
 
 # Nearby Hotels
 
