@@ -1,5 +1,6 @@
 {
-  "group":     98922
-, "contacts":  ["ashimura"]
-, "policy":    "close"
+  "group":     98922,
+  "contacts":  ["ashimura"],
+  "policy":    "close",
+  "repo-type": "homepage"
 }
