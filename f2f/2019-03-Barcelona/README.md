@@ -15,11 +15,34 @@ If you need an invitation letter, please contact us as soon as possible!
 
 # Venue
 
-TBD.  Expected to be colocated with [Rebooting the Web of Trust 8](https://www.weboftrust.info/next-event-page.html).
+[Payment Innovation Hub](http://paymentinnovationhub.com/)
+
+```
+Barcelona Tech City – Pier 01
+Plaça de pau Vila 1
+08039 Barcelona
+```
+
+info@paymentinnovationhub.com
+
+Expected to be colocated with [Rebooting the Web of Trust 8](https://www.weboftrust.info/next-event-page.html).
 
 # Nearby Hotels
 
-TBD
+[Hotel Catalonia Port](https://www.cataloniahotels.com/es/hotel/catalonia-port?mb=1) 
+* [Google Maps](https://www.google.com/maps/place/Hotel+Catalonia+Port/@41.3783377,2.178523,17z/data=!4m15!1m9!2m8!1sHotels!3m6!1sHotels!2sPier+01+Barcelona+Tech+City,+Pla%C3%A7a+de+Pau+Vila,+1,+08039+Barcelona,+Spain!3s0x12a4a300710fda87:0x7e9f5fe07f3b841f!4m2!1d2.1856078!2d41.3810552!3m4!1s0x12a4a25663efa87b:0xdad45bbc6aa1f713!8m2!3d41.3787508!4d2.1787302)
+* 0.5 miles to venue
+* 132€/day
+
+[Hotel Colonial Barcelona](http://www.hotelcolonialbarcelona.com/) 
+* [Google Maps](https://www.google.com/maps/place/Hotel+Colonial+Barcelona/@41.3806205,2.1801468,16.83z/data=!4m18!1m9!2m8!1sHotels!3m6!1sHotels!2sPier+01+Barcelona+Tech+City,+Pla%C3%A7a+de+Pau+Vila,+1,+08039+Barcelona,+Spain!3s0x12a4a300710fda87:0x7e9f5fe07f3b841f!4m2!1d2.1856078!2d41.3810552!3m7!1s0x12a4a2ff17e20343:0x3abc2e193652e5f9!5m2!1s2019-03-03!2i2!8m2!3d41.3822898!4d2.1807231)
+* 0.3 miles to venue
+* 114€/day
+
+[Hotel Arc La Rambla](https://hotelarclarambla.com/) 
+* [Google Maps](https://www.google.com/maps/place/Hotel+Arc+La+Rambla/@41.3786596,2.1777623,16.83z/data=!4m18!1m9!2m8!1sHotels!3m6!1sHotels!2sPier+01+Barcelona+Tech+City,+Pla%C3%A7a+de+Pau+Vila,+1,+08039+Barcelona,+Spain!3s0x12a4a300710fda87:0x7e9f5fe07f3b841f!4m2!1d2.1856078!2d41.3810552!3m7!1s0x12a4a257a00265ef:0xd22fce4daaf4f774!5m2!1s2019-03-03!2i2!8m2!3d41.378157!4d2.1755572)
+* 0.7 miles to venue
+* 110€/day
 
 # Transportation from the airports
 
