@@ -25,9 +25,11 @@ Plaça de pau Vila 1
 
 info@paymentinnovationhub.com
 
-Expected to be colocated with [Rebooting the Web of Trust 8](https://www.weboftrust.info/next-event-page.html).
+This meeting follows [Rebooting the Web of Trust 8](https://www.weboftrust.info/next-event-page.html), also in Barcelona.
 
 # Nearby Hotels
+
+We do not have room blocks reserved at hotels.  However, the following hotels are nearby and currently (early Feb) showing availability at the given prices.  Prices are shown merely for convenience and may not be accurate when you go to book.
 
 [Hotel Catalonia Port](https://www.cataloniahotels.com/es/hotel/catalonia-port?mb=1) 
 * [Google Maps](https://www.google.com/maps/place/Hotel+Catalonia+Port/@41.3783377,2.178523,17z/data=!4m15!1m9!2m8!1sHotels!3m6!1sHotels!2sPier+01+Barcelona+Tech+City,+Pla%C3%A7a+de+Pau+Vila,+1,+08039+Barcelona,+Spain!3s0x12a4a300710fda87:0x7e9f5fe07f3b841f!4m2!1d2.1856078!2d41.3810552!3m4!1s0x12a4a25663efa87b:0xdad45bbc6aa1f713!8m2!3d41.3787508!4d2.1787302)
@@ -62,6 +64,3 @@ Please use the [Web-based IRC client](http://irc.w3.org/?channels=#vcwg) to join
 
 TBD
 
-# Possible topics
-
-TBD
