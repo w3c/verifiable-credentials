@@ -2,7 +2,7 @@ This is the logistics page for the W3C Verifiable Claims WG F2F meeting on 4-5 M
 
 # Registration
 
-To register, add your info [here](https://docs.google.com/spreadsheets/d/1G1ygbZMI5nJB94ROuX-Vtic4FgbeYl-S58E_DoXa7-w/edit#gid=913829325).
+Registration for the Barcenola Face to Face is closed.
 
 _NOTE:_
 This is a W3C Member meeting.  Participation in this meeting is restricted to W3C Members and to approved guests.  If you would like to join as a guest, please contact one of the chairs, either Matt Stone or Dan Burnett, using their email addresses from the Credentials CG mailing list or the VC Working Group mailing list.
@@ -12,6 +12,10 @@ This is a W3C Member meeting.  Participation in this meeting is restricted to W3
 
 If you need an invitation letter, please contact us as soon as possible!
 -->
+
+# Agenda
+
+The face to face agenda is full and busy. [Current Agenda](https://docs.google.com/spreadsheets/d/e/2PACX-1vRTbKsROuQzBWyuYvMBwSrjuv5X3jO-ObXpLEPpWxuPqXi6sigqfIfQwpJNHwK70cBHwV1torftKW0u/pubhtml?gid=285762982&single=true)  
 
 # Venue
 
