@@ -15,7 +15,7 @@ If you need an invitation letter, please contact us as soon as possible!
 
 # Agenda
 
-[The face to face agenda is full and busy](https://docs.google.com/spreadsheets/d/e/2PACX-1vRTbKsROuQzBWyuYvMBwSrjuv5X3jO-ObXpLEPpWxuPqXi6sigqfIfQwpJNHwK70cBHwV1torftKW0u/pubhtml?gid=285762982&single=true)  
+The face to face agenda is full and busy. [Current Agenda](https://docs.google.com/spreadsheets/d/e/2PACX-1vRTbKsROuQzBWyuYvMBwSrjuv5X3jO-ObXpLEPpWxuPqXi6sigqfIfQwpJNHwK70cBHwV1torftKW0u/pubhtml?gid=285762982&single=true)  
 
 # Venue
 
