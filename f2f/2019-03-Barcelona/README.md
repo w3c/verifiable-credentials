@@ -15,7 +15,7 @@ If you need an invitation letter, please contact us as soon as possible!
 
 # Agenda
 
-The face to face agenda is full and busy. [Current Agenda](https://docs.google.com/spreadsheets/d/e/2PACX-1vRTbKsROuQzBWyuYvMBwSrjuv5X3jO-ObXpLEPpWxuPqXi6sigqfIfQwpJNHwK70cBHwV1torftKW0u/pubhtml?gid=285762982&single=true)  
+The face to face agenda is full and busy. [Planning Agenda](https://docs.google.com/spreadsheets/d/e/2PACX-1vRTbKsROuQzBWyuYvMBwSrjuv5X3jO-ObXpLEPpWxuPqXi6sigqfIfQwpJNHwK70cBHwV1torftKW0u/pubhtml?gid=285762982&single=true) (may be overridden by Live slides below) 
 
 # Venue
 
@@ -50,21 +50,6 @@ We do not have room blocks reserved at hotels.  However, the following hotels ar
 * 0.7 miles to venue
 * 110€/day
 
-# Transportation from the airports
+# Live Slides, WebEx, and IRC
 
-TBD
-
-# WebEx coordinate
-
-TBD
-
-# IRC
-
-Channel: #vcwg
-
-Please use the [Web-based IRC client](http://irc.w3.org/?channels=#vcwg) to joint the channel.
-
-# Agenda
-
-TBD
-
+See [Live Slides](https://tinyurl.com/yxkjegsg).
