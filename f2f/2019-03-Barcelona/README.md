@@ -52,4 +52,4 @@ We do not have room blocks reserved at hotels.  However, the following hotels ar
 
 # Live Slides, WebEx, and IRC
 
-See [Live Slides](https://tinyurl.com/yxkjegsg).
+See [Live Slides](https://tinyurl.com/2019BarcelonaVCWGLiveSlides).
