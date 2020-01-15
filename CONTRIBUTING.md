@@ -1,5 +1,5 @@
 
-Contributions to the Verifiable Claims Working Group repositories are intended to become part of Recommendation-track documents governed by the
+Contributions to the Verifiable Credentials Working Group repositories are intended to become part of Recommendation-track documents governed by the
 [W3C Patent Policy](http://www.w3.org/Consortium/Patent-Policy-20040205/) and
 [Document License](http://www.w3.org/Consortium/Legal/copyright-documents). To make substantive contributions to specifications, you must either participate
 in the relevant W3C Working Group or make a non-member patent licensing commitment.
