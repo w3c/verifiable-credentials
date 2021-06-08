@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>W3C {{ site.wgname_uc }} Working Group</title>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width">
+    <meta name="application-name" content="{{ site.wgname_uc }} Working Group" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="full-screen" content="yes" />
+    <meta name="description" content="{{ site.mission }}" />
+    {% if page.json-ld %}
+    <script type="application/ld+json">{{ page.json-ld }}</script>
+    {% endif %}
+
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style-extras.css">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <style>
+        .smaller {
+            font-size: smaller
+        }
+        .todo {
+            background: yellow;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    {% include header.html %}
+    <main>
+        {% include nav.html %}
+        <section id='content'>
+            <h1 style="border-bottom: 1px solid #ccc">
+                VC Working Group
+            </h1>
+            {{ content }}
+        </section>
+        {% include aside.html %}
+    </main>
+    {% include footer.html %}
+</body>
+</html>

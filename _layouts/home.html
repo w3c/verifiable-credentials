@@ -34,11 +34,24 @@
                     The Chairs of the Working Group are <a href="mailto:wyc@fastmail.fm">Wayne Chang</a> and <a href="mailto:brent.zundel@evernym.com">Brent Zundel</a>. The W3C Staff Contact for the Working Group is <a href="mailto:ivan@w3.org">Ivan Herman</a>. 
                 </p>
             </section>
+            <section id="minutes">
+                <h2><a href="Meetings/Minutes/">Meeting Minutes</a></h2>
+                <ul class="inline">
+                {% assign minutes_length = site.minutes | size %}
+                {% assign reversed_minutes = site.minutes | reverse %}
+                {% for item in reversed_minutes limit:5 %}
+                  <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.date | date: '%d %B' }}</a></li>
+                {% endfor %}
+                {% if minutes_length > 5 %}
+                    <li><a href="Meetings/Minutes/">more...</a></li>
+                {% endif %}
+                </ul>
+            </section>
         </section>
         {% include aside.html %}
     </main>
     {% include footer.html %}
 
-    <script src="https://w3c.github.io/apiary/apiary.js"></script>
+    <!-- <script src="https://w3c.github.io/apiary/apiary.js"></script> -->
   </body>
 </html>

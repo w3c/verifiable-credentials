@@ -1,8 +1,12 @@
+---
+layout: default
+---
+
 This is the logistics page for the W3C Verifiable Claims WG F2F meeting on 4-5 March 2019 in Barcelona.
 
 # Registration
 
-Registration for the Barcenola Face to Face is closed.
+Registration for the Barcelona Face to Face is closed.
 
 _NOTE:_
 This is a W3C Member meeting.  Participation in this meeting is restricted to W3C Members and to approved guests.  If you would like to join as a guest, please contact one of the chairs, either Matt Stone or Dan Burnett, using their email addresses from the Credentials CG mailing list or the VC Working Group mailing list.

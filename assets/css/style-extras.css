@@ -65,3 +65,17 @@ table.zebra tr:nth-child(even) {
 
 table.zebra th{border-bottom:1px solid #bbb;padding:.2em 1em;}
 table.zebra td{border-bottom:1px solid #ddd;padding:.2em 1em;}
+
+.footer {
+    font-size: 80%;
+    font-style: italic;
+}
+
+.footer::before {
+    content: "†";
+    vertical-align: super;
+}
+
+span.provisional {
+    color: red;
+}
