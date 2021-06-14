@@ -23,6 +23,6 @@ Resolutions are marked “<span class='provisional'>Provisional</span>” if the
 
 <script type='text/javascript'>
     window.addEventListener('load', () => {
-        display_resolutions('resolutions_regular', '../../assets/minute_processing.json', 3, true, 'vc');
+        display_resolutions('resolutions_regular', '../../assets/minute_processing.json', 3, true, 'vcwg');
     });
 </script>

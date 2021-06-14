@@ -19,9 +19,9 @@ layout: default
 
 <ul>
 {% for item in year.items reversed %}
-  {% unless item.url contains "did-topic" %}
-      <li><a href="{{ site.baseurl }}{{ item.url }}"><em>{{ item.title }}</em></a></li>
-  {% endunless %}
+  {% if item.url contains "vcwg"  %}
+    <li><a href="{{ site.baseurl }}{{ item.url }}"><em>{{ item.title }}</em></a></li>
+  {% endif %}
 {% endfor %}
 </ul>
 
