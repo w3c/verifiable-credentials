@@ -806,5 +806,31 @@
             "nicole"
         ],
         "name": "Yuwen Zhang"
+    },
+    {
+        "nick": [
+            "davidc"
+        ],
+        "name": "David Chadwick"
+    },
+    {
+        "nick": [
+            "MKupjetz"
+        ],
+        "name": "Michael Kupjetz"
+    },
+    {
+        "nick" : [
+            "natran",
+            "Gregory_natran"
+        ],
+        "name": "Gregory Natran"
+    },
+    {
+        "nick": [
+            "gerhard",
+            "Gerhard Oosthuizen"
+        ],
+        "name": "Gerhard Oosthuizen"
     }
 ]
