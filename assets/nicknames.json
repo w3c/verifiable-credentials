@@ -15,7 +15,8 @@
             "by_caballero_juan",
             "caballero_juan",
             "by_caballero__juan",
-            "by_caballero"
+            "by_caballero",
+            "bumblefudge"
         ],
         "name": "Juan Caballero"
     },
@@ -446,8 +447,7 @@
     },
     {
         "nick": [
-            "grantnoble",
-            "rgrant"
+            "grantnoble"
         ],
         "name": "Grant Noble",
         "github": "grantnoble"
@@ -503,6 +503,13 @@
         ],
         "name": "Drummond Reed",
         "github": "talltree"
+    },
+    {
+        "nick" : [
+            "rgrant"
+        ],
+        "github": "rxgrant",
+        "name": "Ryan Grant"
     },
     {
         "nick": [
