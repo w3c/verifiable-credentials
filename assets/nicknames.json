@@ -844,5 +844,13 @@
     {
         "nick": [ "Michael_Shea"],
         "name": "Michael Shea"
+    },
+    {
+        "name": "Michael Herman",
+        "nick": [
+            "mwherman", 
+            "Michael_Herman", 
+            "mwherman2000"
+        ]
     }
 ]
