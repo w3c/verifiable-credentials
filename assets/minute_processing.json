@@ -1,5 +1,5 @@
 {
-    "date": "2021-09-29T16:16:55.147Z",
+    "date": "2021-10-07T08:51:46.801Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -7,7 +7,17 @@
         "2021-08-25-vcwg.md",
         "2021-09-08-vcwg.md",
         "2021-09-15-vcwg.md",
-        "2021-09-29-vcwg.md"
+        "2021-09-29-vcwg.md",
+        "2021-10-06-vcwg.md"
     ],
-    "resolutions": []
+    "resolutions": [
+        {
+            "year": 2021,
+            "date": "2021-10-06",
+            "number": 1,
+            "text": "No sooner than 2021-10-13 we will submit a request for wide review of the candidate changes represented at the link: <a href=\"https://github.com/w3c/vc-data-model/tree/main/REC/2021-10-05.\">https://github.com/w3c/vc-data-model/tree/main/REC/2021-10-05.</a> The content for review will be made static using the regular publishing process and changed modulo that process for revising a recommendation",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2021-10-06-vcwg#resolution1",
+            "call": "vcwg"
+        }
+    ]
 }
