@@ -47,7 +47,8 @@
     },
     {
         "nick": [
-            "PhilA"
+            "PhilA",
+            "philarcher"
         ],
         "name": "Phil Archer",
         "github": "philarcher"
@@ -155,6 +156,7 @@
     {
         "nick": [
             "pamela",
+            "pamdingle",
             "pam"
         ],
         "name": "Pamela Dingle"
@@ -862,5 +864,13 @@
             "Michael_Herman", 
             "mwherman2000"
         ]
+    },
+    {
+        "nick" : [
+            "Geunhyung_Kim",
+            "Geun-Hyung"
+        ],
+        "name" : "Geun-Hyung Kim"
     }
+
 ]
