@@ -549,7 +549,7 @@
         "name": "Troy Ronda"
     },
     {
-        "nick": ["rossi"],
+        "nick": ["rossi", "jrossi"],
         "name": "Julien Rossi"
     },
     {
@@ -843,7 +843,8 @@
         "nick" : [
             "natran",
             "Gregory_natran",
-            "greg"
+            "greg",
+            "gregory"
         ],
         "name": "Gregory Natran"
     },
