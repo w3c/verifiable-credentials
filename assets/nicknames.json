@@ -842,7 +842,8 @@
     {
         "nick" : [
             "natran",
-            "Gregory_natran"
+            "Gregory_natran",
+            "greg"
         ],
         "name": "Gregory Natran"
     },
@@ -877,6 +878,12 @@
             "kevin", "kdeangs1"
         ],
         "name": "Kevin Dean"
+    },
+    {
+        "nick": [
+            "logan", "Logan_Porter"
+        ],
+        "name": "Logan Porter"
     }
 
 ]
