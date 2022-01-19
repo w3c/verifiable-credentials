@@ -1,5 +1,5 @@
 {
-    "date": "2022-01-14T04:52:56.962Z",
+    "date": "2022-01-19T17:09:05.813Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -17,9 +17,18 @@
         "2021-12-01-vcwg.md",
         "2021-12-08-vcwg.md",
         "2021-12-15-vcwg.md",
-        "2022-01-12-vcwg.md"
+        "2022-01-12-vcwg.md",
+        "2022-01-19-vcwg.md"
     ],
     "resolutions": [
+        {
+            "year": 2022,
+            "date": "2022-01-19",
+            "number": 1,
+            "text": "<em>Following the publication of VC Data Model v1.1</em>, we will publish a second set of additional editorial corrections comprising the changes already merged into the v1.1 branch (<a href=\"https://github.com/w3c/vc-data-model/tree/v1.1\">https://github.com/w3c/vc-data-model/tree/v1.1</a>) plus the PRs currently labeled both \"v1.1 (editorial)\" and \"merge after 14 days\".",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2022-01-19-vcwg#resolution1",
+            "call": "vcwg"
+        },
         {
             "year": 2021,
             "date": "2021-10-06",

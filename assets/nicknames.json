@@ -93,7 +93,8 @@
             "by_caballero__juan",
             "by_caballero__juan",
             "by_caballero_juan",
-            "caballero_juan"
+            "caballero_juan",
+            "juancaballero"
         ],
         "name": "Juan Caballero"
     },
@@ -859,7 +860,8 @@
             "kristina",
             "yasuda"
         ],
-        "name": "Kristina Yasuda"
+        "name": "Kristina Yasuda",
+        "github": "Sakurann"
     },
     {
         "nick": [],
@@ -926,9 +928,9 @@
     },
     {
         "nick": [
-            "klein"
+            "klein",
+            "michaelklein"
         ],
         "name": "Michael Klein"
-    },
-
+    }
 ]
