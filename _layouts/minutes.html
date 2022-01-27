@@ -30,7 +30,10 @@
                 }
             }
         }
-        window.onload = cleanmd;
+        window.addEventListener('load', () => {
+            cleanmd(),
+            set_draft_notice();
+        });
     </script>
     <style media="screen">
         .resolution {
