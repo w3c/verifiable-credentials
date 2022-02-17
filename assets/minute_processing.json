@@ -1,5 +1,5 @@
 {
-    "date": "2022-02-09T17:20:58.319Z",
+    "date": "2022-02-17T06:04:53.341Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -21,9 +21,26 @@
         "2022-01-19-vcwg.md",
         "2022-01-26-vcwg.md",
         "2022-02-02-vcwg.md",
-        "2022-02-09-vcwg.md"
+        "2022-02-09-vcwg.md",
+        "2022-02-16-vcwg.md"
     ],
     "resolutions": [
+        {
+            "year": 2022,
+            "date": "2022-02-16",
+            "number": 1,
+            "text": "Publish the final Verifiable Credentials Data Model v1.1 specification including all editorial changes made as a result of review comments on the set of Proposed Corrections..",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2022-02-16-vcwg#resolution1",
+            "call": "vcwg"
+        },
+        {
+            "year": 2022,
+            "date": "2022-02-16",
+            "number": 2,
+            "text": "Add all of the editorial changes made up until 2022-02-16 to the Verifiable Credentials Data Model v1.1..",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2022-02-16-vcwg#resolution2",
+            "call": "vcwg"
+        },
         {
             "year": 2022,
             "date": "2022-01-19",
