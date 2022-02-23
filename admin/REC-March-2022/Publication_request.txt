@@ -1,0 +1,14 @@
+You may copy the list below and paste into the email sent to webreq@w3.org
+
+Information:
+    Document Title: Verifiable Credentials Data Model v1.1
+    Document URL: https://www.w3.org/TR/2022/REC-vc-data-model-20220303/
+    Approvals:
+        Record of approval of the update request:
+            @@@@@@
+        Director's approval state: not yet
+Checks:
+    Pass Pubrules' check: yes
+    Pass Link Checker's check: yes, with one problem
+            Status: 500 Can't connect to dataprivacylab.org:443 (certificate verify failed)
+        However, the link works when used in a browser
