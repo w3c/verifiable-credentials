@@ -480,6 +480,13 @@
         "name": "Yi Lin Zhang"
     },
     {
+        "nick": [ 
+            "linson",
+            "kimberly"
+        ],
+        "name": "Kimberly Linson"
+    },
+    {
         "nick": [
             "mike-lodder",
             "mikelodder7"
@@ -626,6 +633,12 @@
         ],
         "name": "Drummond Reed",
         "github": "talltree"
+    },
+    {
+        "nick": [
+            "martin_reed"
+        ],
+        "name": "Martin Reed"
     },
     {
         "nick": [
