@@ -572,7 +572,8 @@
             "gnatran",
             "greg",
             "gregory",
-            "natran"
+            "natran",
+            "natrang"
         ],
         "name": "Gregory Natran"
     },
@@ -643,9 +644,11 @@
     },
     {
         "nick": [
-            "martin_reed"
+            "martin_reed",
+            "marty_reed",
+            "marty"
         ],
-        "name": "Martin Reed"
+        "name": "Marty Reed"
     },
     {
         "nick": [
