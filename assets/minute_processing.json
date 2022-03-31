@@ -1,5 +1,5 @@
 {
-    "date": "2022-03-23T16:19:35.445Z",
+    "date": "2022-03-31T06:49:58.539Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -27,9 +27,26 @@
         "2022-03-02-vcwg.md",
         "2022-03-09-vcwg.md",
         "2022-03-16-vcwg.md",
-        "2022-03-23-vcwg.md"
+        "2022-03-23-vcwg.md",
+        "2022-03-30-vcwg.md"
     ],
     "resolutions": [
+        {
+            "year": 2022,
+            "date": "2022-03-30",
+            "number": 1,
+            "text": "(over the objection of Manu) Merge PR 107.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2022-03-30-vcwg#resolution1",
+            "call": "vcwg"
+        },
+        {
+            "year": 2022,
+            "date": "2022-03-30",
+            "number": 2,
+            "text": "We will submit the VCWG Charter as it currently stands to the W3M and the AC for Review.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2022-03-30-vcwg#resolution2",
+            "call": "vcwg"
+        },
         {
             "year": 2022,
             "date": "2022-02-16",
