@@ -168,6 +168,12 @@
     },
     {
         "nick": [
+            "steve_cole"
+        ],
+        "name": "Steve Cole"
+    },
+    {
+        "nick": [
             "collier",
             "collier-matthew"
         ],
@@ -435,6 +441,12 @@
         ],
         "name": "Michael Jones",
         "github": "selfissued"
+    },
+    {
+        "name": "Marie Jordan",
+        "nick": [
+            "majordan"
+        ]
     },
     {
         "nick": [
