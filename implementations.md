@@ -9,7 +9,7 @@ title: VC Implementations
   - [Verifiable Credentials JS Library](https://github.com/digitalbazaar/vc-js) (DI)
   - [Verifiable Data Credential JS Library with JWT](https://github.com/transmute-industries/verifiable-data/tree/main/packages/vc.js) (DI & JWT)
   - [W3C Verifiable Credentials and Presentations in JWT format](https://github.com/decentralized-identity/did-jwt-vc) (JWT)
-  - [Cryptographic Primitives used for DID](https://github.com/microsoft/VerifiableCredentials-Crypto-SDK-Typescript) (JWT)
+  - [Cryptographic Primitives used for DID](https://github.com/microsoft/VerifiableCredential-SDK-Android, https://github.com/microsoft/VerifiableCredential-SDK-iOS) (JWT)
 - Go
   - [Hyperledger Aries Framework Go](https://github.com/hyperledger/aries-framework-go) (DI & JWT)
   - [Credential Manifest Builders](https://github.com/TBD54566975/ssi-sdk/tree/main/credential) (DI & JWT)
