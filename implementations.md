@@ -7,7 +7,7 @@ title: VC Implementations
 
 - Javascript/Typescript
   - [Verifiable Credentials JS Library](https://github.com/digitalbazaar/vc-js) (DI)
-  - [Verifiable Data Credential JS Library with JWT](https://github.com/transmute-industries/verifiable-data/tree/main/packages/vc.js),(DI & JWT)
+  - [Verifiable Data Credential JS Library with JWT](https://github.com/transmute-industries/verifiable-data/tree/main/packages/vc.js) (DI & JWT)
   - [W3C Verifiable Credentials and Presentations in JWT format](https://github.com/decentralized-identity/did-jwt-vc) (JWT)
   - [Cryptographic Primitives used for DID](https://github.com/microsoft/VerifiableCredentials-Crypto-SDK-Typescript) (JWT)
 - Go
