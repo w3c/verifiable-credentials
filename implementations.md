@@ -17,7 +17,7 @@ title: VC Implementations
   - [DIDKit](https://github.com/spruceid/didkit) (DI & JWT)
 - Python
   - [Hyperledger Aries Cloud Agent - Python (ACA-Py)](https://github.com/hyperledger/aries-cloudagent-python) (DI & JWT)
-- Python
+- Java
   - [Verifiable Credentials Java](https://github.com/danubetech/verifiable-credentials-java) (DI & JWT)
 
 
