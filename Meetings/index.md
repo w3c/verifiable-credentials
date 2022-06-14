@@ -10,7 +10,7 @@ layout: default
 
 ## Teleconferences
 
-The weekly teleconferences on Tuesdays at various times to allow for all geographical areas to participate on calls at least 1-2 times.
+The weekly teleconferences on Tuesdays at various times to allow for all geographical areas to participate on calls at least 1-2 times per month.
 <!-- See the (member only) [notification](https://lists.w3.org/Archives/Member/member-did-wg/2020Apr/0007.html) for the details.  --> 
 The meeting schedules are:
 
