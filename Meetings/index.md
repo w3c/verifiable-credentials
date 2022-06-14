@@ -17,7 +17,7 @@ The meeting schedules are:
 * On odd weeks: Tuesdays, 11:00-12:00 US Eastern Time (“Europe-Africa Friendly" calls)
 * On even weeks: Tuesdays, 18:00-19:00 US Eastern Time (“Asia-Pacific Friendly” calls)
 
-See the groups [calendar page](https://www.w3.org/groups/wg/vc/calendar) for the entries in the WG calendar (group members can “subscribe” to the calendar items through their [personal calendar](https://www.w3.org/users/myprofile/calendar), see the “export” tab).
+See the group's [calendar page](https://www.w3.org/groups/wg/vc/calendar) for the entries in the WG calendar. (Group members can “subscribe” to the calendar items through their [personal calendar](https://www.w3.org/users/myprofile/calendar); see the “export” tab.)
 See also the [separate page](./zoom) for further information on the Zoom bridge.
 
 The Group also uses IRC for during the calls for minute taking, queue control, and general chit-chat. See the [separate page at W3C](https://www.w3.org/Project/IRC/) for further details. This Working Group uses the `#vc` channel, and makes use of two bots on IRC:
