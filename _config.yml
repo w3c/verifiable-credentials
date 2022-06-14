@@ -1,6 +1,6 @@
 baseurl: /2017/vc/WG
 groupid: 98922
-charter: /2020/12/verifiable-credentials-wg-charter.html
+charter: /2022/06/verifiable-credentials-wg-charter.html
 wgname_lc: vc
 wgname_uc: VC
 mission: "The mission of the Verifiable Credentials (formerly known as Verifiable Claims) Working Group (VCWG) is to make expressing and exchanging credentials that have been verified by a third party easier and more secure on the Web. The Working Group is now in maintenance mode."

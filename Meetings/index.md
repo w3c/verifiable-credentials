@@ -10,7 +10,15 @@ layout: default
 
 ## Teleconferences
 
-There are no regular teleconferences.
+The weekly teleconferences on Tuesdays at various times to allow for all geographical areas to participate on calls at least 1-2 times.
+<!-- See the (member only) [notification](https://lists.w3.org/Archives/Member/member-did-wg/2020Apr/0007.html) for the details.  --> 
+The meeting schedules are:
+
+* On odd weeks: Tuesdays, 11:00-12:00 US Eastern Time (“Europe-Africa Friendly" calls)
+* On even weeks: Tuesdays, 18:00-19:00 US Eastern Time (“Asia-Pacific Friendly” calls)
+
+See the groups [calendar page](https://www.w3.org/groups/wg/vc/calendar) for the entries in the WG calendar (group members can “subscribe” to the calendar items through their [personal calendar](https://www.w3.org/users/myprofile/calendar), see the “export” tab).
+See also the [separate page](./zoom) for further information on the Zoom bridge.
 
 The Group also uses IRC for during the calls for minute taking, queue control, and general chit-chat. See the [separate page at W3C](https://www.w3.org/Project/IRC/) for further details. This Working Group uses the `#vc` channel, and makes use of two bots on IRC:
 
@@ -20,7 +28,9 @@ The Group also uses IRC for during the calls for minute taking, queue control, a
 
 ## F2F meetings
 
-No meeting planned
+* [April 6, 2018, Mountain view](F2F/201804f2f.md)
+* [March 4-5, 2019 (Barcelona)](F2F/Barcelona.md)
+* September 15-16, 2022 (Vancouver) (T.B.D.)
 
 ## Meeting Minutes
 
