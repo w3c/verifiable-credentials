@@ -4,7 +4,7 @@ layout: default
 # Welcome to the VC Working Group
 {: .no_toc}
 
-This document includes some information for new members of the DID Working
+This document includes some information for new members of the VC Working
 Group (VC WG).
 
 Members of the WG, **especially new members** are encouraged to help
