@@ -97,7 +97,7 @@ with an emphasis on trying to make things better for everyone.
 
 **Notes**
 
-* Issues might arise where we need to prioritize between producers and consumers of the DID. The general feeling is that, in that situation, we should prioritize consumer happiness over producer happiness, i.e., the usability of the data, rather than ease of creation.
+* Issues might arise where we need to prioritize between producers and consumers of VCs. The general feeling is that, in that situation, we should prioritize consumer happiness over producer happiness, i.e., the usability of the data, rather than ease of creation.
   
 
 ## Provide on-ramps.

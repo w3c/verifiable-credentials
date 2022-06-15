@@ -5,7 +5,7 @@ layout: default
 # VC Working Group Work mode
 {: .no_toc}
 
-This document defines and describes the VC WG's *Real Work Modes*, 
+This document defines and describes the VCWG's *Real Work Modes*, 
 including Participation and Communication, Meetings, Calls for Consensus, 
 Mail List usage, and links to important resources.
 
@@ -267,7 +267,7 @@ adopted some complimentary, additional processes to aid in its productivity.
     * Any decision to merge may be challenged during a 48-hour window
         following the decision.
 * It is encouraged that any Pull Request which changes the normative text
-    of the [DID Specification](https://github.com/w3c/vc-data-model/) be
+    of the [VC Data Model](https://github.com/w3c/vc-data-model/) be
     accompanied by an equivalent Pull Request which changes the appropriate
     tests in the [Test Suite](https://github.com/w3c/vc-test-suite/).
     
