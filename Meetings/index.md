@@ -28,8 +28,6 @@ The Group also uses IRC for during the calls for minute taking, queue control, a
 
 ## F2F meetings
 
-* [April 6, 2018, Mountain view](F2F/201804f2f.md)
-* [March 4-5, 2019 (Barcelona)](F2F/Barcelona.md)
 * September 15-16, 2022 (Vancouver) (T.B.D.)
 
 ## Meeting Minutes
