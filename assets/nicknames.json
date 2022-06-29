@@ -1,7 +1,8 @@
 [
     {
         "nick": [
-            "will"
+            "Will_Abramson",
+            "abramson"
         ],
         "name": "Will Abramson"
     },
@@ -16,7 +17,8 @@
     },
     {
         "nick": [
-            "Songpu_Ai"
+            "Songpu_Ai",
+            "aisp"
         ],
         "name": "SongPu Ai"
     },
@@ -110,11 +112,12 @@
         "github": "burnburn"
     },
     {
-        "name": "Shawn Butterfield",
         "nick": [
             "shawn",
-            "s_butters"
-        ]
+            "s_butters",
+            "butters"
+        ],
+        "name": "Shawn Butterfield"
     },
     {
         "nick": [
@@ -353,7 +356,8 @@
     {
         "nick": [
             "davidlehn",
-            "dlehn"
+            "dlehn",
+            "dlehn1"
         ],
         "name": "David Lehn",
         "github": "davidlehn"
@@ -452,7 +456,8 @@
     },
     {
         "nick": [
-            "tony"
+            "tony",
+            "nadalin"
         ],
         "name": "Antony Nadalin"
     },
@@ -694,7 +699,7 @@
     },
     {
         "nick": [
-            "whitehead"
+            "awhitehead"
         ],
         "name": "Andrew Whitehead"
     },
