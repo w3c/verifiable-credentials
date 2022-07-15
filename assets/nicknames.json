@@ -171,7 +171,8 @@
     },
     {
         "nick": [
-            "gabe"
+            "gabe",
+            "decentralgabe"
         ],
         "name": "Gabe Cohen"
     },
@@ -210,6 +211,12 @@
         ],
         "name": "Kyle Den Hartog",
         "github": "kdenhartog"
+    },
+    {
+        "nick": [
+            "Haudebourg"
+        ],
+        "name": "Timothée Haudebourg"
     },
     {
         "nick": [
