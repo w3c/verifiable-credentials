@@ -1,5 +1,5 @@
 {
-    "date": "2022-03-31T06:49:58.539Z",
+    "date": "2022-07-21T12:32:41.291Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -28,9 +28,36 @@
         "2022-03-09-vcwg.md",
         "2022-03-16-vcwg.md",
         "2022-03-23-vcwg.md",
-        "2022-03-30-vcwg.md"
+        "2022-03-30-vcwg.md",
+        "2022-06-29-vcwg.md",
+        "2022-07-13-vcwg.md",
+        "2022-07-20-vcwg.md"
     ],
     "resolutions": [
+        {
+            "year": 2022,
+            "date": "2022-07-20",
+            "number": 1,
+            "text": "The workgroup will pull in the lds-jws2020 ccg work item into the vcwg and cut an ed for it.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2022-07-20-vcwg#resolution1",
+            "call": "vcwg"
+        },
+        {
+            "year": 2022,
+            "date": "2022-07-20",
+            "number": 2,
+            "text": "We will use the CCG Data Integrity Spec as the starting point for Data Integrity in the VCWG.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2022-07-20-vcwg#resolution2",
+            "call": "vcwg"
+        },
+        {
+            "year": 2022,
+            "date": "2022-07-20",
+            "number": 3,
+            "text": "We will publish Verifiable Credentials Data Model v1.1 as the FPWD for Verifiable Credentials Data Model v2.0.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2022-07-20-vcwg#resolution3",
+            "call": "vcwg"
+        },
         {
             "year": 2022,
             "date": "2022-03-30",
