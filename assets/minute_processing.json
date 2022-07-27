@@ -1,5 +1,5 @@
 {
-    "date": "2022-07-21T12:32:41.291Z",
+    "date": "2022-07-27T16:21:11.614Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -31,9 +31,18 @@
         "2022-03-30-vcwg.md",
         "2022-06-29-vcwg.md",
         "2022-07-13-vcwg.md",
-        "2022-07-20-vcwg.md"
+        "2022-07-20-vcwg.md",
+        "2022-07-27-vcwg.md"
     ],
     "resolutions": [
+        {
+            "year": 2022,
+            "date": "2022-07-27",
+            "number": 1,
+            "text": "The VCWG will publish the FPWD of VC Data Model v2.0 on 2022-08-11 using the vc-data-model-2.0 shortname and the steps recommended in: <a href=\"https://github.com/w3c/vc-data-model/pull/894#issuecomment-1196910080\">https://github.com/w3c/vc-data-model/pull/894#issuecomment-1196910080</a>.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2022-07-27-vcwg#resolution1",
+            "call": "vcwg"
+        },
         {
             "year": 2022,
             "date": "2022-07-20",
