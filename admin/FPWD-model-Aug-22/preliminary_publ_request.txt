@@ -1,0 +1,36 @@
+Sent to: denis Cc: VC WG Chairs, Manu 
+
+Denis,
+
+As you could see in [1], there is a transition request for a FPWD, with a publication planned for the 11th of August. Hopefully we will get the approval of Philippe and Ralph in time.
+
+I have already put the document on TR space:
+
+https://www.w3.org/TR/2022/WD-vc-data-model-2.0-20220811/
+
+and we have gone through the pubrules' checker. However, we would appreciate if you could
+check the document whether it is ready for publication, or whether we have to make some editorial changes.
+
+Of course, as soon as we get the transition approval, I will send you (i.e., the webmaster) an official
+publication request, will send the drafts for the REC AC announcement to Xueyuan.
+
+The reason we've set the date to the 11th is to give time for making some extra manipulations with the related short names for versions 1.1 and 2.0 of this recommendation and recommendation-to-be (and we were mindful for the vacations of the webreq team). At the moment, the vc-data-model short name points at 1.1 version of the specification:
+
+    https://www.w3.org/TR/2022/REC-vc-data-model-20220303/
+
+and this FPWD is the first of the 2.0 series that should become, eventually, a recommendation that would supersede 1.0. Here is what we would like to see once the FPWD is published:
+
+1. Set up a new shortname, namely vc-data-model-1.1, referring to the stable 1.1 specification (i.e., the one which, today, is known as https://www.w3.org/TR/vc-data-model).
+2. The new vc-data-model-2.0 will be the short name for the 2.0 version of the data model.
+3. The (current) vc-data-model would be redirected to `vc-data-model/latest` (ie, the 'CR+' approach)
+
+ie, vc-data-model would behave as it does today until 2.0 is not in CR, and would switch to 2.0 when it is published as CR.
+
+Would this be possible?
+
+Thanks
+
+Ivan
+
+
+[1] https://github.com/w3c/transitions/issues/445
