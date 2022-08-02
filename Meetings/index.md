@@ -28,7 +28,7 @@ The Group also uses IRC for during the calls for minute taking, queue control, a
 
 ## F2F meetings
 
-* September 15-16, 2022 (Vancouver) (T.B.D.)
+* [September 15-16, 2022 (Vancouver)](./F2F/Vancouver)
 
 ## Meeting Minutes
 
