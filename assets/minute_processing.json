@@ -32,9 +32,18 @@
         "2022-06-29-vcwg.md",
         "2022-07-13-vcwg.md",
         "2022-07-20-vcwg.md",
-        "2022-07-27-vcwg.md"
+        "2022-07-27-vcwg.md",
+        "2022-08-03-vcwg.md"
     ],
     "resolutions": [
+        {
+            "year": 2022,
+            "date": "2022-08-23",
+            "number": 1,
+            "text": "We will use echidna to automatically publish updates to the VC Data Model 2.0 as PRs are merged.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2022-08-03-vcwg#resolution1",
+            "call": "vcwg"
+        },
         {
             "year": 2022,
             "date": "2022-07-27",
