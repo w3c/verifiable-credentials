@@ -1,5 +1,11 @@
 [
     {
+        "name": "Chris Abernethy",
+        "nick": [
+            "abernethy"
+        ]
+    },
+    {
         "nick": [
             "Will_Abramson",
             "abramson"
@@ -783,7 +789,8 @@
     {
         "nick": [
             "dmitripre",
-            "dmitriz"
+            "dmitriz",
+            "dmitri"
         ],
         "name": "Dmitri Zagidulin",
         "github": "dmitrizagidulin"
