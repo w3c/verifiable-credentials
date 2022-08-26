@@ -811,5 +811,21 @@
         ],
         "name": "Brent Zundel",
         "github": "brentzundel"
+    },
+    {
+        "nick": ["yue_jing"],
+        "name": "Yue Jing"
+    },
+    {
+        "nick": ["jian_jin"],
+        "name": "Jian Jin"
+    },
+    {
+        "nick": ["xiaoyu_you"],
+        "name": "Xiaoyu You"
+    },
+    {
+        "nick": ["haihua_li"],
+        "name": "Haihua Li"
     }
 ]
