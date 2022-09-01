@@ -153,7 +153,8 @@
     {
         "nick": [
             "davidc",
-            "davicC"
+            "davicC",
+            "DavidChadwick"
         ],
         "name": "David Chadwick"
     },
@@ -218,6 +219,12 @@
             "kdean"
         ],
         "name": "Kevin Dean"
+    },
+    {
+        "name": "Dave Ellis",
+        "nick": [
+            "ellis"
+        ]
     },
     {
         "nick": [
