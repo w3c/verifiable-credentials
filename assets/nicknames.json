@@ -2,7 +2,8 @@
     {
         "name": "Chris Abernethy",
         "nick": [
-            "abernethy"
+            "abernethy",
+            "cabernet"
         ]
     },
     {
@@ -292,6 +293,12 @@
             "fuchs"
         ],
         "name": "Bernhard Fuchs"
+    },
+    {
+        "name": "Benjamin Goering",
+        "nick": [
+            "bengo"
+        ]
     },
     {
         "nick": [
