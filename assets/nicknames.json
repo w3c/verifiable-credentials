@@ -124,7 +124,8 @@
             "shawnb",
             "s_butters",
             "butters",
-            "shawn_butterfield"
+            "shawn_butterfield",
+            "sb"
         ],
         "name": "Shawn Butterfield"
     },
@@ -218,7 +219,8 @@
             "kdeangs",
             "kdeangs1",
             "kevin",
-            "kdean"
+            "kdean",
+            "kevindead"
         ],
         "name": "Kevin Dean"
     },
@@ -382,7 +384,8 @@
         "nick": [
             "Geun-Hyung",
             "GeunHyung_Kim",
-            "Geunhyung"
+            "Geunhyung",
+            "Geun-Hyung_Kim"
         ],
         "name": "Geunhyung Kim"
     },
@@ -443,7 +446,8 @@
     {
         "nick": [
             "dlongley",
-            "dlongley2"
+            "dlongley2",
+            "Dave_Longley"
         ],
         "name": "Dave Longley",
         "github": "dlongley"
@@ -471,7 +475,8 @@
     {
         "name": "Steve McCown",
         "nick": [
-            "mccown"
+            "mccown",
+            "SteveMcCown"
         ]
     },
     {
@@ -522,7 +527,8 @@
     {
         "nick": [
             "tony",
-            "nadalin"
+            "nadalin",
+            "TonyNadaline"
         ],
         "name": "Antony Nadalin"
     },
@@ -861,5 +867,31 @@
     {
         "nick": ["haihua_li"],
         "name": "Haihua Li"
+    },
+    {
+        "nick": ["yanzhang", "yan"],
+        "name": "Yan Zhang"
+    },
+    {
+        "nick": ["yishi"],
+        "name": "Yi Shi"
+    },
+    {
+        "name": "Paul Ashley",
+        "nick": ["ashley"]
+    },
+    {
+        "name": "Jay Kishigami",
+        "nick": ["jay"]
+    },
+    {
+        "name": "Paul Dietrich",
+        "nick": ["Paul_Dietrich_GS1"]
+    },
+    {
+        "name": "Gregg Kellogg",
+        "nick": [
+            "gkellogg"
+        ]
     }
 ]

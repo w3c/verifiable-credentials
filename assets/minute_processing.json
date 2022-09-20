@@ -1,5 +1,5 @@
 {
-    "date": "2022-09-07T16:09:45.759Z",
+    "date": "2022-09-20T15:06:00.562Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -38,9 +38,19 @@
         "2022-08-17-vcwg.md",
         "2022-08-24-vcwg.md",
         "2022-08-31-vcwg.md",
-        "2022-09-07-vcwg.md"
+        "2022-09-07-vcwg.md",
+        "2022-09-15-vcwg.md",
+        "2022-09-16-vcwg.md"
     ],
     "resolutions": [
+        {
+            "year": 2022,
+            "date": "2022-09-15",
+            "number": 1,
+            "text": "We will update the Verifiable Credentials Use Cases, with Joe Andrieu and Kevin Dean as editors..",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2022-09-15-vcwg#resolution1",
+            "call": "vcwg"
+        },
         {
             "year": 2022,
             "date": "2022-08-23",
