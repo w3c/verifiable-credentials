@@ -13,4 +13,4 @@ For all practical information ([registration](https://www.w3.org/2022/09/TPAC/Ov
 
 # Live Slides
 
-T.B.D.
+- Slides: [PDF of slide deck](VCWG_TPAC_2022.pdf)
