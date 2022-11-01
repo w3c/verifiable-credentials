@@ -471,7 +471,7 @@ _See github issue [vc-data-model#947](https://github.com/w3c/vc-data-model/issue
 
 > *Antony Nadalin:* nothing in charter about no breaking change allowed.
 
-**Kristina Yasuda:** We need direction on how to proceed before we close the issue..  
+**Kristina Yasuda:** We need direction on how to proceed before we close the issue. There's not consensus to keep the spec as is.  
 
 > *Joe Andrieu:* no we don't "need direction". Changes require consensus. Full stop.
 
