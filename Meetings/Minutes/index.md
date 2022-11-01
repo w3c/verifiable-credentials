@@ -19,12 +19,26 @@ layout: default
 
 <ul>
 {% for item in year.items reversed %}
-  {% if item.url contains "vcwg"  %}
-    <li><a href="{{ site.baseurl }}{{ item.url }}"><em>{{ item.title }}</em></a></li>
-  {% endif %}
+  {% unless item.url contains "vcwg-topic" %}
+      <li><a href="{{ site.baseurl }}{{ item.url }}"><em>{{ item.title }}</em></a></li>
+  {% endunless %}
 {% endfor %}
 </ul>
 
 {% endfor %}
 
+## Topic call minutes
 
+{% for year in yearly_minutes reversed %}
+
+### {{ year.name }}
+
+<ul>
+{% for item in year.items reversed %}
+  {% if item.url contains "vcwg-topic" %}
+      <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+{% endfor %}

@@ -1,5 +1,5 @@
 {
-    "date": "2022-10-19T16:10:56.571Z",
+    "date": "2022-10-27T12:12:32.272Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -43,9 +43,42 @@
         "2022-09-16-vcwg.md",
         "2022-10-05-vcwg.md",
         "2022-10-12-vcwg.md",
-        "2022-10-19-vcwg.md"
+        "2022-10-19-vcwg.md",
+        "2022-10-26-vcwg.md"
     ],
     "resolutions": [
+        {
+            "year": 2022,
+            "date": "2022-10-26",
+            "number": 1,
+            "text": "The WG will publish as a FPWD the document at <a href=\"https://w3c.github.io/vc-data-integrity/,\">https://w3c.github.io/vc-data-integrity/,</a> inclusive of <a href=\"https://github.com/w3c/vc-data-integrity/pull/67\">https://github.com/w3c/vc-data-integrity/pull/67</a> on 2022-11-10 under the shortname vc-data-integrity, and will use echidna to automatically update the working draft when PRs are merged..",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2022-10-26-vcwg#resolution1",
+            "call": "vcwg"
+        },
+        {
+            "year": 2022,
+            "date": "2022-10-26",
+            "number": 2,
+            "text": "The WG will publish as a FPWD the document at <a href=\"https://w3c.github.io/vc-jws-2020/,\">https://w3c.github.io/vc-jws-2020/,</a> on 2022-11-10 under the shortname vc-jws-2020, and will use echidna to automatically update the working draft when PRs are merged..",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2022-10-26-vcwg#resolution2",
+            "call": "vcwg"
+        },
+        {
+            "year": 2022,
+            "date": "2022-10-26",
+            "number": 3,
+            "text": "Rename issuanceDate in the VC Data Model to validFrom..",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2022-10-26-vcwg#resolution3",
+            "call": "vcwg"
+        },
+        {
+            "year": 2022,
+            "date": "2022-10-26",
+            "number": 4,
+            "text": "Rename expirationDate in the VC Data Model to validUntil..",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2022-10-26-vcwg#resolution4",
+            "call": "vcwg"
+        },
         {
             "year": 2022,
             "date": "2022-09-15",
