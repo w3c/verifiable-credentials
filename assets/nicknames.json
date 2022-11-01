@@ -477,7 +477,8 @@
         "nick": [
             "mccown",
             "SteveMcCown",
-            "Steve_mccown"
+            "Steve_mccown",
+            "smccown"
         ]
     },
     {
@@ -923,6 +924,15 @@
             "brendon",
             "baraban"
         ]
+    },
+    {
+        "nick": [
+            "danielhardman",
+            "dhardman",
+            "dhh",
+            "daniel_hardman"
+        ],
+        "name": "Daniel Hardman",
+        "github": "dhh1128"
     }
-
 ]
