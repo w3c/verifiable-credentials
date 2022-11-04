@@ -1,0 +1,42 @@
+Dear webmaster,
+
+Here are the necessary information for the publication.
+    Document Title: Verifiable Credentials Data Model v2.0
+    Document URL: https://www.w3.org/TR/2022/WD-vc-data-model-2.0-20220811/
+    Approvals:
+        Record of publication request:
+            https://github.com/w3c/transitions/issues/445
+        Director's approval state: approved in
+            https://github.com/w3c/transitions/issues/445#issuecomment-1206772152
+
+Checks:
+    Pass Pubrules' check: yes
+    Pass Link Checker's check: yes.
+
+This is a FPWD, but it is also a continuation of
+
+    https://www.w3.org/TR/2022/REC-vc-data-model-20220303/
+
+as such, it should be tagged as "Security", and a "version 2" for the /TR collection (just like the the earlier document above).
+
+An additional request of the WG is to set up a series of redirections, once the FPWD is published, as follows:
+
+1. Set up a new shortname, namely vc-data-model-1.1, referring to the stable 1.1 specification , ie, https://www.w3.org/TR/2022/REC-vc-data-model-20220303/ (the one which, today, is known as https://www.w3.org/TR/vc-data-model).
+
+2. The new vc-data-model-2.0 will be the short name for the 2.0 version of the data model.
+
+3. The (current) vc-data-model would be redirected to `vc-data-model/latest` (the 'CR+' approach), i.e.,
+
+	3.1. point at https://www.w3.org/TR/2022/REC-vc-data-model-20220303/ as long as the new specification is in WD
+	3.2. point at the version 2.0 when that one becomes a CR
+
+4. If possible, as a possible cherry on the cake: set up a new shortname, namely vc-data-model-1.0, referring to the first version i.e., https://www.w3.org/TR/2019/REC-vc-data-model-20191119/
+
+(If (4) is not possible, it is not a problem. Just ignore the request.)
+
+Thank You
+
+Ivan
+
+P.S. HPN mail will follow to Xueyuan
+
