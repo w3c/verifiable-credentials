@@ -35,12 +35,6 @@ with this tool. (If you are new to GitHub, the
 [*“Introduction to Basic GitHub Contribution”*](https://iherman.github.io/misc-notes/docs/BasicGitHubContributionIntro)
 may be of help.)
 
-Once you have your GitHub account name, **send this name to ivan@w3.org, or
-to one of the chairs**, who will add you to the Working Group’s “GitHub
-team” (in GitHub‘s jargon). That would enable you to be
-asked personally to review or be assigned to issues, or to edit the wiki
-pages.
-
 You should also "link" your GitHub account to your W3C account; this can be
 done by going to the
 [relevant page](https://www.w3.org/users/myprofile/connectedaccounts) on
@@ -50,11 +44,15 @@ account. As an example, if you do a Pull Request on one of the
 Recommendation track documents on GitHub, the system would know that you
 are a Working Group member, which means that the possible IPR issues are
 properly handled by virtue of your institution’s Working Group membership.
+Your account name will also be added to the Working Group’s “GitHub
+team” (in GitHub‘s jargon). That will enable you to be
+asked personally to review a Pull Request, to be assigned to issues, or to edit the wiki
+pages.
 
 ## IRC
 
 Meetings usually use [IRC](index#irc) as a tool for queue control and
-minute taking (and general chit-chat). **You should also send ivan@w3.org
+minute taking (and general chit-chat). **You should send ivan@w3.org
 your preferred IRC nickname(s).**
 The goal is to improve the readability of the meeting minutes, so that
 third parties can also understand whose comments and remarks are in the
