@@ -1,0 +1,23 @@
+Dear webmaster,
+
+Here are the necessary information for the publication.
+    Document Title: JSON Web Signature 2020
+    Document URL:  https://www.w3.org/TR/2022/WD-vc-jws-2020-20221208/ (doc already in place)
+    Publication Date: 2022-12-08
+    Approvals:
+        Record of publication request:
+            https://github.com/w3c/transitions/issues/@@@
+        Director's approval state: approved in
+            https://github.com/w3c/transitions/issues/@@@#@@@
+Checks:
+    Pass Pubrules' check: yes
+    Pass Link Checker's check: yes.
+
+The publication should be tagged as "Security", and "Privacy".
+
+Thank You
+
+Ivan
+
+P.S. In agreement with Xueyuan she will generate the standard HPN news based on the document abstract.
+

@@ -27,7 +27,7 @@ layout: default
 
 {% endfor %}
 
-## Topic call minutes
+## Special topic call minutes
 
 {% for year in yearly_minutes reversed %}
 
@@ -35,7 +35,7 @@ layout: default
 
 <ul>
 {% for item in year.items reversed %}
-  {% if item.url contains "vcwg-topic" %}
+  {% if item.url contains "vcwg-special" %}
       <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
   {% endif %}
 {% endfor %}
