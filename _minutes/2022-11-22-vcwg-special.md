@@ -504,7 +504,7 @@ See also the [Agenda]() and the [IRC Log](https://www.w3.org/2022/11/22-vcwg-spe
 
 **Manu Sporny:** +1 to when an Issuer issues a VC, they in general don't know where it will be consumed -- a VC in a digital wallet can go anywhere and give that to a verifier that is highly likely to use other processing..  
 
-> *Manu Sporny:* If a processor chooses to process `@context`, it may do that via simple string equality comparison that compares, at most, 1-2 URLs (to keep things simple)..
+**Poll: If a processor chooses to process `@context`, it may do that via simple string equality comparison that compares, at most, 1-2 URLs (to keep things simple).**
 
 > *Orie Steele:* -1.
 
