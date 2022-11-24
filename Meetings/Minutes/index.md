@@ -19,7 +19,7 @@ layout: default
 
 <ul>
 {% for item in year.items reversed %}
-  {% unless item.url contains "vcwg-topic" %}
+  {% unless item.url contains "vcwg-special" %}
       <li><a href="{{ site.baseurl }}{{ item.url }}"><em>{{ item.title }}</em></a></li>
   {% endunless %}
 {% endfor %}
