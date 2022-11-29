@@ -143,7 +143,8 @@
     },
     {
         "nick": [
-            "sarven"
+            "sarven",
+            "csarven"
         ],
         "name": "Sarven Capadisli"
     },
@@ -876,7 +877,10 @@
         "name": "Yan Zhang"
     },
     {
-        "nick": ["yishi"],
+        "nick": [
+            "yishi", 
+            "Yan_Dappworks"
+        ],
         "name": "Yi Shi"
     },
     {
@@ -948,5 +952,11 @@
             "stenr"
         ],
         "name": "Sten Reijers"
+    },
+    {
+        "nick": [
+            "andres"
+        ],
+        "name": "Andres Uribe"
     }
 ]
