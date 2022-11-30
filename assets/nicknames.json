@@ -30,6 +30,12 @@
         "name": "SongPu Ai"
     },
     {
+        "name": "Cosma Alex Vergari",
+        "nick": [
+            "vergari"
+        ]
+    },
+    {
         "nick": [
             "mahmoud",
             "mkhraisha"
@@ -76,6 +82,19 @@
         "name": "Kazuyuki Ashimura"
     },
     {
+        "name": "Paul Ashley",
+        "nick": [
+            "ashley"
+        ]
+    },
+    {
+        "name": "Brandon Baraban",
+        "nick": [
+            "baraban",
+            "brendon"
+        ]
+    },
+    {
         "nick": [
             "barinov"
         ],
@@ -86,6 +105,12 @@
             "robin"
         ],
         "name": "Robin Berjon"
+    },
+    {
+        "nick": [
+            "matthieu_bosquet"
+        ],
+        "name": "Matthieu Bosquet"
     },
     {
         "nick": [
@@ -120,12 +145,12 @@
     },
     {
         "nick": [
-            "shawn",
-            "shawnb",
-            "s_butters",
             "butters",
+            "s_butters",
+            "sb",
+            "shawn",
             "shawn_butterfield",
-            "sb"
+            "shawnb"
         ],
         "name": "Shawn Butterfield"
     },
@@ -143,8 +168,8 @@
     },
     {
         "nick": [
-            "sarven",
-            "csarven"
+            "csarven",
+            "sarven"
         ],
         "name": "Sarven Capadisli"
     },
@@ -156,9 +181,9 @@
     },
     {
         "nick": [
-            "davidc",
+            "DavidChadwick",
             "davicC",
-            "DavidChadwick"
+            "davidc"
         ],
         "name": "David Chadwick"
     },
@@ -183,16 +208,16 @@
     },
     {
         "nick": [
-            "gabe",
+            "decentra",
             "decentralgabe",
-            "decentra"
+            "gabe"
         ],
         "name": "Gabe Cohen"
     },
     {
         "nick": [
-            "steve_cole",
-            "steve_c"
+            "steve_c",
+            "steve_cole"
         ],
         "name": "Steve Cole"
     },
@@ -217,19 +242,13 @@
     },
     {
         "nick": [
+            "kdean",
             "kdeangs",
             "kdeangs1",
             "kevin",
-            "kdean",
             "kevindead"
         ],
         "name": "Kevin Dean"
-    },
-    {
-        "name": "Dave Ellis",
-        "nick": [
-            "ellis"
-        ]
     },
     {
         "nick": [
@@ -241,17 +260,10 @@
         "github": "kdenhartog"
     },
     {
+        "name": "Paul Dietrich",
         "nick": [
-            "dwyer",
-            "mary"
-        ],
-        "name": "Mary Dwyer"
-    },
-    {
-        "nick": [
-            "Haudebourg"
-        ],
-        "name": "Timothée Haudebourg"
+            "Paul_Dietrich_GS1"
+        ]
     },
     {
         "nick": [
@@ -270,11 +282,24 @@
     },
     {
         "nick": [
+            "dwyer",
+            "mary"
+        ],
+        "name": "Mary Dwyer"
+    },
+    {
+        "nick": [
             "elfors",
             "sebastian",
             "sebastianelfors"
         ],
         "name": "Sebastian Elfors"
+    },
+    {
+        "name": "Dave Ellis",
+        "nick": [
+            "ellis"
+        ]
     },
     {
         "nick": [
@@ -322,6 +347,22 @@
     },
     {
         "nick": [
+            "daniel_hardman",
+            "danielhardman",
+            "dhardman",
+            "dhh"
+        ],
+        "name": "Daniel Hardman",
+        "github": "dhh1128"
+    },
+    {
+        "nick": [
+            "Haudebourg"
+        ],
+        "name": "Timothée Haudebourg"
+    },
+    {
+        "nick": [
             "rouven"
         ],
         "name": "Rouven Heck"
@@ -360,6 +401,18 @@
     },
     {
         "nick": [
+            "jian_jin"
+        ],
+        "name": "Jian Jin"
+    },
+    {
+        "nick": [
+            "yue_jing"
+        ],
+        "name": "Yue Jing"
+    },
+    {
+        "nick": [
             "andrew"
         ],
         "name": "Andrew Jones"
@@ -382,13 +435,25 @@
         ]
     },
     {
+        "name": "Gregg Kellogg",
+        "nick": [
+            "gkellogg"
+        ]
+    },
+    {
         "nick": [
             "Geun-Hyung",
+            "Geun-Hyung_Kim",
             "GeunHyung_Kim",
-            "Geunhyung",
-            "Geun-Hyung_Kim"
+            "Geunhyung"
         ],
         "name": "Geunhyung Kim"
+    },
+    {
+        "name": "Jay Kishigami",
+        "nick": [
+            "jay"
+        ]
     },
     {
         "nick": [
@@ -420,8 +485,8 @@
     },
     {
         "nick": [
-            "kerri",
-            "Kerri_Lemoie"
+            "Kerri_Lemoie",
+            "kerri"
         ],
         "name": "Kerri Lemoie"
     },
@@ -433,8 +498,14 @@
     },
     {
         "nick": [
-            "linson",
-            "kimberly"
+            "haihua_li"
+        ],
+        "name": "Haihua Li"
+    },
+    {
+        "nick": [
+            "kimberly",
+            "linson"
         ],
         "name": "Kimberly Linson"
     },
@@ -445,10 +516,19 @@
         "name": "Joachim Lohkamp"
     },
     {
+        "name": "Phillip Long",
         "nick": [
+            "Phil",
+            "Phil-ASU",
+            "Phil__ASU",
+            "Phillip_Long"
+        ]
+    },
+    {
+        "nick": [
+            "Dave_Longley",
             "dlongley",
-            "dlongley2",
-            "Dave_Longley"
+            "dlongley2"
         ],
         "name": "Dave Longley",
         "github": "dlongley"
@@ -474,15 +554,6 @@
         "name": "Duy-Tung Luu"
     },
     {
-        "name": "Steve McCown",
-        "nick": [
-            "mccown",
-            "SteveMcCown",
-            "Steve_mccown",
-            "smccown"
-        ]
-    },
-    {
         "nick": [
             "aanchal"
         ],
@@ -497,8 +568,17 @@
     {
         "name": "Tomislav Markovski",
         "nick": [
-            "tomislav",
-            "markovski"
+            "markovski",
+            "tomislav"
+        ]
+    },
+    {
+        "name": "Steve McCown",
+        "nick": [
+            "SteveMcCown",
+            "Steve_mccown",
+            "mccown",
+            "smccown"
         ]
     },
     {
@@ -529,9 +609,9 @@
     },
     {
         "nick": [
-            "tony",
+            "TonyNadaline",
             "nadalin",
-            "TonyNadaline"
+            "tony"
         ],
         "name": "Antony Nadalin"
     },
@@ -541,9 +621,9 @@
             "gnatran",
             "greg",
             "gregory",
+            "gregoryn",
             "natran",
-            "natrang",
-            "gregoryn"
+            "natrang"
         ],
         "name": "Gregory Natran"
     },
@@ -562,16 +642,16 @@
     },
     {
         "nick": [
+            "Alyssa"
+        ],
+        "name": "Alyssa Oconnor"
+    },
+    {
+        "nick": [
             "Gerhard Oosthuizen",
             "gerhard"
         ],
         "name": "Gerhard Oosthuizen"
-    },
-    {
-        "nick": [
-            "Alyssa"
-        ],
-        "name": "Alyssa Oconnor"
     },
     {
         "nick": [
@@ -594,11 +674,19 @@
         "name": "Logan Porter"
     },
     {
+        "name": "Przemek Praszczalek",
+        "nick": [
+            "Praszczalek",
+            "Przemek",
+            "Przemek_Praszczalek"
+        ]
+    },
+    {
         "nick": [
             "Prorock",
-            "mprorock",
             "mike_p",
-            "mikep"
+            "mikep",
+            "mprorock"
         ],
         "name": "Michael Prorock"
     },
@@ -613,11 +701,17 @@
     {
         "nick": [
             "martin_reed",
-            "marty_reed",
             "marty",
+            "marty_reed",
             "martyreed"
         ],
         "name": "Marty Reed"
+    },
+    {
+        "nick": [
+            "stenr"
+        ],
+        "name": "Sten Reijers"
     },
     {
         "nick": [
@@ -644,14 +738,20 @@
     },
     {
         "nick": [
+            "brian"
+        ],
+        "name": "Brian Richter"
+    },
+    {
+        "nick": [
             "troyronda"
         ],
         "name": "Troy Ronda"
     },
     {
         "nick": [
-            "rosenthol",
-            "leonard"
+            "leonard",
+            "rosenthol"
         ],
         "name": "Leonard Rosenthol"
     },
@@ -699,6 +799,13 @@
         "nick": [
             "shaw"
         ]
+    },
+    {
+        "nick": [
+            "Yan_Dappworks",
+            "yishi"
+        ],
+        "name": "Yi Shi"
     },
     {
         "nick": [
@@ -769,14 +876,20 @@
     },
     {
         "nick": [
+            "andres"
+        ],
+        "name": "Andres Uribe"
+    },
+    {
+        "nick": [
             "varley"
         ],
         "name": "Mike Varley"
     },
     {
         "nick": [
-            "dwaite",
-            "David_Waite"
+            "David_Waite",
+            "dwaite"
         ],
         "name": "David Waite"
     },
@@ -808,6 +921,12 @@
     },
     {
         "nick": [
+            "xiaoyu_you"
+        ],
+        "name": "Xiaoyu You"
+    },
+    {
+        "nick": [
             "benjamin",
             "benjaminy",
             "bigbluehat"
@@ -825,24 +944,31 @@
     },
     {
         "nick": [
-            "yuri",
-            "Yuriy_Yuzifovich"
+            "Yuriy_Yuzifovich",
+            "yuri"
         ],
         "name": "Yuriy Yuzifovich"
     },
     {
         "nick": [
+            "dmitri",
             "dmitripre",
-            "dmitriz",
-            "dmitri"
+            "dmitriz"
         ],
         "name": "Dmitri Zagidulin",
         "github": "dmitrizagidulin"
     },
     {
         "nick": [
+            "yan",
+            "yanzhang"
+        ],
+        "name": "Yan Zhang"
+    },
+    {
+        "nick": [
             "exe",
-            "zulliger" 
+            "zulliger"
         ],
         "name": "Exe Zulliger"
     },
@@ -855,114 +981,5 @@
         ],
         "name": "Brent Zundel",
         "github": "brentzundel"
-    },
-    {
-        "nick": ["yue_jing"],
-        "name": "Yue Jing"
-    },
-    {
-        "nick": ["jian_jin"],
-        "name": "Jian Jin"
-    },
-    {
-        "nick": ["xiaoyu_you"],
-        "name": "Xiaoyu You"
-    },
-    {
-        "nick": ["haihua_li"],
-        "name": "Haihua Li"
-    },
-    {
-        "nick": ["yanzhang", "yan"],
-        "name": "Yan Zhang"
-    },
-    {
-        "nick": [
-            "yishi", 
-            "Yan_Dappworks"
-        ],
-        "name": "Yi Shi"
-    },
-    {
-        "name": "Paul Ashley",
-        "nick": ["ashley"]
-    },
-    {
-        "name": "Jay Kishigami",
-        "nick": ["jay"]
-    },
-    {
-        "name": "Paul Dietrich",
-        "nick": ["Paul_Dietrich_GS1"]
-    },
-    {
-        "name": "Gregg Kellogg",
-        "nick": [
-            "gkellogg"
-        ]
-    },
-    {
-        "name": "Cosma Alex Vergari",
-        "nick": [
-            "vergari"
-        ]
-    },
-    {
-        "name": "Przemek Praszczalek",
-        "nick": [
-            "Przemek",
-            "Przemek_Praszczalek",
-            "Praszczalek"
-        ]
-    },
-    {
-        "name": "Phillip Long",
-        "nick": [
-            "Phil-ASU",
-            "Phil__ASU",
-            "Phillip_Long",
-            "Phil"
-        ]
-    },
-    {
-        "name": "Brandon Baraban",
-        "nick": [
-            "brendon",
-            "baraban"
-        ]
-    },
-    {
-        "nick": [
-            "danielhardman",
-            "dhardman",
-            "dhh",
-            "daniel_hardman"
-        ],
-        "name": "Daniel Hardman",
-        "github": "dhh1128"
-    },
-    {
-        "nick": [
-            "matthieu_bosquet"
-        ],
-        "name": "Matthieu Bosquet"
-    },
-    {
-        "nick": [
-            "stenr"
-        ],
-        "name": "Sten Reijers"
-    },
-    {
-        "nick": [
-            "andres"
-        ],
-        "name": "Andres Uribe"
-    },
-    {
-        "nick": [
-            "brian"
-        ],
-        "name": "Brian Richter"
     }
 ]
