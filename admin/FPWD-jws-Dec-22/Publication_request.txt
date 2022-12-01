@@ -6,9 +6,9 @@ Here are the necessary information for the publication.
     Publication Date: 2022-12-08
     Approvals:
         Record of publication request:
-            https://github.com/w3c/transitions/issues/@@@
+            https://github.com/w3c/transitions/issues/475
         Director's approval state: approved in
-            https://github.com/w3c/transitions/issues/@@@#@@@
+            https://github.com/w3c/transitions/issues/475#issuecomment-1332766717
 Checks:
     Pass Pubrules' check: yes
     Pass Link Checker's check: yes.
