@@ -1,5 +1,5 @@
 {
-    "date": "2022-12-13T16:59:24.300Z",
+    "date": "2022-12-14T17:15:30.602Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -54,9 +54,18 @@
         "2022-11-29-vcwg-special.md",
         "2022-11-30-vcwg.md",
         "2022-12-07-vcwg.md",
-        "2022-12-13-vcwg-special.md"
+        "2022-12-13-vcwg-special.md",
+        "2022-12-14-vcwg.md"
     ],
     "resolutions": [
+        {
+            "year": 2022,
+            "date": "2022-12-14",
+            "number": 1,
+            "text": "The WG will adopt StatusList2021 (<a href=\"https://w3c-ccg.github.io/vc-status-list-2021/\">https://w3c-ccg.github.io/vc-status-list-2021/</a>) as a recommendation track editors draft under the shortname vc-status-list.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2022-12-14-vcwg#resolution1",
+            "call": "vcwg"
+        },
         {
             "year": 2022,
             "date": "2022-11-29",
