@@ -167,6 +167,12 @@
         "name": "Juan Caballero"
     },
     {
+        "nick" : [
+            "campbell"
+        ],
+        "name": "Brian Campbell"
+    },
+    {
         "nick": [
             "csarven",
             "sarven"
