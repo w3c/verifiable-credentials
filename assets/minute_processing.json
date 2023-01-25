@@ -1,5 +1,5 @@
 {
-    "date": "2023-01-25T11:08:04.357Z",
+    "date": "2023-01-25T17:25:24.063Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -59,9 +59,18 @@
         "2023-01-11-vcwg.md",
         "2023-01-17-vcwg-special.md",
         "2023-01-18-vcwg.md",
-        "2023-01-24-vcwg-special.md"
+        "2023-01-24-vcwg-special.md",
+        "2023-01-25-vcwg.md"
     ],
     "resolutions": [
+        {
+            "year": 2023,
+            "date": "2023-01-25",
+            "number": 1,
+            "text": "We should merge the PR after changing the name to application/credential-claims-set-1.1+json and raise an issue to track further bikeshedding of the name.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-01-25-vcwg#resolution1",
+            "call": "vcwg"
+        },
         {
             "year": 2022,
             "date": "2022-12-14",
