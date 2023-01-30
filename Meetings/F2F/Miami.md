@@ -4,7 +4,7 @@ layout: default
 
 This is the logistics page for the W3C Verifiable Claims WG F2F meeting on 14-16 February 2023 in Miami, FL, USA.
 
-If you are planning to attend, please add your name here: https://docs.google.com/spreadsheets/d/1IguLcaIn8vAo-XDwYXbJTfY2c5SAjA9rgDjo057kKlc/edit#gid=179611341
+If you are planning to attend, please add your name to [the attendance sheet](https://docs.google.com/spreadsheets/d/1IguLcaIn8vAo-XDwYXbJTfY2c5SAjA9rgDjo057kKlc/edit#gid=179611341)
 
 # Agenda
 TBD
