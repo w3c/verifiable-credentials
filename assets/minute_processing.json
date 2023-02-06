@@ -1,5 +1,5 @@
 {
-    "date": "2023-01-25T17:25:24.063Z",
+    "date": "2023-02-06T07:50:05.215Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -60,9 +60,19 @@
         "2023-01-17-vcwg-special.md",
         "2023-01-18-vcwg.md",
         "2023-01-24-vcwg-special.md",
-        "2023-01-25-vcwg.md"
+        "2023-01-25-vcwg.md",
+        "2023-01-31-vcwg-special.md",
+        "2023-02-01-vcwg.md"
     ],
     "resolutions": [
+        {
+            "year": 2023,
+            "date": "2023-02-01",
+            "number": 1,
+            "text": "The WG will adopt the EdDSA Cryptosuite (<a href=\"https://w3c-ccg.github.io/di-eddsa-2020/\">https://w3c-ccg.github.io/di-eddsa-2020/</a>) as a recommendation track editors draft under the shortname vc-di-eddsa..",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-02-01-vcwg#resolution1",
+            "call": "vcwg"
+        },
         {
             "year": 2023,
             "date": "2023-01-25",

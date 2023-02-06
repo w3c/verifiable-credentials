@@ -169,7 +169,8 @@
     },
     {
         "nick" : [
-            "campbell"
+            "campbell",
+            "BrianCampbell"
         ],
         "name": "Brian Campbell"
     },
@@ -253,7 +254,8 @@
             "kdeangs",
             "kdeangs1",
             "kevin",
-            "kevindead"
+            "kevindead",
+            "KevinDeanGS1"
         ],
         "name": "Kevin Dean"
     },
@@ -269,7 +271,8 @@
     {
         "name": "Paul Dietrich",
         "nick": [
-            "Paul_Dietrich_GS1"
+            "Paul_Dietrich_GS1",
+            "PaulDietrich"
         ]
     },
     {
@@ -637,6 +640,13 @@
     },
     {
         "nick": [
+            "Mircea",
+            "Nistor"
+        ],
+        "name": "Mircea Nistor"
+    },
+    {
+        "nick": [
             "chaals"
         ],
         "name": "Charles Nevile",
@@ -836,6 +846,14 @@
             "ned_smith"
         ],
         "name": "Ned Smith"
+    },
+    {
+        "nick": [
+            "snyder",
+            "toddsnyder",
+            "Todd_Snyder_GS1"
+        ],
+        "name" : "Todd Snyder"
     },
     {
         "nick": [
