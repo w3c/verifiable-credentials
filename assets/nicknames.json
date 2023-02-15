@@ -171,7 +171,8 @@
     {
         "nick" : [
             "campbell",
-            "BrianCampbell"
+            "BrianCampbell",
+            "BC"
         ],
         "name": "Brian Campbell"
     },
@@ -273,7 +274,8 @@
         "name": "Paul Dietrich",
         "nick": [
             "Paul_Dietrich_GS1",
-            "PaulDietrich"
+            "PaulDietrich",
+            "Paul"
         ]
     },
     {
@@ -434,7 +436,8 @@
             "mike_jones",
             "self-issued",
             "selfissued",
-            "webauthn"
+            "webauthn",
+            "mikej"
         ],
         "name": "Michael Jones",
         "github": "selfissued"
@@ -533,7 +536,8 @@
             "Phil",
             "Phil-ASU",
             "Phil__ASU",
-            "Phillip_Long"
+            "Phillip_Long",
+            "PhilLong"
         ]
     },
     {
@@ -837,7 +841,8 @@
     {
         "nick": [
             "sam_smith",
-            "samsmith"
+            "samsmith",
+            "sam"
         ],
         "name": "Samuel Smith",
         "github": "SmithSamuelM"
@@ -858,7 +863,8 @@
     },
     {
         "nick": [
-            "manu"
+            "manu",
+            "msporny"
         ],
         "name": "Manu Sporny",
         "github": "msporny"
@@ -1015,5 +1021,18 @@
         ],
         "name": "Brent Zundel",
         "github": "brentzundel"
+    },
+    {
+        "nick": [
+            "griffin"
+        ],
+        "name": "Kevin Griffin"
+    },
+    {
+        "nick": [
+            "PhilFariller",
+            "Phil_F"
+        ],
+        "name": "Phil Fariller"
     }
 ]
