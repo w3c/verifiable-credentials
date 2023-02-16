@@ -536,6 +536,7 @@
             "Phil",
             "Phil-ASU",
             "Phil__ASU",
+            "Phil_ASU",
             "Phillip_Long",
             "PhilLong"
         ]
@@ -1034,5 +1035,12 @@
             "Phil_F"
         ],
         "name": "Phil Fariller"
+    },
+    {
+        "name": "Devin Rousso",
+        "nick": [
+            "devin",
+            "rousso"
+        ]
     }
 ]
