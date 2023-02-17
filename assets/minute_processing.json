@@ -1,5 +1,5 @@
 {
-    "date": "2023-02-16T10:20:24.971Z",
+    "date": "2023-02-17T11:26:05.123Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -66,9 +66,18 @@
         "2023-02-07-vcwg-special.md",
         "2023-02-08-vcwg.md",
         "2023-02-14-vcwg.md",
-        "2023-02-15-vcwg.md"
+        "2023-02-15-vcwg.md",
+        "2023-02-16-vcwg.md"
     ],
     "resolutions": [
+        {
+            "year": 2023,
+            "date": "2023-02-16",
+            "number": 1,
+            "text": "The base media type for the VCDM is <code>credential+ld+json</code>. <code>@context</code> is required (MUST) in the base media type; other media types MAY choose to include <code>@context</code>. Serializations in other media types (defined by the VCWG) MUST be able to be transformed into the base media type. Another media type MUST identify if this transformation is one-directional or bi-directional. Bi-directional transformation MUST preserve <code>@context</code>. Transformation rules MUST be defined, but not necessarily by this WG..",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-02-16-vcwg#resolution1",
+            "call": "vcwg"
+        },
         {
             "year": 2022,
             "date": "2022-09-15",
