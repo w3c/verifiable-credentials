@@ -10,7 +10,7 @@ If you are planning to attend, please add your name to [the attendance sheet](ht
 https://tinyurl.com/vcwg-miami
 
 ## Live slides
-https://tinyurl.com/vcwg-miami-slides
+- Slides: [PDF of slide deck](VCWG_Miami_F2F_2023.pdf)
 
 # Venue
 Wework Microsoft
