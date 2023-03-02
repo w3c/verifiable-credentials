@@ -1,5 +1,5 @@
 {
-    "date": "2023-03-01T09:30:53.762Z",
+    "date": "2023-03-02T11:16:31.708Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -68,9 +68,26 @@
         "2023-02-14-vcwg.md",
         "2023-02-15-vcwg.md",
         "2023-02-16-vcwg.md",
-        "2023-02-28-vcwg-special.md"
+        "2023-02-28-vcwg-special.md",
+        "2023-03-01-vcwg.md"
     ],
     "resolutions": [
+        {
+            "year": 2023,
+            "date": "2023-03-01",
+            "number": 1,
+            "text": "Adopt <a href=\"https://msporny.github.io/vc-specs-directory/\">https://msporny.github.io/vc-specs-directory/</a> as the \"VC Specs Directory\" work item in the VCWG tentatively using the shortname <code>vc-spec-dir</code>, converting all concerns raised during the call to issues in the Github repository..",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-03-01-vcwg#resolution1",
+            "call": "vcwg"
+        },
+        {
+            "year": 2023,
+            "date": "2023-03-01",
+            "number": 2,
+            "text": "The W3C VCWG requests that the Credentials Community Group redirect the entire existing Cryptosuites Registry and the Verifiable Credential Extension Registries to the newly adopted VC Specs Directory..",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-03-01-vcwg#resolution2",
+            "call": "vcwg"
+        },
         {
             "year": 2023,
             "date": "2023-02-16",
