@@ -275,7 +275,8 @@
         "nick": [
             "Paul_Dietrich_GS1",
             "PaulDietrich",
-            "Paul"
+            "Paul",
+            "PaulD"
         ]
     },
     {
@@ -858,7 +859,8 @@
         "nick": [
             "snyder",
             "toddsnyder",
-            "Todd_Snyder_GS1"
+            "Todd_Snyder_GS1",
+            "ToddSnyderGS1US"
         ],
         "name" : "Todd Snyder"
     },
@@ -942,7 +944,8 @@
     },
     {
         "nick": [
-            "awhitehead"
+            "awhitehead",
+            "AndrewWhitehead"
         ],
         "name": "Andrew Whitehead"
     },
@@ -1026,16 +1029,18 @@
     {
         "nick": [
             "griffin",
-            "kgriffin"
+            "kgriffin",
+            "kgriffin-gleif"
         ],
         "name": "Kevin Griffin"
     },
     {
         "nick": [
             "PhilFariller",
-            "Phil_F"
+            "Phil_F",
+            "Phil-T3"
         ],
-        "name": "Phil Fariller"
+        "name": "Phil Feairheller"
     },
     {
         "name": "Devin Rousso",
