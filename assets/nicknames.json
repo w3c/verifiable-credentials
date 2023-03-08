@@ -1048,5 +1048,19 @@
             "devin",
             "rousso"
         ]
+    },
+    {
+        "name": "Luis Meijueiro",
+        "nick" : [
+            "luis",
+            "luis_meijueiro"
+        ]
+    },
+    {
+        "name": "Pablo Coca",
+        "nick" : [
+            "pablo",
+            "pablo_coca"
+        ]
     }
 ]
