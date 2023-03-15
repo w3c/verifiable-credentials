@@ -1,5 +1,5 @@
 {
-    "date": "2023-03-08T17:24:35.109Z",
+    "date": "2023-03-15T10:25:19.896Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -71,9 +71,18 @@
         "2023-02-28-vcwg-special.md",
         "2023-03-01-vcwg.md",
         "2023-03-07-vcwg-special.md",
-        "2023-03-08-vcwg.md"
+        "2023-03-08-vcwg.md",
+        "2023-03-14-vcwg-special.md"
     ],
     "resolutions": [
+        {
+            "year": 2023,
+            "date": "2023-03-14",
+            "number": 1,
+            "text": "We will change <code>application/credential+ld+json</code> to <code>application/vc+ld+json</code> to use as the media type for verifiable credentials and add language to the spec that indicates the media type does not signal how the VC has been signed.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-03-14-vcwg-special#resolution1",
+            "call": "vcwg-special"
+        },
         {
             "year": 2023,
             "date": "2023-03-01",
