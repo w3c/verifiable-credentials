@@ -103,6 +103,10 @@ json-ld: |
                 },
                 {
                     "@type": "Person",
+                    "name": "Songpu Ai"
+                },
+                {
+                    "@type": "Person",
                     "name": "Joe Andrieu"
                 }
             ]
@@ -129,7 +133,7 @@ See also the [Agenda](https://www.w3.org/events/meetings/9ff74350-6398-41c5-a5d3
 
 ## Attendees
 {: .no_toc}
-**Present:** Brent Zundel, Shigeya Suzuki, Kerri Lemoie, Dave Longley, Kristina Yasuda, Ted Thibodeau Jr., Gabe Cohen, Phillip Long, Michael Jones, David Lehn, Joe Andrieu
+**Present:** Brent Zundel, Shigeya Suzuki, Kerri Lemoie, Dave Longley, Kristina Yasuda, Ted Thibodeau Jr., Gabe Cohen, Phillip Long, Michael Jones, David Lehn, Joe Andrieu, SongPu Ai
 
 **Regrets:** 
 

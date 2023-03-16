@@ -27,7 +27,8 @@
     {
         "nick": [
             "Songpu_Ai",
-            "aisp"
+            "aisp",
+            "aisongpu"
         ],
         "name": "SongPu Ai"
     },
@@ -1064,6 +1065,12 @@
         "nick" : [
             "pablo",
             "pablo_coca"
+        ]
+    },
+    {
+        "name": "Zaïda Rivai",
+        "nick": [
+            "zaida"
         ]
     }
 ]
