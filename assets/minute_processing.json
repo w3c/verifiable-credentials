@@ -1,5 +1,5 @@
 {
-    "date": "2023-03-15T10:25:19.896Z",
+    "date": "2023-03-22T16:28:27.998Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -72,9 +72,52 @@
         "2023-03-01-vcwg.md",
         "2023-03-07-vcwg-special.md",
         "2023-03-08-vcwg.md",
-        "2023-03-14-vcwg-special.md"
+        "2023-03-14-vcwg-special.md",
+        "2023-03-15-vcwg.md",
+        "2023-03-21-vcwg-special.md",
+        "2023-03-22-vcwg.md"
     ],
     "resolutions": [
+        {
+            "year": 2023,
+            "date": "2023-03-22",
+            "number": 1,
+            "text": "Adopt the Verifiable Credential JSON Schema (<a href=\"https://w3c-ccg.github.io/vc-json-schemas/\">https://w3c-ccg.github.io/vc-json-schemas/</a>) as a work item in the VCWG with a preliminary short name of <code>vc-json-schema</code>..",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-03-22-vcwg#resolution1",
+            "call": "vcwg"
+        },
+        {
+            "year": 2023,
+            "date": "2023-03-22",
+            "number": 2,
+            "text": "Adopt the BBS Signature Data Integrity Cryptosuite (<a href=\"https://w3c-ccg.github.io/vc-di-bbs/\">https://w3c-ccg.github.io/vc-di-bbs/</a>) as a work item in the VCWG with a preliminary short name of ‘vc-di-bbs’, with the expectation that the BBS work at IETF will reach equivalent status as the W3C work progresses through the REC process..",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-03-22-vcwg#resolution2",
+            "call": "vcwg"
+        },
+        {
+            "year": 2023,
+            "date": "2023-03-22",
+            "number": 3,
+            "text": "the VCWG will publish VC-JWT as a FPWD using the short name <code>vc-jwt</code>.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-03-22-vcwg#resolution3",
+            "call": "vcwg"
+        },
+        {
+            "year": 2023,
+            "date": "2023-03-15",
+            "number": 1,
+            "text": "Adopt the ECDSA Cryptosuite (<a href=\"https://w3c-ccg.github.io/vc-di-ecdsa/\">https://w3c-ccg.github.io/vc-di-ecdsa/</a>) as a work item in the VCWG with a preliminary short name of 'vc-di-ecdsa'..",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-03-15-vcwg#resolution1",
+            "call": "vcwg"
+        },
+        {
+            "year": 2023,
+            "date": "2023-03-15",
+            "number": 2,
+            "text": "VC spec directory will have an entry for documents that define a mapping to VCDM and these documents can be defined outside W3C VCWG..",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-03-15-vcwg#resolution2",
+            "call": "vcwg"
+        },
         {
             "year": 2023,
             "date": "2023-03-14",
