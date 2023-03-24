@@ -10,7 +10,7 @@ layout: default
 
 
 
-## Resolutions taken at regular Working Group calls
+## Resolutions Taken at regular Working Group Calls
 
 Resolutions are marked “<span class='provisional'>Provisional</span>” if the 1 week period after their acceptance has not yet passed.
 
@@ -18,7 +18,7 @@ Resolutions are marked “<span class='provisional'>Provisional</span>” if the
 
 </div>
 
-## Resolutions taken at Working Group topic calls
+## Resolutions Taken at Working Group Special Topic Calls
 
 Resolutions are marked “<span class='provisional'>Provisional</span>” if the 1 week period after their acceptance has not yet passed.
 
