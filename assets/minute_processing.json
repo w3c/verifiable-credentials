@@ -1,5 +1,5 @@
 {
-    "date": "2023-04-05T16:12:24.975Z",
+    "date": "2023-04-13T07:40:47.568Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -78,9 +78,34 @@
         "2023-03-22-vcwg.md",
         "2023-04-04-vcwg-special.md",
         "2023-04-05-vcwg.md",
-        "2023-04-11-vcwg-special.md"
+        "2023-04-11-vcwg-special.md",
+        "2023-04-12-vcwg.md"
     ],
     "resolutions": [
+        {
+            "year": 2023,
+            "date": "2023-04-12",
+            "number": 1,
+            "text": "This working group will use Echidna to publish all formal TR publications, whenever applicable per the W3C publication rules..",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-04-12-vcwg#resolution1",
+            "call": "vcwg"
+        },
+        {
+            "year": 2023,
+            "date": "2023-04-12",
+            "number": 2,
+            "text": "Publish the EdDSA Data Integrity Cryptosuite (<a href=\"https://w3c.github.io/vc-di-eddsa/FPWD/2023-04-18/\">https://w3c.github.io/vc-di-eddsa/FPWD/2023-04-18/</a>) as a First Public Working Draft with a short name of <code>vc-di-eddsa</code> with a target publication date of April 18th 2023..",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-04-12-vcwg#resolution2",
+            "call": "vcwg"
+        },
+        {
+            "year": 2023,
+            "date": "2023-04-12",
+            "number": 3,
+            "text": "Publish the ECDSA Data Integrity Cryptosuite (<a href=\"https://w3c.github.io/vc-di-ecdsa/FPWD/2023-04-18/\">https://w3c.github.io/vc-di-ecdsa/FPWD/2023-04-18/</a>) as a First Public Working Draft with a short name of <code>vc-di-ecdsa</code> with a target publication date of April 18th 2023..",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-04-12-vcwg#resolution3",
+            "call": "vcwg"
+        },
         {
             "year": 2023,
             "date": "2023-03-22",
