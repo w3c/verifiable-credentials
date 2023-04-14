@@ -1,0 +1,35 @@
+Dear webmaster,
+
+Here are the necessary information for the publication.
+
+    Document Title: EdDSA Cryptosuite v2022
+    Document URL:  https://www.w3.org/TR/2023/WD-vc-di-eddsa-20230418/ (doc already in place)
+    Publication Date: 2023-04-18
+    Approvals:
+        Record of publication request:
+            https://github.com/w3c/transitions/issues/498
+        Director's approval state: approved in
+            https://github.com/w3c/transitions/issues/498#issuecomment-1508480942
+
+    Document Title: ECDSA Cryptosuite v2019
+    Document URL:  https://www.w3.org/TR/2023/WD-vc-di-ecdsa-20230418/ (doc already in place)
+    Publication Date: 2023-04-18
+    Approvals:
+        Record of publication request:
+            https://github.com/w3c/transitions/issues/498
+        Director's approval state: approved in
+            https://github.com/w3c/transitions/issues/498#issuecomment-1508480942
+
+
+Checks:
+    Pass Pubrules' check: yes
+    Pass Link Checker's check: yes.
+
+The publication should be tagged as "Security", and "Privacy".
+
+Thank You
+
+Ivan
+
+P.S. Xueyuan has not yet told me whether she will generate the standard HPN news based on the document abstract. 
+
