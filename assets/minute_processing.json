@@ -1,5 +1,5 @@
 {
-    "date": "2023-04-13T07:40:47.568Z",
+    "date": "2023-04-18T16:10:06.139Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -79,9 +79,18 @@
         "2023-04-04-vcwg-special.md",
         "2023-04-05-vcwg.md",
         "2023-04-11-vcwg-special.md",
-        "2023-04-12-vcwg.md"
+        "2023-04-12-vcwg.md",
+        "2023-04-18-vcwg-special.md"
     ],
     "resolutions": [
+        {
+            "year": 2023,
+            "date": "2023-04-18",
+            "number": 1,
+            "text": "the VCWG would like to add a table of reserved properties to the VC Data Model.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-04-18-vcwg-special#resolution1",
+            "call": "vcwg-special"
+        },
         {
             "year": 2023,
             "date": "2023-04-12",
