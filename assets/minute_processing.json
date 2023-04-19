@@ -1,5 +1,5 @@
 {
-    "date": "2023-04-18T16:10:06.139Z",
+    "date": "2023-04-19T16:14:55.348Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -80,9 +80,18 @@
         "2023-04-05-vcwg.md",
         "2023-04-11-vcwg-special.md",
         "2023-04-12-vcwg.md",
-        "2023-04-18-vcwg-special.md"
+        "2023-04-18-vcwg-special.md",
+        "2023-04-19-vcwg.md"
     ],
     "resolutions": [
+        {
+            "year": 2023,
+            "date": "2023-04-19",
+            "number": 1,
+            "text": "Publish the Status List 2021 specification (<a href=\"https://w3c.github.io/vc-status-list-2021/FPWD/2023-04-27/\">https://w3c.github.io/vc-status-list-2021/FPWD/2023-04-27/</a>) as a First Public Working Draft with a short name of <code>vc-status-list</code> with a target publication date of April 27th 2023..",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-04-19-vcwg#resolution1",
+            "call": "vcwg"
+        },
         {
             "year": 2023,
             "date": "2023-04-18",
