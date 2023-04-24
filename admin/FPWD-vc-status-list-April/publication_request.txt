@@ -1,26 +1,42 @@
+cc mahmoud@mavennet.com, dlongley@digitalbazaar.com, msporny@digitalbazaar.com, orie@transmute.industries, mprorock@mesur.io, brent, kristina, selfissued
+
+
 Dear webmaster,
+
+(This is an official publication request for two publications by the same WG; they were submitted as a FPWD separately, 
+and there were separate preliminary publications requests but, as the publication date is the same, I thought
+it would be simpler to have one official request.)
 
 Here are the necessary information for the publication.
 
-    Document Title: Status List v2021
+    Document Title: Securing Verifiable Credentials using JSON Web Tokens
+    Document URL:  https://www.w3.org/TR/2023/WD-vc-jwt-20230427/ (doc already in place)
+    Publication Date: 2023-04-27
+    Approvals:
+        Record of publication request:
+            https://github.com/w3c/transitions/issues/500
+        Director's approval state: approved in
+            https://github.com/w3c/transitions/issues/500#issuecomment-1519227123
+
+    Document Title: Verifiable Credentials Status List v2021
     Document URL:  https://www.w3.org/TR/2023/WD-vc-status-list-20230427/ (doc already in place)
     Publication Date: 2023-04-27
     Approvals:
         Record of publication request:
-            https://github.com/w3c/transitions/issues/@@@
+            https://github.com/w3c/transitions/issues/501
         Director's approval state: approved in
-            https://github.com/w3c/transitions/issues/@@@#issuecomment-1508480942
-
+            https://github.com/w3c/transitions/issues/501#issuecomment-1519226924
 
 Checks:
-    Pass Pubrules' check: yes
-    Pass Link Checker's check: yes.
+    Pass Pubrules' check: yes for both
+    Pass Link Checker's check: yes for both.
 
-The publication should be tagged as "Security", and "Privacy".
+The publications should be tagged as "Security", and "Privacy".
+
+Xueyuan, as before, the Abstracts in the documents are quite simple, and it is good enough for a HPN news. Ping me
+if you prefer me to send a draft.
 
 Thank You
 
 Ivan
-
-P.S. Xueyuan has not yet told me whether she will generate the standard HPN news based on the document abstract. 
 

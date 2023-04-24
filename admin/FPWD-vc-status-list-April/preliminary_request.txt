@@ -3,14 +3,14 @@ cc mahmoud@mavennet.com, dlongley@digitalbazaar.com, msporny@digitalbazaar.com, 
 
 Dear Jiaying, Denis,
 
-This is a preliminary publication request for a FPED:
+This is a preliminary publication request for a FPWD:
 
-    Document Title: Status List v2021
+    Document Title: Verifiable Credentials Status List v2021
     Document URL:  https://www.w3.org/TR/2023/WD-vc-status-list-20230427/
     Publication Date: 2023-04-27
     Approvals:
         Record of publication request:
-            https://github.com/w3c/transitions/issues/@@@
+            https://github.com/w3c/transitions/issues/501
 
 
 Checks:
