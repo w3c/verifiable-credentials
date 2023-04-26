@@ -20,8 +20,8 @@ json-ld: |
         ],
         "@type": "CreativeWork",
         "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-04-25-vcwg-special",
-        "name": "Verifiable Credentials Working Group Special Topic Call on open reserved properties — Minutes",
-        "about": "Verifiable Credentials Working Group Special Topic Call on open reserved properties",
+        "name": "Verifiable Credentials Working Group Special Topic Call on relationship b/w the VCDM, context, and the vocabulary document — Minutes",
+        "about": "Verifiable Credentials Working Group Special Topic Call on relationship b/w the VCDM, context, and the vocabulary document",
         "dateCreated": "2023-04-25",
         "irc": "vcwg-special",
         "datePublished": "2023-04-26",
@@ -37,7 +37,7 @@ json-ld: |
         "inLanguage": "en-US",
         "recordedAt": {
             "@type": "Event",
-            "name": "Verifiable Credentials Working Group Special Topic Call on open reserved properties",
+            "name": "Verifiable Credentials Working Group Special Topic Call on relationship b/w the VCDM, context, and the vocabulary documents",
             "startDate": "2023-04-25",
             "endDate": "2023-04-25",
             "location": {
@@ -103,7 +103,7 @@ json-ld: |
 
 ---
 
-# Verifiable Credentials Working Group Special Topic Call on open reserved properties — Minutes
+# Verifiable Credentials Working Group Special Topic Call on relationship b/w the VCDM, context, and the vocabulary document — Minutes
 {: .no_toc}
 
 
@@ -132,7 +132,7 @@ See also the [Agenda](https://beta.w3.org/events/meetings/9ff74350-6398-41c5-a5d
 ---
 
 
-### 1. What is the relationship b/w the VCDM and terms defined there and the vocabulary document.
+### 1. What is the relationship b/w the VCDM and terms defined there and the vocabulary document?
 {: #section1}
 
 **Brent Zundel:** topic for today - "what is the relationship b/w the VCDM and terms defined there and the vocabulary document".  
