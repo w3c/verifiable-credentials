@@ -1,5 +1,5 @@
 {
-    "date": "2023-04-27T03:52:24.745Z",
+    "date": "2023-05-03T16:22:08.880Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -83,9 +83,19 @@
         "2023-04-18-vcwg-special.md",
         "2023-04-19-vcwg.md",
         "2023-04-25-vcwg-special.md",
-        "2023-04-26-vcwg.md"
+        "2023-04-26-vcwg.md",
+        "2023-05-02-vcwg-special.md",
+        "2023-05-03-vcwg.md"
     ],
     "resolutions": [
+        {
+            "year": 2023,
+            "date": "2023-05-03",
+            "number": 1,
+            "text": "Publish the Securing VCs with BBS specification as a First Public Working Draft with a short name of vc-di-bbs, and with a target publication date of May 18th 2023.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-05-03-vcwg#resolution1",
+            "call": "vcwg"
+        },
         {
             "year": 2023,
             "date": "2023-04-19",
