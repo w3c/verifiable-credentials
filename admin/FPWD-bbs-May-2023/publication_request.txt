@@ -1,9 +1,9 @@
-cc orie@transmute.industries, tobias.looker@mattr.global brent, kristina
+cc orie@transmute.industries, tobias.looker@mattr.global brent, kristina, xueyan, comm team
 
 
-DDear Jiaying, Denis,
+Dear Jiaying, Denis,
 
-This is a preliminary publication request for a FPWD:
+This is an official publication request for a FPWD:
 
     Document Title: BBS Cryptosuite v2023
     Document URL:  https://www.w3.org/TR/2023/WD-vc-di-bbs-20230518/
@@ -12,7 +12,7 @@ This is a preliminary publication request for a FPWD:
         Record of publication request:
             https://github.com/w3c/transitions/issues/503
         Director's approval state: approved in
-            https://github.com/w3c/transitions/issues/503#XXXX
+            https://github.com/w3c/transitions/issues/503#issuecomment-1534764067
 
 
 Checks:
@@ -20,7 +20,6 @@ Checks:
     Pass Link Checker's check: yes.
 
 The publication should be tagged as "Security", and "Privacy".
-
 
 Xueyuan, as before, the Abstracts in the documents are quite simple, and it is good enough for a HPN news. Ping me
 if you prefer me to send a draft.
