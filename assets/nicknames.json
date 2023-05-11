@@ -1036,7 +1036,8 @@
             "griffin",
             "kgriffin",
             "kgriffin-gleif",
-            "kgriffen-gleif"
+            "kgriffen-gleif",
+            "kevingriffin-gleif"
         ],
         "name": "Kevin Griffin"
     },
@@ -1098,7 +1099,15 @@
     {
         "name": "Greg Berstein",
         "nick": [
-            "wind4greg"
+            "wind4greg",
+            "GregB"
+        ]
+    },
+    {
+        "name": "Stephan Baur",
+        "nick": [
+            "baur",
+            "sthephan_baur"
         ]
     }
 ]
