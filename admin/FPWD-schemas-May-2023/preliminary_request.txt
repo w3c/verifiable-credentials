@@ -1,0 +1,28 @@
+cc orie@transmute.industries, auribe@tbd.email, gabe@tbd.email, brent, kristina, xueyan, comm team
+
+
+Dear Jiaying, Denis,
+
+This is a preliminary publication request for a FPWD:
+
+    Document Title: Verifiable Credentials JSON Schema Specification 2023
+    Document URL:  https://www.w3.org/TR/2023/WD-vc-json-schema-20230523/
+    Publication Date: 2023-05-23
+    Approvals:
+        Record of publication request:
+            https://github.com/w3c/transitions/issues/507
+        Director's approval state: expected...
+
+Checks:
+    Pass Pubrules' check: yes
+    Pass Link Checker's check: yes.
+
+The publication should be tagged as "Security", and "Privacy".
+
+Xueyuan, as before, the Abstracts in the documents are quite simple, and it is good enough for a HPN news. Ping me
+if you prefer me to send a draft.
+
+Thank You
+
+Ivan
+

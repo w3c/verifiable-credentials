@@ -1,5 +1,5 @@
 {
-    "date": "2023-05-11T07:43:38.061Z",
+    "date": "2023-05-17T16:15:35.003Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -86,9 +86,19 @@
         "2023-04-26-vcwg.md",
         "2023-05-02-vcwg-special.md",
         "2023-05-03-vcwg.md",
-        "2023-05-10-vcwg.md"
+        "2023-05-10-vcwg.md",
+        "2023-05-16-vcwg-special.md",
+        "2023-05-17-vcwg.md"
     ],
     "resolutions": [
+        {
+            "year": 2023,
+            "date": "2023-05-17",
+            "number": 1,
+            "text": "Publish the VC JSON Schema 2023 specification ( <a href=\"https://w3c.github.io/vc-json-schema/FPWD/2023-05-23/\">https://w3c.github.io/vc-json-schema/FPWD/2023-05-23/)</a>) as a First Public Working Draft with a short name of <code>vc-json-schema</code> with a target publication date of May 23th 2023.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-05-17-vcwg#resolution1",
+            "call": "vcwg"
+        },
         {
             "year": 2023,
             "date": "2023-05-03",
