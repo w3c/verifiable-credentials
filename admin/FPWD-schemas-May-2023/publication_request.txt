@@ -12,7 +12,7 @@ This is an official publication request for a FPWD:
         Record of publication request:
             https://github.com/w3c/transitions/issues/507
         Director's approval state: approved in
-            https://github.com/w3c/transitions/issues/507#issuecomment-@@@@@@@@
+            https://github.com/w3c/transitions/issues/507#issuecomment-1553377382
 
 Checks:
     Pass Pubrules' check: yes
