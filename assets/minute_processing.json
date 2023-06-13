@@ -1,5 +1,5 @@
 {
-    "date": "2023-06-08T09:07:47.999Z",
+    "date": "2023-06-13T16:11:59.367Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -92,9 +92,26 @@
         "2023-05-23-vcwg-special.md",
         "2023-05-24-vcwg.md",
         "2023-06-06-vcwg-special.md",
-        "2023-06-07-vcwg.md"
+        "2023-06-07-vcwg.md",
+        "2023-06-13-vcwg-special.md"
     ],
     "resolutions": [
+        {
+            "year": 2023,
+            "date": "2023-06-13",
+            "number": 1,
+            "text": "The v2 context URL will remain normative (<a href=\"https://www.w3.org/ns/credentials/v2)\">https://www.w3.org/ns/credentials/v2)</a>, its value will be made normative through the use of a hash digest.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-06-13-vcwg-special#resolution1",
+            "call": "vcwg-special"
+        },
+        {
+            "year": 2023,
+            "date": "2023-06-13",
+            "number": 2,
+            "text": "Add issue markers saying that the value of the hash digest for the v2 context may change before PR and that's expected.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-06-13-vcwg-special#resolution2",
+            "call": "vcwg-special"
+        },
         {
             "year": 2023,
             "date": "2023-05-17",
