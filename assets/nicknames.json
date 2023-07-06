@@ -589,7 +589,8 @@
             "Phil_ASU",
             "Phil__ASU",
             "Phillip_Long",
-            "PDL_ASU"
+            "PDL_ASU",
+            "pl_asu"
         ]
     },
     {
@@ -1148,6 +1149,13 @@
         "nick": [
             "paolo",
             "derosa"
+        ]
+    },
+    {
+        "name": "Nicholas Lansley",
+        "nick": [
+            "lansley",
+            "nicholas"
         ]
     }
 ]
