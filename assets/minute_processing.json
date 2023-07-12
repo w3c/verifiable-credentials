@@ -1,5 +1,5 @@
 {
-    "date": "2023-07-06T07:15:37.315Z",
+    "date": "2023-07-12T16:19:19.202Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -99,9 +99,19 @@
         "2023-06-21-vcwg.md",
         "2023-06-27-vcwg-special.md",
         "2023-06-28-vcwg.md",
-        "2023-07-05-vcwg.md"
+        "2023-07-05-vcwg.md",
+        "2023-07-11-vcwg-special.md",
+        "2023-07-12-vcwg.md"
     ],
     "resolutions": [
+        {
+            "year": 2023,
+            "date": "2023-07-12",
+            "number": 1,
+            "text": "change the shortname and repository of VC-JWT to vc-jose-cose.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-07-12-vcwg#resolution1",
+            "call": "vcwg"
+        },
         {
             "year": 2023,
             "date": "2023-06-13",
