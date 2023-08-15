@@ -226,6 +226,14 @@
         "name": "Wayne Chang"
     },
     {
+        "name": "Margery Clacy",
+        "nick": [
+            "clacy",
+            "margery",
+            "margery_clacy"
+        ]
+    },
+    {
         "nick": [
             "acoburn"
         ],
@@ -267,9 +275,22 @@
         "name": "Dudley Collinson"
     },
     {
+        "name": "Sebastian Crane",
+        "nick": [
+            "seabass"
+        ]
+    },
+    {
         "name": "Edward Curran",
         "nick": [
             "curran"
+        ]
+    },
+    {
+        "name": "Paolo De Rosa",
+        "nick": [
+            "derosa",
+            "paolo"
         ]
     },
     {
@@ -297,9 +318,9 @@
         "nick": [
             "Paul",
             "PaulD",
-            "pauld_gs1",
             "PaulDietrich",
-            "Paul_Dietrich_GS1"
+            "Paul_Dietrich_GS1",
+            "pauld_gs1"
         ]
     },
     {
@@ -351,9 +372,9 @@
     {
         "nick": [
             "Phil-T3",
+            "PhilF",
             "PhilFariller",
-            "Phil_F",
-            "PhilF"
+            "Phil_F"
         ],
         "name": "Phil Feairheller"
     },
@@ -531,6 +552,13 @@
         "name": "Adam Lake"
     },
     {
+        "name": "Nicholas Lansley",
+        "nick": [
+            "lansley",
+            "nicholas"
+        ]
+    },
+    {
         "nick": [
             "davidlehn",
             "dlehn",
@@ -583,6 +611,7 @@
         "name": "Phillip Long",
         "nick": [
             "PDL-ASU",
+            "PDL_ASU",
             "PL-ASU",
             "Phil",
             "Phil-ASU",
@@ -590,7 +619,6 @@
             "Phil_ASU",
             "Phil__ASU",
             "Phillip_Long",
-            "PDL_ASU",
             "pl_asu"
         ]
     },
@@ -728,8 +756,8 @@
         "nick": [
             "Mircea",
             "Nistor",
-            "mirceanistor",
-            "mircea_nistor"
+            "mircea_nistor",
+            "mirceanistor"
         ],
         "name": "Mircea Nistor"
     },
@@ -953,6 +981,12 @@
         "name": "Todd Snyder"
     },
     {
+        "name": "Hyojin Song",
+        "nick": [
+            "hyojin"
+        ]
+    },
+    {
         "nick": [
             "manu",
             "msporny"
@@ -967,6 +1001,13 @@
         ],
         "name": "Orie Steele",
         "github": "OR13"
+    },
+    {
+        "name": "Nicholas Steele",
+        "nick": [
+            "nicksteele",
+            "steele"
+        ]
     },
     {
         "nick": [
@@ -1012,10 +1053,26 @@
     },
     {
         "nick": [
+            "bruno",
+            "bruno_vavala",
+            "vavala"
+        ],
+        "name": "Bruno Vavala"
+    },
+    {
+        "nick": [
             "David_Waite",
             "dwaite"
         ],
         "name": "David Waite"
+    },
+    {
+        "nick": [
+            "Li_Wang_Hong",
+            "liwanghong",
+            "lizi"
+        ],
+        "name": "Li Wang Hong"
     },
     {
         "nick": [
@@ -1120,55 +1177,5 @@
             "vanveen"
         ],
         "name": "Arjen van Veen"
-    },
-    {
-        "nick": [
-            "Li_Wang_Hong",
-            "lizi",
-            "liwanghong"
-        ],
-        "name": "Li Wang Hong"
-    },
-    {
-        "nick": [
-            "bruno",
-            "vavala",
-            "bruno_vavala"
-        ],
-        "name": "Bruno Vavala"
-    },
-    {
-        "name": "Margery Clacy",
-        "nick": [
-            "clacy",
-            "margery",
-            "margery_clacy"
-        ]
-    },
-    {
-        "name": "Paolo De Rosa",
-        "nick": [
-            "paolo",
-            "derosa"
-        ]
-    },
-    {
-        "name": "Nicholas Lansley",
-        "nick": [
-            "lansley",
-            "nicholas"
-        ]
-    },
-    {
-        "name": "Hyojin Song",
-        "nick": [
-            "hyojin"
-        ]
-    },
-    {
-        "name": "Sebastian Crane",
-        "nick": [
-            "seabass"
-        ]
     }
 ]
