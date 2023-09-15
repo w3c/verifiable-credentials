@@ -884,7 +884,8 @@
     },
     {
         "nick": [
-            "Jean_Yves"
+            "Jean_Yves",
+            "jyrossi"
         ],
         "name": "Jean-Yves Rossi"
     },
@@ -1185,5 +1186,36 @@
             "Calvin"
         ],
         "name": "Calvin Cheng"
+    },
+    {
+        "nick": [
+            "nick_clark"
+        ],
+        "name": "Nick Clark"
+    },
+    {
+        "name": "David Trang",
+        "nick": [
+            "David_Trang"
+        ]
+    },
+    {
+        "name": "Dudley Collinson",
+        "nick": [
+            "Dudley_Collinson"
+        ]
+    },
+    {
+        "name": "Juan Quemada",
+        "nick": [
+            "quemada"
+        ]
+    },
+    {
+        "name": "Joaquin Salvachua",
+        "nick": [
+            "joaquin",
+            "salvachua"
+        ]
     }
 ]

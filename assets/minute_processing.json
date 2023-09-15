@@ -117,9 +117,42 @@
         "2023-08-29-vcwg-special.md",
         "2023-08-30-vcwg.md",
         "2023-09-05-vcwg-special.md",
-        "2023-09-06-vcwg.md"
+        "2023-09-06-vcwg.md",
+        "2023-09-14-vcwg.md"
     ],
     "resolutions": [
+        {
+            "year": 2023,
+            "date": "2023-09-14",
+            "number": 4,
+            "text": "Request the publication of the Verifiable Credentials JSON Schema specification, after merging PR #216, as a Candidate Recommendation with a CR period ending two months after publication and with exit criteria requiring two independent implementations of each mandatory (MUST) feature in the specification.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-09-14-vcwg-special#resolution4",
+            "call": "vcwg"
+        },
+        {
+            "year": 2023,
+            "date": "2023-09-14",
+            "number": 3,
+            "text": "Request the publication of the Data Integrity ECDSA Cryptosuites v1.0 specification as a Candidate Recommendation with a CR period ending two months after publication and with exit criteria requiring two independent implementations of each mandatory (MUST) feature in the specification.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-09-14-vcwg-special#resolution3",
+            "call": "vcwg"
+        },
+        {
+            "year": 2023,
+            "date": "2023-09-14",
+            "number": 2,
+            "text": "Request publication of the Data Integrity EdDSA Cryptosuites v1.0 specification as a Candidate Recommendation with a CR period ending two months after the publication date and with exit criteria requiring two independent implementations of each mandatory (MUST) feature in the specification.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-09-14-vcwg-special#resolution2",
+            "call": "vcwg"
+        },
+        {
+            "year": 2023,
+            "date": "2023-09-14",
+            "number": 1,
+            "text": "Request the publication of the Verifiable Credential Data Integrity 1.0 specification, with resolutions to issues 191 and 192 integrated, as a Candidate Recommendation with a CR period ending two months after publication and with exit criteria requiring two independent implementations of each mandatory (MUST) feature in the specification.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-09-14-vcwg-special#resolution1",
+            "call": "vcwg"
+        },
         {
             "year": 2023,
             "date": "2023-08-08",
