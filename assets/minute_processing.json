@@ -1,5 +1,5 @@
 {
-    "date": "2023-09-06T16:15:28.984Z",
+    "date": "2023-09-16T08:22:18.398Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -118,9 +118,18 @@
         "2023-08-30-vcwg.md",
         "2023-09-05-vcwg-special.md",
         "2023-09-06-vcwg.md",
-        "2023-09-14-vcwg.md"
+        "2023-09-14-vcwg.md",
+        "2023-09-15-vcwg.md"
     ],
     "resolutions": [
+        {
+            "year": 2023,
+            "date": "2023-09-15",
+            "number": 1,
+            "text": "the new shortname is vc-bitstring-status-list.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-09-15-vcwg#resolution1",
+            "call": "vcwg"
+        },
         {
             "year": 2023,
             "date": "2023-09-14",
