@@ -1,0 +1,40 @@
+to Denis
+cc msporny@digitalbazaar.com, gabe@tbd.email, seabass-labrax@gmx.com, dzagidulin@gmail.com gregb@grotto-networking.com group-vc-wg-chairs@w3.org comm
+
+
+Dear Denis,
+
+This is a preliminary publication request for four CR snapshots:
+
+    Document Title: Verifiable Credential Data Integrity 1.0
+    Document URL:  https://www.w3.org/TR/2023/CR-vc-data-integrity-20231107/
+    Publication Date: 2023-11-07
+
+    Document Title: Data Integrity EdDSA Cryptosuites v1.0
+    Document URL:  https://www.w3.org/TR/2023/CR-vc-di-eddsa-20231107/
+    Publication Date: 2023-11-07
+
+    Document Title: ECDSA Cryptosuites v1.0
+    Document URL:  https://www.w3.org/TR/2023/CR-vc-di-ecdsa-20231107/
+    Publication Date: 2023-11-07
+
+    Document Title: Verifiable Credentials JSON Schema Specification
+    Document URL:  https://www.w3.org/TR/2023/CR-vc-json-schema-20231107/
+    Publication Date: 2023-11-07
+
+    Approvals:
+        Record of publication request:
+            https://github.com/w3c/transitions/issues/573
+        Director's approval state: expected...
+
+Checks:
+    Pass Pubrules' check: yes
+    Pass Link Checker's check: yes.
+
+Xueyuan, as before, the Abstracts in the documents are quite simple, and it is good enough for a HPN news. Ping me
+if you prefer me to send a draft.
+
+Thank You
+
+Ivan
+

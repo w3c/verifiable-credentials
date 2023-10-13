@@ -1,0 +1,117 @@
+Dear Advisory Committee Representative,
+[This announcement will be forwarded to W3C group chairs]
+
+I am pleased to announce that the following documents are
+W3C Candidate Recommendation Snapshots:
+  Verifiable Credential Data Integrity 1.0
+    https://www.w3.org/TR/2023/CR-vc-data-integrity-20231107/
+  Data Integrity EdDSA Cryptosuites v1.0
+    https://www.w3.org/TR/2023/CR-vc-di-eddsa-20231107
+  Data Integrity ECDSA Cryptosuites v1.0
+    https://www.w3.org/TR/2023/CR-vc-di-ecdsa-20231107
+  Verifiable Credentials JSON Schema Specification    
+    https://www.w3.org/TR/2023/CR-vc-json-schema-20231107
+
+The approval and publication are in response to this transition request:
+   https://github.com/w3c/transitions/issues/@@@@
+
+Please provide feedback by 2024-01-07 raising an issue on GitHub:
+   https://github.com/w3c/vc-data-integrity/issues/
+   https://github.com/w3c/vc-di-eddsa/issues/
+   https://github.com/w3c/vc-di-ecdsa/issues/
+   https://github.com/w3c/vc-json-schema/issues/ 
+
+Patent disclosures relevant to this specification may be found on the 
+VC Working Group's patent disclosure page in conformance with W3C policy:
+   https://www.w3.org/groups/wg/vc/ipr/
+
+This Call for Implementations follows section 6.3.7 "Transitioning to 
+Candidate Recommendation" of the W3C Process Document:
+   https://www.w3.org/2023/Process-20230612/#transition-cr
+
+Thank you,
+
+For Philippe le Hégaret, W3C Strategy and Project Lead,
+Ivan Herman, VC WG Team Contact;
+Xueyuan Jia, W3C Marketing & Communications
+
+==============================================
+Quoting from:
+
+Verifiable Credential Data Integrity 1.0
+W3C Candidate Recommendation Snapshot, 7 November 2023
+
+This version:
+   https://www.w3.org/TR/2023/CR-vc-data-integrity-20231107/
+Latest published version:
+   https://www.w3.org/TR/vc-data-integrity/
+
+Abstract:
+This specification describes mechanisms for ensuring the 
+authenticity and integrity of Verifiable Credentials and 
+similar types of constrained digital documents using cryptography, 
+especially through the use of digital signatures and related 
+mathematical proofs.
+
+Status of this document:
+https://www.w3.org/TR/2023/CR-vc-data-integrity-20231107/#sotd
+
+---
+
+Data Integrity EdDSA Cryptosuites v1.0
+W3C Candidate Recommendation Snapshot, 7 November 2023
+
+This version:
+   https://www.w3.org/TR/2023/CR-vc-di-eddsa-20231107/
+Latest published version:
+   https://www.w3.org/TR/vc-di-eddsa/
+
+Abstract:
+This specification describes a Data Integrity cryptographic suite
+for use when creating or verifying a digital signature using the 
+twisted Edwards Curve Digital Signature Algorithm (EdDSA) 
+and Curve25519 (ed25519).
+
+Status of this document:
+https://www.w3.org/TR/2023/CR-vc-di-eddsa-20231107/#sotd
+
+---
+
+Data Integrity ECDSA Cryptosuites v1.0
+W3C Candidate Recommendation Snapshot, 7 November 2023
+
+This version:
+   https://www.w3.org/TR/2023/CR-vc-di-ecdsa-20231107/
+Latest published version:
+   https://www.w3.org/TR/vc-di-ecdsa/
+
+Abstract:
+This specification describes a Data Integrity Cryptosuite for
+use when generating a digital signature using the Elliptic
+Curve Digital Signature Algorithm (ECDSA).
+
+Status of this document:
+https://www.w3.org/TR/2023/CR-vc-di-ecdsa-20231107/#sotd
+
+---
+
+Verifiable Credentials JSON Schema Specification
+W3C Candidate Recommendation Snapshot, 7 November 2023
+
+This version:
+   https://www.w3.org/TR/2023/CR-vc-json-schema-20231107/
+Latest published version:
+   https://www.w3.org/TR/vc-json-schema/
+
+Abstract:
+Among other things, the [VC-DATA-MODEL-2.0] specifies the models
+used for Verifiable Credentials, Verifiable Presentations, and
+explains the relationships between three parties: issuers,
+holders, and verifiers. Verifiability, extensibility, and 
+semantic interoperability are critical pieces of functionality
+referenced throughout the [VC-DATA-MODEL-2.0]. This specification
+provides a mechanism to make use of a Credential Schema in
+Verifiable Credential, leveraging the existing Data Schemas concept.
+
+Status of this document:
+https://www.w3.org/TR/2023/CR-vc-json-schema-20231107/#sotd

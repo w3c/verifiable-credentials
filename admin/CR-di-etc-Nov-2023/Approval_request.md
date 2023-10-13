@@ -8,15 +8,15 @@
   - 07 November 2023
   - Editors' draft: https://w3c.github.io/vc-data-integrity/
 - Data Integrity EdDSA Cryptosuites v1.0
-  - https://www.w3.org/TR/2023/CR-vc-di-eddsa-20231107
+  - https://www.w3.org/TR/2023/CR-vc-di-eddsa-20231107/
   - 07 November 2023
   - Editors' draft: https://w3c.github.io/vc-di-eddsa/
 - Data Integrity ECDSA Cryptosuites v1.0
-  - https://www.w3.org/TR/2023/CR-vc-di-ecdsa-20231107
+  - https://www.w3.org/TR/2023/CR-vc-di-ecdsa-20231107/
   - 07 November 2023
   - Editors' draft: https://w3c.github.io/vc-di-ecdsa/
-- Verifiable Credentials JSON Schema
-  - https://www.w3.org/TR/2023/CR-vc-json-schema-20231107
+- Verifiable Credentials JSON Schema Specification
+  - https://www.w3.org/TR/2023/CR-vc-json-schema-20231107/
   - 07 November 2023
   - Editors' draft: https://w3c.github.io/vc-json-schema/
 
@@ -65,7 +65,7 @@ to the discussion on W3C's Strategy team, see:
 
 The WG's judgement is that a normative dependency is appropriate in this case.
 
-All documents depend has a dependency on the WG specification:
+All documents have a dependency on the WG specification:
 
 - Verifiable Credentials Data Model v2.0, https://www.w3.org/TR/vc-data-model-2.0/
 
@@ -118,3 +118,6 @@ None, see
 
 - https://www.w3.org/groups/wg/vc/ipr/
 
+---
+
+cc: @msporny @seabass-labrax, @dmitrizagidulin @Wind4Greg @decentralgabe
