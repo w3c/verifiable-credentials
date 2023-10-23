@@ -31,6 +31,28 @@ Checks:
     Pass Pubrules' check: yes
     Pass Link Checker's check: yes.
 
+
+On the link checker results:
+
+- in the data integrity spec, one gets:
+
+Lines: 2975, 4782 https://w3c.github.io/vc-specs-dir/Status: 200 OK
+https://w3c.github.io/vc-specs-dir/#proof (line 2975)
+
+These are broken because the link checker doesn't run ReSpec before searching
+for fragments. The link works when you bring it up in a web browser.
+
+- there are some errors on linked-in URLs that do not allow robots. The links have been checked in the browser and they are o.k.
+
+- there is a common error report to all:
+
+    Line: 349 https://www.w3.org/Consortium/Legal/ipr-notice
+    Status: 302 -> 200 OK
+
+This link is added by respec, it is a bit out of our hands...
+
+
+
 Xueyuan, as before, the Abstracts in the documents are quite simple, and it is good enough for a HPN news. Ping me
 if you prefer me to send a draft.
 
