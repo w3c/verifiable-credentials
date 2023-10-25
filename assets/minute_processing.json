@@ -1,5 +1,5 @@
 {
-    "date": "2023-10-18T16:12:28.735Z",
+    "date": "2023-10-25T07:29:12.085Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -126,9 +126,34 @@
         "2023-10-04-vcwg.md",
         "2023-10-11-vcwg.md",
         "2023-10-17-vcwg-special.md",
-        "2023-10-18-vcwg.md"
+        "2023-10-18-vcwg.md",
+        "2023-10-24-vcwg-special.md"
     ],
     "resolutions": [
+        {
+            "year": 2023,
+            "date": "2023-10-24",
+            "number": 1,
+            "text": "The working group will create a Controller Document specification, with the intent that it become a recommendation, containing functionality and definitions that are common to both securing specifications (VC JOSE COSE and Data Integrity).",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-10-24-vcwg-special#resolution1",
+            "call": "vcwg-special"
+        },
+        {
+            "year": 2023,
+            "date": "2023-10-24",
+            "number": 2,
+            "text": "Once the Controller Document specification is in the Candidate Recommendation phase, the corresponding Controller Document functionality will be removed from both securing specifications and replaced by normative references to the Controller Document specifications.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-10-24-vcwg-special#resolution2",
+            "call": "vcwg-special"
+        },
+        {
+            "year": 2023,
+            "date": "2023-10-24",
+            "number": 3,
+            "text": "The securing specifications will profile the shared document as needed.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-10-24-vcwg-special#resolution3",
+            "call": "vcwg-special"
+        },
         {
             "year": 2023,
             "date": "2023-10-11",
