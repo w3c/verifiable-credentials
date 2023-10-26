@@ -1,5 +1,5 @@
 {
-    "date": "2023-10-25T07:29:12.085Z",
+    "date": "2023-10-26T07:34:12.156Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -127,9 +127,18 @@
         "2023-10-11-vcwg.md",
         "2023-10-17-vcwg-special.md",
         "2023-10-18-vcwg.md",
-        "2023-10-24-vcwg-special.md"
+        "2023-10-24-vcwg-special.md",
+        "2023-10-25-vcwg.md"
     ],
     "resolutions": [
+        {
+            "year": 2023,
+            "date": "2023-10-25",
+            "number": 1,
+            "text": "The shared Controller Document specification will include all Controller Document features that are used by the securing specifications today, and each individual securing specification can profile the Controller Document spec down to make specific choices as desirable.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-10-25-vcwg#resolution1",
+            "call": "vcwg"
+        },
         {
             "year": 2023,
             "date": "2023-10-24",
