@@ -51,8 +51,6 @@ for fragments. The link works when you bring it up in a web browser.
 
 This link is added by respec, it is a bit out of our hands...
 
-
-
 Xueyuan, as before, the Abstracts in the documents are quite simple, and it is good enough for a HPN news. Ping me
 if you prefer me to send a draft.
 
