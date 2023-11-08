@@ -4,16 +4,16 @@ Dear Advisory Committee Representative,
 I am pleased to announce that the following documents are
 W3C Candidate Recommendation Snapshots:
   Verifiable Credential Data Integrity 1.0
-    https://www.w3.org/TR/2023/CR-vc-data-integrity-20231107/
+    https://www.w3.org/TR/2023/CR-vc-data-integrity-20231114/
   Data Integrity EdDSA Cryptosuites v1.0
-    https://www.w3.org/TR/2023/CR-vc-di-eddsa-20231107
+    https://www.w3.org/TR/2023/CR-vc-di-eddsa-20231114
   Data Integrity ECDSA Cryptosuites v1.0
-    https://www.w3.org/TR/2023/CR-vc-di-ecdsa-20231107
+    https://www.w3.org/TR/2023/CR-vc-di-ecdsa-20231114
   Verifiable Credentials JSON Schema Specification    
-    https://www.w3.org/TR/2023/CR-vc-json-schema-20231107
+    https://www.w3.org/TR/2023/CR-vc-json-schema-20231114
 
 The approval and publication are in response to this transition request:
-   https://github.com/w3c/transitions/issues/@@@@
+   https://github.com/w3c/transitions/issues/573
 
 Please provide feedback by 2024-01-07 raising an issue on GitHub:
    https://github.com/w3c/vc-data-integrity/issues/
@@ -39,10 +39,10 @@ Xueyuan Jia, W3C Marketing & Communications
 Quoting from:
 
 Verifiable Credential Data Integrity 1.0
-W3C Candidate Recommendation Snapshot, 7 November 2023
+W3C Candidate Recommendation Snapshot, 14 November 2023
 
 This version:
-   https://www.w3.org/TR/2023/CR-vc-data-integrity-20231107/
+   https://www.w3.org/TR/2023/CR-vc-data-integrity-20231114/
 Latest published version:
    https://www.w3.org/TR/vc-data-integrity/
 
@@ -54,15 +54,15 @@ especially through the use of digital signatures and related
 mathematical proofs.
 
 Status of this document:
-https://www.w3.org/TR/2023/CR-vc-data-integrity-20231107/#sotd
+https://www.w3.org/TR/2023/CR-vc-data-integrity-20231114/#sotd
 
 ---
 
 Data Integrity EdDSA Cryptosuites v1.0
-W3C Candidate Recommendation Snapshot, 7 November 2023
+W3C Candidate Recommendation Snapshot, 14 November 2023
 
 This version:
-   https://www.w3.org/TR/2023/CR-vc-di-eddsa-20231107/
+   https://www.w3.org/TR/2023/CR-vc-di-eddsa-20231114/
 Latest published version:
    https://www.w3.org/TR/vc-di-eddsa/
 
@@ -73,15 +73,15 @@ twisted Edwards Curve Digital Signature Algorithm (EdDSA)
 and Curve25519 (ed25519).
 
 Status of this document:
-https://www.w3.org/TR/2023/CR-vc-di-eddsa-20231107/#sotd
+https://www.w3.org/TR/2023/CR-vc-di-eddsa-20231114/#sotd
 
 ---
 
 Data Integrity ECDSA Cryptosuites v1.0
-W3C Candidate Recommendation Snapshot, 7 November 2023
+W3C Candidate Recommendation Snapshot, 14 November 2023
 
 This version:
-   https://www.w3.org/TR/2023/CR-vc-di-ecdsa-20231107/
+   https://www.w3.org/TR/2023/CR-vc-di-ecdsa-20231114/
 Latest published version:
    https://www.w3.org/TR/vc-di-ecdsa/
 
@@ -91,15 +91,15 @@ use when generating a digital signature using the Elliptic
 Curve Digital Signature Algorithm (ECDSA).
 
 Status of this document:
-https://www.w3.org/TR/2023/CR-vc-di-ecdsa-20231107/#sotd
+https://www.w3.org/TR/2023/CR-vc-di-ecdsa-20231114/#sotd
 
 ---
 
 Verifiable Credentials JSON Schema Specification
-W3C Candidate Recommendation Snapshot, 7 November 2023
+W3C Candidate Recommendation Snapshot, 14 November 2023
 
 This version:
-   https://www.w3.org/TR/2023/CR-vc-json-schema-20231107/
+   https://www.w3.org/TR/2023/CR-vc-json-schema-20231114/
 Latest published version:
    https://www.w3.org/TR/vc-json-schema/
 
@@ -114,4 +114,4 @@ provides a mechanism to make use of a Credential Schema in
 Verifiable Credential, leveraging the existing Data Schemas concept.
 
 Status of this document:
-https://www.w3.org/TR/2023/CR-vc-json-schema-20231107/#sotd
+https://www.w3.org/TR/2023/CR-vc-json-schema-20231114/#sotd

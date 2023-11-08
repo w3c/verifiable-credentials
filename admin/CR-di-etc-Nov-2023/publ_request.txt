@@ -7,20 +7,20 @@ Dear Denis,
 This is an official publication request for four CR snapshots:
 
     Document Title: Verifiable Credential Data Integrity 1.0
-    Document URL:  https://www.w3.org/TR/2023/CR-vc-data-integrity-20231107/
-    Publication Date: 2023-11-07
+    Document URL:  https://www.w3.org/TR/2023/CR-vc-data-integrity-20231114/
+    Publication Date: 2023-11-14
 
     Document Title: Data Integrity EdDSA Cryptosuites v1.0
-    Document URL:  https://www.w3.org/TR/2023/CR-vc-di-eddsa-20231107/
-    Publication Date: 2023-11-07
+    Document URL:  https://www.w3.org/TR/2023/CR-vc-di-eddsa-20231114/
+    Publication Date: 2023-11-14
 
     Document Title: ECDSA Cryptosuites v1.0
-    Document URL:  https://www.w3.org/TR/2023/CR-vc-di-ecdsa-20231107/
-    Publication Date: 2023-11-07
+    Document URL:  https://www.w3.org/TR/2023/CR-vc-di-ecdsa-20231114/
+    Publication Date: 2023-11-14
 
     Document Title: Verifiable Credentials JSON Schema Specification
-    Document URL:  https://www.w3.org/TR/2023/CR-vc-json-schema-20231107/
-    Publication Date: 2023-11-07
+    Document URL:  https://www.w3.org/TR/2023/CR-vc-json-schema-20231114/
+    Publication Date: 2023-11-14
 
     Approvals:
         Record of publication request:
@@ -32,11 +32,9 @@ Checks:
     Pass Pubrules' check: yes
     Pass Link Checker's check: yes.
 
-The documents have already been checked; they have not changed since then.
+The documents have already been checked; they have not changed since then (except for the publication date change).
 
-O
-Xueyuan, as before, the Abstracts in the documents are quite simple, and it is good enough for a HPN news. Ping me
-if you prefer me to send a draft.
+Xueyuan, I will send you drafts for HPN and the AC announcement in separate mails.
 
 Thank You
 
