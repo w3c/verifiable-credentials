@@ -4,29 +4,29 @@ cc msporny@digitalbazaar.com, gabe@tbd.email, seabass-labrax@gmx.com, dzagidulin
 
 Dear Denis,
 
-This is an official publication request for four CR snapshots:
+This is an official publication request for four CR snapshots for Tuesday, 21st of November:
 
     Document Title: Verifiable Credential Data Integrity 1.0
-    Document URL:  https://www.w3.org/TR/2023/CR-vc-data-integrity-20231114/
-    Publication Date: 2023-11-14
+    Document URL:  https://www.w3.org/TR/2023/CR-vc-data-integrity-20231121/
+    Publication Date: 2023-11-21
 
     Document Title: Data Integrity EdDSA Cryptosuites v1.0
-    Document URL:  https://www.w3.org/TR/2023/CR-vc-di-eddsa-20231114/
-    Publication Date: 2023-11-14
+    Document URL:  https://www.w3.org/TR/2023/CR-vc-di-eddsa-20231121/
+    Publication Date: 2023-11-21
 
     Document Title: ECDSA Cryptosuites v1.0
-    Document URL:  https://www.w3.org/TR/2023/CR-vc-di-ecdsa-20231114/
-    Publication Date: 2023-11-14
+    Document URL:  https://www.w3.org/TR/2023/CR-vc-di-ecdsa-20231121/
+    Publication Date: 2023-11-21
 
     Document Title: Verifiable Credentials JSON Schema Specification
-    Document URL:  https://www.w3.org/TR/2023/CR-vc-json-schema-20231114/
-    Publication Date: 2023-11-14
+    Document URL:  https://www.w3.org/TR/2023/CR-vc-json-schema-20231121/
+    Publication Date: 2023-11-21
 
     Approvals:
         Record of publication request:
             https://github.com/w3c/transitions/issues/573
         Director's approval:
-            https://github.com/w3c/transitions/issues/573#@@@@@
+            https://github.com/w3c/transitions/issues/573#issuecomment-1814618372
 
 Checks:
     Pass Pubrules' check: yes
