@@ -1,0 +1,36 @@
+Denis,
+
+this is an official publication request for a W3C Working Draft:
+
+Title: Bitstring Status List v1.0
+Publication Date: Thursday 23 November
+Short name: vc-bitstring-status-list
+URL: https://www.w3.org/TR/2023/WD-vc-bitstring-status-list-20231123/ 
+(the document is already in place).
+
+Although a Working Draft, and the WG uses Echidna, this out-of-band
+publication request is necessary because the WG intends to change the earlier short name
+from `vc-status-list` to`vc-bitstring-status-list`. The previous document is:
+
+https://www.w3.org/TR/2023/WD-vc-status-list-20230427/
+
+Along the lines of an earlier change I tried to follow what is [1], ie,
+to add a data attribute to the history item. However, as we have already seen in [2],
+respec still does not behave as expected, so I followed your earlier 
+instructions in [3] (related to another document) and added a new
+item in the history header part explicitly. I hope that will do it.
+
+Philippe, I am not sure whether there is a need for a separate TiLT approval for such a change. There is 
+definitely no issue template for something like that in the transition github repo, and I did not see
+any precedence either. If there is a need for an approval, could you give it, so that the webmaster could
+proceed?
+
+Thanks
+
+Ivan
+
+
+[1] https://www.w3.org/pubrules/doc/rules/?profile=WD#docIDHistory
+[2] https://github.com/w3c/vc-jose-cose/pull/126#issuecomment-1638094257
+[3] https://github.com/w3c/vc-jose-cose/pull/126#issuecomment-1638135172
+

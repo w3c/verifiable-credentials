@@ -227,12 +227,24 @@
         "name": "Wayne Chang"
     },
     {
+        "nick": [
+            "Calvin"
+        ],
+        "name": "Calvin Cheng"
+    },
+    {
         "name": "Margery Clacy",
         "nick": [
             "clacy",
             "margery",
             "margery_clacy"
         ]
+    },
+    {
+        "nick": [
+            "nick_clark"
+        ],
+        "name": "Nick Clark"
     },
     {
         "nick": [
@@ -276,6 +288,12 @@
         "name": "Dudley Collinson"
     },
     {
+        "name": "Dudley Collinson",
+        "nick": [
+            "Dudley_Collinson"
+        ]
+    },
+    {
         "name": "Sebastian Crane",
         "nick": [
             "seabass"
@@ -286,6 +304,13 @@
         "nick": [
             "curran"
         ]
+    },
+    {
+        "nick": [
+            "cole",
+            "davis"
+        ],
+        "name": "Cole Davis"
     },
     {
         "name": "Paolo De Rosa",
@@ -363,10 +388,10 @@
     {
         "nick": [
             "DavidE",
+            "David_Ezell",
             "David_Ezell_Conexxus",
             "dezell",
-            "dezell2",
-            "David_Ezell"
+            "dezell2"
         ],
         "name": "David Ezell",
         "github": "dezell"
@@ -399,6 +424,13 @@
         ]
     },
     {
+        "name": "Sam Goto",
+        "nick": [
+            "sam",
+            "sgoto"
+        ]
+    },
+    {
         "nick": [
             "rgrant"
         ],
@@ -423,6 +455,13 @@
         ],
         "name": "Amy Guy",
         "github": "rhiaro"
+    },
+    {
+        "nick": [
+            "Hajia",
+            "Nas"
+        ],
+        "name": "Nas Hajia"
     },
     {
         "nick": [
@@ -495,6 +534,12 @@
             "yue_jing"
         ],
         "name": "Yue Jing"
+    },
+    {
+        "name": "Johan Johan",
+        "nick": [
+            "johan"
+        ]
     },
     {
         "nick": [
@@ -697,6 +742,12 @@
         ]
     },
     {
+        "nick": [
+            "Mielnicki"
+        ],
+        "name": "Tomasz Mielnicki"
+    },
+    {
         "name": "Jeremie Miller",
         "nick": [
             "jer",
@@ -812,6 +863,12 @@
             "mprorock"
         ],
         "name": "Michael Prorock"
+    },
+    {
+        "name": "Juan Quemada",
+        "nick": [
+            "quemada"
+        ]
     },
     {
         "nick": [
@@ -932,11 +989,25 @@
         "name": "Cihan Saglam"
     },
     {
+        "name": "Joaquin Salvachua",
+        "nick": [
+            "joaquin",
+            "salvachua"
+        ]
+    },
+    {
         "name": "Hiroyuki Sano",
         "nick": [
             "hiroyuki",
             "hsano"
         ]
+    },
+    {
+        "nick": [
+            "samuel",
+            "schlesinger"
+        ],
+        "name": "Samuel Schlesinger"
     },
     {
         "name": "Allison Shaw",
@@ -1008,10 +1079,10 @@
     {
         "name": "Nicholas Steele",
         "nick": [
-            "nicksteele",
-            "steele",
             "nick_steele",
-            "nsteele"
+            "nicksteele",
+            "nsteele",
+            "steele"
         ]
     },
     {
@@ -1044,6 +1115,12 @@
         ],
         "name": "Ted Thibodeau Jr.",
         "github": "TallTed"
+    },
+    {
+        "name": "David Trang",
+        "nick": [
+            "David_Trang"
+        ]
     },
     {
         "nick": [
@@ -1101,8 +1178,8 @@
     },
     {
         "nick": [
-            "kristina",
             "kristi",
+            "kristina",
             "yasuda"
         ],
         "name": "Kristina Yasuda",
@@ -1184,75 +1261,5 @@
             "vanveen"
         ],
         "name": "Arjen van Veen"
-    },
-    {
-        "nick": [
-            "Calvin"
-        ],
-        "name": "Calvin Cheng"
-    },
-    {
-        "nick": [
-            "nick_clark"
-        ],
-        "name": "Nick Clark"
-    },
-    {
-        "name": "David Trang",
-        "nick": [
-            "David_Trang"
-        ]
-    },
-    {
-        "name": "Dudley Collinson",
-        "nick": [
-            "Dudley_Collinson"
-        ]
-    },
-    {
-        "name": "Juan Quemada",
-        "nick": [
-            "quemada"
-        ]
-    },
-    {
-        "name": "Joaquin Salvachua",
-        "nick": [
-            "joaquin",
-            "salvachua"
-        ]
-    },
-    {
-        "name": "Sam Goto",
-        "nick": [
-            "sam",
-            "sgoto"
-        ]
-    },
-    {
-        "name": "Johan Johan",
-        "nick": [
-            "johan"
-        ]
-    },
-    {
-        "nick": [
-            "Mielnicki"
-        ],
-        "name": "Tomasz Mielnicki"
-    },
-    {
-        "nick": [
-            "cole",
-            "davis"
-        ],
-        "name": "Cole Davis"
-    },
-    {
-        "nick": [
-            "samuel",
-            "schlesinger"
-        ],
-        "name": "Samuel Schlesinger"
     }
 ]
