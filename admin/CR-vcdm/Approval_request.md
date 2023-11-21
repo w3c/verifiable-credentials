@@ -3,17 +3,17 @@
 # Document title, URLs, estimated publication date
 
 - Verifiable Credentials Data Model v2.0
-  - https://w3c.github.io/vc-data-model/CR/2023-12-21/
+  - https://www.w3.org/TR/2023/CR-vc-data-model-2.0-20231221/
   - 21 December 2023
   - Editors' draft: https://w3c.github.io/vc-data-model/
 
 # Abstract
 
-- https://w3c.github.io/vc-data-model/CR/2023-12-21/#abstract
+- https://www.w3.org/TR/2023/CR-vc-data-model-2.0-20231221/#abstract
 
 # Status
 
-- https://w3c.github.io/vc-data-model/CR/2023-12-21/#sotd
+- https://www.w3.org/TR/2023/CR-vc-data-model-2.0-20231221/#sotd
 
 # Link to group's decision to request transition
 
@@ -21,7 +21,7 @@
 
 # Changes
 
-- https://w3c.github.io/vc-data-model/CR/2023-12-21/#revision-history
+- https://www.w3.org/TR/2023/CR-vc-data-model-2.0-20231221/#revision-history
 
 # Requirements satisfied
 
