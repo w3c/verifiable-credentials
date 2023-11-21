@@ -50,7 +50,7 @@ Horizontal reviews:
 * i18n: https://github.com/w3c/i18n-request/issues/212 (completed)
 
 Liasons:
-* There are participants' overlap with the following groups:
+* There is participant overlap with the following groups:
   * RDF Canonicalization and Hashing Working Group
   * Decentralized Identifier Working Group
   * Credentials Community Group
