@@ -314,7 +314,7 @@ _See github pull request [vc-data-model#1358](https://github.com/w3c/vc-data-mod
 … Mike also objected to the terminology? Not the feature?  
 … Unless Orie changes his mind, I don't think we'll be able to get this in there.  
 
-**mike:** This seemed to be changing established terminology for not commensurate benefit. No proportional benefit.  
+**Michael Jones:** This seemed to be changing established terminology for not commensurate benefit. No proportional benefit.  
 
 > *Dave Longley:* "envelopedVerifiableCredential" is better than "externallySecuredVerifiableCredential" based on length alone :).
 
@@ -330,7 +330,7 @@ _See github pull request [vc-data-model#1358](https://github.com/w3c/vc-data-mod
 
 > *Dave Longley:* we can keep embedded and use enveloped as a compromise there.
 
-**mike:** watermarking doesn't work for me.  
+**Michael Jones:** watermarking doesn't work for me.  
 
 **Brent Zundel:** I think I understand the reasoning behind this mechanism, that the way VC property is defined makes is so you can't just shove a JWT in there.  
 … would another possible path be that we adjust that property so it matches the likely behavior?  
