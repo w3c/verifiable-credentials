@@ -110,7 +110,7 @@ json-ld: |
 
 **Date:** 2023-12-19
 
-See also the [Agenda]() and the [IRC Log](https://www.w3.org/2023/12/19-vcwg-special-irc.txt)
+See also the [Agenda](https://www.w3.org/events/meetings/eaf86734-c2f9-410e-86b9-1cca18d0d6c9/20231219T180000/) and the [IRC Log](https://www.w3.org/2023/12/19-vcwg-special-irc.txt)
 
 ## Attendees
 {: .no_toc}
