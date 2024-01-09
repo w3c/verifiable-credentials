@@ -1,5 +1,5 @@
 {
-    "date": "2024-01-04T07:14:06.678Z",
+    "date": "2024-01-09T17:52:48.389Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -141,9 +141,18 @@
         "2023-12-13-vcwg.md",
         "2023-12-19-vcwg-special.md",
         "2023-12-20-vcwg.md",
-        "2024-01-03-vcwg.md"
+        "2024-01-03-vcwg.md",
+        "2024-01-09-vcwg-special.md"
     ],
     "resolutions": [
+        {
+            "year": 2024,
+            "date": "2024-01-09",
+            "number": 1,
+            "text": "VC JOSE COSE will add JWS signing before CR.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2024-01-09-vcwg-special#resolution1",
+            "call": "vcwg-special"
+        },
         {
             "year": 2023,
             "date": "2023-10-25",
