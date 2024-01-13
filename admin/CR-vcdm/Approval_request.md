@@ -2,26 +2,35 @@
 
 # Document title, URLs, estimated publication date
 
-- Verifiable Credentials Data Model v2.0
-  - https://www.w3.org/TR/2023/CR-vc-data-model-2.0-20231221/
-  - 21 December 2023
+- Verifiable Credentials Data Model v2.0 (VC-DATA-MODEL-2.0)
+  - https://w3c.github.io/vc-data-model/CR/2024-01-23/
+  - 23 January 2024
   - Editors' draft: https://w3c.github.io/vc-data-model/
+ 
+- Verifiable Credentials Specification Directory (VC-SPECS)
+  - https://w3c.github.io/vc-specs-dir/NOTE/2024-01-23/
+  - 23 January 2024
+  - Editors' draft: https://w3c.github.io/vc-specs-dir/
 
 # Abstract
 
-- https://www.w3.org/TR/2023/CR-vc-data-model-2.0-20231221/#abstract
+- https://w3c.github.io/vc-data-model/CR/2024-01-23/#abstract
+- https://w3c.github.io/vc-specs-dir/NOTE/2024-01-23/#abstract
 
 # Status
 
-- https://www.w3.org/TR/2023/CR-vc-data-model-2.0-20231221/#sotd
+- https://w3c.github.io/vc-data-model/CR/2024-01-23/#sotd
+- https://w3c.github.io/vc-specs-dir/NOTE/2024-01-23/#sotd
 
 # Link to group's decision to request transition
 
-- https://www.w3.org/2017/vc/WG/Meetings/Minutes/2023-12-@^@#resolution@^^@
+- https://www.w3.org/2017/vc/WG/Meetings/Minutes/2024-01-10-vcwg#resolution2
+- https://www.w3.org/2017/vc/WG/Meetings/Minutes/2024-01-10-vcwg#resolution1
 
 # Changes
 
-- https://www.w3.org/TR/2023/CR-vc-data-model-2.0-20231221/#revision-history
+- https://w3c.github.io/vc-data-model/CR/2024-01-23/#revision-history
+- VC Specification Directory is the first publication as a NOTE (no revision history)
 
 # Requirements satisfied
 
@@ -29,28 +38,30 @@ Yes.
 
 # Dependencies met (or not)
 
-All normative dependencies are either RECs or IETF RFCs, except for:
+All normative dependencies for VC Data Model v2.0 are either RECs or IETF RFCs, except for:
 
-* Verifiable Credential Data Integrity, which entered CR in November 2023.
-* Securing Verifiable Credentials using JOSE and COSE, which is a WD and expected to enter CR in Q1 2024.
+* VC-DATA-INTEGRITY, which entered CR in November 2023.
+* VC-JOSE-COSE, which is a WD and is expected to enter CR in Q1 2024.
 
 # Wide Review
 
 Issues processed:
 - https://github.com/w3c/vc-data-model/issues?q=is%3Aissue+is%3Aclosed+created%3A%3E2022-06-13
+- https://github.com/w3c/vc-specs-dir/issues?q=is%3Aissue+is%3Aclosed+created%3A%3E2022-06-13
 
 PRs processed:
 - https://github.com/w3c/vc-data-model/pulls?q=is%3Aissue+is%3Aclosed+created%3A%3E2022-06-13
+- https://github.com/w3c/vc-specs-dir/pulls?q=is%3Aissue+is%3Aclosed+created%3A%3E2022-06-13
 
-Horizontal reviews:
+Horizontal reviews (for VC-DATA-MODEL-2.0):
 * TAG: https://github.com/w3ctag/design-reviews/issues/860 (request timeout)
 * PING: https://github.com/w3cping/privacy-request/issues/121 (completed)
 * Security: https://github.com/w3c/security-request/issues/58 (request timeout)
 * a11y: https://github.com/w3c/a11y-request/issues/65 (completed)
 * i18n: https://github.com/w3c/i18n-request/issues/212 (completed)
 
-Liasons:
-* There is participant overlap with the following groups:
+Liaisons:
+* There is participant overlap with the following liaison groups:
   * RDF Canonicalization and Hashing Working Group
   * Decentralized Identifier Working Group
   * Credentials Community Group
@@ -74,10 +85,6 @@ Liasons:
 * European Telecommunications Standards Institute
   * EU Digital Wallet cites/uses VCWG output + ARF + EBSI
 
-# Issues addressed
-
-- https://github.com/w3c/vc-data-model/issues?q=is%3Aissue+is%3Aclosed+created%3A%3E2022-06-13
-
 # Formal Objections
 
 None.
@@ -94,4 +101,4 @@ None, see
 
 ---
 
-cc: @msporny @TallTed @OR13 @selfissued @decentralgabe
+cc: @msporny @TallTed @iherman @selfissued @decentralgabe
