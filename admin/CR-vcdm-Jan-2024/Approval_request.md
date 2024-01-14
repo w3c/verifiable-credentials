@@ -3,34 +3,27 @@
 # Document title, URLs, estimated publication date
 
 - Verifiable Credentials Data Model v2.0 (VC-DATA-MODEL-2.0)
-  - https://w3c.github.io/vc-data-model/CR/2024-01-23/
+  - https://www.w3.org/TR/2024/CR-vc-data-model-2.0-20240123/
   - 23 January 2024
   - Editors' draft: https://w3c.github.io/vc-data-model/
  
-- Verifiable Credentials Specification Directory (VC-SPECS)
-  - https://w3c.github.io/vc-specs-dir/NOTE/2024-01-23/
-  - 23 January 2024
-  - Editors' draft: https://w3c.github.io/vc-specs-dir/
-
 # Abstract
 
 - https://w3c.github.io/vc-data-model/CR/2024-01-23/#abstract
-- https://w3c.github.io/vc-specs-dir/NOTE/2024-01-23/#abstract
 
 # Status
 
 - https://w3c.github.io/vc-data-model/CR/2024-01-23/#sotd
-- https://w3c.github.io/vc-specs-dir/NOTE/2024-01-23/#sotd
 
 # Link to group's decision to request transition
 
 - https://www.w3.org/2017/vc/WG/Meetings/Minutes/2024-01-10-vcwg#resolution2
-- https://www.w3.org/2017/vc/WG/Meetings/Minutes/2024-01-10-vcwg#resolution1
+
+(Note: the resolution says publiation date Jan 30, but has then decided to move it ahead, if possible)
 
 # Changes
 
 - https://w3c.github.io/vc-data-model/CR/2024-01-23/#revision-history
-- VC Specification Directory is the first publication as a NOTE (no revision history)
 
 # Requirements satisfied
 
@@ -47,11 +40,9 @@ All normative dependencies for VC Data Model v2.0 are either RECs or IETF RFCs, 
 
 Issues processed:
 - https://github.com/w3c/vc-data-model/issues?q=is%3Aissue+is%3Aclosed+created%3A%3E2022-06-13
-- https://github.com/w3c/vc-specs-dir/issues?q=is%3Aissue+is%3Aclosed+created%3A%3E2022-06-13
 
 PRs processed:
 - https://github.com/w3c/vc-data-model/pulls?q=is%3Aissue+is%3Aclosed+created%3A%3E2022-06-13
-- https://github.com/w3c/vc-specs-dir/pulls?q=is%3Aissue+is%3Aclosed+created%3A%3E2022-06-13
 
 Horizontal reviews (for VC-DATA-MODEL-2.0):
 * TAG: https://github.com/w3ctag/design-reviews/issues/860 (request timeout)
@@ -61,7 +52,7 @@ Horizontal reviews (for VC-DATA-MODEL-2.0):
 * i18n: https://github.com/w3c/i18n-request/issues/212 (completed)
 
 Liaisons:
-* There is participant overlap with the following liaison groups:
+* There is participants' overlap with the following liaison groups:
   * RDF Canonicalization and Hashing Working Group
   * Decentralized Identifier Working Group
   * Credentials Community Group
@@ -101,4 +92,4 @@ None, see
 
 ---
 
-cc: @msporny @TallTed @iherman @selfissued @decentralgabe
+cc: @msporny @TallTed @selfissued @decentralgabe

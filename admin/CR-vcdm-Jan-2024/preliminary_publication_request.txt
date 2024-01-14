@@ -1,0 +1,17 @@
+Hi Denis,
+
+first of all, I am not sure this request should go to you; I am not sure who takes care of the publication process these days. My apologies if it is not you, I trust you will forward this mail to whoever is the right person.
+
+The Verifiable Credentials WG has just issued two transition requests:
+
+- https://github.com/w3c/transitions/issues/586 for:
+    - https://www.w3.org/TR/2024/NOTE-vc-specs-dir-20240123/
+- https://github.com/w3c/transitions/issues/587
+    - https://www.w3.org/TR/2024/CR-vc-data-model-2.0-20240123/
+
+While the first document is fairly simple, the second is quite the opposite: it is long and complex. 
+
+The approval requests were set for the 23rd of January. Would it be possible for you to check both documents ahead of time? Although the editors went through the usual checks, there might be problems anyway, and it is better to take care of those ahead of time.
+
+
+The documents went through pubrules checker (no error reported) and link checker. For the first document that is also o.k., for the second document there are some fragment errors that we will take care of. Apart from those, there are a number of links to NIST, which work from the browser but, probably, not with robots.
