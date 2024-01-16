@@ -13,5 +13,4 @@ While the first document is fairly simple, the second is quite the opposite: it 
 
 The approval requests were set for the 23rd of January. Would it be possible for you to check both documents ahead of time? Although the editors went through the usual checks, there might be problems anyway, and it is better to take care of those ahead of time.
 
-
 The documents went through pubrules checker (no error reported) and link checker. For the first document that is also o.k., for the second document there are some fragment errors that we will take care of. Apart from those, there are a number of links to NIST, which work from the browser but, probably, not with robots.

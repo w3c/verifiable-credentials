@@ -1,0 +1,53 @@
+Dear Advisory Committee Representative,
+[This announcement will be forwarded to W3C group chairs]
+
+I am pleased to announce that the following document is
+W3C Candidate Recommendation Snapshot:
+  Verifiable Credentials Data Model v2.0
+    https://www.w3.org/TR/2024/CR-vc-data-model-2.0-20240123/
+
+The approval and publication are in response to this transition request:
+   https://github.com/w3c/transitions/issues/587
+
+Please provide feedback by 2024-03-23 raising an issue on GitHub:
+   https://github.com/w3c/vc-data-model/issues/new/choose
+
+Patent disclosures relevant to this specification may be found on the 
+VC Working Group's patent disclosure page in conformance with W3C policy:
+   https://www.w3.org/groups/wg/vc/ipr/
+
+This Call for Implementations follows section 6.3.7 "Transitioning to 
+Candidate Recommendation" of the W3C Process Document:
+   https://www.w3.org/2023/Process-20230612/#transition-cr
+
+Thank you,
+
+For Philippe le Hégaret, W3C Strategy and Project Lead,
+Ivan Herman, VC WG Team Contact;
+Xueyuan Jia, W3C Marketing & Communications
+
+==============================================
+Quoting from:
+
+Verifiable Credentials Data Model v2.0
+W3C Candidate Recommendation Snapshot, 23 January 2024
+
+This version:
+   https://www.w3.org/TR/2024/CR-vc-data-model-2.0-20240123/
+Latest published version:
+   https://www.w3.org/TR/vc-data-model-2.0/
+
+Abstract:
+Credentials are a part of our daily lives; driver's 
+licenses are used to assert that we are capable of 
+operating a motor vehicle, university degrees can be used 
+to assert our level of education, and government-issued 
+passports enable us to travel between countries. This 
+specification provides a mechanism to express these sorts 
+of credentials on the Web in a way that is cryptographically 
+secure, privacy respecting, and machine-verifiable.
+
+
+Status of this document:
+https://www.w3.org/TR/2024/CR-vc-data-model-2.0-20240123/#sotd
+
