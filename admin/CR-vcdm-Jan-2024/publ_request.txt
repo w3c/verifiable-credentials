@@ -3,17 +3,17 @@ cc msporny@digitalbazaar.com, gabe@tbd.email, michael_b_jones@hotmail.com, tthib
 
 Dear Denis,
 
-This is an official publication request for a CR snapshots for Tuesday, 23st of January, 2024:
+This is an official publication request for a CR snapshots for Thursday, 1st of February, 2024:
 
     Document Title: Verifiable Credentials Data Model v2.0
-    Document URL:  https://www.w3.org/TR/2024/CR-vc-data-model-2.0-20240123/
-    Publication Date: 2024-01-23
+    Document URL:  https://www.w3.org/TR/2024/CR-vc-data-model-2.0-20240201/
+    Publication Date: 2024-02-01
 
     Approvals:
         Record of publication request:
             https://github.com/w3c/transitions/issues/587
         Director's approval:
-            https://github.com/w3c/transitions/issues/587#issuecomment-@@@@@@
+            https://github.com/w3c/transitions/issues/587#issuecomment-1912177330
 
 Checks:
     Pass Pubrules' check: yes

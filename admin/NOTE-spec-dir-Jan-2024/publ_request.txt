@@ -3,17 +3,17 @@ cc msporny@digitalbazaar.com, group-vc-wg-chairs@w3.org comm, w3t-comm@w3.org, x
 
 Dear Denis,
 
-This is an official publication request for the publication of a First Public Working Group Note for Tuesday, 23rd of January, 2024.
+This is an official publication request for the publication of a First Public Working Group Note for Thursday, 23rd of January, 2024.
 
     Document VC Specifications Directory
-    Document URL:  https://www.w3.org/TR/2024/NOTE-vc-specs-dir-20240123/
-    Publication Date: 2024-01-23
+    Document URL:  https://www.w3.org/TR/2024/NOTE-vc-specs-dir-20240201/
+    Publication Date: 2024-02-01
 
     Approvals:
         Record of publication request:
             https://github.com/w3c/transitions/issues/586
         Director's approval:
-            https://github.com/w3c/transitions/issues/586#issuecomment-@@@@@@
+            https://github.com/w3c/transitions/issues/586#issuecomment-1906278027
 
 Checks:
     Pass Pubrules' check: yes
