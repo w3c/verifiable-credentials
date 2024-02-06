@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset=UTF-8>
+    <meta content="width=device-width" name="viewport">
+    <title>W3C Verifiable Credentials Working Group Specifications</title>
+    <link rel="stylesheet" href="Tools/Shower3-2/slides.css">
+    <script src="Tools/Shower3-2/shower.js"></script>
+    <!-- <script src="../Tools/b6plus/b6plus.js"></script> -->
+    <style>
+      /* Full-size image overlays */
+      .slide object.cover,
+      .slide object.fit {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: 86.549%;
+        /*= (w - L) / w */
+        height: 100%;
+        object-fit: cover;
+        padding: 0
+      }
+
+      .slide object.fit {
+        object-fit: contain
+      }
+
+      .slide.cover object.cover,
+      .slide.cover object.fit {
+        width: 73.098%;
+        /*= (w - 11) / w */
+      }
+
+    </style>
+  </head>
+
+  <body class="shower fade-in">
+
+    <section class=comment>
+      <p>This is a set of slides showing the relationships of the various
+        Recommendations that the W3C Verifiable Credentials Working Group plans to publish in 2024.</p>
+
+      <p>To start the slide show, turn on JavaScript and press
+        Shift+F5 (or Command+Enter on Mac) or click on a
+        slide. Return to the index by pressing the Esc key.</p>
+    </section>
+
+    <!--=============================================================
+			    Example slides
+  ==============================================================-->
+
+    <div class=progress>
+      <!-- Remove this element if you don't want a progress bar -->
+    </div>
+
+    <section class="slide cover clear fade-in" id="start">
+      <h1>W3C Verifiable Credentials Working Group Specifications</h1>
+    </section>
+
+
+    <section class="slide">
+      <h2>It all starts with a data model…</h2>
+      <object data="./Tools/Images/1_VCDM.svg" type="image/svg+xml" class="cover">
+        Image description: a single box labelled with “VC Data Model, Graph based model of verifiable claims in JSON for
+        Issuer-Holder-Verifier relationships”
+      </object>
+    </section>
+    <section class="slide">
+      <h2>Structural check of a document</h2>
+      <object data="./Tools/Images/2_JSON_Schema.svg" type="image/svg+xml" class="cover">
+        Image description: a new box added to the left of the previous diagram, labelled with “JSON Schema, JSON Schemas
+        for the structural checking of VCs”. This box is connected via an arrow to the box labeled as “VC Data Model”
+      </object>
+    </section>
+    <section class="slide">
+      <h2>Manage suspension/revocation of credentials</h2>
+      <object data="./Tools/Images/3_Bitstring_Status_List.svg" type="image/svg+xml" class="cover">
+        Image description: a new box added to the right of the previous diagram, labelled with “Bitstring Status
+        List,Publishing status information for VCs using bitstrings”. This box is connected via an arrow to the box
+        labeled as “VC Data Model”
+      </object>
+    </section>
+    <section class="slide">
+      <h2>Credentials should be secured through…</h2>
+      <object data="./Tools/Images/4_Securing_Mechanisms.svg" type="image/svg+xml" class="cover">
+        Image description: a drawing for a delimited area is added to the previous diagram underneath the box labeled as
+        “VC Data Model”, labeled as “Securing Mechanism of VCs”
+      </object>
+    </section>
+    <section class="slide">
+      <h2>…security data into the credential</h2>
+      <object data="./Tools/Images/5_Embedded_Proofs.svg" type="image/svg+xml" class="cover">
+        A new, delimited area is added to the diagram, labeled as “Embedded Proofs”, enclosed in the delimited area on
+        “Securing Mechanisms of VCs". This new area includes four new boxes:
+        <ol>
+          <li>Labeled as “Data Integrity, General structure of embedded proofs”. This box is connected with an arrow to
+            the box labeled as ”VC Data Model”</li>
+          <li>Labeled as ”ECDSA Cryptosuites, Data Integrity with NIST elliptic curves”. This box is connected with
+            arrow to the box labeled as ”Data Integrity”.</li>
+          <li>Labeled as ”EdDSA Cryptosuites, Data Integrity with Edwards elliptic curves”. This box is connected with
+            arrow to the box labeled as ”Data Integrity”.</li>
+          <li>Labeled as ”BBS Cryptosuites, Data Integrity with BBS selective disclosures”. This box is connected with
+            arrow to the box labeled as ”Data Integrity”.</li>
+        </ol>
+      </object>
+    </section>
+    <section class="slide">
+      <h2>…a security enveloping the credential</h2>
+      <object data="./Tools/Images/6_Jose_Cose.svg" type="image/svg+xml" class="cover">
+        A new, delimited area is added to the diagram, labeled as “Enveloping Proofs”, enclosed in the delimited area on
+        “Securing Mechanisms of VCs". This new area includes a new box, labeled as ”JOSE and COSE, Enveloping proofs
+        using JWS, SD-JWT, or CBOR”. This box is connected with an arrow to the box labeled as ”VC Data Model”.
+      </object>
+    </section>
+
+
+    <!--=============================================================
+			     User manual
+  ==============================================================-->
+
+
+    <footer class="comment">
+      <address>Created 6 February 2024 by <a href="mailto:ivan@w3.org">Ivan Herman</a>.</address>
+    </footer>
+  </body>
+
+</html>
+<!-- Local variables: -->
+<!-- sgml-basic-offset: 1 -->
+<!-- End: -->
