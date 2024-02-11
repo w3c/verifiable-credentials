@@ -90,25 +90,28 @@
       </object>
     </section>
     <section class="slide">
-      <h2>…security data into the credential</h2>
-      <object data="./Tools/Images/5_Embedded_Proofs.svg" type="image/svg+xml" class="cover">
+      <h2>…either with security data “within” the credential…</h2>
+      <object data="./Tools/Images/5_Data_Integrity.svg" type="image/svg+xml" class="cover">
         A new, delimited area is added to the diagram, labeled as “Embedded Proofs”, enclosed in the delimited area on
-        “Securing Mechanisms of VCs". This new area includes four new boxes:
+        “Securing Mechanisms of VCs". This new area includes a new box labeled “Data Integrity, General structure of 
+        embedded proofs”. This box is connected with an arrow to the box labeled as ”VC Data Model”
+      </object>
+    </section>
+    <section class="slide">
+      <h2>…with specific crypto methods</h2>
+      <object data="./Tools/Images/6_Embedded_Proofs.svg" type="image/svg+xml" class="cover">
+        Three new boxes are added to the delimited area labeled as “Embedded Proofs”; all boxes are connected with
+        arrow to the box labeled as ”Data Integrity”. The new boxes are:
         <ol>
-          <li>Labeled as “Data Integrity, General structure of embedded proofs”. This box is connected with an arrow to
-            the box labeled as ”VC Data Model”</li>
-          <li>Labeled as ”ECDSA Cryptosuites, Data Integrity with NIST elliptic curves”. This box is connected with
-            arrow to the box labeled as ”Data Integrity”.</li>
-          <li>Labeled as ”EdDSA Cryptosuites, Data Integrity with Edwards elliptic curves”. This box is connected with
-            arrow to the box labeled as ”Data Integrity”.</li>
-          <li>Labeled as ”BBS Cryptosuites, Data Integrity with BBS selective disclosures”. This box is connected with
-            arrow to the box labeled as ”Data Integrity”.</li>
+          <li>Labeled as ”ECDSA Cryptosuites, Data Integrity with NIST elliptic curves”. </li>
+          <li>Labeled as ”EdDSA Cryptosuites, Data Integrity with Edwards elliptic curves”.</li>
+          <li>Labeled as ”BBS Cryptosuites, Data Integrity with BBS selective disclosures”.</li>
         </ol>
       </object>
     </section>
     <section class="slide">
-      <h2>…a security enveloping the credential</h2>
-      <object data="./Tools/Images/6_Jose_Cose.svg" type="image/svg+xml" class="cover">
+      <h2>…or a with a security “envelop” for the credential</h2>
+      <object data="./Tools/Images/7_Jose_Cose.svg" type="image/svg+xml" class="cover">
         A new, delimited area is added to the diagram, labeled as “Enveloping Proofs”, enclosed in the delimited area on
         “Securing Mechanisms of VCs". This new area includes a new box, labeled as ”JOSE and COSE, Enveloping proofs
         using JWS, SD-JWT, or CBOR”. This box is connected with an arrow to the box labeled as ”VC Data Model”.
@@ -122,7 +125,7 @@
 
 
     <footer class="comment">
-      <address>Created 6 February 2024 by <a href="mailto:ivan@w3.org">Ivan Herman</a>.</address>
+      <address>Created 11 February 2024 by <a href="mailto:ivan@w3.org">Ivan Herman</a>.</address>
     </footer>
   </body>
 

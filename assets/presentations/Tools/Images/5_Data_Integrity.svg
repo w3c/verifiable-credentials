@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background-color:#fff" viewBox="-0.5 -0.5 1209 867">
+    <rect width="100%" height="100%" fill="#fff"/>
+    <rect width="720" height="410" x="204.76" y="340" fill="none" stroke="#bac8d3" stroke-dasharray="3 3" pointer-events="all" rx="61.5" ry="61.5"/>
+    <a xlink:href="https://www.w3.org/TR/vc-data-model-2.0/" target="_blank">
+        <rect width="280" height="80" x="424.76" y="182" fill="#09555b" stroke="#bac8d3" pointer-events="all" rx="12" ry="12"/>
+        <switch transform="translate(-.5 -.5)">
+            <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
+                <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe center;justify-content:unsafe center;width:278px;height:1px;padding-top:222px;margin-left:426px">
+                    <div data-drawio-colors="color: #EEEEEE;" style="box-sizing:border-box;font-size:0;text-align:center">
+                        <div style="display:inline-block;font-size:16px;font-family:Helvetica;color:#eee;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
+                            <font style="font-size:20px">
+                                VC Data Model
+                            </font>
+                            <br/>
+                            <font style="font-size:10px">
+                                <i>
+                                    Graph based model of verifiable claims in JSON for Issuer-Holder-Verifier relationships
+                                </i>
+                            </font>
+                        </div>
+                    </div>
+                </div>
+            </foreignObject>
+            <text xmlns="http://www.w3.org/2000/svg" x="565" y="227" fill="#EEE" font-family="Helvetica" font-size="16" text-anchor="middle">VC Data Model...</text>
+        </switch>
+    </a>
+    <a xlink:href="https://www.w3.org/TR/vc-json-schema/" target="_blank">
+        <rect width="240" height="60" x="95.01" y="260" fill="#09555b" stroke="#bac8d3" pointer-events="all" rx="9" ry="9"/>
+        <switch transform="translate(-.5 -.5)">
+            <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
+                <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe center;justify-content:unsafe center;width:238px;height:1px;padding-top:290px;margin-left:96px">
+                    <div data-drawio-colors="color: #EEEEEE;" style="box-sizing:border-box;font-size:0;text-align:center">
+                        <div style="display:inline-block;font-size:16px;font-family:Helvetica;color:#eee;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
+                            <font>
+                                <span style="font-size:20px">
+                                    JSON Schema
+                                    <br/>
+                                </span>
+                                <i style="font-size:10px">
+                                    JSON Schemas for the structural checking of VCs
+                                </i>
+                                <br/>
+                            </font>
+                        </div>
+                    </div>
+                </div>
+            </foreignObject>
+            <text xmlns="http://www.w3.org/2000/svg" x="215" y="295" fill="#EEE" font-family="Helvetica" font-size="16" text-anchor="middle">JSON Schema...</text>
+        </switch>
+    </a>
+    <a xlink:href="https://www.w3.org/TR/vc-bitstring-status-list/" target="_blank">
+        <rect width="287.5" height="60" x="827.01" y="260" fill="#09555b" stroke="#bac8d3" pointer-events="all" rx="9" ry="9"/>
+        <switch transform="translate(-.5 -.5)">
+            <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
+                <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe center;justify-content:unsafe center;width:286px;height:1px;padding-top:290px;margin-left:828px">
+                    <div data-drawio-colors="color: #EEEEEE;" style="box-sizing:border-box;font-size:0;text-align:center">
+                        <div style="display:inline-block;font-size:16px;font-family:Helvetica;color:#eee;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
+                            <font>
+                                <span style="font-size:20px">
+                                    Bitstring Status List
+                                    <br/>
+                                </span>
+                                <i style="font-size:10px">
+                                    Publishing status information for VCs using bitstrings
+                                </i>
+                                <br/>
+                            </font>
+                        </div>
+                    </div>
+                </div>
+            </foreignObject>
+            <text xmlns="http://www.w3.org/2000/svg" x="971" y="295" fill="#EEE" font-family="Helvetica" font-size="16" text-anchor="middle">Bitstring Status List...</text>
+        </switch>
+    </a>
+    <path fill="none" stroke="#0b4d6a" stroke-miterlimit="10" d="M396.51 380v-49q0-10 10-10h78.25q10 0 10-10v-41.13" pointer-events="stroke"/>
+    <path fill="#0b4d6a" stroke="#0b4d6a" stroke-miterlimit="10" d="m494.76 263.12 4.5 9-4.5-2.25-4.5 2.25Z" pointer-events="all"/>
+    <path fill="none" stroke="#0b4d6a" stroke-miterlimit="10" d="M215.01 260v-28q0-10 10-10h191.88" pointer-events="stroke"/>
+    <path fill="#0b4d6a" stroke="#0b4d6a" stroke-miterlimit="10" d="m423.64 222-9 4.5 2.25-4.5-2.25-4.5Z" pointer-events="all"/>
+    <path fill="none" stroke="#0b4d6a" stroke-miterlimit="10" d="m970.76 260 .18-28q.07-10-9.93-10H712.62" pointer-events="stroke"/>
+    <path fill="#0b4d6a" stroke="#0b4d6a" stroke-miterlimit="10" d="m705.87 222 9-4.5-2.25 4.5 2.25 4.5Z" pointer-events="all"/>
+    <rect width="220" height="40" x="455.01" y="722" fill="none" pointer-events="all" rx="6" ry="6"/>
+    <switch transform="translate(-.5 -.5)">
+        <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe flex-start;justify-content:unsafe center;width:218px;height:1px;padding-top:729px;margin-left:456px">
+                <div data-drawio-colors="color: #EEEEEE;" style="box-sizing:border-box;font-size:0;text-align:center">
+                    <div style="display:inline-block;font-size:16px;font-family:Helvetica;color:#eee;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
+                        <i style="border-color:var(--border-color);color:#000;font-family:Helvetica;font-size:16px;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0;text-transform:none;widows:2;word-spacing:0;-webkit-text-stroke-width:0;background-color:#fbfbfb;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial">
+                            Securing mechanisms of VCs
+                        </i>
+                    </div>
+                </div>
+            </div>
+        </foreignObject>
+        <text xmlns="http://www.w3.org/2000/svg" x="565" y="745" fill="#EEE" font-family="Helvetica" font-size="16" text-anchor="middle">Securing mechanisms of VCs</text>
+    </switch>
+    <rect width="310" height="340" x="235.01" y="360" fill="none" stroke="#bac8d3" stroke-dasharray="3 3" pointer-events="all" rx="46.5" ry="46.5"/>
+    <a xlink:href="https://www.w3.org/TR/vc-data-integrity/" target="_blank">
+        <rect width="215" height="50" x="289.01" y="380" fill="#09555b" stroke="#bac8d3" pointer-events="all" rx="7.5" ry="7.5"/>
+        <switch transform="translate(-.5 -.5)">
+            <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
+                <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe center;justify-content:unsafe center;width:213px;height:1px;padding-top:405px;margin-left:290px">
+                    <div data-drawio-colors="color: #EEEEEE;" style="box-sizing:border-box;font-size:0;text-align:center">
+                        <div style="display:inline-block;font-size:16px;font-family:Helvetica;color:#eee;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
+                            <font style="font-size:20px">
+                                Data Integrity
+                            </font>
+                            <br/>
+                            <font style="font-size:10px">
+                                <i>
+                                    General structure of embedded proofs
+                                </i>
+                            </font>
+                        </div>
+                    </div>
+                </div>
+            </foreignObject>
+            <text xmlns="http://www.w3.org/2000/svg" x="397" y="410" fill="#EEE" font-family="Helvetica" font-size="16" text-anchor="middle">Data Integrity...</text>
+        </switch>
+    </a>
+    <rect width="220" height="40" x="286.51" y="670" fill="none" pointer-events="all" rx="6" ry="6"/>
+    <switch transform="translate(-.5 -.5)">
+        <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe flex-start;justify-content:unsafe center;width:218px;height:1px;padding-top:677px;margin-left:288px">
+                <div data-drawio-colors="color: #EEEEEE;" style="box-sizing:border-box;font-size:0;text-align:center">
+                    <div style="display:inline-block;font-size:16px;font-family:Helvetica;color:#eee;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
+                        <i style="border-color:var(--border-color);color:#000;font-family:Helvetica;font-size:16px;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0;text-transform:none;widows:2;word-spacing:0;-webkit-text-stroke-width:0;background-color:#fbfbfb;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial">
+                            Embedded proofs
+                        </i>
+                    </div>
+                </div>
+            </div>
+        </foreignObject>
+        <text xmlns="http://www.w3.org/2000/svg" x="397" y="693" fill="#EEE" font-family="Helvetica" font-size="16" text-anchor="middle">Embedded proofs</text>
+    </switch>
+</svg>
