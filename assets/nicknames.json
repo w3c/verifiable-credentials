@@ -811,7 +811,8 @@
             "Mircea",
             "Nistor",
             "mircea_nistor",
-            "mirceanistor"
+            "mirceanistor",
+            "mirceanis"
         ],
         "name": "Mircea Nistor"
     },
@@ -1294,5 +1295,13 @@
             "Hinek"
         ],
         "name": "Frank Hinek"
+    },
+    {
+        "nick": [
+            "Meier",
+            "Jennifer",
+            "jennie"
+        ],
+        "name": "Jennie Meier"
     }
 ]
