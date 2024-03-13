@@ -1,5 +1,5 @@
 {
-    "date": "2024-03-06T17:07:41.231Z",
+    "date": "2024-03-13T16:13:52.790Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -152,9 +152,18 @@
         "2024-02-14-vcwg.md",
         "2024-02-21-vcwg.md",
         "2024-02-28-vcwg.md",
-        "2024-03-06-vcwg.md"
+        "2024-03-06-vcwg.md",
+        "2024-03-13-vcwg.md"
     ],
     "resolutions": [
+        {
+            "year": 2024,
+            "date": "2024-03-13",
+            "number": 1,
+            "text": "We will publish BBS Data Integrity Cryptosuites v1.0 (<a href=\"https://w3c.github.io/vc-di-bbs/CR/2024-03-28/\">https://w3c.github.io/vc-di-bbs/CR/2024-03-28/</a>) as a Candidate Recommendation Snapshot with a goal to publish on March 28, 2024, and will use echidna to automatically publish Candidate Recommendation Drafts.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2024-03-13-vcwg#resolution1",
+            "call": "vcwg"
+        },
         {
             "year": 2024,
             "date": "2024-01-10",
