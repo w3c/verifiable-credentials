@@ -1,10 +1,8 @@
-(Draft for a CR transition of BBS Cryptosuite v1.0)
-
 # Document title, URLs, estimated publication date
 
 - Data Integrity BBS Cryptosuites v1.0
-  - https://www.w3.org/TR/2024/CR-vc-di-bbs-20240328/
-  - 28 March 2024
+  - Final URL: https://www.w3.org/TR/2024/CR-vc-di-bbs-20240328/
+  - Proposed publication date: 28 March 2024
   - Editors' draft: https://w3c.github.io/vc-di-bbs/CR/2024-03-28/
 
 # Abstract
@@ -21,9 +19,7 @@
 
 # Changes
 
-This is the first Candidate Recommendation for the first Recommendation attempt
-for this specification. It does not have a changelog other than the changes
-since FPWD, which can be found here:
+This is the first Candidate Recommendation for the first Recommendation attempt for this specification. It does not have a changelog other than the changes since FPWD, which can be found here:
 
 https://github.com/w3c/vc-di-bbs/commits/main/?since=2023-05-18&until=2024-03-14
 
@@ -33,24 +29,17 @@ Yes.
 
 # Dependencies met (or not)
 
-The normative dependencies are on the VC Data Model and the VC Data Integrity
-specification, both are in CR as well as on the RCH specification for which a PR
-transition has been requested.
+The normative dependencies are on the VC Data Model and the VC Data Integrity specification, both are in CR as well as on the RCH specification for which a PR transition has been requested.
 
-There are also dependencies on the IETF work on the BBS cryptography
-primitives listed in the Normative References section of the specification:
+There are also dependencies on the IETF work on the BBS cryptography primitives listed in the Normative References section of the specification:
 
 * The BBS Signature Scheme. Tobias Looker; Vasilis Kalos; Andrew Whitehead; Mike Lodder. Draft. URL: https://www.ietf.org/archive/id/draft-irtf-cfrg-bbs-signatures-02.html
 * Blind BBS Signatures. V. Kalos; G. Bernstein. 2024. URL: https://www.ietf.org/archive/id/draft-kalos-bbs-blind-signatures-00.html#name-proof-generation
 * BBS per Verifier Linkability. V. Kalos. 2023. URL: https://basileioskal.github.io/bbs-per-verifier-id/draft-vasilis-bbs-per-verifier-linkability.html
 
-It is critical that the first normative reference reach an IETF RFC state before
-this specification can proceed to the Proposed Recommendation state. The
-following two references are desired and must also reach the IETF RFC state
-for the features that use those specifications, which are marked as at risk in this specification, to be preserved in the final W3C Recommendation.
+It is critical that the first normative reference reach an IETF RFC state before this specification can proceed to the Proposed Recommendation state. The following two references are desired and must also reach the IETF RFC state for the features that use those specifications, which are marked as at risk in this specification, to be preserved in the final W3C Recommendation.
 
-RFCs for each specification are expected this year, or the following year,
-after they undergo thorough cryptographic review by the IETF CFRG.
+RFCs for each specification are expected this year, or the following year, after they undergo thorough cryptographic review by the IETF CFRG.
 
 # Wide Review
 
@@ -67,8 +56,7 @@ Horizontal reviews:
 * a11y: https://github.com/w3c/a11y-request/issues/69
 * i18n: https://github.com/w3c/i18n-request/issues/221
 
-Additionally, Simone Onofri is gathering reviewers to do a more thorough
-review of the BBS specification during the Candidate Recommendation phase.
+Additionally, Simone Onofri is gathering reviewers to do a more thorough review of the BBS specification during the Candidate Recommendation phase.
 
 Liaisons:
 
@@ -112,7 +100,7 @@ None.
   * https://github.com/w3c/vc-di-bbs/tree/main/TestVectors
 * Test suite
   * https://github.com/w3c/vc-di-bbs-test-suite
-* Implementations
+* Existing Implementations (more may come)
   * https://github.com/Wind4Greg/BBS-VC-Library
   * https://github.com/digitalbazaar/bbs-2023-cryptosuite
 
@@ -124,4 +112,4 @@ None, see
 
 ---
 
-cc: @msporny @Wind4Greg
+cc: @msporny @Wind4Greg @brentzundel
