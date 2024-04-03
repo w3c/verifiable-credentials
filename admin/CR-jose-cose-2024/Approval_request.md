@@ -49,11 +49,11 @@ PRs processed:
 - https://github.com/w3c/vc-jose-cose/pulls?q=is:pr+
 
 Horizontal reviews:
-* TAG: https://github.com/w3ctag/design-reviews/issues/@@@@
-* PING: https://github.com/w3cping/privacy-request/issues/@@@@@
-* Security: https://github.com/w3c/security-request/issues/@@@@
-* a11y: https://github.com/w3c/a11y-request/issues/@@@@
-* i18n: https://github.com/w3c/i18n-request/issues/@@@@
+* TAG: [https://github.com/w3ctag/design-reviews/issues/889]()
+* PING: [https://github.com/w3cping/privacy-request/issues/125]()
+* Security: [https://github.com/w3c/security-request/issues/60]()
+* a11y: [https://github.com/w3c/a11y-request/issues/68]()
+* i18n: [https://github.com/w3c/i18n-request/issues/218]()
 
 Additionally, Simone Onofri is gathering reviewers to do a more thorough review of the JOSE-COSE specification during the Candidate Recommendation phase.
 
@@ -71,7 +71,7 @@ Liaisons:
   * IMS Global
   * ISO/IEC JTC 1/SC 17/WG 10
   * ISO/IEC JTC 1/SC 17/WG 4
-  *
+  
 * Web of Things Working Group
   * Joint meeting at W3C TPAC 2023
 
@@ -95,13 +95,11 @@ None.
 
 # Implementation
 
-* Test vectors
-  * @@@@@@@
-* Test suite
-  * @@@@@@@@
+* Test vectors & test suite (to be improved upon soon)
+  * [https://github.com/w3c/vc-jose-cose-test-suite]()
 * Existing Implementations (more may come)
-  * @@@@@@@
-  * @@@@@@@@
+  * [https://github.com/transmute-industries/verifiable-credentials/]()
+  * More to come from TBD and Mesur.io
 
 # Patent disclosures
 
