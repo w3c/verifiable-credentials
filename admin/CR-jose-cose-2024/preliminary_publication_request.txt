@@ -1,0 +1,14 @@
+Hi Denis,
+
+The Verifiable Credentials WG has issued a transition request:
+
+- https://github.com/w3c/transitions/issues/594 for:
+    https://www.w3.org/TR/2024/CR-vc-di-bbs-20240328/
+
+The approval requests were set for the 28th of March, ie, tomorrow a week. Would it be possible for you to check the document ahead of time? Although the editors went through the usual checks, there might be problems anyway, and it is better to take care of those ahead of time.
+
+The documents went through pubrules checker (no error reported) and link checker. There is link issue to NIST, which works from the browser but, probably, not with robots.
+
+Thank you!
+
+Ivan

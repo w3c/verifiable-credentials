@@ -1,0 +1,62 @@
+to: xueyuan@w3.org
+cc: w3t-comm@w3.org, denis@w3.org
+subject: [Draft] Data Integrity BBS Cryptosuites v1.0 is Candidate Recommendation (Call for implementations)
+
+Xueyuan,
+
+here is the announcement text for the BBS CR.
+
+Thanks,
+
+Ivan
+
+--------------------
+
+Dear Advisory Committee Representative,
+[This announcement will be forwarded to W3C group chairs]
+
+I am pleased to announce that the following document is a
+W3C Candidate Recommendation Snapshot:
+  Data Integrity BBS Cryptosuites v1.0
+    https://www.w3.org/TR/2024/CR-vc-di-bbs-20240404/
+
+The approval and publication are in response to this transition request:
+   https://github.com/w3c/transitions/issues/594
+
+Please provide feedback by 2024-05-04 raising an issue on GitHub:
+   https://github.com/w3c/vc-di-bbs/
+ 
+Patent disclosures relevant to this specification may be found on the 
+VC Working Group's patent disclosure page in conformance with W3C policy:
+   https://www.w3.org/groups/wg/vc/ipr/
+
+This Call for Implementations follows section 6.3.7 "Transitioning to 
+Candidate Recommendation" of the W3C Process Document:
+   https://www.w3.org/2023/Process-20230612/#transition-cr
+
+Thank you,
+
+For Philippe le Hégaret, W3C Strategy and Project Lead,
+Ivan Herman, VC WG Team Contact;
+Xueyuan Jia, W3C Marketing & Communications
+
+==============================================
+Quoting from:
+
+Data Integrity BBS Cryptosuites v1.0
+W3C Candidate Recommendation Snapshot, 28 March 2024
+
+This version:
+   https://www.w3.org/TR/2024/CR-vc-di-bbs-20240404/
+Latest published version:
+   https://www.w3.org/TR/vc-di-bbs/
+
+Abstract:
+This specification describes a Data Integrity Cryptosuite for 
+use when generating digital signatures using the BBS signature 
+scheme. The Signature Suite utilizes BBS signatures to provide 
+selective disclosure and unlinkable derived proofs.
+
+Status of this document:
+https://www.w3.org/TR/2024/CR-vc-di-bbs-20240404/#sotd
+
