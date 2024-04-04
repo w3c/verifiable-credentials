@@ -1,10 +1,10 @@
 to: xueyuan@w3.org
 cc: w3t-comm@w3.org, denis@w3.org
-subject: [Draft] Data Integrity BBS Cryptosuites v1.0 is Candidate Recommendation (Call for implementations)
+subject: [Draft] Securing Verifiable Credentials using JOSE and COSE is Candidate Recommendation (Call for implementations)
 
 Xueyuan,
 
-here is the announcement text for the BBS CR.
+here is the announcement text for the VC JOSE-COSE CR.
 
 Thanks,
 
@@ -17,14 +17,14 @@ Dear Advisory Committee Representative,
 
 I am pleased to announce that the following document is a
 W3C Candidate Recommendation Snapshot:
-  Data Integrity BBS Cryptosuites v1.0
-    https://www.w3.org/TR/2024/CR-vc-di-bbs-20240404/
+  Securing Verifiable Credentials using JOSE and COSE
+   https://www.w3.org/TR/2024/CR-vc-jose-cose-20240418/
 
 The approval and publication are in response to this transition request:
-   https://github.com/w3c/transitions/issues/594
+   https://github.com/w3c/transitions/issues/@@@
 
-Please provide feedback by 2024-05-04 raising an issue on GitHub:
-   https://github.com/w3c/vc-di-bbs/
+Please provide feedback by 2024-05-18 raising an issue on GitHub:
+   https://github.com/w3c/vc-jose-cose/
  
 Patent disclosures relevant to this specification may be found on the 
 VC Working Group's patent disclosure page in conformance with W3C policy:
@@ -43,20 +43,22 @@ Xueyuan Jia, W3C Marketing & Communications
 ==============================================
 Quoting from:
 
-Data Integrity BBS Cryptosuites v1.0
-W3C Candidate Recommendation Snapshot, 28 March 2024
+Securing Verifiable Credentials using JOSE and COSE
+W3C Candidate Recommendation Snapshot, 18 April 2024
 
 This version:
-   https://www.w3.org/TR/2024/CR-vc-di-bbs-20240404/
+   https://www.w3.org/TR/2024/CR-vc-jose-cose-20240418/
 Latest published version:
-   https://www.w3.org/TR/vc-di-bbs/
+   https://www.w3.org/TR/vc-jose-cose/
 
 Abstract:
-This specification describes a Data Integrity Cryptosuite for 
-use when generating digital signatures using the BBS signature 
-scheme. The Signature Suite utilizes BBS signatures to provide 
-selective disclosure and unlinkable derived proofs.
+This specification defines how to secure credentials and presentations 
+conforming to the Verifiable Credential data model with JSON Object 
+Signing and Encryption (JOSE), Selective Disclosure for JWTs, and CBOR 
+Object Signing and Encryption (COSE). This enables the Verifiable 
+Credential data model to be implemented with standards for signing and 
+encryption that are widely adopted.
 
 Status of this document:
-https://www.w3.org/TR/2024/CR-vc-di-bbs-20240404/#sotd
+https://www.w3.org/TR/2024/CR-vc-jose-cose-20240418/
 

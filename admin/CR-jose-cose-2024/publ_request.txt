@@ -1,20 +1,20 @@
 to: webreq@w3.org
-cc: msporny@digitalbazaar.com, gregb@grotto-networking.com, group-vc-wg-chairs@w3.org, w3t-comm@w3.org, xueyuan@w3.org
-subject: Publication Request: Data Integrity BBS Cryptosuites v1.0 as a CR on 4th of April
+cc: gabe@tbd.email, michael_b_jones@hotmail.com, group-vc-wg-chairs@w3.org, w3t-comm@w3.org, xueyuan@w3.org, 
+subject: Publication Request: Securing Verifiable Credentials using JOSE and COSE on 18th of April
 
 Dear Denis,
 
-This is an official publication request for a CR snapshots for Thursday, 4th of April, 2024:
+This is an official publication request for a CR snapshots for Thursday, 18th of April, 2024:
 
-    Document Title: Data Integrity BBS Cryptosuites v1.0
-    Document URL:  https://www.w3.org/TR/2024/CR-vc-di-bbs-20240404/
-    Publication Date: 2024-04-04
+    Document Title: Securing Verifiable Credentials using JOSE and COSE
+    Document URL:  https://www.w3.org/TR/2024/CR-vc-jose-cose-20240418/
+    Publication Date: 2024-04-18
 
     Approvals:
         Record of publication request:
-            https://github.com/w3c/transitions/issues/594
+            https://github.com/w3c/transitions/issues/@@@
         Director's approval:
-            https://github.com/w3c/transitions/issues/594#issuecomment-2030180147
+            https://github.com/w3c/transitions/issues/@@@#issuecomment-@@@@@@
 
 Checks:
     Pass Pubrules' check: yes
