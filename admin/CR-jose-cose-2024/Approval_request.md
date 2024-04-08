@@ -3,15 +3,15 @@
 - Securing Verifiable Credentials using JOSE and COSE
   - Final URL: https://www.w3.org/TR/2024/CR-vc-jose-cose-20240418/
   - Proposed publication date: 18 April 2024
-  - Editors' draft: https://w3c.github.io/vc-jose-cose/CR/2024-04-28
+  - Editors' draft: https://w3c.github.io/vc-jose-cose/CR/2024-04-18
 
 # Abstract
 
-- https://w3c.github.io/vc-jose-cose/CR/2024-04-28/#abstract
+- https://w3c.github.io/vc-jose-cose/CR/2024-04-18/#abstract
 
 # Status
 
-- https://w3c.github.io/vc-jose-cose/CR/2024-04-28/#sotd
+- https://w3c.github.io/vc-jose-cose/CR/2024-04-18/#sotd
 
 # Link to group's decision to request transition
 
