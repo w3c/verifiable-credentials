@@ -110,12 +110,12 @@ None, see
 # Extra Note: Media type registration
 
 There are number of media type cited in the document. These are not yet registered by IETF, 
-and we anticipate the reviewers' question as [in the case of the CR request of VCDM](https://github.com/w3c/transitions/issues/587#issuecomment-1900562225).
-At the time, @msporny gave an [answer](https://github.com/w3c/transitions/issues/587#issuecomment-1902276576), referring to the
-discussion within IETF regarding the [multiple suffix media types](https://datatracker.ietf.org/doc/draft-ietf-mediaman-suffixes/).
+and we anticipate reviewer questions as [on the CR transition request for VCDM](https://github.com/w3c/transitions/issues/587#issuecomment-1900562225).
+At the time, @msporny gave [an answer](https://github.com/w3c/transitions/issues/587#issuecomment-1902276576), referring to the
+discussion within IETF regarding [multiple-suffix media types](https://datatracker.ietf.org/doc/draft-ietf-mediaman-suffixes/).
 
-Unfortunately, the discussion at IETF 119 did not end with a clear conclusion yet. There is now a [separate discussion](https://github.com/w3c/vc-data-model/issues/1462) 
-by the VC Working Group on the best approach to be taken by the Working Group; whatever will be decided for the VC Data Model will also affect the JOSE-COSE specification, too.
+Unfortunately, the discussion at IETF 119 did not result in a clear decision. There is now a [separate discussion](https://github.com/w3c/vc-data-model/issues/1462) 
+by the VC Working Group about their best approach; whatever they decide for the VC Data Model will likely affect the JOSE-COSE specification, too.
 
 
 ---
