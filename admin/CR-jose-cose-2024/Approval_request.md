@@ -3,15 +3,15 @@
 - Securing Verifiable Credentials using JOSE and COSE
   - Final URL: https://www.w3.org/TR/2024/CR-vc-jose-cose-20240418/
   - Proposed publication date: 18 April 2024
-  - Editors' draft: https://w3c.github.io/vc-jose-cose/CR/2024-04-28
+  - Editors' draft: https://w3c.github.io/vc-jose-cose/CR/2024-04-18
 
 # Abstract
 
-- https://w3c.github.io/vc-jose-cose/CR/2024-04-28/#abstract
+- https://w3c.github.io/vc-jose-cose/CR/2024-04-18/#abstract
 
 # Status
 
-- https://w3c.github.io/vc-jose-cose/CR/2024-04-28/#sotd
+- https://w3c.github.io/vc-jose-cose/CR/2024-04-18/#sotd
 
 # Link to group's decision to request transition
 
@@ -49,11 +49,11 @@ PRs processed:
 - https://github.com/w3c/vc-jose-cose/pulls?q=is:pr+
 
 Horizontal reviews:
-* TAG: https://github.com/w3ctag/design-reviews/issues/@@@@
-* PING: https://github.com/w3cping/privacy-request/issues/@@@@@
-* Security: https://github.com/w3c/security-request/issues/@@@@
-* a11y: https://github.com/w3c/a11y-request/issues/@@@@
-* i18n: https://github.com/w3c/i18n-request/issues/@@@@
+* TAG: https://github.com/w3ctag/design-reviews/issues/889
+* PING: https://github.com/w3cping/privacy-request/issues/125
+* Security: https://github.com/w3c/security-request/issues/60
+* a11y: https://github.com/w3c/a11y-request/issues/68
+* i18n: https://github.com/w3c/i18n-request/issues/218
 
 Additionally, Simone Onofri is gathering reviewers to do a more thorough review of the JOSE-COSE specification during the Candidate Recommendation phase.
 
@@ -71,7 +71,7 @@ Liaisons:
   * IMS Global
   * ISO/IEC JTC 1/SC 17/WG 10
   * ISO/IEC JTC 1/SC 17/WG 4
-  *
+  
 * Web of Things Working Group
   * Joint meeting at W3C TPAC 2023
 
@@ -95,19 +95,28 @@ None.
 
 # Implementation
 
-* Test vectors
-  * @@@@@@@
-* Test suite
-  * @@@@@@@@
+* Test vectors & test suite (to be improved upon soon)
+  * https://github.com/w3c/vc-jose-cose-test-suite
 * Existing Implementations (more may come)
-  * @@@@@@@
-  * @@@@@@@@
+  * https://github.com/transmute-industries/verifiable-credentials/
+  * More to come from TBD and Mesur.io
 
 # Patent disclosures
 
 None, see
 
 - https://www.w3.org/groups/wg/vc/ipr/
+
+# Extra Note: Media type registration
+
+There are number of media type cited in the document. These are not yet registered by IETF, 
+and we anticipate reviewer questions as [on the CR transition request for VCDM](https://github.com/w3c/transitions/issues/587#issuecomment-1900562225).
+At the time, @msporny gave [an answer](https://github.com/w3c/transitions/issues/587#issuecomment-1902276576), referring to the
+discussion within IETF regarding [multiple-suffix media types](https://datatracker.ietf.org/doc/draft-ietf-mediaman-suffixes/).
+
+Unfortunately, the discussion at IETF 119 did not result in a clear decision. There is now a [separate discussion](https://github.com/w3c/vc-data-model/issues/1462) 
+by the VC Working Group about their best approach; whatever they decide for the VC Data Model will likely affect the JOSE-COSE specification, too.
+
 
 ---
 
