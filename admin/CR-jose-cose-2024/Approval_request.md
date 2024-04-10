@@ -15,7 +15,7 @@
 
 # Link to group's decision to request transition
 
-- https://www.w3.org/2017/vc/WG/Meetings/Minutes/@@@@@
+- https://www.w3.org/2017/vc/WG/Meetings/Minutes/2024-04-10-vcwg#resolution1
 
 # Changes
 
