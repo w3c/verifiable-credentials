@@ -21,7 +21,7 @@ W3C Candidate Recommendation Snapshot:
    https://www.w3.org/TR/2024/CR-vc-jose-cose-20240418/
 
 The approval and publication are in response to this transition request:
-   https://github.com/w3c/transitions/issues/@@@
+   https://github.com/w3c/transitions/issues/599
 
 Please provide feedback by 2024-05-18 raising an issue on GitHub:
    https://github.com/w3c/vc-jose-cose/

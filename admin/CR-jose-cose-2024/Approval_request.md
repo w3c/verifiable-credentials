@@ -38,8 +38,6 @@ There are also dependencies on the IETF work on the SD-JWT primitives listed in 
 
 It is critical that these normative references reach an IETF RFC state before this specification can proceed to the Proposed Recommendation state. 
 
-@@@@ SOMETHING MORE ABOUT THIS DEPENDENCY??@@@@@@
-
 # Wide Review
 
 Issues processed:
@@ -109,7 +107,7 @@ None, see
 
 # Extra Note: Media type registration
 
-There are number of media type cited in the document. These are not yet registered by IETF, 
+There are a number of media type cited in the document. These are not yet registered by IETF, 
 and we anticipate reviewer questions as [on the CR transition request for VCDM](https://github.com/w3c/transitions/issues/587#issuecomment-1900562225).
 At the time, @msporny gave [an answer](https://github.com/w3c/transitions/issues/587#issuecomment-1902276576), referring to the
 discussion within IETF regarding [multiple-suffix media types](https://datatracker.ietf.org/doc/draft-ietf-mediaman-suffixes/).
@@ -120,4 +118,4 @@ by the VC Working Group about their best approach; whatever they decide for the 
 
 ---
 
-cc: @msporny @Wind4Greg @brentzundel
+cc: cc: @selfissued @decentralgabe @mprorock @brentzundel

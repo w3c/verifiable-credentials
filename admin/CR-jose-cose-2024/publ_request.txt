@@ -12,9 +12,9 @@ This is an official publication request for a CR snapshots for Thursday, 18th of
 
     Approvals:
         Record of publication request:
-            https://github.com/w3c/transitions/issues/@@@
+            https://github.com/w3c/transitions/issues/599
         Director's approval:
-            https://github.com/w3c/transitions/issues/@@@#issuecomment-@@@@@@
+            https://github.com/w3c/transitions/issues/599#issuecomment-@@@@@@
 
 Checks:
     Pass Pubrules' check: yes
