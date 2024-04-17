@@ -1,0 +1,14 @@
+Hi Denis,
+
+The Verifiable Credentials WG has issued a transition request:
+
+- https://github.com/w3c/transitions/issues/@@@ for:
+    https://www.w3.org/TR/2024/CR-vc-bitstring-status-list-202405@DATE@/
+
+The approval requests were set for the 18th of April. Would it be possible for you to check the document ahead of time? Although the editors went through the usual checks, there might be problems anyway, and it is better to take care of those ahead of time.
+
+The documents went through pubrules checker (no error reported) and link checker.
+
+Thank you!
+
+Ivan
