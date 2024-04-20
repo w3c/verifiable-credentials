@@ -1,20 +1,20 @@
 to: webreq@w3.org
 cc: gabe@tbd.email, michael_b_jones@hotmail.com, group-vc-wg-chairs@w3.org, w3t-comm@w3.org, xueyuan@w3.org, 
-subject: Publication Request: Securing Verifiable Credentials using JOSE and COSE on 18th of April
+subject: Publication Request: Securing Verifiable Credentials using JOSE and COSE on 25th of April
 
 Dear Denis,
 
-This is an official publication request for a CR snapshots for Thursday, 18th of April, 2024:
+This is an official publication request for a CR snapshots for Thursday, 25th of April, 2024:
 
     Document Title: Securing Verifiable Credentials using JOSE and COSE
-    Document URL:  https://www.w3.org/TR/2024/CR-vc-jose-cose-20240418/
-    Publication Date: 2024-04-18
+    Document URL:  https://www.w3.org/TR/2024/CR-vc-jose-cose-20240425/
+    Publication Date: 2024-04-25
 
     Approvals:
         Record of publication request:
             https://github.com/w3c/transitions/issues/599
         Director's approval:
-            https://github.com/w3c/transitions/issues/599#issuecomment-@@@@@@
+            https://github.com/w3c/transitions/issues/599#issuecomment-2066842967
 
 Checks:
     Pass Pubrules' check: yes

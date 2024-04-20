@@ -18,12 +18,12 @@ Dear Advisory Committee Representative,
 I am pleased to announce that the following document is a
 W3C Candidate Recommendation Snapshot:
   Securing Verifiable Credentials using JOSE and COSE
-   https://www.w3.org/TR/2024/CR-vc-jose-cose-20240418/
+   https://www.w3.org/TR/2024/CR-vc-jose-cose-20240425/
 
 The approval and publication are in response to this transition request:
    https://github.com/w3c/transitions/issues/599
 
-Please provide feedback by 2024-05-18 raising an issue on GitHub:
+Please provide feedback by 2024-05-25 raising an issue on GitHub:
    https://github.com/w3c/vc-jose-cose/
  
 Patent disclosures relevant to this specification may be found on the 
@@ -44,10 +44,10 @@ Xueyuan Jia, W3C Marketing & Communications
 Quoting from:
 
 Securing Verifiable Credentials using JOSE and COSE
-W3C Candidate Recommendation Snapshot, 18 April 2024
+W3C Candidate Recommendation Snapshot, 25 April 2024
 
 This version:
-   https://www.w3.org/TR/2024/CR-vc-jose-cose-20240418/
+   https://www.w3.org/TR/2024/CR-vc-jose-cose-20240425/
 Latest published version:
    https://www.w3.org/TR/vc-jose-cose/
 
@@ -60,5 +60,5 @@ Credential data model to be implemented with standards for signing and
 encryption that are widely adopted.
 
 Status of this document:
-https://www.w3.org/TR/2024/CR-vc-jose-cose-20240418/
+https://www.w3.org/TR/2024/CR-vc-jose-cose-20240425/#sotd
 
