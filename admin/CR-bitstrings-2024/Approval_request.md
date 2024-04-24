@@ -15,7 +15,7 @@
 
 # Link to group's decision to request transition
 
-- https://www.w3.org/2017/vc/WG/Meetings/Minutes/2024-05-@DATE@-vcwg#@@
+- https://www.w3.org/2017/vc/WG/Meetings/Minutes/2024-04-24-vcwg#resolution1
 
 # Changes
 
@@ -23,7 +23,7 @@ This is the first Candidate Recommendation for the first Recommendation attempt
 for this specification. It does not have a changelog other than the changes
 since FPWD, which can be found here:
 
-https://github.com/w3c/vc-bitstring-status-list/commits/main/?until=2024-05-03
+https://github.com/w3c/vc-bitstring-status-list/commits/main/?until=2024-04-24
 
 # Requirements satisfied
 

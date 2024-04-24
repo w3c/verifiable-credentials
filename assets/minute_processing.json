@@ -1,5 +1,5 @@
 {
-    "date": "2024-04-17T15:25:51.988Z",
+    "date": "2024-04-24T16:09:57.557Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -157,9 +157,18 @@
         "2024-03-27-vcwg.md",
         "2024-04-03-vcwg.md",
         "2024-04-10-vcwg.md",
-        "2024-04-17-vcwg.md"
+        "2024-04-17-vcwg.md",
+        "2024-04-24-vcwg.md"
     ],
     "resolutions": [
+        {
+            "year": 2024,
+            "date": "2024-04-24",
+            "number": 1,
+            "text": "Publish the Bitstring Status List v1.0 specification (<a href=\"https://w3c.github.io/vc-bitstring-status-list/CR/2024-CR1/\">https://w3c.github.io/vc-bitstring-status-list/CR/2024-CR1/</a>) as a W3C Candidate Recommendation with a target publication date of May 9th 2024 and a CR period of 1 month.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2024-04-24-vcwg#resolution1",
+            "call": "vcwg"
+        },
         {
             "year": 2024,
             "date": "2024-04-10",
