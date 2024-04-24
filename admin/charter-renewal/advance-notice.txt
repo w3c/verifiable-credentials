@@ -1,0 +1,51 @@
+Dear Advisory Committee Representative,
+[This announcement will be forwarded to W3C group chairs]
+
+This is an advance notice that the Team is currently working on a 
+revised charter for the Verifiable Credentials Working Group:
+    https://github.com/w3c/strategy/issues/455
+
+with the current proposal available at:
+     https://w3c.github.io/vc-wg-charter/
+
+The current charter of the Working Group expires in June 2024. The
+Group has published a number of Candidate Recommendations, and is
+currently busy finalizing the test suites and collecting implementation
+information. The revised charter has therefore two goals:
+
+1. Give time to the Working Group to finalize the Recommendation 
+   track documents. The goal is to publish them in January 2025.
+2. Set up a maintenance course for the Recommendations they are published. 
+
+Accordingly, the scope of the proposed new charter is identical
+to the current charter, except for the following additional paragraph:
+
+    "Once all the planned Recommendations have been published, the Working 
+    Group will continue in maintenance mode to handle errata. No new 
+    Recommendations are planned. Class 4 changes for Recommendations published 
+    by the Working Group are out of scope, except if serious security issues 
+    come to the fore that require changes in a Recommendation."
+
+We welcome input and feedback on the draft charter. If you wish to make 
+your comments public, you're welcome to raise comments at:
+   https://github.com/w3c/vc-wg-charter
+
+W3C Members may also discuss on the member-confidential mailing list 
+<w3c-ac-forum@w3.org> [1]. We also welcome your general expressions of 
+interest and support on that mailing list.
+
+A formal Advisory Committee Review for this charter is expected mid May.
+
+If you should have any questions or need further information, please 
+feel free to contact Ivan Herman <ivan@w3.org>, Team Contact for the 
+Verifiable Credentials Working Group.
+
+This announcement follows section 4.1 of the Process Document:
+    https://www.w3.org/2023/Process-20231103/#WGCharterDevelopment
+
+Thank you,
+
+For Philippe le Hégaret, W3C Strategy and Project Lead;
+Xueyuan Jia, W3C Marketing & Communications
+
+[1] https://lists.w3.org/Archives/Member/w3c-ac-forum/
