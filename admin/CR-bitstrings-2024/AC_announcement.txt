@@ -4,7 +4,7 @@ subject: [Draft] Bitstring Status List is Candidate Recommendation (Call for imp
 
 Xueyuan,
 
-here is the announcement text for the Bitstring CR.
+here is the announcement text for the Bitstring Status List CR.
 
 Thanks,
 
@@ -18,10 +18,10 @@ Dear Advisory Committee Representative,
 I am pleased to announce that the following document is a
 W3C Candidate Recommendation Snapshot:
   Bitstring Status List v1.0
-   https://www.w3.org/TR/2024/CR-vc-bitstring-status-list-202405@DATE@/
+   https://www.w3.org/TR/2024/CR-vc-bitstring-status-list-20240509/
 
 The approval and publication are in response to this transition request:
-   https://github.com/w3c/transitions/issues/@@@@
+   https://github.com/w3c/transitions/issues/603
 
 Please provide feedback by 2024-06-@DATE@ raising an issue on GitHub:
    https://github.com/w3c/vc-bitstring-status-list/
@@ -44,10 +44,10 @@ Xueyuan Jia, W3C Marketing & Communications
 Quoting from:
 
 Bitstring Status List v1.0
-W3C Candidate Recommendation Snapshot, @DATE@ May 2024
+W3C Candidate Recommendation Snapshot, 09 May 2024
 
 This version:
-   https://www.w3.org/TR/2024/CR-vc-bitstring-status-list-202405@DATE@/
+   https://www.w3.org/TR/2024/CR-vc-bitstring-status-list-20240509/
 Latest published version:
    https://www.w3.org/TR/vc-bitstring-status-list/
 
@@ -55,5 +55,5 @@ Abstract:
 This specification describes a privacy-preserving, space-efficient, and high-performance mechanism for publishing status information such as suspension or revocation of Verifiable Credentials through use of bitstrings.
 
 Status of this document:
-https://www.w3.org/TR/2024/CR-vc-bitstring-status-list-202405@DATE@/
+https://www.w3.org/TR/2024/CR-vc-bitstring-status-list-20240509/#sotd
 

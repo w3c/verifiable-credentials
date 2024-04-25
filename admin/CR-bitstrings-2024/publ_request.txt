@@ -1,21 +1,21 @@
 to: webreq@w3.org
 cc: 
 cc: msporny@digitalbazaar.com, mprorock@mesur.io, dlongley@digitalbazaar.com, mahmoud@mavennet.com, group-vc-wg-chairs@w3.org, w3t-comm@w3.org, xueyuan@w3.org, 
-subject: Publication Request: Securing Verifiable Credentials using JOSE and COSE on 18th of April
+subject: Publication Request: Bitstring Status List v1.0
 
 Dear Denis,
 
-This is an official publication request for a CR snapshots for Thursday, @DATA@th of May, 2024:
+This is an official publication request for a CR snapshots for Thursday, 9th of May, 2024:
 
     Document Title: Bitstring Status List v1.0
-    Document URL:  https://www.w3.org/TR/2024/CR-vc-bitstring-status-list-202405@DATE@/
+    Document URL:  https://www.w3.org/TR/2024/CR-vc-bitstring-status-list-20240509/
     Publication Date: 2024-05-@DATE@
 
     Approvals:
         Record of publication request:
-            https://github.com/w3c/transitions/issues/@@@
+            https://github.com/w3c/transitions/issues/603
         Director's approval:
-            https://github.com/w3c/transitions/issues/@@@#issuecomment-@@@@@@
+            https://github.com/w3c/transitions/issues/603#issuecomment-@@@@@@
 
 Checks:
     Pass Pubrules' check: yes
