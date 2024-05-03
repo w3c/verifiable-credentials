@@ -9,7 +9,7 @@ This is an official publication request for a CR snapshots for Thursday, 9th of 
 
     Document Title: Bitstring Status List v1.0
     Document URL:  https://www.w3.org/TR/2024/CR-vc-bitstring-status-list-20240509/
-    Publication Date: 2024-05-@DATE@
+    Publication Date: 2024-05-09
 
     Approvals:
         Record of publication request:
@@ -21,7 +21,13 @@ Checks:
     Pass Pubrules' check: yes
     Pass Link Checker's check: yes.
 
-The document has already been checked; it has not changed since then, except for the publication date.
+The link checker reports three errors:
+
+    • https://httpwg.org/specs/rfc7231.html#section-3.1.1.5 (line 1968)
+    • https://httpwg.org/specs/rfc7231.html#section-6.5.13 (line 1973)
+    • https://httpwg.org/specs/rfc7231.html#section-5.3.2 (line 1967)
+
+However, these links work properly in the browser (the html page does some redirection from one style of fragment ID-s to another).
 
 Xueyuan, I will send you drafts for the HPN and the AC announcement in a separate mail.
 
