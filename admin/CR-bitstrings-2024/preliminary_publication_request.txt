@@ -5,13 +5,19 @@ The Verifiable Credentials WG has issued a transition request:
 - https://github.com/w3c/transitions/issues/603 for:
     https://www.w3.org/TR/2024/CR-vc-bitstring-status-list-20240509/
 
-The approval requests were set for the 09th of May. There is a static version stored at:
-
-    https://w3c.github.io/vc-bitstring-status-list/CR/2024-CR1/
+The approval requests were set for the 09th of May. The document is on /TR
 
 Would it be possible for you to check the document ahead of time? Although the editors went through the usual checks, there might be problems anyway, and it is better to take care of those ahead of time.
 
-The documents went through pubrules checker (no error reported) and link checker.
+The documents went through pubrules checker and link checker.
+
+The link checker reports three errors:
+
+    • https://httpwg.org/specs/rfc7231.html#section-3.1.1.5 (line 1968)
+    • https://httpwg.org/specs/rfc7231.html#section-6.5.13 (line 1973)
+    • https://httpwg.org/specs/rfc7231.html#section-5.3.2 (line 1967)
+
+However, these links work properly in the browser (the html page does some redirection from one style of fragment ID-s to another).
 
 Thank you!
 
