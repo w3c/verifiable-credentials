@@ -1,31 +1,30 @@
 to: webreq@w3.org
-cc: 
 cc: msporny@digitalbazaar.com, mprorock@mesur.io, dlongley@digitalbazaar.com, mahmoud@mavennet.com, group-vc-wg-chairs@w3.org, w3t-comm@w3.org, xueyuan@w3.org, 
 subject: Publication Request: Bitstring Status List v1.0
 
 Dear Denis,
 
-This is an official publication request for a CR snapshots for Thursday, 9th of May, 2024:
+This is an official publication request for a CR snapshots for Thursday, 21st of May, 2024:
 
     Document Title: Bitstring Status List v1.0
-    Document URL:  https://www.w3.org/TR/2024/CR-vc-bitstring-status-list-20240509/
-    Publication Date: 2024-05-09
+    Document URL:  https://www.w3.org/TR/2024/CR-vc-bitstring-status-list-20240521/
+    Publication Date: 2024-05-21
 
     Approvals:
         Record of publication request:
             https://github.com/w3c/transitions/issues/603
         Director's approval:
-            https://github.com/w3c/transitions/issues/603#issuecomment-@@@@@@
+            https://github.com/w3c/transitions/issues/603#issuecomment-2108305673
 
 Checks:
     Pass Pubrules' check: yes
     Pass Link Checker's check: yes.
 
-The link checker reports three errors:
+The link checker reports three fragment errors:
 
-    • https://httpwg.org/specs/rfc7231.html#section-3.1.1.5 (line 1968)
-    • https://httpwg.org/specs/rfc7231.html#section-6.5.13 (line 1973)
-    • https://httpwg.org/specs/rfc7231.html#section-5.3.2 (line 1967)
+    • https://httpwg.org/specs/rfc7231.html#section-3.1.1.5
+    • https://httpwg.org/specs/rfc7231.html#section-6.5.13
+    • https://httpwg.org/specs/rfc7231.html#section-5.3.2
 
 However, these links work properly in the browser (the html page does some redirection from one style of fragment ID-s to another).
 

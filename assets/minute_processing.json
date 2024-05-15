@@ -1,5 +1,5 @@
 {
-    "date": "2024-05-09T04:55:13.388Z",
+    "date": "2024-05-15T16:06:50.551Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -160,9 +160,18 @@
         "2024-04-17-vcwg.md",
         "2024-04-24-vcwg.md",
         "2024-05-01-vcwg.md",
-        "2024-05-08-vcwg.md"
+        "2024-05-08-vcwg.md",
+        "2024-05-15-vcwg.md"
     ],
     "resolutions": [
+        {
+            "year": 2024,
+            "date": "2024-05-15",
+            "number": 1,
+            "text": "Adopt <a href=\"https://iherman.github.io/vc-overview/\">https://iherman.github.io/vc-overview/</a> as a Note-track work item.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2024-05-15-vcwg#resolution1",
+            "call": "vcwg"
+        },
         {
             "year": 2024,
             "date": "2024-05-08",
