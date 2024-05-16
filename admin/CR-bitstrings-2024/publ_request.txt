@@ -4,7 +4,7 @@ subject: Publication Request: Bitstring Status List v1.0
 
 Dear Denis,
 
-This is an official publication request for a CR snapshots for Thursday, 21st of May, 2024:
+This is an official publication request for a new CR snapshots for Thursday, 21st of May, 2024:
 
     Document Title: Bitstring Status List v1.0
     Document URL:  https://www.w3.org/TR/2024/CR-vc-bitstring-status-list-20240521/

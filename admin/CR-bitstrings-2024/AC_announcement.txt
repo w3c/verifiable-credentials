@@ -4,7 +4,7 @@ subject: [Draft] Bitstring Status List is Candidate Recommendation (Call for imp
 
 Xueyuan,
 
-here is the announcement text for the Bitstring Status List CR.
+here is the announcement text for the Bitstring Status List CR on the 21st.
 
 Thanks,
 
@@ -23,7 +23,7 @@ W3C Candidate Recommendation Snapshot:
 The approval and publication are in response to this transition request:
    https://github.com/w3c/transitions/issues/603
 
-Please provide feedback by 2024-06-@DATE@ raising an issue on GitHub:
+Please provide feedback by 2024-06-21 raising an issue on GitHub:
    https://github.com/w3c/vc-bitstring-status-list/
  
 Patent disclosures relevant to this specification may be found on the 
@@ -55,5 +55,5 @@ Abstract:
 This specification describes a privacy-preserving, space-efficient, and high-performance mechanism for publishing status information such as suspension or revocation of Verifiable Credentials through use of bitstrings.
 
 Status of this document:
-https://www.w3.org/TR/2024/CR-vc-bitstring-status-list-20240514/#sotd
+https://www.w3.org/TR/2024/CR-vc-bitstring-status-list-20240521/#sotd
 
