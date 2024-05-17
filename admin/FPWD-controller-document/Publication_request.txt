@@ -1,0 +1,31 @@
+Subject: Publication Request: Controller Documents 1.0 as a FPWD on the 23rd of May, 2024
+cc msporny@digitalbazaar.com, michael_b_jones@hotmail.com, brent, xueyuan, comm team
+
+
+Dear Denis,
+
+Here are the necessary information for the publication.
+    Document Title: Controller Documents 1.0
+    Document URL:  https://www.w3.org/TR/2024/WD-vc-controller-document-20240523/ (doc already in place)
+    Publication Date: 2024-05-23
+    Approvals:
+        Record of publication request:
+            https://github.com/w3c/transitions/issues/610
+        Director's approval state: approved in
+            https://github.com/w3c/transitions/issues/610#issuecomment-2115832187
+Checks:
+    Pass Pubrules' check: yes
+    Pass Link Checker's check: 
+
+    beyond the usual problems the link checker complaints about a fragment ID: 
+    
+        https://w3c.github.io/vc-specs-dir/#securing-mechanisms
+
+    which, however, works from the browser. I am not sure why link checker complains.
+
+The publication should be tagged as "Security", and "Privacy".
+
+Thank You
+
+Ivan
+
