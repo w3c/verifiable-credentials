@@ -1,0 +1,34 @@
+Subject: [draft] Verifiable Credentials Working Group Charter extended until 31st December, 2024
+To: xueyuan@w3.org
+cc: group-vc-wg-chairs@w3.org, w3t-comm@w3.org, plh@w3.org
+
+Dear Advisory Committee representative,
+[This announcement will be forwarded to W3C group chairs]
+
+The Verifiable Credentials Working Group charter [1] is hereby extended until
+31st December, 2024.
+
+All Recommendation-track technical specifications, that the Working Group 
+is chartered for[1], are now in CR phase, with a number of implementations 
+already in place. This extension gives the time for the group to complete
+the exit criteria for all these documents and publish the respective
+formal Recommendations.
+
+More information about the Verifiable Credentials Working Group can be found on its
+summary page [2], including information about group Chairs,
+Team Contacts and instructions for joining the group.
+
+If you have any questions or need further information, please contact
+Ivan Herman, VC WG Staff Contact, at ivan@w3.org.
+
+This extension follows section 4.5 of the W3C Process Document:
+https://www.w3.org/2023/Process-20231103/#charter-extension
+ 
+Thank you,
+
+For Philippe le Hegaret, W3C Strategy and Project Lead,
+Ivan Herman and
+Xueyuan Jia, W3C Marketing & Communications
+
+[1] https://www.w3.org/2022/06/verifiable-credentials-wg-charter.html
+[2] https://www.w3.org/groups/wg/vc/
