@@ -1,0 +1,280 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-0.5 -0.5 799 711">
+    <rect width="229.99" height="250" x="547.5" y="430" fill="none" stroke="#000" stroke-dasharray="3 3" pointer-events="all" rx="34.5" ry="34.5"/>
+    <a xlink:href="https://www.w3.org/TR/vc-json-schema/" target="_blank">
+        <rect width="164.99" height="60" x="20" y="300" fill="none" stroke="#000" pointer-events="all" rx="9" ry="9"/>
+        <switch transform="translate(-.5 -.5)">
+            <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
+                <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe center;justify-content:unsafe center;width:163px;height:1px;padding-top:330px;margin-left:21px">
+                    <div data-drawio-colors="color: rgb(0, 0, 0);" style="box-sizing:border-box;font-size:0;text-align:center">
+                        <div style="display:inline-block;font-size:16px;font-family:Helvetica;color:#000;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
+                            <font>
+                                <span style="font-size:20px">
+                                    Cryptosuites
+                                </span>
+                                <br/>
+                            </font>
+                        </div>
+                    </div>
+                </div>
+            </foreignObject>
+            <text xmlns="http://www.w3.org/2000/svg" x="102" y="335" font-family="Helvetica" font-size="16" text-anchor="middle">Cryptosuites
+</text>
+        </switch>
+    </a>
+    <rect width="164.99" height="60" x="295" y="79" fill="none" stroke="#000" pointer-events="all" rx="9" ry="9"/>
+    <switch transform="translate(-.5 -.5)">
+        <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe center;justify-content:unsafe center;width:163px;height:1px;padding-top:109px;margin-left:296px">
+                <div data-drawio-colors="color: rgb(0, 0, 0);" style="box-sizing:border-box;font-size:0;text-align:center">
+                    <div style="display:inline-block;font-size:16px;font-family:Helvetica;color:#000;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
+                        <font>
+                            <span style="font-size:20px">
+                                EdDSA
+                            </span>
+                            <br/>
+                        </font>
+                        <div>
+                            <font style="font-size:13px">
+                                based on Edwards curves
+                            </font>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </foreignObject>
+        <text xmlns="http://www.w3.org/2000/svg" x="377" y="114" font-family="Helvetica" font-size="16" text-anchor="middle">EdDSA...</text>
+    </switch>
+    <rect width="164.99" height="60" x="295" y="349" fill="none" stroke="#000" pointer-events="all" rx="9" ry="9"/>
+    <switch transform="translate(-.5 -.5)">
+        <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe center;justify-content:unsafe center;width:163px;height:1px;padding-top:379px;margin-left:296px">
+                <div data-drawio-colors="color: rgb(0, 0, 0);" style="box-sizing:border-box;font-size:0;text-align:center">
+                    <div style="display:inline-block;font-size:16px;font-family:Helvetica;color:#000;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
+                        <div>
+                            <font style="font-size:20px">
+                                ECDSA
+                            </font>
+                        </div>
+                        <div>
+                            <font style="font-size:13px">
+                                based on ECDSA curves
+                            </font>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </foreignObject>
+        <text xmlns="http://www.w3.org/2000/svg" x="377" y="384" font-family="Helvetica" font-size="16" text-anchor="middle">ECDSA...</text>
+    </switch>
+    <rect width="164.99" height="60" x="295" y="565" fill="none" stroke="#000" pointer-events="all" rx="9" ry="9"/>
+    <switch transform="translate(-.5 -.5)">
+        <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe center;justify-content:unsafe center;width:163px;height:1px;padding-top:595px;margin-left:296px">
+                <div data-drawio-colors="color: rgb(0, 0, 0);" style="box-sizing:border-box;font-size:0;text-align:center">
+                    <div style="display:inline-block;font-size:16px;font-family:Helvetica;color:#000;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
+                        <div>
+                            <span style="background-color:initial;font-size:20px">
+                                BBS
+                            </span>
+                        </div>
+                        <div>
+                            <span style="background-color:initial;font-size:13px">
+                                based on BBS schemes
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </foreignObject>
+        <text xmlns="http://www.w3.org/2000/svg" x="377" y="600" font-family="Helvetica" font-size="16" text-anchor="middle">BBS...</text>
+    </switch>
+    <rect width="164.99" height="70" x="580" y="560" fill="none" stroke="#000" pointer-events="all" rx="10.5" ry="10.5" transform="matrix(1 0 0 -1 0 1190)"/>
+    <switch transform="translate(-.5 -.5)">
+        <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe center;justify-content:unsafe center;width:163px;height:1px;padding-top:595px;margin-left:581px">
+                <div data-drawio-colors="color: rgb(0, 0, 0);" style="box-sizing:border-box;font-size:0;text-align:center">
+                    <div style="display:inline-block;font-size:16px;font-family:Helvetica;color:#000;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
+                        <div>
+                            <span style="background-color:initial;font-size:20px">
+                                bbs-2023
+                            </span>
+                        </div>
+                        <div>
+                            <span style="font-size:13px;background-color:initial">
+                                using RDFC-1.0 for canonicalization
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </foreignObject>
+        <text xmlns="http://www.w3.org/2000/svg" x="662" y="600" font-family="Helvetica" font-size="16" text-anchor="middle">bbs-2023...</text>
+    </switch>
+    <rect width="164.99" height="70" x="580" y="20" fill="none" stroke="#000" pointer-events="all" rx="10.5" ry="10.5" transform="matrix(1 0 0 -1 0 110)"/>
+    <switch transform="translate(-.5 -.5)">
+        <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe center;justify-content:unsafe center;width:163px;height:1px;padding-top:55px;margin-left:581px">
+                <div data-drawio-colors="color: rgb(0, 0, 0);" style="box-sizing:border-box;font-size:0;text-align:center">
+                    <div style="display:inline-block;font-size:16px;font-family:Helvetica;color:#000;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
+                        <div>
+                            <span style="background-color:initial;font-size:20px">
+                                eddsa-rdfc-2022
+                            </span>
+                        </div>
+                        <div>
+                            <span style="font-size:13px;background-color:initial">
+                                using RDFC-1.0 for canonicalization
+                            </span>
+                            <br/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </foreignObject>
+        <text xmlns="http://www.w3.org/2000/svg" x="662" y="60" font-family="Helvetica" font-size="16" text-anchor="middle">eddsa-rdfc-2022...</text>
+    </switch>
+    <rect width="164.99" height="70" x="580" y="128" fill="none" stroke="#000" pointer-events="all" rx="10.5" ry="10.5" transform="matrix(1 0 0 -1 0 326)"/>
+    <switch transform="translate(-.5 -.5)">
+        <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe center;justify-content:unsafe center;width:163px;height:1px;padding-top:163px;margin-left:581px">
+                <div data-drawio-colors="color: rgb(0, 0, 0);" style="box-sizing:border-box;font-size:0;text-align:center">
+                    <div style="display:inline-block;font-size:16px;font-family:Helvetica;color:#000;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
+                        <div>
+                            <span style="background-color:initial;font-size:20px">
+                                eddsa-jcs-2022
+                            </span>
+                        </div>
+                        <div>
+                            <span style="font-size:13px;background-color:initial">
+                                using JCS for canonicalization
+                            </span>
+                            <br/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </foreignObject>
+        <text xmlns="http://www.w3.org/2000/svg" x="662" y="168" font-family="Helvetica" font-size="16" text-anchor="middle">eddsa-jcs-2022...</text>
+    </switch>
+    <rect width="164.99" height="70" x="580" y="236" fill="none" stroke="#000" pointer-events="all" rx="10.5" ry="10.5" transform="matrix(1 0 0 -1 0 542)"/>
+    <switch transform="translate(-.5 -.5)">
+        <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe center;justify-content:unsafe center;width:163px;height:1px;padding-top:271px;margin-left:581px">
+                <div data-drawio-colors="color: rgb(0, 0, 0);" style="box-sizing:border-box;font-size:0;text-align:center">
+                    <div style="display:inline-block;font-size:16px;font-family:Helvetica;color:#000;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
+                        <div>
+                            <span style="background-color:initial;font-size:20px">
+                                ecdsa-rdfc-2019
+                            </span>
+                        </div>
+                        <div>
+                            <span style="font-size:13px;background-color:initial">
+                                using RDFC-1.0 for canonicalization
+                            </span>
+                            <br/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </foreignObject>
+        <text xmlns="http://www.w3.org/2000/svg" x="662" y="276" font-family="Helvetica" font-size="16" text-anchor="middle">ecdsa-rdfc-2019...</text>
+    </switch>
+    <rect width="164.99" height="70" x="580" y="344" fill="none" stroke="#000" pointer-events="all" rx="10.5" ry="10.5" transform="matrix(1 0 0 -1 0 758)"/>
+    <switch transform="translate(-.5 -.5)">
+        <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe center;justify-content:unsafe center;width:163px;height:1px;padding-top:379px;margin-left:581px">
+                <div data-drawio-colors="color: rgb(0, 0, 0);" style="box-sizing:border-box;font-size:0;text-align:center">
+                    <div style="display:inline-block;font-size:16px;font-family:Helvetica;color:#000;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
+                        <div>
+                            <span style="background-color:initial;font-size:20px">
+                                ecdsa-jcs-2019
+                            </span>
+                        </div>
+                        <div>
+                            <span style="font-size:13px;background-color:initial">
+                                using JCS for canonicalization
+                            </span>
+                            <br/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </foreignObject>
+        <text xmlns="http://www.w3.org/2000/svg" x="662" y="384" font-family="Helvetica" font-size="16" text-anchor="middle">ecdsa-jcs-2019...</text>
+    </switch>
+    <rect width="164.99" height="70" x="580" y="452" fill="none" stroke="#000" pointer-events="all" rx="10.5" ry="10.5" transform="matrix(1 0 0 -1 0 974)"/>
+    <switch transform="translate(-.5 -.5)">
+        <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe center;justify-content:unsafe center;width:163px;height:1px;padding-top:487px;margin-left:581px">
+                <div data-drawio-colors="color: rgb(0, 0, 0);" style="box-sizing:border-box;font-size:0;text-align:center">
+                    <div style="display:inline-block;font-size:16px;font-family:Helvetica;color:#000;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
+                        <div>
+                            <span style="background-color:initial;font-size:20px">
+                                ecdsa-sd-2023
+                            </span>
+                        </div>
+                        <div>
+                            <span style="font-size:13px;background-color:initial">
+                                using RDFC-1.0 for canonicalization
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </foreignObject>
+        <text xmlns="http://www.w3.org/2000/svg" x="662" y="492" font-family="Helvetica" font-size="16" text-anchor="middle">ecdsa-sd-2023...</text>
+    </switch>
+    <g stroke="#000" stroke-miterlimit="10">
+        <path fill="none" d="M184.99 330H230q10 0 10-10V119q0-10 10-10h37.13" pointer-events="stroke"/>
+        <path d="m293.88 109-9 4.5 2.25-4.5-2.25-4.5Z" pointer-events="all"/>
+    </g>
+    <g stroke="#000" stroke-miterlimit="10">
+        <path fill="none" d="M184.99 330H230q10 0 10 10v29q0 10 10 10h37.13" pointer-events="stroke"/>
+        <path d="m293.88 379-9 4.5 2.25-4.5-2.25-4.5Z" pointer-events="all"/>
+    </g>
+    <g stroke="#000" stroke-miterlimit="10">
+        <path fill="none" d="M184.99 330H230q10 0 10 10v245q0 10 10 10h37.13" pointer-events="stroke"/>
+        <path d="m293.88 595-9 4.5 2.25-4.5-2.25-4.5Z" pointer-events="all"/>
+    </g>
+    <g stroke="#000" stroke-miterlimit="10">
+        <path fill="none" d="M459.99 109H510q10 0 10-10V65q0-10 10-10h42.13" pointer-events="stroke"/>
+        <path d="m578.88 55-9 4.5 2.25-4.5-2.25-4.5Z" pointer-events="all"/>
+    </g>
+    <g stroke="#000" stroke-miterlimit="10">
+        <path fill="none" d="M459.99 109H510q10 0 10 10v34q0 10 10 10h42.13" pointer-events="stroke"/>
+        <path d="m578.88 163-9 4.5 2.25-4.5-2.25-4.5Z" pointer-events="all"/>
+    </g>
+    <g stroke="#000" stroke-miterlimit="10">
+        <path fill="none" d="M459.99 379H510q10 0 10-10v-88q0-10 10-10h42.13" pointer-events="stroke"/>
+        <path d="m578.88 271-9 4.5 2.25-4.5-2.25-4.5Z" pointer-events="all"/>
+    </g>
+    <g stroke="#000" stroke-miterlimit="10">
+        <path fill="none" d="M459.99 379H510q10 0 10 10v88q0 10 10 10h42.13" pointer-events="stroke"/>
+        <path d="m578.88 487-9 4.5 2.25-4.5-2.25-4.5Z" pointer-events="all"/>
+    </g>
+    <g stroke="#000" stroke-miterlimit="10">
+        <path fill="none" d="M459.99 379H572.13" pointer-events="stroke"/>
+        <path d="m578.88 379-9 4.5 2.25-4.5-2.25-4.5Z" pointer-events="all"/>
+    </g>
+    <g stroke="#000" stroke-miterlimit="10">
+        <path fill="none" d="M459.99 595H572.13" pointer-events="stroke"/>
+        <path d="m578.88 595-9 4.5 2.25-4.5-2.25-4.5Z" pointer-events="all"/>
+    </g>
+    <rect width="220" height="40" x="555.01" y="650" fill="none" pointer-events="all" rx="6" ry="6"/>
+    <switch transform="translate(-.5 -.5)">
+        <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe flex-start;justify-content:unsafe center;width:218px;height:1px;padding-top:657px;margin-left:556px">
+                <div data-drawio-colors="color: rgb(0, 0, 0);" style="box-sizing:border-box;font-size:0;text-align:center">
+                    <div style="display:inline-block;font-size:16px;font-family:Helvetica;color:#000;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
+                        <i style="border-color:var(--border-color);color:#000;font-family:Helvetica;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0;text-transform:none;widows:2;word-spacing:0;-webkit-text-stroke-width:0;background-color:#fbfbfb;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial">
+                            <font style="font-size:15px">
+                                Selective disclosure schemes
+                            </font>
+                        </i>
+                    </div>
+                </div>
+            </div>
+        </foreignObject>
+        <text xmlns="http://www.w3.org/2000/svg" x="665" y="673" font-family="Helvetica" font-size="16" text-anchor="middle">Selective disclosure schemes</text>
+    </switch>
+</svg>

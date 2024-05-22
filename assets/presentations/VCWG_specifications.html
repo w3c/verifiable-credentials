@@ -33,6 +33,10 @@
         /*= (w - 11) / w */
       }
 
+      .slide pre {
+        font-size: 63%;
+      }
+
     </style>
   </head>
 
@@ -59,7 +63,6 @@
       <h1>W3C Verifiable Credentials Working Group Specifications</h1>
     </section>
 
-
     <section class="slide">
       <h2>It all starts with a data model…</h2>
       <object data="./Tools/Images/1_VCDM.svg" type="image/svg+xml" class="cover">
@@ -75,31 +78,33 @@
       </object>
     </section>
     <section class="slide">
-      <h2>Manage suspension/revocation of credentials</h2>
-      <object data="./Tools/Images/3_Bitstring_Status_List.svg" type="image/svg+xml" class="cover">
-        Image description: a new box added to the right of the previous diagram, labelled with “Bitstring Status
-        List,Publishing status information for VCs using bitstrings”. This box is connected via an arrow to the box
-        labeled as “VC Data Model”
-      </object>
-    </section>
-    <section class="slide">
-      <h2>Credentials should be secured through…</h2>
-      <object data="./Tools/Images/4_Securing_Mechanisms.svg" type="image/svg+xml" class="cover">
+      <h2>Credentials should be secured</h2>
+      <object data="./Tools/Images/3_Securing_Mechanisms.svg" type="image/svg+xml" class="cover">
         Image description: a drawing for a delimited area is added to the previous diagram underneath the box labeled as
-        “VC Data Model”, labeled as “Securing Mechanism of VCs”
+        “VC Data Model”, labeled as “Securing Mechanism of VCs”, with additional subdivision between “embedded” and “enveloping” proofs.
+      </object>
+    </section>
+
+    <section class="slide">
+      <h2>Securing through JSON Web Tokens & co.</h2>
+      <object data="./Tools/Images/4_JOSE_COSE.svg" type="image/svg+xml" class="cover">
+        The delimited area on “enveloping proof” includes a new box, labeled as ”JOSE and COSE, Enveloping proofs
+        using JWS, SD-JWT, or CBOR”. This box is connected with an arrow to the box labeled as ”VC Data Model”.
+        Additionally, a box right underneath the VCDM box appears labeled as “Controller Documents, 
+        Common definitions of verification methods and relationships”, also connected by the JOSE-COSE box.
       </object>
     </section>
     <section class="slide">
-      <h2>…either with security data “within” the credential…</h2>
+      <h2>Securing “within” the credential…</h2>
       <object data="./Tools/Images/5_Data_Integrity.svg" type="image/svg+xml" class="cover">
-        A new, delimited area is added to the diagram, labeled as “Embedded Proofs”, enclosed in the delimited area on
-        “Securing Mechanisms of VCs". This new area includes a new box labeled “Data Integrity, General structure of 
-        embedded proofs”. This box is connected with an arrow to the box labeled as ”VC Data Model”
+        Delimited area is added to the diagram, labeled as “Embedded Proofs” includes a new box labeled 
+        “Data Integrity, General structure of embedded proofs”. This box is connected with an arrow to 
+        the box labeled as ”VC Data Model”, as well as the “Controller Documents” one.
       </object>
     </section>
     <section class="slide">
-      <h2>…with specific crypto methods</h2>
-      <object data="./Tools/Images/6_Embedded_Proofs.svg" type="image/svg+xml" class="cover">
+      <h2>…with specific cryptosuites</h2>
+      <object data="./Tools/Images/6_Cryptosuites.svg" type="image/svg+xml" class="cover">
         Three new boxes are added to the delimited area labeled as “Embedded Proofs”; all boxes are connected with
         arrow to the box labeled as ”Data Integrity”. The new boxes are:
         <ol>
@@ -110,14 +115,102 @@
       </object>
     </section>
     <section class="slide">
-      <h2>…or with a security “envelop” for the credential</h2>
-      <object data="./Tools/Images/7_Jose_Cose.svg" type="image/svg+xml" class="cover">
-        A new, delimited area is added to the diagram, labeled as “Enveloping Proofs”, enclosed in the delimited area on
-        “Securing Mechanisms of VCs". This new area includes a new box, labeled as ”JOSE and COSE, Enveloping proofs
-        using JWS, SD-JWT, or CBOR”. This box is connected with an arrow to the box labeled as ”VC Data Model”.
+      <h2>Manage suspension/revocation of credentials</h2>
+      <object data="./Tools/Images/7_Bitstring_Status_List.svg" type="image/svg+xml" class="cover">
+        Image description: a new box added to the right of the full diagram, labelled with “Bitstring Status
+        List,Publishing status information for VCs using bitstrings”. This box is connected via an arrow to the box
+        labeled as “VC Data Model”
+      </object>
+    </section>
+    <section class="slide">
+      <h2>Standard cryptosuites</h2>
+      <object data="./Tools/Images/all_cryptosuites.svg" type="image/svg+xml" class="cover" width="80%">
+        The image is a flowchart showing the categorization of various cryptographic suites and their respective
+        canonicalization methods. The chart branches to three main cryptosuites documents: EdDSA (based on Edwards curves),
+        ECDSA (based on ECDSA curves), and BBS (based on BBS schemes). The EdDSA suite further divides into two specific
+        cryptosuites: eddsa-rdfc-2022 (using RDFC-1.0 for canonicalization) and eddsa-jcs-2022 (using JCS for canonicalization).
+        The ECDSA suite branches into three specific cryptosuites: ecdsa-rdfc-2019 (using RDFC-1.0 or canonicalization),
+        ecdsa-jcs-2019 (using JCS canonicalization), and ecdsa-sd-2023 (using RDFC-1.0 for canonicalization and providing
+        selective disclosure schemes). The BBS suite splits into one method: bbs-2023 (using RDFC-1.0 for canonicalization and
+        providing selective disclosure schemes).
       </object>
     </section>
 
+    <section class="slide">
+      <h2>Example: Basic credential… </h2>
+      <pre>
+
+        {
+          "@context": [
+            "https://www.w3.org/ns/credentials/v2",
+            "https://www.example.org/vocabs/alumni"
+          ],
+          "id": "https://university.example/Credential123",
+          "type": ["VerifiableCredential", "ExampleAlumniCredential"],
+          "issuer": "did:example:2g55q912ece",
+          "credentialSubject": {
+            "id": "https://www.example.org/persons/pat",
+            "name": "Pat",
+            "alumniOf": {
+              "id": "did:example:c276e12ec21ebfeb1f712ebc6f1",
+              "name": "Example University"
+            }
+          },
+          …
+      </pre>
+    </section>
+
+    <section class="slide">
+      <h2>…JSON Schema and status references</h2>
+      <pre>
+          …
+          "credentialSchema": {
+            "id": "https://university.example/Credential123-schema-credential",
+            "type": "JsonSchemaCredential"
+          },
+          "credentialStatus": {
+            "id": "https://university.example/statuslist#123456",
+            "type": "BitstringStatusListEntry",
+            "statusPurpose": "revocation",
+            "statusListIndex": "123456",
+            "statusListCredential": "https://university.example/CredentialStatusList"
+          },
+          …
+      </pre>
+    </section>
+
+    <section class="slide">
+      <h2>…and signed using ECDSA</h2>
+      <pre>
+          …
+          "proof": {
+            "type": "DataIntegrityProof",
+            "cryptosuite": "ecdsa-rdfc-2019",
+            "created": "2010-01-01T00:00:00Z",
+            "expires": "2040-01-01T00:00:00Z",
+            "verificationMethod: "did:example:2g55q912ece#ecdsa-public-key"
+            "proofPurpose": "assertionMethod"
+            "proofValue": "zQeVb…Wx"
+          }
+        }
+      </pre>
+    </section>
+
+    <section class="slide">
+      <h2>Further links</h2>
+
+      <dl>
+        <dt>These slides: </dt>
+        <dd><a href="https://www.w3.org/2017/vc/WG/assets/presentations/VCWG_specifications.html">/2017/vc/WG/assets/presentations/VCWG_specifications.html</a></dd>
+
+        <dt>Single Overview in SVG</dt>
+        <dd><a href="https://www.w3.org/2017/vc/WG/assets/VCWG_specifications.svg">/2017/vc/WG/assets/VCWG_specifications.svg</a></dd>
+
+        <dt>VC Overview Document (to be published, eventually, as a WG Note)</dt>
+        <dd><a href="https://w3c.github.io/vc-overview/">https://w3c.github.io/vc-overview/</a></dd>
+      </dl>
+
+    </section>
 
     <!--=============================================================
 			     User manual
@@ -125,7 +218,7 @@
 
 
     <footer class="comment">
-      <address>Created 11 February 2024 by <a href="mailto:ivan@w3.org">Ivan Herman</a>.</address>
+      <address>Created 22 February 2024 by <a href="mailto:ivan@w3.org">Ivan Herman</a>.</address>
     </footer>
   </body>
 

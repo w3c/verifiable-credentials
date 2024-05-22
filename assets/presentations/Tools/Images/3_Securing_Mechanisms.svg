@@ -48,10 +48,6 @@
         </switch>
     </a>
     <g stroke="#0b4d6a" stroke-miterlimit="10">
-        <path fill="none" d="M743.76 463V252q0-10-10-10h-21.14" pointer-events="stroke"/>
-        <path fill="#0b4d6a" d="m705.87 242 9-4.5-2.25 4.5 2.25 4.5Z" pointer-events="all"/>
-    </g>
-    <g stroke="#0b4d6a" stroke-miterlimit="10">
         <path fill="none" d="M215.01 260v-28q0-10 10-10h191.88" pointer-events="stroke"/>
         <path fill="#0b4d6a" d="m423.64 222-9 4.5 2.25-4.5-2.25-4.5Z" pointer-events="all"/>
     </g>
@@ -71,32 +67,6 @@
         <text xmlns="http://www.w3.org/2000/svg" x="565" y="828" fill="#EEE" font-family="Helvetica" font-size="16" text-anchor="middle">Securing mechanisms of VCs</text>
     </switch>
     <rect width="310" height="340" x="585.01" y="443" fill="none" stroke="#bac8d3" stroke-dasharray="3 3" pointer-events="all" rx="46.5" ry="46.5"/>
-    <a xlink:href="https://www.w3.org/TR/vc-jose-cose/" target="_blank">
-        <rect width="237.5" height="50" x="625.01" y="463" fill="#09555b" stroke="#bac8d3" pointer-events="all" rx="7.5" ry="7.5"/>
-        <switch transform="translate(-.5 -.5)">
-            <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
-                <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe center;justify-content:unsafe center;width:236px;height:1px;padding-top:488px;margin-left:626px">
-                    <div data-drawio-colors="color: #EEEEEE;" style="box-sizing:border-box;font-size:0;text-align:center">
-                        <div style="display:inline-block;font-size:16px;font-family:Helvetica;color:#eee;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
-                            <font>
-                                <span style="font-size:20px">
-                                    JOSE and COSE
-                                    <br/>
-                                </span>
-                                <span style="font-size:10px">
-                                    <i>
-                                        Enveloping proofs using JWS, SD-JWT, or CBOR
-                                    </i>
-                                </span>
-                                <br/>
-                            </font>
-                        </div>
-                    </div>
-                </div>
-            </foreignObject>
-            <text xmlns="http://www.w3.org/2000/svg" x="744" y="493" fill="#EEE" font-family="Helvetica" font-size="16" text-anchor="middle">JOSE and COSE...</text>
-        </switch>
-    </a>
     <rect width="220" height="40" x="633.76" y="753" fill="none" pointer-events="all" rx="6" ry="6"/>
     <switch transform="translate(-.5 -.5)">
         <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
@@ -113,29 +83,6 @@
         <text xmlns="http://www.w3.org/2000/svg" x="744" y="776" fill="#EEE" font-family="Helvetica" font-size="16" text-anchor="middle">Enveloping proofs</text>
     </switch>
     <rect width="310" height="340" x="235.01" y="443" fill="none" stroke="#bac8d3" stroke-dasharray="3 3" pointer-events="all" rx="46.5" ry="46.5"/>
-    <a xlink:href="https://www.w3.org/TR/vc-data-integrity/" target="_blank">
-        <rect width="215" height="50" x="289.01" y="463" fill="#09555b" stroke="#bac8d3" pointer-events="all" rx="7.5" ry="7.5"/>
-        <switch transform="translate(-.5 -.5)">
-            <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
-                <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe center;justify-content:unsafe center;width:213px;height:1px;padding-top:488px;margin-left:290px">
-                    <div data-drawio-colors="color: #EEEEEE;" style="box-sizing:border-box;font-size:0;text-align:center">
-                        <div style="display:inline-block;font-size:16px;font-family:Helvetica;color:#eee;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
-                            <font style="font-size:20px">
-                                Data Integrity
-                            </font>
-                            <br/>
-                            <font style="font-size:10px">
-                                <i>
-                                    General structure of embedded proofs
-                                </i>
-                            </font>
-                        </div>
-                    </div>
-                </div>
-            </foreignObject>
-            <text xmlns="http://www.w3.org/2000/svg" x="397" y="493" fill="#EEE" font-family="Helvetica" font-size="16" text-anchor="middle">Data Integrity...</text>
-        </switch>
-    </a>
     <rect width="220" height="40" x="286.51" y="753" fill="none" pointer-events="all" rx="6" ry="6"/>
     <switch transform="translate(-.5 -.5)">
         <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
@@ -151,43 +98,4 @@
         </foreignObject>
         <text xmlns="http://www.w3.org/2000/svg" x="397" y="776" fill="#EEE" font-family="Helvetica" font-size="16" text-anchor="middle">Embedded proofs</text>
     </switch>
-    <g stroke="#0b4d6a" stroke-miterlimit="10">
-        <path fill="none" d="M396.51 463V252q0-10 10-10h10.38" pointer-events="stroke"/>
-        <path fill="#0b4d6a" d="m423.64 242-9 4.5 2.25-4.5-2.25-4.5Z" pointer-events="all"/>
-    </g>
-    <a xlink:href="https://www.w3.org/TR/controller-document/" target="_blank">
-        <rect width="240" height="70" x="444.76" y="310" fill="#09555b" stroke="#bac8d3" pointer-events="all" rx="10.5" ry="10.5"/>
-        <switch transform="translate(-.5 -.5)">
-            <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
-                <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe center;justify-content:unsafe center;width:238px;height:1px;padding-top:345px;margin-left:446px">
-                    <div data-drawio-colors="color: #EEEEEE;" style="box-sizing:border-box;font-size:0;text-align:center">
-                        <div style="display:inline-block;font-size:16px;font-family:Helvetica;color:#eee;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
-                            <font>
-                                <span style="font-size:20px">
-                                    Controller Documents
-                                </span>
-                            </font>
-                            <div>
-                                <font>
-                                    <i style="font-size:10px">
-                                        Common definitions of verification methods and relationships
-                                    </i>
-                                    <br/>
-                                </font>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </foreignObject>
-            <text xmlns="http://www.w3.org/2000/svg" x="565" y="350" fill="#EEE" font-family="Helvetica" font-size="16" text-anchor="middle">Controller Documents...</text>
-        </switch>
-    </a>
-    <g stroke="#0b4d6a" stroke-miterlimit="10">
-        <path fill="none" d="M450.26 463v-53q0-10 10-10h34.5q10 0 10-6.07v-6.06" pointer-events="stroke"/>
-        <path fill="#0b4d6a" d="m504.76 381.12 4.5 9-4.5-2.25-4.5 2.25Z" pointer-events="all"/>
-    </g>
-    <g stroke="#0b4d6a" stroke-miterlimit="10">
-        <path fill="none" d="M684.38 463v-43q0-10-10-10h-39.62q-10 0-10-10v-12.13" pointer-events="stroke"/>
-        <path fill="#0b4d6a" d="m624.76 381.12 4.5 9-4.5-2.25-4.5 2.25Z" pointer-events="all"/>
-    </g>
 </svg>
