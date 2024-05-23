@@ -1,155 +1,155 @@
-<mxfile host="Electron" modified="2024-05-22T11:17:58.902Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="GUlrZBqCpd6nl-T-7DNE" version="24.4.0" type="device">
+<mxfile host="Electron" modified="2024-05-23T09:15:07.844Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="mVxIZ63sz8Rn_ZbZ7C7j" version="24.4.0" type="device">
   <diagram name="Page-1" id="6gULVhWcurzz5zKnDaAR">
     <mxGraphModel dx="1600" dy="1216" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="DfoHDzADMynW7jO29soE-1" value="&lt;i style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;&lt;b&gt;W3C Verifiable Credentials Working Group Specifications&lt;/b&gt;&lt;/font&gt;&lt;/i&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;align=center;rounded=1;labelBackgroundColor=none;fontColor=#EEEEEE;" parent="1" vertex="1">
-          <mxGeometry x="237.63" y="62" width="660.25" height="40" as="geometry" />
+          <mxGeometry x="239.58793403629227" y="20" width="696.8341319274155" height="42.21635883905014" as="geometry" />
         </mxCell>
-        <mxCell id="r7VOtmBWi9sTdI5Oyx6i-44" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;dashed=1;labelBackgroundColor=none;strokeColor=#BAC8D3;fontColor=#EEEEEE;" parent="1" vertex="1">
-          <mxGeometry x="184.755" y="403" width="720" height="410" as="geometry" />
+        <mxCell id="r7VOtmBWi9sTdI5Oyx6i-44" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#CCCCCC;dashed=1;labelBackgroundColor=none;strokeColor=none;fontColor=#EEEEEE;" parent="1" vertex="1">
+          <mxGeometry x="165.84119421284942" y="379.8944591029024" width="759.894850416871" height="432.71767810026387" as="geometry" />
+        </mxCell>
+        <mxCell id="r7VOtmBWi9sTdI5Oyx6i-34" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#b3b3b3;dashed=1;labelBackgroundColor=none;strokeColor=none;fontColor=#EEEEEE;" parent="1" vertex="1">
+          <mxGeometry x="567.1606620892594" y="401.00263852242745" width="327.1769494850417" height="358.8390501319261" as="geometry" />
         </mxCell>
         <UserObject label="&lt;font style=&quot;font-size: 20px;&quot;&gt;VC Data Model&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;i&gt;Graph based model of verifiable claims in JSON for Issuer-Holder-Verifier relationships&lt;/i&gt;&lt;/font&gt;" link="https://www.w3.org/TR/vc-data-model-2.0/" linkTarget="_blank" id="r7VOtmBWi9sTdI5Oyx6i-1">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" parent="1" vertex="1">
-            <mxGeometry x="404.755" y="162" width="280" height="80" as="geometry" />
+            <mxGeometry x="398.0312873957822" y="125.54089709762533" width="295.5146640510054" height="84.43271767810027" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;JSON Schema&lt;br&gt;&lt;/span&gt;&lt;i style=&quot;font-size: 10px;&quot;&gt;JSON Schemas for the structural checking of VCs&lt;/i&gt;&lt;br&gt;&lt;/font&gt;" link="https://www.w3.org/TR/vc-json-schema/" linkTarget="_blank" id="r7VOtmBWi9sTdI5Oyx6i-7">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" parent="1" vertex="1">
-            <mxGeometry x="75.005" y="240" width="240" height="60" as="geometry" />
+            <mxGeometry x="50.00999999999999" y="207.8627968337731" width="253.29828347229034" height="63.3245382585752" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Bitstring Status List&lt;br&gt;&lt;/span&gt;&lt;i style=&quot;font-size: 10px;&quot;&gt;Publishing status information for VCs using bitstrings&lt;/i&gt;&lt;br&gt;&lt;/font&gt;" link="https://www.w3.org/TR/vc-bitstring-status-list/" linkTarget="_blank" id="r7VOtmBWi9sTdI5Oyx6i-8">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" parent="1" vertex="1">
-            <mxGeometry x="807.005" y="240" width="287.5" height="60" as="geometry" />
+            <mxGeometry x="822.5697645904855" y="207.8627968337731" width="303.43023540951447" height="63.3245382585752" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="r7VOtmBWi9sTdI5Oyx6i-21" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=1;endSize=8;startSize=8;fontSize=12;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" parent="1" source="r7VOtmBWi9sTdI5Oyx6i-6" target="r7VOtmBWi9sTdI5Oyx6i-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="545.005" y="340" as="sourcePoint" />
-            <mxPoint x="595.005" y="290" as="targetPoint" />
+            <mxPoint x="546.0524717999019" y="313.40369393139844" as="sourcePoint" />
+            <mxPoint x="598.8229475232957" y="260.63324538258576" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="710" y="222" />
+              <mxPoint x="720.1897646395292" y="188.86543535620055" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="r7VOtmBWi9sTdI5Oyx6i-23" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=1;endSize=8;startSize=8;fontSize=12;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" parent="1" source="r7VOtmBWi9sTdI5Oyx6i-7" target="r7VOtmBWi9sTdI5Oyx6i-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="215.005" y="190" as="sourcePoint" />
-            <mxPoint x="265.005" y="140" as="targetPoint" />
+            <mxPoint x="197.7673320255027" y="155.09234828496042" as="sourcePoint" />
+            <mxPoint x="250.5378077488965" y="102.32189973614776" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="195.005" y="230" />
+              <mxPoint x="176.65914173614516" y="197.30870712401057" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="r7VOtmBWi9sTdI5Oyx6i-24" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=1;endSize=8;startSize=8;fontSize=12;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" parent="1" source="r7VOtmBWi9sTdI5Oyx6i-8" target="r7VOtmBWi9sTdI5Oyx6i-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1029.005" y="180" as="sourcePoint" />
-            <mxPoint x="735.005" y="120" as="targetPoint" />
+            <mxPoint x="1056.8706768023544" y="144.53825857519791" as="sourcePoint" />
+            <mxPoint x="746.5802795487984" y="81.2137203166227" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="951.005" y="230" />
+              <mxPoint x="974.5487346738597" y="197.30870712401057" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="r7VOtmBWi9sTdI5Oyx6i-45" value="&lt;i style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Securing mechanisms of VCs&lt;/i&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;align=center;rounded=1;labelBackgroundColor=none;fontColor=#EEEEEE;" parent="1" vertex="1">
-          <mxGeometry x="435.005" y="785" width="220" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="r7VOtmBWi9sTdI5Oyx6i-34" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;dashed=1;labelBackgroundColor=none;strokeColor=#BAC8D3;fontColor=#EEEEEE;" parent="1" vertex="1">
-          <mxGeometry x="565.005" y="423" width="310" height="340" as="geometry" />
-        </mxCell>
         <UserObject label="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;JOSE and COSE&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;i&gt;Enveloping proofs using JWS, SD-JWT, or CBOR&lt;/i&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" link="https://www.w3.org/TR/vc-jose-cose/" linkTarget="_blank" id="r7VOtmBWi9sTdI5Oyx6i-6">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" parent="1" vertex="1">
-            <mxGeometry x="605.005" y="443" width="237.5" height="50" as="geometry" />
+            <mxGeometry x="609.3770426679745" y="422.1108179419525" width="250.65975968612068" height="52.770448548812666" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="r7VOtmBWi9sTdI5Oyx6i-47" value="&lt;i style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Enveloping proofs&lt;/i&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;align=center;rounded=1;labelBackgroundColor=none;fontColor=#EEEEEE;" parent="1" vertex="1">
-          <mxGeometry x="613.755" y="733" width="220" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="r7VOtmBWi9sTdI5Oyx6i-33" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;dashed=1;labelBackgroundColor=none;strokeColor=#BAC8D3;fontColor=#EEEEEE;" parent="1" vertex="1">
-          <mxGeometry x="215.005" y="423" width="310" height="340" as="geometry" />
+        <mxCell id="r7VOtmBWi9sTdI5Oyx6i-33" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#B3B3B3;dashed=1;labelBackgroundColor=none;strokeColor=none;fontColor=#EEEEEE;" parent="1" vertex="1">
+          <mxGeometry x="197.7673320255027" y="401.00263852242745" width="327.1769494850417" height="358.8390501319261" as="geometry" />
         </mxCell>
         <UserObject label="&lt;span style=&quot;font-size: 20px;&quot;&gt;ECDSA Cryptosuites&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;i&gt;Data Integrity with NIST elliptic curves&lt;/i&gt;&lt;/font&gt;" link="https://www.w3.org/TR/vc-di-ecdsa/" linkTarget="_blank" id="r7VOtmBWi9sTdI5Oyx6i-3">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" parent="1" vertex="1">
-            <mxGeometry x="295.005" y="533" width="215" height="50" as="geometry" />
+            <mxGeometry x="282.2000931829328" y="517.0976253298153" width="226.91304561059343" height="52.770448548812666" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;span style=&quot;font-size: 20px;&quot;&gt;EdDSA Cryptosuites&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;i&gt;Data Integrity with Edwards elliptic curves&lt;/i&gt;&lt;/font&gt;" link="https://www.w3.org/TR/vc-di-eddsa/" linkTarget="_blank" id="r7VOtmBWi9sTdI5Oyx6i-4">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" parent="1" vertex="1">
-            <mxGeometry x="295.005" y="593" width="215" height="50" as="geometry" />
+            <mxGeometry x="282.2000931829328" y="580.4221635883906" width="226.91304561059343" height="52.770448548812666" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;span style=&quot;font-size: 20px;&quot;&gt;BBS Cryptosuites&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;i&gt;Data Integrity with BBS selective disclosures&lt;/i&gt;&lt;/font&gt;" link="https://www.w3.org/TR/vc-di-bbs/" linkTarget="_blank" id="r7VOtmBWi9sTdI5Oyx6i-5">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" parent="1" vertex="1">
-            <mxGeometry x="295.005" y="653" width="215" height="50" as="geometry" />
+            <mxGeometry x="282.2000931829328" y="643.7467018469657" width="226.91304561059343" height="52.770448548812666" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;font style=&quot;font-size: 20px;&quot;&gt;Data Integrity&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;i&gt;General structure of embedded proofs&lt;/i&gt;&lt;/font&gt;" link="https://www.w3.org/TR/vc-data-integrity/" linkTarget="_blank" id="r7VOtmBWi9sTdI5Oyx6i-2">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" parent="1" vertex="1">
-            <mxGeometry x="269.005" y="443" width="215" height="50" as="geometry" />
+            <mxGeometry x="254.75944580676804" y="422.1108179419525" width="226.91304561059343" height="52.770448548812666" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="r7VOtmBWi9sTdI5Oyx6i-37" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=1;endSize=8;startSize=8;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" parent="1" source="r7VOtmBWi9sTdI5Oyx6i-3" target="r7VOtmBWi9sTdI5Oyx6i-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="235.005" y="572" as="sourcePoint" />
-            <mxPoint x="285.005" y="522" as="targetPoint" />
+            <mxPoint x="218.87552231486023" y="558.2585751978892" as="sourcePoint" />
+            <mxPoint x="271.64599803825405" y="505.48812664907655" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="245.005" y="513" />
+              <mxPoint x="229.42961745953897" y="495.9894459102903" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="r7VOtmBWi9sTdI5Oyx6i-38" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=1;endSize=8;startSize=8;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" parent="1" source="r7VOtmBWi9sTdI5Oyx6i-4" target="r7VOtmBWi9sTdI5Oyx6i-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="275.005" y="663" as="sourcePoint" />
-            <mxPoint x="249.005" y="573" as="targetPoint" />
+            <mxPoint x="261.09190289357525" y="654.3007915567283" as="sourcePoint" />
+            <mxPoint x="233.6512555174105" y="559.3139841688655" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="245.005" y="543" />
+              <mxPoint x="229.42961745953897" y="527.6517150395778" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="r7VOtmBWi9sTdI5Oyx6i-39" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=1;endSize=8;startSize=8;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" parent="1" source="r7VOtmBWi9sTdI5Oyx6i-5" target="r7VOtmBWi9sTdI5Oyx6i-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="275.005" y="683" as="sourcePoint" />
-            <mxPoint x="249.005" y="593" as="targetPoint" />
+            <mxPoint x="261.09190289357525" y="675.4089709762534" as="sourcePoint" />
+            <mxPoint x="233.6512555174105" y="580.4221635883906" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="245.005" y="573" />
+              <mxPoint x="229.42961745953897" y="559.3139841688655" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="r7VOtmBWi9sTdI5Oyx6i-46" value="&lt;i style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Embedded proofs&lt;/i&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;align=center;rounded=1;labelBackgroundColor=none;fontColor=#EEEEEE;" parent="1" vertex="1">
-          <mxGeometry x="266.505" y="733" width="220" height="40" as="geometry" />
+        <mxCell id="r7VOtmBWi9sTdI5Oyx6i-46" value="&lt;i style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Embedded proofs&lt;/i&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;align=center;rounded=1;labelBackgroundColor=none;fontColor=#EEEEEE;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="252.1209220205983" y="728.179419525066" width="232.1900931829328" height="42.21635883905014" as="geometry" />
         </mxCell>
         <mxCell id="iExSj8y2DTFrv8wI0oQc-2" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=1;endSize=8;startSize=8;fontSize=12;entryX=0;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="r7VOtmBWi9sTdI5Oyx6i-2" target="r7VOtmBWi9sTdI5Oyx6i-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="379" y="440" as="sourcePoint" />
-            <mxPoint x="340" y="222" as="targetPoint" />
+            <mxPoint x="370.84921535066206" y="418.94459102902385" as="sourcePoint" />
+            <mxPoint x="329.6882442864149" y="188.86543535620055" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="365" y="222" />
+              <mxPoint x="356.0734821481118" y="188.86543535620055" />
             </Array>
           </mxGeometry>
         </mxCell>
         <UserObject label="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Controller Documents&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;i style=&quot;font-size: 10px;&quot;&gt;Common definitions of verification methods and relationships&lt;/i&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" link="https://www.w3.org/TR/controller-document/" linkTarget="_blank" id="iExSj8y2DTFrv8wI0oQc-3">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" parent="1" vertex="1">
-            <mxGeometry x="424.755" y="290" width="240" height="70" as="geometry" />
+            <mxGeometry x="419.13947768513975" y="260.63324538258576" width="253.29828347229034" height="73.87862796833774" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="iExSj8y2DTFrv8wI0oQc-4" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=1;endSize=8;startSize=8;fontSize=12;entryX=0.25;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="r7VOtmBWi9sTdI5Oyx6i-2" target="iExSj8y2DTFrv8wI0oQc-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="420" y="443" as="sourcePoint" />
-            <mxPoint x="448" y="222" as="targetPoint" />
+            <mxPoint x="414.12100544384504" y="422.1108179419525" as="sourcePoint" />
+            <mxPoint x="443.6724718489456" y="188.86543535620055" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="450" y="380" />
+              <mxPoint x="445.7832908778813" y="355.6200527704486" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="iExSj8y2DTFrv8wI0oQc-5" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=1;endSize=8;startSize=8;fontSize=12;entryX=0.75;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="1" source="r7VOtmBWi9sTdI5Oyx6i-6" target="iExSj8y2DTFrv8wI0oQc-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="540.26" y="453" as="sourcePoint" />
-            <mxPoint x="595.26" y="370" as="targetPoint" />
+            <mxPoint x="541.0445536537519" y="432.6649076517151" as="sourcePoint" />
+            <mxPoint x="599.0920769494851" y="345.06596306068604" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="560.26" y="390" />
+              <mxPoint x="562.1527439431094" y="366.1741424802111" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="8fynS3Y6ICNjrUd6B1vi-2" value="&lt;i style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Enveloping proofs&lt;/i&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;align=center;rounded=1;labelBackgroundColor=none;fontColor=#EEEEEE;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="609.3770426679745" y="728.179419525066" width="232.1900931829328" height="42.21635883905014" as="geometry" />
+        </mxCell>
+        <mxCell id="8fynS3Y6ICNjrUd6B1vi-3" value="&lt;i style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Securing mechanisms of VCs&lt;/i&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;align=center;rounded=1;labelBackgroundColor=none;fontColor=#EEEEEE;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="429.69357282981855" y="777.78364116095" width="232.1900931829328" height="42.21635883905014" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
