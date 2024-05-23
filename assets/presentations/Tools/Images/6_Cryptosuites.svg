@@ -83,6 +83,75 @@
         </switch>
     </a>
     <rect width="327.18" height="358.84" x="217.77" y="421" fill="#b3b3b3" pointer-events="all" rx="49.08" ry="49.08"/>
+    <a xlink:href="https://www.w3.org/TR/vc-di-ecdsa/" target="_blank">
+        <rect width="226.91" height="52.77" x="302.2" y="537.1" fill="#09555b" stroke="#bac8d3" pointer-events="all" rx="7.92" ry="7.92"/>
+        <switch transform="translate(-.5 -.5)">
+            <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
+                <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe center;justify-content:unsafe center;width:225px;height:1px;padding-top:563px;margin-left:303px">
+                    <div data-drawio-colors="color: #EEEEEE;" style="box-sizing:border-box;font-size:0;text-align:center">
+                        <div style="display:inline-block;font-size:16px;font-family:Helvetica;color:#eee;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
+                            <span style="font-size:20px">
+                                ECDSA Cryptosuites
+                            </span>
+                            <br/>
+                            <font style="font-size:10px">
+                                <i>
+                                    Data Integrity with NIST elliptic curves
+                                </i>
+                            </font>
+                        </div>
+                    </div>
+                </div>
+            </foreignObject>
+            <text xmlns="http://www.w3.org/2000/svg" x="416" y="568" fill="#EEE" font-family="Helvetica" font-size="16" text-anchor="middle">ECDSA Cryptosuites...</text>
+        </switch>
+    </a>
+    <a xlink:href="https://www.w3.org/TR/vc-di-eddsa/" target="_blank">
+        <rect width="226.91" height="52.77" x="302.2" y="600.42" fill="#09555b" stroke="#bac8d3" pointer-events="all" rx="7.92" ry="7.92"/>
+        <switch transform="translate(-.5 -.5)">
+            <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
+                <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe center;justify-content:unsafe center;width:225px;height:1px;padding-top:627px;margin-left:303px">
+                    <div data-drawio-colors="color: #EEEEEE;" style="box-sizing:border-box;font-size:0;text-align:center">
+                        <div style="display:inline-block;font-size:16px;font-family:Helvetica;color:#eee;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
+                            <span style="font-size:20px">
+                                EdDSA Cryptosuites
+                            </span>
+                            <br/>
+                            <font style="font-size:10px">
+                                <i>
+                                    Data Integrity with Edwards elliptic curves
+                                </i>
+                            </font>
+                        </div>
+                    </div>
+                </div>
+            </foreignObject>
+            <text xmlns="http://www.w3.org/2000/svg" x="416" y="632" fill="#EEE" font-family="Helvetica" font-size="16" text-anchor="middle">EdDSA Cryptosuites...</text>
+        </switch>
+    </a>
+    <a xlink:href="https://www.w3.org/TR/vc-di-bbs/" target="_blank">
+        <rect width="226.91" height="52.77" x="302.2" y="663.75" fill="#09555b" stroke="#bac8d3" pointer-events="all" rx="7.92" ry="7.92"/>
+        <switch transform="translate(-.5 -.5)">
+            <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
+                <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe center;justify-content:unsafe center;width:225px;height:1px;padding-top:690px;margin-left:303px">
+                    <div data-drawio-colors="color: #EEEEEE;" style="box-sizing:border-box;font-size:0;text-align:center">
+                        <div style="display:inline-block;font-size:16px;font-family:Helvetica;color:#eee;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
+                            <span style="font-size:20px">
+                                BBS Cryptosuites
+                            </span>
+                            <br/>
+                            <font style="font-size:10px">
+                                <i>
+                                    Data Integrity with BBS selective disclosures
+                                </i>
+                            </font>
+                        </div>
+                    </div>
+                </div>
+            </foreignObject>
+            <text xmlns="http://www.w3.org/2000/svg" x="416" y="695" fill="#EEE" font-family="Helvetica" font-size="16" text-anchor="middle">BBS Cryptosuites...</text>
+        </switch>
+    </a>
     <a xlink:href="https://www.w3.org/TR/vc-data-integrity/" target="_blank">
         <rect width="226.91" height="52.77" x="274.76" y="442.11" fill="#09555b" stroke="#bac8d3" pointer-events="all" rx="7.92" ry="7.92"/>
         <switch transform="translate(-.5 -.5)">
@@ -106,6 +175,18 @@
             <text xmlns="http://www.w3.org/2000/svg" x="388" y="473" fill="#EEE" font-family="Helvetica" font-size="16" text-anchor="middle">Data Integrity...</text>
         </switch>
     </a>
+    <g stroke="#0b4d6a" stroke-miterlimit="10">
+        <path fill="none" d="M302.2 563.48h-42.77q-10 0-10-10V478.5q0-10 8.73-10h8.73" pointer-events="stroke"/>
+        <path fill="#0b4d6a" d="m273.64 468.5-9 4.5 2.25-4.5-2.25-4.5Z" pointer-events="all"/>
+    </g>
+    <g stroke="#0b4d6a" stroke-miterlimit="10">
+        <path fill="none" d="M302.2 626.81h-42.77q-10 0-10-10V478.5q0-10 8.73-10h8.73" pointer-events="stroke"/>
+        <path fill="#0b4d6a" d="m273.64 468.5-9 4.5 2.25-4.5-2.25-4.5Z" pointer-events="all"/>
+    </g>
+    <g stroke="#0b4d6a" stroke-miterlimit="10">
+        <path fill="none" d="M302.2 690.13h-42.77q-10 0-10-10V478.5q0-10 8.73-10h8.73" pointer-events="stroke"/>
+        <path fill="#0b4d6a" d="m273.64 468.5-9 4.5 2.25-4.5-2.25-4.5Z" pointer-events="all"/>
+    </g>
     <rect width="232.19" height="42.22" x="272.12" y="748.18" fill="none" pointer-events="all" rx="6.33" ry="6.33"/>
     <switch transform="translate(-.5 -.5)">
         <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">

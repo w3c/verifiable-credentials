@@ -83,29 +83,6 @@
         </switch>
     </a>
     <rect width="327.18" height="358.84" x="217.77" y="421" fill="#b3b3b3" pointer-events="all" rx="49.08" ry="49.08"/>
-    <a xlink:href="https://www.w3.org/TR/vc-data-integrity/" target="_blank">
-        <rect width="226.91" height="52.77" x="274.76" y="442.11" fill="#09555b" stroke="#bac8d3" pointer-events="all" rx="7.92" ry="7.92"/>
-        <switch transform="translate(-.5 -.5)">
-            <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
-                <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe center;justify-content:unsafe center;width:225px;height:1px;padding-top:468px;margin-left:276px">
-                    <div data-drawio-colors="color: #EEEEEE;" style="box-sizing:border-box;font-size:0;text-align:center">
-                        <div style="display:inline-block;font-size:16px;font-family:Helvetica;color:#eee;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
-                            <font style="font-size:20px">
-                                Data Integrity
-                            </font>
-                            <br/>
-                            <font style="font-size:10px">
-                                <i>
-                                    General structure of embedded proofs
-                                </i>
-                            </font>
-                        </div>
-                    </div>
-                </div>
-            </foreignObject>
-            <text xmlns="http://www.w3.org/2000/svg" x="388" y="473" fill="#EEE" font-family="Helvetica" font-size="16" text-anchor="middle">Data Integrity...</text>
-        </switch>
-    </a>
     <rect width="232.19" height="42.22" x="272.12" y="748.18" fill="none" pointer-events="all" rx="6.33" ry="6.33"/>
     <switch transform="translate(-.5 -.5)">
         <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
@@ -121,10 +98,6 @@
         </foreignObject>
         <text xmlns="http://www.w3.org/2000/svg" x="388" y="771" fill="#EEE" font-family="Helvetica" font-size="16" text-anchor="middle">Embedded proofs</text>
     </switch>
-    <g stroke="#0b4d6a" stroke-miterlimit="10">
-        <path fill="none" d="M388.22 442.11V218.87q0-10 10-10h11.94" pointer-events="stroke"/>
-        <path fill="#0b4d6a" d="m416.91 208.87-9 4.5 2.25-4.5-2.25-4.5Z" pointer-events="all"/>
-    </g>
     <a xlink:href="https://www.w3.org/TR/controller-document/" target="_blank">
         <rect width="253.3" height="73.88" x="439.14" y="280.63" fill="#09555b" stroke="#bac8d3" pointer-events="all" rx="11.08" ry="11.08"/>
         <switch transform="translate(-.5 -.5)">
@@ -152,10 +125,6 @@
             <text xmlns="http://www.w3.org/2000/svg" x="566" y="322" fill="#EEE" font-family="Helvetica" font-size="16" text-anchor="middle">Controller Documents...</text>
         </switch>
     </a>
-    <g stroke="#0b4d6a" stroke-miterlimit="10">
-        <path fill="none" d="M444.94 442.11v-56.49q0-10 10-10h37.52q10 0 10-6.62v-6.62" pointer-events="stroke"/>
-        <path fill="#0b4d6a" d="m502.46 355.63 4.5 9-4.5-2.25-4.5 2.25Z" pointer-events="all"/>
-    </g>
     <g stroke="#0b4d6a" stroke-miterlimit="10">
         <path fill="none" d="M692.04 442.11v-45.94q0-10-10-10h-42.93q-10 0-10-10v-13.79" pointer-events="stroke"/>
         <path fill="#0b4d6a" d="m629.11 355.63 4.5 9-4.5-2.25-4.5 2.25Z" pointer-events="all"/>

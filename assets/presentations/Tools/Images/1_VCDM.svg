@@ -1,10 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background-color:#fff" viewBox="-0.5 -0.5 1061 720">
-    <!-- <rect width="100%" height="100%" fill="#fff"/> -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-0.5 -0.5 1209 867">
     <a xlink:href="https://www.w3.org/TR/vc-data-model-2.0/" target="_blank">
-        <rect width="280" height="80" x="349.76" y="119" fill="#09555b" stroke="#bac8d3" pointer-events="all" rx="12" ry="12"/>
+        <rect width="295.51" height="84.43" x="418.03" y="145.54" fill="#09555b" stroke="#bac8d3" pointer-events="all" rx="12.66" ry="12.66"/>
         <switch transform="translate(-.5 -.5)">
             <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
-                <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe center;justify-content:unsafe center;width:278px;height:1px;padding-top:159px;margin-left:351px">
+                <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe center;justify-content:unsafe center;width:294px;height:1px;padding-top:188px;margin-left:419px">
                     <div data-drawio-colors="color: #EEEEEE;" style="box-sizing:border-box;font-size:0;text-align:center">
                         <div style="display:inline-block;font-size:16px;font-family:Helvetica;color:#eee;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
                             <font style="font-size:20px">
@@ -20,7 +19,7 @@
                     </div>
                 </div>
             </foreignObject>
-            <text xmlns="http://www.w3.org/2000/svg" x="490" y="164" fill="#EEE" font-family="Helvetica" font-size="16" text-anchor="middle">VC Data Model...</text>
+            <text xmlns="http://www.w3.org/2000/svg" x="566" y="193" fill="#EEE" font-family="Helvetica" font-size="16" text-anchor="middle">VC Data Model...</text>
         </switch>
     </a>
 </svg>
