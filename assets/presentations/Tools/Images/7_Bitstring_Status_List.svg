@@ -299,4 +299,8 @@
         </foreignObject>
         <text xmlns="http://www.w3.org/2000/svg" x="566" y="821" fill="#EEE" font-family="Helvetica" font-size="16" text-anchor="middle">Securing mechanisms of VCs</text>
     </switch>
+    <g stroke="#0b4d6a" stroke-miterlimit="10">
+        <path fill="none" d="M565.79 229.97v42.8" pointer-events="stroke"/>
+        <path fill="#0b4d6a" d="m565.79 279.52-4.5-9 4.5 2.25 4.5-2.25Z" pointer-events="all"/>
+    </g>
 </svg>

@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-05-23T09:15:07.844Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="mVxIZ63sz8Rn_ZbZ7C7j" version="24.4.0" type="device">
+<mxfile host="Electron" modified="2024-05-27T08:01:42.514Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.8 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="tpUbGFzZNq81u_S3L5qY" version="24.4.8" type="device">
   <diagram name="Page-1" id="6gULVhWcurzz5zKnDaAR">
     <mxGraphModel dx="1600" dy="1216" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -145,11 +145,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8fynS3Y6ICNjrUd6B1vi-2" value="&lt;i style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Enveloping proofs&lt;/i&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;align=center;rounded=1;labelBackgroundColor=none;fontColor=#EEEEEE;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="8fynS3Y6ICNjrUd6B1vi-2" value="&lt;i style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Enveloping proofs&lt;/i&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;align=center;rounded=1;labelBackgroundColor=none;fontColor=#EEEEEE;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="609.3770426679745" y="728.179419525066" width="232.1900931829328" height="42.21635883905014" as="geometry" />
         </mxCell>
-        <mxCell id="8fynS3Y6ICNjrUd6B1vi-3" value="&lt;i style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Securing mechanisms of VCs&lt;/i&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;align=center;rounded=1;labelBackgroundColor=none;fontColor=#EEEEEE;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="8fynS3Y6ICNjrUd6B1vi-3" value="&lt;i style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Securing mechanisms of VCs&lt;/i&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;align=center;rounded=1;labelBackgroundColor=none;fontColor=#EEEEEE;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="429.69357282981855" y="777.78364116095" width="232.1900931829328" height="42.21635883905014" as="geometry" />
+        </mxCell>
+        <mxCell id="_LNhkUWUHmIsfGNUxpDQ-3" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=1;endSize=8;startSize=8;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" edge="1" parent="1" source="r7VOtmBWi9sTdI5Oyx6i-1" target="iExSj8y2DTFrv8wI0oQc-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="745" y="432" as="sourcePoint" />
+            <mxPoint x="704" y="199" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="230" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
