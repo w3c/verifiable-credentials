@@ -1,0 +1,26 @@
+to webreq@w3.org
+cc group-vc-wg-chairs@w3.org comm, w3t-comm@w3.org, xueyuan@w3.org
+
+Dear Denis,
+
+This is an official publication request for the publication of a First Public Working Group Note for Thursday, 13th of June, 2024.
+
+    Document Verifiable Credentials Overview
+    Document URL:  https://www.w3.org/TR/2024/NOTE-vc-overview-20240613/
+    Publication Date: 2024-06-13
+
+    Approvals:
+        Record of publication request:
+            https://github.com/w3c/transitions/issues/623
+        Director's approval:
+            https://github.com/w3c/transitions/issues/623#issuecomment-2154769966
+
+Checks:
+    Pass Pubrules' check: yes
+    Pass Link Checker's check: yes.
+
+Xueyuan, I will send you a draft for the HPN announcement in separate mail.
+
+Thank You
+
+Ivan
