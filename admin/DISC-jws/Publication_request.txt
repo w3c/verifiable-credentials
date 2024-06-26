@@ -1,0 +1,21 @@
+Dear webmaster,
+
+Here are the necessary information for the publication.
+
+    Document Title: JSON Web Signature for Data Integrity Proofs - W3C Discontinued Draft
+    Document URL:  https://www.w3.org/TR/2024/DISC-vc-jws-2020-20240702/ (doc already in place)
+    Publication Date: 2024-07-02
+    WG Resolution for discontinuing:
+        https://www.w3.org/2017/vc/WG/Meetings/Minutes/2022-09-15-vcwg#resolution1
+
+Checks:
+    Pass Pubrules' check: yes, except for one error: the system flags one of the editors, namely Orie Steele, 
+    not to be part of the WG. Which is correct, but he was part of the WG when the last
+    version of the draft was (erroneously) published as a Working Draft (stating that the
+    document is discontinued). If possible, I would prefer to keep his name on the spec. 
+    Pass Link Checker's check: yes.
+
+Thank You
+
+Ivan
+
