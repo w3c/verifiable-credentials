@@ -2,7 +2,7 @@
 
 - title: Verifiable Credential Extensions
 - URL: https://www.w3.org/TR/2024/NOTE-vc-extensions-20240910/
-- Latest editor's draft: https://w3c.github.io/vc-specs-dir/
+- Latest editor's draft: https://w3c.github.io/vc-extensions/
 - Estimated date of publication: 2024-09-10
 
 # Abstract
