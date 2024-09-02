@@ -1,0 +1,28 @@
+to webreq@w3.org
+cc msporny@digitalbazaar.com, group-vc-wg-chairs@w3.org comm, w3t-comm@w3.org, xueyuan@w3.org
+
+Dear Denis,
+
+This is an official publication request for the publication of a First Public Working Group Note for Thursday, 23rd of January, 2024.
+
+    Document VC Specifications Directory
+    Document URL:  https://www.w3.org/TR/2024/NOTE-vc-specs-dir-20240201/
+    Publication Date: 2024-02-01
+
+    Approvals:
+        Record of publication request:
+            https://github.com/w3c/transitions/issues/586
+        Director's approval:
+            https://github.com/w3c/transitions/issues/586#issuecomment-1906278027
+
+Checks:
+    Pass Pubrules' check: yes
+    Pass Link Checker's check: yes.
+
+The document has already been checked; it has not changed since then.
+
+Xueyuan, I will send you a draft for the HPN announcement in separate mail.
+
+Thank You
+
+Ivan
