@@ -1383,5 +1383,27 @@
             "RobDeFeo"
         ],
         "name": "Rob De Feo"
+    },
+    {
+        "nick": [
+            "ZaneDurkin",
+            "durkin",
+            "zane"
+        ],
+        "name": "Zane Durkin"
+    },
+    {
+        "nick": [
+            "joshua",
+            "JoshThomas"
+        ],
+        "name": "Joshua Thomas"
+    },
+    {
+        "nick": [
+            "McManus",
+            "Brian"
+        ],
+        "name": "Brian McManus"
     }
 ]
