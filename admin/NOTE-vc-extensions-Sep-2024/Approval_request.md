@@ -1,9 +1,9 @@
 # Document title, URLs, estimated publication date
 
 - title: Verifiable Credential Extensions
-- URL: https://www.w3.org/TR/2024/NOTE-vc-extensions-20240910/
+- URL: https://www.w3.org/TR/2024/NOTE-vc-extensions-20241010/ (not yet on server)
 - Latest editor's draft: https://w3c.github.io/vc-extensions/
-- Estimated date of publication: 2024-09-10
+- Estimated date of publication: 2024-10-10
 
 # Abstract
 
@@ -11,7 +11,7 @@ This document serves as an unofficial directory for all known Verifiable Credent
 
 # Status of the Document
 
-See: https://www.w3.org/TR/2024/NOTE-vc-extensions-20240910/#sotd
+See: https://w3c.github.io/vc-extensions/#sotd
 
 # Link to group's decision to request transition
 
