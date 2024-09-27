@@ -263,6 +263,7 @@
     {
         "nick": [
             "decentra",
+            "decentra_",
             "decentralgabe",
             "gabe"
         ],
@@ -1355,7 +1356,8 @@
     },
     {
         "nick": [
-            "Denken"
+            "Denken",
+            "Denkeni"
         ],
         "name": "Denken Chen"
     },
@@ -1403,8 +1405,21 @@
     {
         "nick": [
             "McManus",
-            "Brian"
+            "Brian",
+            "jets"
         ],
         "name": "Brian McManus"
+    },
+    {
+        "nick": [
+            "pziv"
+        ],
+        "name": "Paul Ziv"
+    },
+    {
+        "nick": [
+            "HeatherF"
+        ],
+        "name": "Heather Flanagan"
     }
 ]

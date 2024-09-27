@@ -1,5 +1,5 @@
 {
-    "date": "2024-09-18T16:08:24.685Z",
+    "date": "2024-09-27T14:08:03.666Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -178,9 +178,26 @@
         "2024-09-04-vcwg.md",
         "2024-09-05-vcwg-special.md",
         "2024-09-11-vcwg.md",
-        "2024-09-18-vcwg.md"
+        "2024-09-18-vcwg.md",
+        "2024-09-26-vcwg.md"
     ],
     "resolutions": [
+        {
+            "year": 2024,
+            "date": "2024-09-26",
+            "number": 1,
+            "text": "Publish the latest VC Data Model v2.0 as a 2nd Candidate Recommendation with a 30 day review period after PRs for AT RISK features and all current open issues have been addressed.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2024-09-26-vcwg#resolution1",
+            "call": "vcwg"
+        },
+        {
+            "year": 2024,
+            "date": "2024-09-26",
+            "number": 2,
+            "text": "add the following text to VCDM 2.0 to address DI Issue 272: If a verifier makes use of a resource listed in a relatedResource property, it MUST check the content integrity of the resource as specified in a relatedResource entry.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2024-09-26-vcwg#resolution2",
+            "call": "vcwg"
+        },
         {
             "year": 2024,
             "date": "2024-06-05",
