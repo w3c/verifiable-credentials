@@ -393,7 +393,8 @@
             "David_Ezell",
             "David_Ezell_Conexxus",
             "dezell",
-            "dezell2"
+            "dezell2",
+            "babygazelle"
         ],
         "name": "David Ezell",
         "github": "dezell"
@@ -1398,7 +1399,8 @@
     {
         "nick": [
             "joshua",
-            "JoshThomas"
+            "JoshThomas",
+            "jthomas"
         ],
         "name": "Joshua Thomas"
     },
@@ -1421,5 +1423,29 @@
             "HeatherF"
         ],
         "name": "Heather Flanagan"
+    },
+    {
+        "nick": [
+            "mandyv"
+        ],
+        "name": "Mandy Venables"
+    },
+    {
+        "nick": [
+            "hadleybeeman"
+        ],
+        "name": "Hadley Beeman"
+    },
+    {
+        "nick": [
+            "simone"
+        ],
+        "name": "Simone Onofri"
+    },
+    {
+        "nick": [
+            "Tyler"
+        ],
+        "name": "Tyler Minard"
     }
 ]

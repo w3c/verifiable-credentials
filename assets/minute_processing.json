@@ -1,5 +1,5 @@
 {
-    "date": "2024-09-27T14:08:03.666Z",
+    "date": "2024-09-29T12:48:24.311Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -179,9 +179,26 @@
         "2024-09-05-vcwg-special.md",
         "2024-09-11-vcwg.md",
         "2024-09-18-vcwg.md",
-        "2024-09-26-vcwg.md"
+        "2024-09-26-vcwg.md",
+        "2024-09-27-vcwg.md"
     ],
     "resolutions": [
+        {
+            "year": 2024,
+            "date": "2024-09-27",
+            "number": 1,
+            "text": "For VC-JOSE-COSE, we will proceed with a request to register application/vc+jwt, application/vp+jwt, application/vc+cose, application/vp+cose, application/vc+sd-jwt, and application/vp+sd-jwt. We will note in particular that the cty property is the point of differentiation for others that may wish to use identical media types. This group intends to use application/vc and application/vp as the cty values.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2024-09-27-vcwg#resolution1",
+            "call": "vcwg"
+        },
+        {
+            "year": 2024,
+            "date": "2024-09-27",
+            "number": 2,
+            "text": "Publish the latest VC Data Integrity, ECDSA Cryptosuite, and EdDSA Cryptosuite specifications as a 2nd Candidate Recommendations with a 30 day review period after PRs for AT RISK features and all current open issues have been addressed.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2024-09-27-vcwg#resolution2",
+            "call": "vcwg"
+        },
         {
             "year": 2024,
             "date": "2024-09-26",

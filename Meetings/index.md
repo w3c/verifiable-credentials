@@ -20,7 +20,7 @@ The meeting schedules are:
 See the group's [calendar page](https://www.w3.org/groups/wg/vc/calendar) for the entries in the WG calendar. (Group members can “subscribe” to the calendar items through their [personal calendar](https://www.w3.org/users/myprofile/calendar); see the “export” tab.)
 See also the [separate page](./zoom) for further information on the Zoom bridge.
 
-The Group also uses IRC for during the calls for minute taking, queue control, and general chit-chat. See the [separate page at W3C](https://www.w3.org/Project/IRC/) for further details. This Working Group uses the `#vc` channel, and makes use of two bots on IRC:
+The Group also uses IRC for during the calls for minute taking, queue control, and general chit-chat. See the [separate page at W3C](https://www.w3.org/Project/IRC/) for further details. This Working Group uses the `#vcwg` channel, and makes use of two bots on IRC:
 
 * `zakim` for queue control (see the separate [manual pages](https://www.w3.org/2001/12/zakim-irc-bot.html) for  further details.)
 * `rrsagent` for scribing and minute generation (see the separate [manual pages](https://www.w3.org/2002/03/RRSAgent) on how to control the access rights and storage of the IRC logs, and the separate [`scribejs` features](https://github.com/w3c/scribejs/blob/master/features.md) for the scribe instructions).
@@ -30,6 +30,7 @@ The Group also uses IRC for during the calls for minute taking, queue control, a
 
 * [September 15-16, 2022 (Vancouver)](./F2F/Vancouver)
 * [February 14-16, 2023 (Miami)](./F2F/Miami)
+* September 26-27, 2023 (Anaheim)
 
 ## Meeting Minutes
 
