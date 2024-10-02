@@ -1,0 +1,60 @@
+Dear Advisory Committee Representative,
+[This announcement will be forwarded to W3C group Chairs]
+
+W3C is pleased to announce the re-charter of the Verifiable Credentials Working Group:
+    https://www.w3.org/2024/10/vc-wg-charter.html
+
+The group is chartered through 11 October 2026.
+
+The mission of the Verifiable Credentials Working Group is to complete and 
+maintain the W3C Recommendations, as well as related Notes, in the area of Verifiable 
+Credentials, published under the previous charter of the Working Group.
+
+Please use the following form to have your organization join the group. 
+The form will also instruct you how to nominate participants:
+    https://www.w3.org/groups/wg/vc/join/
+
+Current participants do not need to rejoin the group.
+
+Please consider diversity when proposing people to participate in W3C 
+groups. Representation from a wider group of people, especially people 
+from under-represented groups, is vital for creating web standards that 
+meet the needs of the wider web community.
+
+The group chair is Brent Zundel (mesur.io). The Team Contact is 
+Ivan Herman, 0.20FTE.
+
+More information about the group can be found on the group home page:
+     https://www.w3.org/groups/wg/vc/
+
+----
+Results of Charter Call for Review
+----
+We called for charter review on 21 August 2024:
+https://lists.w3.org/Archives/Member/w3c-ac-members/2024JulSep/0026.html
+
+Thanks to the 35 Members who provided input:
+https://www.w3.org/2002/09/wbs/33280/vc-recharter-2024/results
+
+There were 28 members supporting the charter as is, 4 members supported 
+the charter with suggested changes, most of them were incorporated in the 
+final charter, 3 members abstained.
+
+To see all changes relative to the previous charter, follow this link:
+https://www.w3.org/2024/10/vc-wg-charter-old-diff.html
+
+To see all changes relative to the proposed charter that was under 
+Member review, follow this link:
+https://www.w3.org/2024/10/vc-wg-charter-diff.html
+
+This announcement follows section 5.7.2 of the W3C Process Document:
+     https://www.w3.org/policies/process/20231103/#ACReviewAfter
+
+The Call for Participation follows section 4.4 of the W3C Process Document:
+     https://www.w3.org/policies/process/20231103/#cfp
+
+Thank you,
+
+For Philippe le Hégaret, W3C Strategy and Project Lead,
+Ivan Herman, Verifiable Credentials WG Team Contact;
+Xueyuan Jia, W3C Marketing & Communications
