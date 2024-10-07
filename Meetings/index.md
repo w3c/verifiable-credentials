@@ -14,8 +14,7 @@ There are weekly teleconferences on Wednesdays with rotating time slots to allow
 <!-- See the (member only) [notification](https://lists.w3.org/Archives/Member/member-did-wg/2020Apr/0007.html) for the details.  --> 
 The meeting schedules are:
 
-* On odd weeks: Wednesdays, 11:00-12:00 US Eastern Time (“Europe-Africa Friendly" calls)
-* On even weeks: Wednesdays, 15:00-16:00 US Eastern Time (“Asia-Pacific Friendly” calls)
+* Wednesdays, 11:00-12:00 US Eastern Time (“Europe-Africa Friendly" calls)
 
 See the group's [calendar page](https://www.w3.org/groups/wg/vc/calendar) for the entries in the WG calendar. (Group members can “subscribe” to the calendar items through their [personal calendar](https://www.w3.org/users/myprofile/calendar); see the “export” tab.)
 See also the [separate page](./zoom) for further information on the Zoom bridge.
@@ -28,9 +27,10 @@ The Group also uses IRC for during the calls for minute taking, queue control, a
 
 ## F2F meetings
 
-* [September 15-16, 2022 (Vancouver)](./F2F/Vancouver)
-* [February 14-16, 2023 (Miami)](./F2F/Miami)
-* September 26-27, 2023 (Anaheim)
+* [September 15-16, 2022 (Vancouver, Canada)](./F2F/Vancouver)
+* [February 14-16, 2023 (Miami, USA)](./F2F/Miami)
+* September [14](https://www.w3.org/events/meetings/f665e720-f28a-4d5c-b4d0-8454a85e9a44/) and [15](https://www.w3.org/events/meetings/76aed065-e52f-4cb3-9b8c-54582e75548a/), 2023 (Sevilla, Spain)
+* September [26](https://www.w3.org/events/meetings/25b6f567-2d0d-4dee-9b9b-5906fd555aba/) and [27](https://www.w3.org/events/meetings/65a07308-d7ef-481e-bb4b-4d0b87a5788f/), 2024 (Anaheim, USA)
 
 ## Meeting Minutes
 

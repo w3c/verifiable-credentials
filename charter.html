@@ -1,383 +1,1282 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <title>Verifiable Claims Working Group Charter</title>
-    <link rel="stylesheet" href="https://www.w3.org/2005/10/w3cdoc.css" type="text/css" media="screen"/>
-    <link rel="stylesheet" type="text/css" href="https://www.w3.org/Guide/pubrules-style.css"/>
-    <link rel="stylesheet" type="text/css" href="https://www.w3.org/2006/02/charter-style.css"/>
-</head>
+<html lang="en-US">
 
-<body>
-<div id="template">
-    <ul id="navbar" style="font-size: small">
-        <li><a href="#introduction">Introduction</a></li>
-        <li><a href="#scope">Scope</a></li>
-        <li><a href="#deliverables">Deliverables</a></li>
-        <li><a href="#coordination">Dependencies and Liaisons</a></li>
-        <li><a href="#participation">Participation</a></li>
-        <li><a href="#communication">Communication</a></li>
-        <li><a href="#decisions">Decision Policy</a></li>
-        <li><a href="#patentpolicy">Patent Policy</a></li>
-        <li><a href="#licensing">Licensing</a></li>
-        <li><a href="#about">About this Charter</a></li>
-    </ul>
-    <p><a href="http://www.w3.org/"><img alt="W3C" height="48" src="https://www.w3.org/Icons/w3c_home" width="72"/></a></p>
+    <head>
+        <meta charset="utf-8">
 
-    <h1 id="title">Verifiable Claims Working Group Charter</h1>
+        <title>Verifiable Credentials Working Group Charter</title>
 
-    <p class="mission">It is currently difficult to express banking account information, education qualifications, healthcare data, and other sorts of machine-readable personal information that has been verified by a 3rd party on the Web. These sorts of data are often referred to as <strong>verifiable claims</strong>. The <strong>mission</strong> of the Verifiable Claims Working Group is to make expressing, exchanging, and verifying claims easier and more secure on the Web. This charter focuses on use cases for education.</p>
+        <link rel="stylesheet" href="https://www.w3.org/2005/10/w3cdoc.css" type="text/css" media="screen">
+        <link rel="stylesheet" type="text/css" href="https://www.w3.org/OldGuide/pubrules-style.css">
+        <link rel="stylesheet" type="text/css" href="https://www.w3.org/2006/02/charter-style.css">
+        <style>
+            main {
+                max-width: 60em;
+                margin: 0 auto;
+            }
 
-        <p class="motivation">Readers that are new to this work should examine the <a href="https://w3c.github.io/webpayments-ig/VCTF/charter/charter-motivation.html">motivations that led to this charter</a>. The <a href="https://w3c.github.io/webpayments-ig/VCTF/primer/">Verifiable Claims Working Group Primer</a> may be particularly helpful to W3C Members. In brief, the work will make it easier for users to assert their verifiable qualifications to a service provider (e.g. my loyalty card number is X, I have an account at Bank Y, I am over the age of 21, I am a citizen of country Z, I am a Chartered Financial Analyst, etc.).</p>
+            ul#navbar {
+                font-size: small;
+            }
 
-    <div class="noprint">
-        <p class="join"><a href="https://www.w3.org/2004/01/pp-impl/98922/join">Join the Verifiable Claims Working Group</a>.</p>
-    </div>
+            dt.spec {
+                font-weight: bold;
+            }
 
-    <table class="summary-table">
-        <tr id="StartDate">
-            <th rowspan="1" colspan="1">Start date</th>
+            dt.spec new {
+                background: yellow;
+            }
 
-      <td rowspan="1" colspan="1">14 April 2017</td>
-        </tr>
-        <tr id="Duration">
-            <th rowspan="1" colspan="1">End date</th>
-            <td rowspan="1" colspan="1">30 September 2019</td>
-        </tr>
-        <tr id="extension">
-            <th rowspan="1" colspan="1">Charter Extension</th>
-            <td rowspan="1" colspan="1">See <a href="#history">Charter History</a></td>
-        </tr>
-        <tr>
-            <th rowspan="1" colspan="1">Confidentiality</th>
-            <td rowspan="1" colspan="1">Proceedings are
-                <a href="http://www.w3.org/Consortium/Process/#confidentiality-levels">
-                    public
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <th rowspan="1" colspan="1">Chairs</th>
-            <td rowspan="1" colspan="1">Daniel Burnett, ConsenSys; Matt Stone, BrightLink</td>
-        </tr>
-        <tr>
-            <th rowspan="1" colspan="1">Team Contact
-                <br/>
-            </th>
-            <td rowspan="1" colspan="1">Ivan Herman (FTE: 0.1)</td>
-        </tr>
-        <tr>
-            <th rowspan="1" colspan="1">Usual Meeting Schedule</th>
-            <td rowspan="1" colspan="1">Teleconferences: Weekly
-                <br/>Face-to-face: 2 per year
-            </td>
-        </tr>
-    </table>
+            /*
+      ul.out-of-scope > li {
+        font-weight: bold;
+      }
 
-    <div class="introduction">
-        <h2 id="introduction">Introduction</h2>
+      ul.out-of-scope > li > ul > li{
+        font-weight: normal;
+      }
+      */
 
-      <p>This working group is tasked with the standardization of a data model and syntax for the expression of verifiable claims. The work proposed by this charter has been incubated for over two years and has been demonstrated to be <a href="https://w3c.github.io/webpayments-ig/VCTF/support/">broadly supported by various industries</a>.
-The <a href="https://www.w3.org/Payments/IG/">Web Payments Interest Group</a> has identified this work as being critical to achieving specific <a href="https://opencreds.github.io/vc-use-cases/">use cases</a> related to commerce, education, and healthcare on the Web. A document is available to those that wish to understand the <a href="https://w3c.github.io/webpayments-ig/VCTF/charter/charter-motivation.html">motivations behind the creation of this charter</a> and how this work fits into a broader vision for a <a href="https://w3c.github.io/webpayments-ig/VCTF/architecture/">verifiable claims ecosystem</a>.</p>
+            .issue {
+                background: cornsilk;
+                font-style: italic;
+            }
 
-      <p>This initial charter for the Verifiable Claims Working Group will focus on use cases for education, and will place a strong emphasis on security and privacy. In particular, the Working Group will make a detailed analysis of threats to privacy and how they may be mitigated. As experience is gained, it is expected that future revisions to this charter will expand the scope to a broader range of use cases.</p>
-    </div>
+            .todo {
+                color: #900;
+            }
 
-    <div class="scope">
-        <h2 id="scope">Scope</h2>
-	<p>The Working Group will:</p>
-  <ol>
-    <li>Recommend a data model and syntax(es) for the expression of verifiable claims,
-including one or more core vocabularies.</li>
-    <li>Create a note specifying one or more of<ol style="list-style-type:lower-roman">
-    <li>how these data models should be used with existing attribute exchange protocols;</li>
-    <li>a suggestion that existing protocols be modified;</li>
-    <li>a suggestion that a new protocol is required.</li></ol></li>
-    <li>Focus their efforts on the identified <a href="https://w3c.github.io/webpayments-ig/VCTF/use-cases/">use cases</a> with a particular focus on the education sector. As a secondary focus, the group may address use cases on digital offers, receipts, and loyalty programs; discussion of these topics is not exclusive to this Working Group. Use cases from other industries may be included if there is significant industry participation.</li>
+            footer {
+                font-size: small;
+            }
 
-  </ol>
+        </style>
+    </head>
 
-        <h3 id="ooscope">Out of Scope</h3>
-	<p>The Working Group will not:</p>
-  <ol>
-    <li>Define browser-based APIs for interacting with verifiable claims. This work may be performed by a future Working Group if there is interest, but is not required for the Working Group to be successful.</li>
-    <li>Define a new protocol for attribute exchange. This work may be performed by a future Working Group if there is interest, but is not required for the Working Group to be successful.</li>
-    <li>Attempt to lead the creation of a specific style of supporting infrastructure, other than a data model and syntax(es), for a verifiable claims ecosystem.</li>
-    <li>Attempt to address the larger problem of "Identity on the Web/Internet".</li>
-  </ol>
-
-	<h3 id="interop-criteria">Success Criteria</h3>
-	<p>The Working Group will fulfill the <a href="http://www.w3.org/Consortium/Process/#implementation-experience">implementation experience required by the W3C Process</a> as follows:</p>
-	<ul>
-	  <li>The Working Group will develop test suites for Recommendation-track specifications.</li>
-	  <li>The group will seek evidence of independent interoperable uses of the vocabulary by at least two independent entities in the education sector. For example, academic qualifications (for a job application etc.).</li>
-	  <li>The group will undertake, in consultation with experts in security and privacy, a detailed analysis of threats to privacy, and techniques and practices for their mitigation.</li>
-	  <li>For any implementation cited to establish interoperability success, the Working Group will work with the <a href="https://www.w3.org/WAI/APA/">Accessible Platform Architectures</a> (APA) Working Group to help communicate accessibility issues to the developers.</li>
-	</ul>
-
-	<h3 id="terminology">Terminology</h3>
-	<dl>
-	  <dt id="claim"><strong>verifiable claim</strong></dt>
-    <dd>A machine-readable statement made by an entity that is cryptographically authentic (non-repudiable).</dd>
-	  <dt id="credential"><strong>credential (aka attestation)</strong></dt>
-	  <dd>A set of verifiable claims that refer to a qualification, achievement, personal quality, aspect of an identity such as a name, government ID, preferred payment processor, home address, or university degree typically used to indicate suitability.</dd>
-	</dl>
-
-    <h3 id="security">Security and Privacy Considerations</h3>
-   <p>In general, the issuers of verifiable claims want to ensure that their reputation is protected, the holders of verifiable claims want to ensure their data is protected, and the inspectors of verifiable claims want to be confident in their claims-based decisions. As a result, both security and privacy are critical for verifiable claims.</p>
-
-   <p>From a security perspective it is important that verifiable claims are protected from forgery and that interactions with verifiable claims are protected from bad actors at all stages of the lifecycle.   </p>
-
-    <p>From a privacy perspective it is important that information that is intended to remain private is handled appropriately. Maintaining the trust of a verifiable claims ecosystem is important. Verifiable claims technology defined by this group should not disclose private details of the participants' identity or other sensitive information unless required for operational purposes, by legal or jurisdictional rules, or when deliberately consented to (e.g. as part of a request for information) by the holder of the information. The design of any data model and syntax(es) should guard against the unwanted leakage of such data.</p>
-
-	<p>The Working Group will work with the security and privacy organizations listed in the <a href="#coordination">liaisons</a> section of the charter to help ensure that both security and privacy are considered.</p>
-
-    <h3 id="i18n-a11y">Internationalization and Accessibility Considerations</h3>
-   <p>Verifiable claims are made throughout the world and are issued and used by a variety of organizations and people with varying languages and levels of disabilities. The technology developed by the working group must be able to express verifiable claims in a variety of languages and must be able to be used by people with a variety of disabilities.</p>
-
-   <p>The Working Group will work with the internationalization and accessibility organizations listed in the <a href="#coordination">liaisons</a> section of the charter to help ensure that both internationalization and accessibility are considered.</p>
-
-    </div>
-    <div>
-      <h2 id="deliverables">Deliverables</h2>
-        <h3 id="vc-ucr">Verifiable Claims Use Cases &amp; Requirements NOTE</h3>
-<p>The Working Group will develop a set of use cases and requirements to underpin its work. Abstract use cases will be supported by real world evidence of applicability. The document will include an analysis of gaps in existing solutions, notably <a href="http://openid.net/connect/">OpenID Connect</a> and <a href="https://wiki.oasis-open.org/security/FrontPage">SAML</a>, that the new work will address. It will further take very careful note of the serious privacy risks associated with Verifiable Claims and the solutions offered by technologies such as <a href="https://www.microsoft.com/en-us/research/project/u-prove/">U-Prove</a>. NB. the <a href="https://www.w3.org/community/credentials/">Credentials Community Group</a> and the <a href="https://www.w3.org/Payments/IG/wiki/Main_Page/ProposalsQ42015/Credentials">Verifiable Claims Task Force</a> of the <a href="https://www.w3.org/Payments/IG/">Web Payments Interest Group</a> has developed a set of <a href="https://opencreds.github.io/vc-use-cases/">use cases and requirements</a> already.</p>
-
-        <h3 id="vc-data-model">Verifiable Claims Data Model and Syntax Recommendation</h3>
-        <p>This Recommendation will define or identify:</p>
-        <ul>
-            <li>A <strong>Data Model and Core Vocabularies</strong>: for expressing verifiable claims in a semantically extensible way.</li>
-            <li><strong>Syntax(es)</strong>: that are machine-readable and capable of expressing the data model across a variety of formats.</li>
-            <li><strong>Signature Mechanism(s)</strong>: that are capable of protecting the verifiable claims from attack such that the claims can be trusted by consumers of those claims.</li>
-            <li>Risks to <strong>privacy</strong> and how the model and syntax minimizes those risks.</li>
-        </ul>
-
-        <h3 id="vc-privacy-analysis">Verifiable Claims Privacy NOTE</h3>
-
-        <p>This NOTE will identify:</p>
-        <ul>
-            <li>Potential threats to privacy, and technical measures and best practices for their mitigation.</li>
-        </ul>
-
-        <h3 id="vc-implementation-guidance">Verifiable Claims Implementation Guidance NOTE</h3>
-
-        <p>This NOTE will define or identify:</p>
-        <ul>
-            <li>how the data model and syntax can be used with existing attribute exchange architectures to address all of the problems stated in this charter; or</li>
-            <li>how the data model and syntax can be used with a set of modifications to existing attribute exchange architectures; or</li>
-            <li>whether a new attribute exchange protocol is needed and, if so, requirements for that protocol to address.</li>
-        </ul>
+    <body>
+        <header id="header">
+            <aside>
+                <ul id="navbar">
+                    <li><a href="#background">Background</a></li>
+                    <li><a href="#scope">Scope</a></li>
+                    <li><a href="#deliverables">Deliverables</a></li>
+                    <li><a href="#success-criteria">Success Criteria</a></li>
+                    <li><a href="#coordination">Coordination</a></li>
+                    <li><a href="#participation">Participation</a></li>
+                    <li><a href="#communication">Communication</a></li>
+                    <li><a href="#decisions">Decision Policy</a></li>
+                    <li><a href="#patentpolicy">Patent Policy</a></li>
+                    <li><a href="#licensing">Licensing</a></li>
+                    <li><a href="#about">About this Charter</a></li>
+                </ul>
+            </aside>
+            <p>
+                <a href="https://www.w3.org/"><img alt="W3C" height="48"
+                        src="https://www.w3.org/assets/logos/w3c/w3c-no-bars.svg" width="72"></a>
+            </p>
+        </header>
 
 
-	<h3 id="process-planning">Process and Planning</h3>
+        <main>
+            <h1 id="title">Verifiable Credentials Working Group Charter</h1>
+            <!-- delete PROPOSED after AC review completed -->
 
-        <h4 id="community-specs">Preference for Community Developed Specifications</h4>
+            <p class="mission">
+                The <strong>mission</strong> of the <a href="https://www.w3.org/2017/vc/WG/">Verifiable Credentials
+                    Working Group</a> is to complete and maintain the W3C Recommendations, as well as related Notes, in
+                the area of Verifiable Credentials, published
+                under the <a href="https://www.w3.org/2022/06/verifiable-credentials-wg-charter.html">previous
+                    charter</a> of the Working Group.
+            </p>
 
-	<p>The Working Group will actively seek to base its deliverables on specifications that have been socialized in <a href="/community/">W3C Community Groups</a> or contributed as <a href="http://www.w3.org/Submission/">W3C Member Submissions</a>. The work of the <a href="https://www.w3.org/community/credentials/">Credentials Community Group</a> and the Verifiable Claims Task Force of the <a href="https://www.w3.org/Payments/IG/">Web Payments Interest Group</a> are of direct relevance and will be the Working Group's starting point.</p>
+            <div class="noprint">
+                <p class="join"><a href="https://www.w3.org/groups/wg/vc/join/">Join the Verifiable Credentials Working
+                        Group.</a></p>
+            </div>
 
-        <h4 id="milestones">Milestones</h4>
-        <table class="roadmap">
-            <tfoot>
-            <tr>
-                <td colspan="5" rowspan="1">Note: The group will document significant changes from this initial schedule
-                    on the group home page.
-                </td>
-            </tr>
-            </tfoot>
-            <tbody>
-            <tr>
-                <th rowspan="1" colspan="1">Specification</th>
-                <th rowspan="1" colspan="1">
-                    <abbr title="First Working Draft">FPWD</abbr>
-                </th>
-                <th rowspan="1" colspan="1">
-                    <abbr title="Candidate Recommendation">CR</abbr>
-                </th>
-                <th rowspan="1" colspan="1">
-                    <abbr title="Proposed Recommendation">PR</abbr>
-                </th>
-                <th rowspan="1" colspan="1">
-                    <abbr title="Recommendation">Rec</abbr>
-                </th>
-            </tr>
-            <tr>
-                <th rowspan="1" colspan="1">Verifiable Claims Use Cases &amp; Requirements</th>
-                <td class="WD1" rowspan="1" colspan="3">June 2017</td>
-                <td class="REC" rowspan="1" colspan="3">(NOTE) November 2017</td>
-            </tr>
-            <tr>
-                <th rowspan="1" colspan="1">Verifiable Claims Data Model and Syntax(es)</th>
-                <td class="WD1" rowspan="1" colspan="1">June 2017</td>
-                <td class="CR" rowspan="1" colspan="1">February 2018</td>
-                <td class="PR" rowspan="1" colspan="1">September 2018</td>
-                <td class="REC" rowspan="1" colspan="1">December 2018</td>
-            </tr>
-            <tr>
-                <th rowspan="1" colspan="1">Verifiable Claims Privacy Analysis</th>
-                <td class="WD1" rowspan="1" colspan="3">June 2017</td>
-                <td class="REC" rowspan="1" colspan="3">(NOTE) November 2018</td>
-            </tr>
-            <tr>
-                <th rowspan="1" colspan="1">Verifiable Claims Implementation Guidance</th>
-                <td class="WD1" rowspan="1" colspan="3">March 2018</td>
-                <td class="REC" rowspan="1" colspan="3">(NOTE) November 2018</td>
-            </tr>
-            </tbody>
-        </table>
+            <!-- MARK: Overall Header -->
+            <section id="details">
+                <table class="summary-table">
+                    <tr id="Status">
+                        <th>
+                            Charter Status
+                        </th>
+                        <td>
+                            See the <a href="https://www.w3.org/groups/wg/vc/charters/">group status page</a> and <a
+                                href="#history">detailed change history</a>.</i>
+                        </td>
+                    </tr>
+                    <tr id="Duration">
+                        <th>
+                            Start date
+                        </th>
+                        <td>
+                            2024 October 7
+                        </td>
+                    </tr>
+                    <tr id="CharterEnd">
+                        <th>
+                            End date
+                        </th>
+                        <td>
+                            2026 October 11
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Chairs
+                        </th>
+                        <td>
+                            <a href="mailto:brent.zundel@gmail.com">Brent Zundel</a> (mesur.io)<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Team Contacts
+                        </th>
+                        <td>
+                            <a href="mailto:ivan@w3.org">Ivan Herman</a> (0.20 <abbr
+                                title="Full-Time Equivalent">FTE</abbr>)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Meeting Schedule
+                        </th>
+                        <td>
+                            <strong>Teleconferences:</strong> 1-hour calls will be held weekly, plus additional
+                            special-topic calls as needed, until the finalization of the Recommendations. As a
+                            maintenance Working Group, meetings will be held as needed, minimally one 1-hour call a
+                            month.
+                            <br>
+                            <strong>Face-to-face:</strong> We will meet during the W3C's annual Technical Plenary week;
+                            additional face-to-face meetings may be scheduled by consent of the participants, usually no
+                            more than 3 per year.
+                        </td>
+                    </tr>
+                </table>
+            </section>
 
-    </div>
-    <div class="dependencies">
-      <h2 id="coordination">Dependencies and Liaisons</h2>
+            <!-- MARK: Background -->
+            <section id="background" class="background">
+                <h2>Motivation and Background</h2>
+                <p>
+                    In the past few years the Working Group has developed a family of specifications in the area of
+                    Verifiable Credentials.
+                    They provide a mechanism to express "credentials"
+                    (driver's licenses, university degrees, government-issued residence permits, etc.) on the Web in a
+                    digital
+                    format that is cryptographically secure, privacy respecting, and machine-verifiable.
+                    These technologies are being gradually adopted by various institutions, governmental and otherwise,
+                    in different
+                    countries around the globe.
+                </p>
 
-        <h3 id="w3c-groups">W3C Groups</h3>
-        <dl>
-            <dt><a href="https://www.w3.org/Payments/IG/">Web Payments Interest Group</a></dt>
-            <dd>Reviews with respect to Web Payments use cases.</dd>
-            <dt><a href="http://www.w3.org//International/core/">Internationalization Core Working Group</a></dt>
-            <dd>Internationalization and localization review.</dd>
-            <dt><a href="http://www.w3.org/Privacy/">Privacy Interest Group</a></dt>
-            <dd>For privacy reviews.</dd>
-            <dt><a href="https://www.w3.org/WAI/APA/">Accessible Platform Architectures Working Group</a></dt>
-            <dd>To help ensure the protocols provide support for accessibility to people with disabilities.</dd>
-            <dt><a href="http://www.w3.org/2011/webappsec/">Web Application Security</a></dt>
-            <dd>For security reviews. If the Working Group perceives the need for IETF review, W3C will arrange discussion through its IETF liaison.</dd>
-            <dt><a href="http://www.w3.org/community/credentials/">Credentials Community Group</a></dt>
-            <dd>Research and incubation of ideas for consideration by this group.</dd>
-            <dt><a href="http://www.w3.org/Security/wiki/IG">Web Security Interest Group</a></dt>
-            <dd>For security reviews.</dd>
-            <dt><a href="https://www.w3.org/2016/poe/">Permissions and Obligations Expression Working Group</a></dt>
-            <dd>To help ensure that data rights around verifiable claims can be expressed.</dd>
+                <p>
+                    Readers that are new to this work should read the <a
+                        href="https://www.w3.org/TR/vc-overview/">Verifiable Credentials Overview</a> W3C Note,
+                    published by the Working Group. The Note explains some of the terminology used in this charter,
+                    e.g., Verifiable Credentials and Presentations, Data Integrity, and cryptosuites. It also provides a
+                    technical overview of how the various specifications listed as
+                    <a href="#deliverables">deliverables</a> relate to one another.
+                </p>
 
-        </dl>
-        <p>This group will also collaborate with future W3C Working Groups developing authentication protocols.</p>
+                <p>
+                    The group should finalize all the <a href="#deliverables">specifications</a> started under <a
+                        href="https://www.w3.org/2022/06/verifiable-credentials-wg-charter.html">its previous
+                        charter</a>.
+                    Once all Recommendations are published, this Working Group will maintain the complete family of
+                    specifications and related notes.
+                </p>
+            </section>
 
-        <h3 id="groups-outside-w3c">Groups Outside W3C</h3>
-        <dl>
-           <dt><a href="http://x9.org/">ASC (Accredited Standards Committee) X9</a></dt>
-            <dd>Coordination with X9 will help achieve broad interoperability of payment systems (e.g. through alignment between Web protocols and ISO 12812).</dd>
-           <dt><a href="https://www.credentialtransparencyinitiative.org/">Credentials Transparency Initiative</a></dt>
-            <dd>Ensure that the credentials being modeled and expressed by CTI are compatible with the work of the Verifiable Claims WG.</dd>
-           <dt><a href="https://openbadges.org/">Mozilla Open Badges</a></dt>
-            <dd>Ensure that the badges being modeled and expressed by the Open Badges community are compatible with the Verifiable Claims WG.</dd>
-        </dl>
+            <!-- MARK: Scope -->
+            <section id="scope" class="scope">
+                <h2>Scope</h2>
+                <p>
+                    The Working Group will complete the Recommendations listed <a href="#deliverables">below</a>, if
+                    applicable.
+                    Once all the planned Recommendations have been published, the Working Group will continue in
+                    maintenance mode to handle errata. No new Recommendations are planned.
+                    <a href="https://www.w3.org/policies/process/20231103/#class-4">Class 4 changes</a> for these
+                    Recommendations
+                    are <strong>out of scope</strong>, <em><strong>except</strong></em>:
+                </p>
 
-    </div>
-    <div class="participation">
-        <h2 id="participation">Participation</h2>
+                <ul>
+                    <li>
+                        Features that had been listed as <a
+                            href="https://www.w3.org/TR/vc-data-model-2.0/#reserved-extension-points">Reserved Extension
+                            Points</a> in the Verifiable Data Model
+                        specification, but have been developed further by the community, providing a possibly
+                        adequate consensus supporting their addition to the Recommendation.
+                        At the time of writing this charter, these terms are:
+                        the <code>confidenceMethod</code> and <code>renderMethod</code> properties; as well as the
+                        related
+                        <code>ConfidenceMethod</code> and <code>RenderMethod</code> classes.
+                    </li>
+                    <li>
+                        Serious security issues that arise, requiring changes in a Recommendation.
+                    </li>
+                </ul>
 
-        <p>To be successful, the Verifiable Claims Working Group is expected to have 10 active participants for its duration. Effective participation in Verifiable Claims Working Group may consume .1 FTE for each participant; for editors this commitment may be higher.</p>
-<p>The range of industries and sectors in which verifiable claims are important is very broad. For example, verification of a claim of a professional qualification is as important to potential employers and partners as it is to end users. Therefore, professions such as finance, insurance, medicine, legal, marketing and more will find this work relevant.  A verifiable claim that a customer is over a minimum age will clearly be relevant to retailers of alcohol, movies and more. Providers of public services will be able to use the technology when verifying that a citizen is eligible for a given service or benefit etc. </p>
-    </div>
-    <div class="communication">
-        <h2 id="communication">Communication</h2>
+                <section id="section-out-of-scope">
+                    <h3 id="out-of-scope">Out of Scope</h3>
+                    <p>The following features are out of scope, and will not be addressed by this Working Group:</p>
 
-        <p>This group primarily conducts its work on the public mailing list public-vc-wg@w3.org (<a href="https://lists.w3.org/Archives/Public/public-vc-wg/">archive</a>). Administrative tasks may be conducted in Member-only communications.</p>
+                    <ul class="out-of-scope">
+                        <li>The mandate of any specific style of supporting infrastructure, such as a Distributed Ledger
+                            (DLT), for a Verifiable Credentials ecosystem</li>
+                        <li>The specification of new cryptographic primitives</li>
+                        <li>The normative specification of APIs or protocols</li>
+                    </ul>
+                </section>
 
-	<p>Information about the group (deliverables, participants, face-to-face meetings, teleconferences, etc.) is available from the <a href="/2017/vc/">Verifiable Claims Working Group
-		home page</a>.</p>
-    </div>
-    <div class="decisions">
-        <h2 id="decisions">Decision Policy</h2>
+            </section>
 
-        <p>As explained in the Process Document (<a href="https://www.w3.org/Consortium/Process/policies#Consensus">section 3.3</a>), this
-            group will seek to make decisions when there is consensus. When a Chair puts a question and observes
-            dissent, after due consideration of different opinions, the Chair should put a question out for voting
-            within the group (allowing for remote asynchronous participation -- using, for example, email and/or
-            web-based survey techniques) and record a decision, along with any objections. The matter should then be
-            considered resolved unless and until new information becomes available.</p>
+            <!-- MARK: Deliverables -->
+            <section id="deliverables">
+                <h2>
+                    Deliverables
+                </h2>
 
-        <p>Any resolution first taken in a face-to-face meeting or teleconference (i.e., that does not follow a 7 day
-            call for consensus on the mailing list) is to be considered provisional until 5 working days after the
-            publication of the draft resolution. If no
-            objections are raised on the mailing list within that time, the resolution will be considered to have
-            consensus as a resolution of the Working Group.</p>
-    </div>
-    <div class="patent">
-        <h2 id="patentpolicy">Patent Policy</h2>
+                <p>Updated document status is available on the <a
+                        href="https://www.w3.org/groups/wg/vc/publications/">group publication status page</a>.</p>
 
-        <p>This Working Group operates under the <a href="https://www.w3.org/Consortium/Patent-Policy-20040205/">W3C Patent Policy</a> (5 February 2004 Version). To promote the widest adoption of Web standards, W3C seeks to issue Recommendations that can be
-            implemented, according to this policy, on a Royalty-Free basis.</p>
+                <p><i>Draft state</i> indicates the state of the deliverable at the time of the charter approval.
+                    <i>Expected completion</i> indicates when the deliverable is projected to become a Recommendation,
+                    or otherwise reach a stable state.</p>
 
-        <p>For more information about disclosure obligations for this group, please see the <a href="https://www.w3.org/2004/01/pp-impl/">W3C
-            Patent Policy Implementation</a>.</p>
-    </div>
+                <section id="normative">
+                    <h3>
+                        Normative Specifications
+                    </h3>
+                    <p>
+                        The Working Group will deliver the following W3C normative specifications:
+                    </p>
+                    <dl>
+                        <dt id="verifiable-credentials-data-model-2" class="spec">Verifiable Credentials Data Model
+                            (VCDM) 2.0</dt>
+                        <dd>
+                            <p>
+                                This specification defines the Verifiable Credentials Data Model 2.0 along with
+                                serializations of that
+                                data model. It will replace the current <a
+                                    href="https://www.w3.org/TR/vc-data-model/">Verifiable
+                                    Credentials Data Model 1.1 Recommendation</a>.
+                            </p>
 
-    <div class="licensing">
-      <h2 id="licensing">Licensing</h2>
-              <p>This Working Group will use the <a href='http://www.w3.org/Consortium/Legal/copyright-software'>W3C Software and Document license</a> for all its deliverables.</p>
-    </div>
+                            <p class="draft-status"><b>Draft state:</b> <a
+                                    href="https://www.w3.org/TR/vc-data-model-2.0/">Candidate
+                                    Recommendation</a></p>
 
-    <h2 id="about">About this Charter</h2>
+                            <p class="milestone"><b>Expected completion:</b> 2025-01-31</p>
 
-   <p>Research that went into the creation of this charter was performed by the <a href="https://www.w3.org/Payments/IG/">Web Payments Interest Group</a> via the <a href="http://w3c.github.io/vctf/">Verifiable Claims Task Force</a>. The research findings can be found in the <a href="https://w3c.github.io/webpayments-ig/VCTF/charter/VCTF-final-report.html">Verifiable Claims Task Force Final Report</a>. The Web Payments Interest Group recommended that the Task Force draft a charter to determine whether there is consensus within the community (including those interviewed) for the scope of work.</p>
+                            <p>
+                                <b>Adopted Draft:</b> <a href='https://www.w3.org/TR/vc-data-model-2.0/'>Verifiable
+                                    Credentials Data
+                                    Model v2.0</a>
+                            </p>
+
+                            <p>
+                                <b>Exclusion Draft:</b>
+                                <a href='https://www.w3.org/TR/2024/CR-vc-data-model-2.0-20240201/'>Verifiable
+                                    Credentials Data Model
+                                    2.0 (CR Snapshot)</a>
+                                Exclusion period <b>began</b> 2024-02-01; Exclusion period <b>ended</b> 2024-04-01.
+                            </p>
+
+                            <p>
+                                <b>Exclusion Draft Charter:</b>
+                                https://www.w3.org/2022/06/verifiable-credentials-wg-charter.html</b>
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt id="data-integrity-1" class="spec">Verifiable Credential Data Integrity 1.0</dt>
+                        <dd>
+                            <p>
+                                This specification is a general framework to associate proofs of integrity for
+                                Verifiable Credentials
+                                and concrete serializations for each of the defined syntaxes.
+                                The Working Group would welcome the usage of these techniques for data in general, but
+                                its scope will be to solve Verifiable Credentials use cases. The specific set of
+                                concrete serializations and cryptosuites appear as separate
+                                specification, all part of the same family of specifications.
+                            </p>
+
+                            <p class="draft-status"><b>Draft state:</b> <a
+                                    href="https://www.w3.org/TR/vc-data-integrity/">Candidate
+                                    Recommendation</a></p>
+
+                            <p class="milestone"><b>Expected completion:</b> 2025-01-31</p>
+
+                            <p>
+                                <b>Adopted Draft:</b> <a href='https://www.w3.org/TR/vc-data-integrity/'>Verifiable
+                                    Credential Data Integrity
+                                    1.0</a>
+                            </p>
+
+                            <p>
+                                <b>Exclusion Draft:</b>
+                                <a href='https://www.w3.org/TR/2023/CR-vc-data-integrity-20231121/'>Verifiable
+                                    Credential Data Integrity 1.0 (CR
+                                    Snapshot)</a>
+                                Exclusion period <b>began</b> 2023-11-21; Exclusion period <b>ended</b> 2024-01-20.
+                            </p>
+
+                            <p>
+                                <b>Exclusion Draft Charter:</b>
+                                https://www.w3.org/2022/06/verifiable-credentials-wg-charter.html</b>
+                            </p>
+                        </dd>
+                    </dl>
+
+                    <dl>
+                        <dt id="json-schema" class="spec">Verifiable Credentials JSON Schema Specification</dt>
+                        <dd>
+                            <p>
+                                This specification provides a mechanism to make use of a Credential Schema in Verifiable
+                                Credential,
+                                leveraging the existing Data Schemas concept.
+                            </p>
+                            <p class="draft-status"><b>Draft state:</b> <a
+                                    href="https://www.w3.org/TR/vc-json-schema/">Candidate
+                                    Recommendation</a></p>
+
+                            <p class="milestone"><b>Expected completion:</b> 2025-01-31</p>
+
+                            <p>
+                                <b>Adopted Draft:</b> <a href='https://www.w3.org/TR/vc-json-schema/'>Verifiable
+                                    Credentials JSON Schema
+                                    Specification</a>
+                            </p>
+
+                            <p>
+                                <b>Exclusion Draft:</b>
+                                <a href='https://www.w3.org/TR/2023/CR-vc-json-schema-20231121/'>Verifiable Credentials
+                                    JSON Schema
+                                    Specification (CR Snapshot)</a>
+                                Exclusion period <b>began</b> 2023-11-21; Exclusion period <b>ended</b> 2024-01-20.
+                            </p>
+
+                            <p>
+                                <b>Exclusion Draft Charter:</b>
+                                https://www.w3.org/2022/06/verifiable-credentials-wg-charter.html</b>
+                            </p>
+                        </dd>
+                    </dl>
+
+                    <dl>
+                        <dt id="ecdsa" class="spec">Data Integrity ECDSA Cryptosuites v1.0</dt>
+                        <dd>
+                            <p>
+                                This specification describes a Data Integrity Cryptosuite for use when generating a
+                                digital signature
+                                using the Elliptic Curve Digital Signature Algorithm (ECDSA).
+                            </p>
+
+                            <p class="draft-status"><b>Draft state:</b> <a
+                                    href="https://www.w3.org/TR/vc-di-ecdsa/">Candidate
+                                    Recommendation</a></p>
+
+                            <p class="milestone"><b>Expected completion:</b> 2025-01-31</p>
+
+                            <p>
+                                <b>Adopted Draft:</b> <a href='https://www.w3.org/TR/vc-di-ecdsa/'>Data Integrity ECDSA
+                                    Cryptosuites v1.0</a>
+                            </p>
+
+                            <p>
+                                <b>Exclusion Draft:</b>
+                                <a href='https://www.w3.org/TR/2023/CR-vc-di-ecdsa-20231121/'>Data Integrity ECDSA
+                                    Cryptosuites v1.0 (CR
+                                    Snapshot)</a>
+                                Exclusion period <b>began</b> 2023-11-21; Exclusion period <b>ended</b> 2024-01-20.
+                            </p>
+
+                            <p>
+                                <b>Exclusion Draft Charter:</b>
+                                https://www.w3.org/2022/06/verifiable-credentials-wg-charter.html</b>
+                            </p>
+                        </dd>
+                    </dl>
+
+                    <dl>
+                        <dt id="eddsa" class="spec">Data Integrity EdDSA Cryptosuites v1.0</dt>
+                        <dd>
+                            <p>
+                                This specification describes a Data Integrity cryptographic suite for use when creating
+                                or verifying a digital
+                                signature
+                                using the twisted Edwards Curve Digital Signature Algorithm (EdDSA) and Curve25519
+                                (ed25519).
+                            </p>
+
+                            <p class="draft-status"><b>Draft state:</b> <a
+                                    href="https://www.w3.org/TR/vc-di-eddsa/">Candidate
+                                    Recommendation</a></p>
+
+                            <p class="milestone"><b>Expected completion:</b> 2025-01-31</p>
+
+                            <p>
+                                <b>Adopted Draft:</b> <a href='https://www.w3.org/TR/vc-di-eddsa/'>Data Integrity EdDSA
+                                    Cryptosuites
+                                    v1.0</a>
+                            </p>
+
+                            <p>
+                                <b>Exclusion Draft:</b>
+                                <a href='https://www.w3.org/TR/2023/CR-vc-di-eddsa-20231121/'>Data Integrity EdDSA
+                                    Cryptosuites v1.0 (CR
+                                    Snapshot)</a>
+                                Exclusion period <b>began</b> 2023-11-21; Exclusion period <b>ended</b> 2024-01-20.
+                            </p>
+
+                            <p>
+                                <b>Exclusion Draft Charter:</b>
+                                https://www.w3.org/2022/06/verifiable-credentials-wg-charter.html</b>
+                            </p>
+                        </dd>
+                    </dl>
+
+                    <dl>
+                        <dt id="bbs" class="spec">Data Integrity BBS Cryptosuites v1.0</dt>
+                        <dd>
+                            <p>
+                                This specification describes a Data Integrity Cryptosuite for use when generating
+                                digital signatures
+                                using the BBS signature scheme. The Signature Suite utilizes BBS signatures to provide
+                                selective
+                                disclosure and unlinkable derived proofs.
+                            </p>
+
+                            <p class="draft-status"><b>Draft state:</b> <a
+                                    href="https://www.w3.org/TR/vc-di-bbs/">Candidate Recommendation</a> </p>
+
+                            <p class="milestone"><b>Expected completion:</b> 2025-01-31</p>
+
+                            <p>
+                                <b>Adopted Draft:</b> <a href='https://www.w3.org/TR/vc-di-bbs/'>Data Integrity BBS
+                                    Cryptosuites
+                                    v1.0</a>
+                            </p>
+
+                            <p>
+                                <b>Exclusion Draft:</b>
+                                <a href='https://www.w3.org/TR/2024/CR-vc-di-bbs-20240404/'>BBS Cryptosuite v2023 (CR
+                                    Snapshot)</a>
+                                Exclusion period <b>began</b> 2024-04-04; Exclusion period <b>ended</b> 2024-06-03.
+                            </p>
+
+                            <p>
+                                <b>Exclusion Draft Charter:</b>
+                                https://www.w3.org/2022/06/verifiable-credentials-wg-charter.html</b>
+                            </p>
+                        </dd>
+                    </dl>
+
+                    <dl>
+                        <dt id="jose-cose" class="spec">Securing Verifiable Credentials using JOSE and COSE</dt>
+                        <dd>
+                            <p>
+                                This specification defines how to secure credentials and presentations conforming to the
+                                Verifiable Credential
+                                data model with JSON Object Signing and Encryption (JOSE), Selective Disclosure for
+                                JWTs, and
+                                CBOR Object Signing and Encryption (COSE).
+                            </p>
+                            <p class="draft-status"><b>Draft state:</b> <a
+                                    href="https://www.w3.org/TR/vc-jose-cose/">Candidate Recommendation</a></p>
+
+                            <p class="milestone"><b>Expected completion:</b> 2025-01-31</p>
+
+                            <p>
+                                <b>Adopted Draft:</b> <a href='https://www.w3.org/TR/vc-jose-cose/'>Securing Verifiable
+                                    Credentials using JOSE and
+                                    COSE</a>
+                            </p>
+
+                            <p>
+                                <b>Exclusion Draft:</b>
+                                <a href='https://www.w3.org/TR/2024/CR-vc-jose-cose-20240425/'>Securing Verifiable
+                                    Credentials using JSON Web Tokens
+                                    (CR Snapshot)</a>
+                                Exclusion period <b>began</b> 2024-04-25; Exclusion period <b>ended</b> 2024-06-24.
+                            </p>
+
+                            <p>
+                                <b>Exclusion Draft Charter:</b>
+                                https://www.w3.org/2022/06/verifiable-credentials-wg-charter.html</b>
+                            </p>
+                        </dd>
+                    </dl>
+
+                    <dl>
+                        <dt id="bitstring" class="spec">Bitstring Status List v1.0</dt>
+                        <dd>
+                            <p>
+                                This specification describes a privacy-preserving, space-efficient, and high-performance
+                                mechanism for
+                                publishing status information such as suspension or revocation of Verifiable Credentials
+                                through use of
+                                bitstrings.
+                            </p>
+
+                            <p class="draft-status"> <b>Draft state:</b> <a
+                                    href="https://www.w3.org/TR/vc-bitstring-status-list/">Candidate Recommendation</a>
+                            </p>
+
+                            <p class="milestone"><b>Expected completion:</b> 2025-01-31</p>
+
+                            <p>
+                                <b>Adopted Draft:</b> <a
+                                    href='https://www.w3.org/TR/vc-bitstring-status-list/'>Bitstring Status List
+                                    v1.0</a>
+                            </p>
+
+                            <p>
+                                <b>Exclusion Draft:</b>
+                                <a href='https://www.w3.org/TR/2023/WD-vc-status-list-20230427/'>Verifiable Credentials
+                                    Status List v1.0 (CR Snapshot)</a>
+                                Exclusion period <b>began</b> 2024-05-21; Exclusion period <b>ended</b> 2024-07-20.
+                            </p>
+                            <p>
+                                <b>Exclusion Draft Charter:</b>
+                                https://www.w3.org/2022/06/verifiable-credentials-wg-charter.html</b>
+                            </p>
+                        </dd>
+                    </dl>
+
+                    <dl>
+                        <dt id="controller" class="spec">Controller Documents 1.0</dt>
+                        <dd>
+                            <p>
+                                A controller document is a set of data that specifies one or more relationships between
+                                a controller and a set of data,
+                                such as a set of public cryptographic keys.
+                            </p>
+
+                            <p class="draft-status"> <b>Draft state:</b> <a
+                                    href="https://www.w3.org/TR/controller-document/">Working
+                                    Draft</a></p>
+
+                            <p class="milestone"><b>Expected completion:</b> 2025-01-31</p>
+
+                            <p>
+                                <b>Adopted Draft:</b> <a href='https://www.w3.org/TR/controller-document/'>Controller
+                                    Documents v1.0</a>
+                            </p>
+
+                            <p>
+                                <b>Exclusion Draft:</b>
+                                <a href='https://www.w3.org/TR/2024/WD-controller-document-20240523/'>Controller
+                                    Document v1.0 (First
+                                    Public Working Draft)</a>
+                                Exclusion period <b>began</b> 2024-05-23; Exclusion period <b>ended</b> 2024-07-22.
+                            </p>
+                            <p>
+                                <b>Exclusion Draft Charter:</b>
+                                https://www.w3.org/2022/06/verifiable-credentials-wg-charter.html</b>
+                            </p>
+                        </dd>
+                    </dl>
+                </section>
+
+                <section id="ig-other-deliverables">
+                    <h3>
+                        Other Deliverables
+                    </h3>
+                    <p>
+                        Other non-normative documents may be created, such as:
+                    </p>
+                    <ul>
+                        <li>Test suites for all normative deliverables</li>
+                        <li>Presentation Request Data Model</li>
+                        <li>Storage and Sharing of Verifiable Credentials</li>
+                        <li>Privacy Guidance for Verifiable Credentials</li>
+                        <li>Extensions for binding multilingual resources for localized user interfaces</li>
+                        <li>A Developer Guide consisting of one or more notes related to general implementation guidance
+                            and best practices for working with Verifiable Credentials, including but not limited to:
+                            <ul>
+                                <li>Guidance on Verifiable Credential Exchange over <a
+                                        href="https://openid.net/specs/openid-connect-core-1_0.html">OpenID Connect</a>
+                                </li>
+                                <li>Verifiable Credential Exchange over <a
+                                        href="https://datatracker.ietf.org/doc/html/draft-ietf-gnap-core-protocol">Grant
+                                        Negotiation and Authorization Protocol (GNAP)</a></li>
+                                <li>Other protocols as time, attention, and resources permit.</li>
+                            </ul>
+                        </li>
+                        <li>Guidance to enhance Verifiable Credential interoperability:
+                            <ul>
+                                <li>Verifiable Credential Extension Vocabularies (e.g., ISO 18013-5 Mobile Driver's
+                                    License)</li>
+                                <li>Implementation Guides</li>
+                                <li>Test Suites</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p>
+                        The Working Group may also update Notes published under previous charters.
+                    </p>
+                </section>
+
+                <section id="timeline">
+                    <h3>Timeline</h3>
+                    <ul>
+                        <li>February 2025: Publication of all Recommendation Track documents</li>
+                        <li>March 2025: Working Group starts operating in maintenance mode.</li>
+                    </ul>
+                </section>
+            </section>
+
+            <!-- MARK: Success Criteria -->
+            <section id="success-criteria">
+                <h2>Success Criteria</h2>
+
+                <p>
+                    In order to advance to <a href="https://www.w3.org/policies/process/#RecsPR"
+                        title="Proposed Recommendation">Proposed Recommendation</a>,
+                    each normative specification is expected to have <a
+                        href="https://www.w3.org/policies/process/#implementation-experience">at
+                        least two independent interoperable implementations</a> of every feature defined in the
+                    specification, where interoperability can be
+                    verified by passing open test suites.
+                </p>
+
+                <p>
+                    There should be testing plans for each specification, starting from the earliest drafts.
+                </p>
+
+                <p>
+                    In order to advance to Proposed Recommendation, each normative specification must have an open test
+                    suite
+                    that tests every feature defined in the specification.
+                    Additionally, two or more implementations should demonstrate interoperability for each feature
+                    by passing these open test suites, and by showing that these implementations may interoperate with
+                    each other.
+                    For example Verifiable Credentials produced by implementations must be consumed by other
+                    implementations and behave as specified.
+                </p>
+
+                <p>
+                    A feature should be understood as a property or set of properties that are normatively required.
+                </p>
+                <p>
+                    Each specification should contain separate sections detailing all known security and privacy
+                    implications for
+                    implementers, Web authors, and end users.
+                </p>
+
+                <p>
+                    This Working Group expects to follow the <a href="https://www.w3.org/TR/design-principles/">TAG Web
+                        Platform Design Principles</a>.
+                </p>
+            </section>
+
+            <!-- MARK: Coordination -->
+            <section id="coordination">
+                <h2>Coordination</h2>
+
+                <p>
+                    For all specifications, this Working Group will seek
+                    <a href="https://www.w3.org/Guide/documentreview/#how_to_get_horizontal_review">horizontal
+                        review</a> for accessibility,
+                    internationalization, privacy, and security with the relevant Working and Interest Groups, and with
+                    the
+                    <a href="https://www.w3.org/groups/other/tag/" title="Technical Architecture Group">TAG</a>.
+                    Invitation
+                    for review must be issued during each major standards-track document transition, including
+                    <a href="https://www.w3.org/policies/process/#RecsWD" title="First Public Working Draft">FPWD</a>.
+                    The Working
+                    Group is encouraged to engage collaboratively with the horizontal review groups throughout
+                    development of each
+                    specification. The Working Group is advised to seek a review at least 3 months before first entering
+                    <a href="https://www.w3.org/policies/process/#RecsCR" title="Candidate Recommendation">CR</a> and
+                    is encouraged to proactively notify the horizontal review groups when major changes occur in a
+                    specification following a
+                    review.
+                </p>
+
+                <p>Additional technical coordination with the following Groups will be made, per the <a
+                        href="https://www.w3.org/policies/process/#WGCharter">W3C Process Document</a>:</p>
 
 
-    <p>This charter for the Verifiable Claims Working Group has been created according to <a href="https://www.w3.org/Consortium/Process/groups#GAGeneral">section 5.2</a> of the <a href="https://www.w3.org/Consortium/Process">Process Document</a>. In the event of a conflict between this document or the provisions of any charter and the W3C Process, the W3C Process shall take precedence.</p>
+                <section>
+                    <h3 id="w3c-coordination">W3C Groups</h3>
+                    <dl>
+                        <dt><a href="https://www.w3.org/groups/wg/did/">Decentralized Identifier Working Group</a></dt>
+                        <dd>
+                            To synchronize on cryptography-related vocabularies and definitions.
+                        </dd>
+
+                        <dt><a href="https://www.w3.org/WoT/wg/">Web of Things Working Group</a></dt>
+                        <dd>
+                            To synchronize on the needs and requirements of the WoT community, in particular on the
+                            subject of WoT Thing Descriptions, regarding digital signatures.
+                        </dd>
+
+                        <dt><a href="https://w3c-ccg.github.io/">Credentials Community Group</a></dt>
+                        <dd>
+                            Coordination on other specifications incubated by the Credentials Community Group that might
+                            utilize the output of this Working Group.
+                        </dd>
+                        <dt><a href="https://www.w3.org/WAI/about/groups/apawg/">Accessible Platform Architecture (APA)
+                                Working Group</a></dt>
+                        <dd>
+                            Coordinate on accessibility use cases for verifiable credentials, and work jointly on a
+                            successor publication to inaccessible CAPTCHAs.
+                        </dd>
+                        <dt><a href="https://www.w3.org/groups/wg/fedid/">Federated Identity Working Group</a></dt>
+                        <dd>
+                            Contribute to the development, by that group, of a Threat Model of Digital
+                            Credentials-related technologies.
+                        </dd>
+                    </dl>
+                </section>
+
+                <section>
+                    <h3 id="external-coordination">External Organizations</h3>
+                    <dl>
+                        <dt><a href="https://datatracker.ietf.org/">Internet Engineering Task Force</a> </dt>
+                        <dd>
+                            The Working Group will seek security review from the IETF, coordinated through the Liaison.
+                        </dd>
+                        <dt><a href="https://datatracker.ietf.org/rg/cfrg/about/">Internet Engineering Task Force Crypto
+                                Forum Research Group </a> </dt>
+                        <dd>
+                            To perform broad horizontal reviews on the output of the Working Group and to ensure that
+                            new pairing-based and post-quantum cryptographic algorithms and parameters can be integrated
+                            into the Data Integrity ecosystem.
+                        </dd>
+                        <dt><a href="https://datatracker.ietf.org/group/spice/about/">Internet Engineering Task Force
+                                Secure Patterns for Internet CrEdentials </a> </dt>
+                        <dd>
+                            Ensure that the draft standards being modeled and expressed by the IETF SPICE WG are
+                            compatible with the work of the W3C Verifiable Credentials WG.
+                        </dd>
+                        <dt><a href="https://www.nist.gov/"> National Institute of Standards and Technology, U.S.
+                                Department of Commerce </a></dt>
+                        <dd>
+                            To coordinate in ensuring that new pairing-based and post-quantum cryptographic algorithms
+                            and parameters can be integrated into the Data Integrity ecosystem.
+                        </dd>
+                        <dt><a href="https://www.hyperledger.org/projects/aries"> Hyperledger Aries</a></dt>
+                        <dd>
+                            To coordinate on broad horizontal reviews and implementations related to the specifications
+                            developed by the Working Group.
+                        </dd>
+                        <dt><a href="https://www.aclu.org/">The American Civil Liberties Union</a> </dt>
+                        <dd>
+                            To coordinate on ensuring that the deliverables of the Working Group are a net positive for
+                            civil liberties.
+                        </dd>
+                        <dt><a href="https://identity.foundation/interop/"> Decentralized Identity Foundation
+                                Interoperability Working Group </a> </dt>
+                        <dd>
+                            To coordinate on broad horizontal review and integration of the specifications developed by
+                            the Working Group into the Decentralized Identity Foundation's ecosystem.
+                        </dd>
+                        <dt><a href="https://www.etsi.org/committee/esi">European Telecommunications Standards Institute
+                                - Electronic Signatures and Infrastructure Technical Committee</a> </dt>
+                        <dd>
+                            To coordinate in ensuring that <a
+                                href="https://en.wikipedia.org/wiki/EIDAS">eIDAS</a>-compliant systems can be built on
+                            top of the specifications developed by the Working Group.
+                        </dd>
+                        <dt><a href="https://www.1edtech.org/">1EDTECH</a> (formerly IMS Global)</dt>
+                        <dd>
+                            Ensure that the badges being modeled and expressed by the Open Badges community are
+                            compatible with the Verifiable Credentials WG.
+                        </dd>
+                        <dt><a href="https://www.iso.org/committee/45144.html">ISO/IEC JTC 1/SC 17/WG 10</a>
+                        <dt>
+                        <dd>
+                            Ensure that the mobile driving licenses being modeled and expressed by the ISO SC17 WG10
+                            community are compatible with the work of the Verifiable Credentials WG.
+                        </dd>
+                        <dt><a href="https://www.iso.org/committee/45144.html">ISO/IEC JTC 1/SC 17/WG 4</a>
+                        <dt>
+                        <dd>
+                            Ensure that the 23220-2 data model expressed by the ISO SC17 WG4 community is compatible
+                            with the work of the Verifiable Credentials WG.
+                        </dd>
+                    </dl>
+                </section>
+            </section>
 
 
-        <section id="history">
-          <h3>
-            Charter History
-          </h3>
-          <p>The following table lists details of all changes from the initial charter, per the <a href="https://www.w3.org/Consortium/Process/#CharterReview">W3C Process Document (section 5.2.3)</a>:</p>
 
-          <table class="history">
-            <tbody>
-              <tr>
-                <th>Charter Period</th>
-                <th>Start Date</th>
-                <th>End Date</th>
-                <th>Changes</th>
-              </tr>
+            <!-- MARK: Participation -->
+            <section class="participation">
+                <h2 id="participation">
+                    Participation
+                </h2>
+                <p>
+                    To be successful, this Working Group is expected to have 6 or more active participants for its
+                    duration, including representatives from the key implementors of this specification, and active
+                    Editors and Test Leads for each specification. The Chairs, specification Editors, and Test Leads are
+                    expected to contribute half of a working day per week towards the Working Group. There is no minimum
+                    requirement for other Participants.
+                </p>
+                <p>
+                    The group encourages questions, comments and issues on its public mailing lists and document
+                    repositories, as described in <a href='#communication'>Communication</a>.
+                </p>
+                <p>
+                    The group also welcomes non-Members to contribute technical submissions for consideration upon their
+                    agreement to the terms of the <a href="https://www.w3.org/policies/patent-policy/">W3C Patent
+                        Policy</a>.
+                </p>
+                <p>Participants in the group are required (by the <a
+                        href="https://www.w3.org/policies/process/#ParticipationCriteria">W3C Process</a>) to follow the
+                    W3C <a href="https://www.w3.org/policies/code-of-conduct/">Code of Conduct</a>.</p>
+            </section>
 
-              <tr>
-                <th><a href="https://www.w3.org/2017/vc/WG/charter.html">Initial Charter</a></th>
-                <td>14 April 2017</td>
-                <td>31 March 2019</td>
-                <td>
-                </td>
-              </tr>
 
-              <tr>
-                <th>Update</th>
-                <td></td>
-                <td></td>
-                <td>2018-08-01 (plh): Updated Chairs and Team Contacts</td>
-              </tr>
+            <!-- MARK: Communication -->
+            <section id="communication">
+                <h2>
+                    Communication
+                </h2>
+                <p id="public">
+                    Technical discussions for this Working Group are conducted in <a
+                        href="https://www.w3.org/policies/process/#confidentiality-levels">public</a>: the meeting
+                    minutes from teleconference and face-to-face meetings will be archived for public review, and
+                    technical discussions and issue tracking will be conducted in a manner that can be both read and
+                    written to by the general public. Working Drafts and Editor's Drafts of specifications will be
+                    developed in public repositories and may permit direct public contribution requests.
+                    The meetings themselves are not open to public participation, however.
+                </p>
+                <p>
+                    Information about the group (including details about deliverables, issues, actions, status,
+                    participants, and meetings) will be available from the <a
+                        href="https://www.w3.org/groups/wg/vc">Verifiable Credentials Working Group home page.</a>
+                </p>
+                <p>
+                    Most Verifiable Credentials Working Group teleconferences will focus on discussion of particular
+                    specifications, and will be conducted on an as-needed basis.
+                </p>
+                <p>
+                    This group primarily conducts its technical work on the public mailing list
+                    <a id="public-name" href="mailto:public-vc-wg@w3.org">public-vc-wg@w3.org</a>
+                    (<a href="https://lists.w3.org/Archives/Public/public-vc-wg/">archive</a>) or on
+                    <a id="public-github" href="https://github.com/w3c/verifiable-credentials">GitHub issues</a>
+                    (and specification-specific GitHub repositories and issue trackers). The public
+                    is invited to review, discuss and contribute to this work.
+                </p>
+                <p>
+                    The group may use a Member-confidential mailing list for administrative purposes and, at the
+                    discretion of the Chairs and members of the group, for member-only discussions in special cases when
+                    a participant requests such a discussion.
+                </p>
+            </section>
 
-              <tr>
-                <th>Update</th>
-                <td></td>
-                <td></td>
-	        <td>2018-09-12 (coralie): Updated Chairs</td>
-              </tr>
 
-              <tr>
-                <th><a href="https://lists.w3.org/Archives/Member/w3c-ac-members/2019JanMar/0051.html">Charter Extension</a></th>
-                <td>1 April 2019</td>
-                <td>30 September 2019</td>
-                <td>2019-03-29 (kaz): Charter period extended till 30 September 2019</td>
-              </tr>
+            <!-- MARK: Decision Policy -->
+            <section id="decisions">
+                <h2>
+                    Decision Policy
+                </h2>
+                <p>
+                    This group will seek to make decisions through consensus and due process, per the <a
+                        href="https://www.w3.org/policies/process/#Consensus"> W3C Process Document (section 5.2.1
+                        Consensus)</a>. Typically, an editor or other participant makes an initial proposal, which is
+                    then refined in discussion with members of the group and other reviewers, and consensus emerges with
+                    little formal voting being required.</p>
+                <p>
+                    However, if a decision is necessary for timely progress and consensus is not achieved after careful
+                    consideration of the range of views presented, the Chairs may call for a group vote and record a
+                    decision along with any objections.
+                </p>
+                <p>
+                    To afford asynchronous decisions and organizational deliberation, any resolution (including
+                    publication decisions) taken in a face-to-face meeting or teleconference will be considered
+                    provisional.
 
-            </tbody>
-          </table>
-        </section>
+                    A call for consensus (CfC) will be issued for all resolutions (for example, via email, GitHub issue
+                    or web-based survey), with a response period of 1 week, depending on the chair's evaluation of the
+                    group consensus on the issue.
 
-      <hr/>
-    <address>Originally based on text developed by participants of the Verifiable Claims Task Force, which is a Task Force of the Web Payments Interest Group.
-    </address>
-    <p class="copyright">
-        <a rel="Copyright" href="/Consortium/Legal/ipr-notice#Copyright">Copyright</a> © 2018
-        <a href="/"><abbr title="World Wide Web Consortium">W3C</abbr></a>
-        <sup>®</sup> (<a href="http://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>,
-        <a href="http://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>,
-        <a href="http://www.keio.ac.jp/">Keio</a>,
-        <a href="http://ev.buaa.edu.cn/">Beihang</a>), All Rights Reserved.</p>
-	<a href="https://github.com/w3c/verifiable-claims">Yep, it's on GitHub</a>.
-<!--
-    <p class="autoId" style="font-style:italic; text-align:right">$Id: charter.html,v 1.14 2017/04/14 05:28:49 liam Exp $</p>
+                    If no objections are raised by the end of the response period, the resolution will be considered to
+                    have consensus as a resolution of the Working Group.
+                </p>
+                <p>
+                    All decisions made by the group should be considered resolved unless and until new information
+                    becomes available or unless reopened at the discretion of the Chairs.
+                </p>
+                <p>
+                    This charter is written in accordance with the <a
+                        href="https://www.w3.org/policies/process/#Votes">W3C Process Document (Section 5.2.3, Deciding
+                        by Vote)</a> and includes no voting procedures beyond what the Process Document requires.
+                </p>
+            </section>
+
+
+            <!-- MARK: Patent Policy -->
+            <section id="patentpolicy">
+                <h2>
+                    Patent Policy
+                </h2>
+                <p>
+                    This Working Group operates under the <a href="https://www.w3.org/policies/patent-policy/">W3C
+                        Patent Policy</a> (Version of 15 September 2020). To promote the widest adoption of Web
+                    standards, W3C seeks to issue Web specifications that can be implemented, according to this policy,
+                    on a Royalty-Free basis.
+
+                    For more information about disclosure obligations for this group, please see the <a
+                        href="https://www.w3.org/groups/wg/vc/ipr/">licensing information</a>.
+                </p>
+
+            </section>
+
+
+            <!-- MARK: Licensing -->
+            <section id="licensing">
+                <h2>Licensing</h2>
+                <p>This Working Group will use the <a href="https://www.w3.org/copyright/software-license-2023/">W3C
+                        Software and Document license</a> for all its deliverables.</p>
+            </section>
+
+            <section id="about">
+                <h2>
+                    About this Charter
+                </h2>
+                <p>
+                    This charter has been created according to <a
+                        href="https://www.w3.org/policies/process/#GAGeneral">section 3.4</a> of the <a
+                        href="https://www.w3.org/policies/process/">Process Document</a>. In the event of a conflict
+                    between this document or the provisions of any charter and the W3C Process, the W3C Process shall
+                    take precedence.
+                </p>
+
+                <!-- MARK: Charter History -->
+                <section id="history">
+                    <h3>
+                        Charter History
+                    </h3>
+
+                    <p>The following table lists details of all changes from the initial charter, per the <a
+                            href="https://www.w3.org/policies/process/#CharterReview">W3C Process Document (section 4.3,
+                            Advisory Committee Review of a Charter)</a>:</p>
+
+
+                    <table class="history">
+                        <tbody>
+                            <tr>
+                                <th>Charter Period</th>
+                                <th>Start Date</th>
+                                <th>End Date</th>
+                                <th>Changes</th>
+                            </tr>
+
+                            <tr>
+                                <th><a href="https://www.w3.org/2017/vc/WG/charter.html">Initial Charter</a></th>
+                                <td>14 April 2017</td>
+                                <td>31 March 2019</td>
+                                <td>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th>Update</th>
+                                <td></td>
+                                <td></td>
+                                <td>2018-08-01 (plh): Updated Chairs and Team Contacts</td>
+                            </tr>
+
+                            <tr>
+                                <th>Update</th>
+                                <td></td>
+                                <td></td>
+                                <td>2018-09-12 (coralie): Updated Chairs</td>
+                            </tr>
+
+                            <tr>
+                                <th><a href="https://lists.w3.org/Archives/Member/w3c-ac-members/2019JanMar/0051.html">Charter
+                                        Extension</a></th>
+                                <td>1 April 2019</td>
+                                <td>30 September 2019</td>
+                                <td>2019-03-29 (kaz): Charter period extended till 30 September 2019</td>
+                            </tr>
+
+                            <tr>
+                                <th>
+                                    Proposed
+                                </th>
+                                <td>
+                                    15 November 2019
+                                </td>
+                                <td>
+                                    30 December 2021
+                                </td>
+                                <td>
+                                    <p>(plh): AC vote for maintenance mode charter</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <a href="https://www.w3.org/2020/01/vc-wg-charter.html">Initial charter for
+                                        maintenance mode WG</a>
+                                </th>
+                                <td>
+                                    20 January 2020
+                                </td>
+                                <td>
+                                    30 December 2021
+                                </td>
+                                <td>
+                                    <p>2020-01-10 (ivan): The Group is in maintenance mode (AC Vote ended) </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Update
+                                </th>
+                                <td>
+
+                                </td>
+                                <td>
+
+                                </td>
+                                <td>
+                                    <p>2020-06-15 (ivan): <a
+                                            href='https://lists.w3.org/Archives/Member/w3c-ac-members/2020AprJun/0053.html'>Removed
+                                            Matt Stone as a co-chair</a>.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Update</th>
+                                <td></td>
+                                <td></td>
+                                <td>
+                                    <p><a
+                                            href="https://lists.w3.org/Archives/Member/w3c-ac-members/2020JulSep/0013.html">2020-07-24</a>
+                                        (xueyuan): Daniel Burnett re-appointed as group Chair.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Rechartered</th>
+                                <td>15 December 2020</td>
+                                <td>30 December 2021</td>
+                                <td>New Patent Policy</td>
+                            </tr>
+                            <tr>
+                                <th><a href="https://lists.w3.org/Archives/Member/w3c-ac-members/2021OctDec/0052.html">Charter
+                                        Extension</a></th>
+                                <td>30 December 2021</td>
+                                <td>30 April 2022</td>
+                                <td>2021-12-20: Charter extended till 30 April 2022</td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    New charter work started
+                                </th>
+                                <td>
+                                    20 December 2021
+                                </td>
+                                <td>
+                                    05 May 2022
+                                </td>
+                                <td>
+                                    2021-12-20 (Ivan): Proposed work on an update of the VC Data model, and a new
+                                    deliverable on VC Data Integrity. See the
+                                    <a href="https://lists.w3.org/Archives/Public/public-new-work/2021Dec/0008.html">Advanced
+                                        Notice</a>, and the <a
+                                        href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fraw.githack.com%2Fw3c%2Fvc-wg-charter%2Fe309d2a94beca018b2bc75bbaf4b7f3f8f212705%2Findex.html&doc2=https%3A%2F%2Fw3c.github.io%2Fvc-wg-charter%2F">changes
+                                        on the proposed charter</a> in the advanced notice period.
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    New charter proposed
+                                </th>
+                                <td>
+                                    06 May 2022
+                                </td>
+                                <td>
+                                    03 June 2022
+                                </td>
+                                <td>
+                                    2022-05-05 (Ivan): AC Vote for the new charter
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Work starts with <a
+                                        href="https://www.w3.org/2022/06/verifiable-credentials-wg-charter.html">new
+                                        charter</a>
+                                </th>
+                                <td>
+                                    13 June 2022
+                                </td>
+                                <td>
+                                    15 June 2024
+                                </td>
+                                <td>
+                                    2022-06-13 (Ivan): AC Vote ends, WG is not in maintenance mode any more; Kristina
+                                    Yasuda replaces Wayne Chang as co-chair.
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Staff contact assignment updated
+                                </th>
+                                <td>
+                                    28 Apr 2023
+                                </td>
+                                <td>
+                                    15 June 2024
+                                </td>
+                                <td>
+                                    2023-04-28 (Ivan): staff contact assignment was increased to 0.20 (from 0.15).
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <a href="https://www.w3.org/TR/2023/WD-vc-di-bbs-20230518/">"BBS Cryptosuite"</a>
+                                    becomes officially a normative specification deliverable
+                                </th>
+                                <td>
+                                    18 May 2023
+                                </td>
+                                <td>
+                                </td>
+                                <td>
+                                    The document has fulfilled the criteria for <a
+                                        href="https://www.w3.org/2022/06/verifiable-credentials-wg-charter.html#conditional-normative">conditional
+                                        normative specification</a> to be added to the official deliverables of the
+                                    Working Group.
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Update
+                                </th>
+                                <td>
+                                    31 October 2023
+                                </td>
+                                <td>
+                                    15 June 2024
+                                </td>
+                                <td>
+                                    2023-10-31 (Xueyuan): Brent Zundel is re-appointed and Kristina Yasuda steps down as
+                                    co-chair of the group.
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Update
+                                </th>
+                                <td>
+                                    1 April 2024
+                                </td>
+                                <td>
+                                    15 June 2024
+                                </td>
+                                <td>
+                                    2024-04-01 (Ivan): Brent Zundel is re-appointed as chair of the group.
+                                </td>
+                            <tr>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Working on new charter
+                                </th>
+                                <td>
+                                    2024-03-27
+                                </td>
+                                <td>
+                                </td>
+                                <td>
+                                    2024-03-27 (Ivan): Work started on extension of the previous charter.
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <a href="https://lists.w3.org/Archives/Member/w3c-ac-members/2024AprJun/0026.html">Charter
+                                        Extension</a>
+                                </th>
+                                <td>
+                                    2024-04-21
+                                </td>
+                                <td>
+                                    2025-01-15
+                                </td>
+                                <td>
+                                    2024-05-21 (Ivan): Charter extended until 2025-01-15.
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    New charter proposed
+                                </th>
+                                <td>
+                                    21 August 2024
+                                </td>
+                                <td>
+                                    2024-09-18
+                                </td>
+                                <td>
+                                    2024-08-21 (Ivan): AC Vote for the new charter
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Work starts with <a href="https://www.w3.org/2024/10/vc-wg-charter.html">new
+                                        charter</a>
+                                </th>
+                                <td>
+                                    2024-10-07
+                                </td>
+                                <td>
+                                </td>
+                                <td>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+                <!--
+        <section id="changelog">
+          <h3>Change log</h3>
+          <!-- Use this section for changes _after_ the charter was approved by the Director. -->
+                <!--          <p>Changes to this document are documented in this section.</p>
 -->
-</div>
-</body>
+                <!--
+          <dl id='changes'>
+            <dt>YYYY-MM-DD</dt>
+            <dd>[changes]]</dd>
+          </dl>
+          -->
+                <!--        </section>
+      </section>
+-->
+        </main>
+
+        <hr>
+
+        <footer>
+            <address>
+                <a href="mailto:ivan@w3.org">Ivan Herman</a>
+            </address>
+
+            <p class="copyright">
+                <a href="https://www.w3.org/policies/#Copyright">Copyright</a> ©2024
+                <a href="https://www.w3.org/">World Wide Web Consortium</a>.
+
+                <br><abbr title="World Wide Web Consortium">W3C</abbr><sup>®</sup> <a
+                    href="https://www.w3.org/policies/#disclaimers">liability</a>, <a
+                    href="https://www.w3.org/policies/#trademarks">trademark</a>
+                and <a href="https://www.w3.org/copyright/software-license-2023/">permissive document license</a> rules
+                apply.
+            </p>
+            <hr>
+            <p><a href="https://github.com/w3c/vc-wg-charter">Yes, it's on GitHub!</a>.</p>
+        </footer>
+
+    </body>
 
 </html>
