@@ -16,7 +16,7 @@ Issue Title: CR Snapshot Update Request for Verifiable Credentials Data Model v2
 
 # Substantive changes
 
-See first item in https://w3c.github.io/vc-data-model/transitions/2024/CR2/#revision-history
+See items under "Changes since the v2.0 First Candidate Recommendation": https://w3c.github.io/vc-data-model/transitions/2024/CR2/#revision-history
 
 # Any changes in requirements?
 
@@ -24,7 +24,15 @@ None
 
 # Wide Review of substantive changes
 
-@@@@
+Changes to the specification are circulated on a weekly basis to the W3C Credentials Community Group, which contains over 560+ individuals with a number of them providing continued feedback since CR1. For example:
+
+https://lists.w3.org/Archives/Public/public-credentials/2024Oct/0031.html
+
+The test suites run on a weekly basis and implementers actively track how their implementations are performing. Ecosystem reports are also available and are tracked and commented on by organizations adopting vendor solutions: 
+
+https://canivc.com/
+
+Multiple implementers have also reviewed changes and have confirmed that they will implement or plan to implement all substantive changes since CR1. 
 
 # Issues status
 
@@ -36,14 +44,20 @@ None
 
 # Any changes in implementation information?
 
-None
+Two more implementations have been added to the test suite since CR1, bringing the total implementations registered in the VCDM v2.0 test suite to seven (7):
+
+https://w3c.github.io/vc-data-model-2.0-test-suite/#conformance
+
+...and the total number of VCWG implementations to fourteen (14): 
+
+https://github.com/w3c/vc-test-suite-implementations/tree/main/implementations
+
+The discrepency is due to some implementers focusing on implementation of the Data Integrity test suites (more difficult) over the VCDM v2.0 test suite (easier).
 
 # Deadline for further comments
 
 30 days
 
-
 # Any changes in patent disclosures?
 
 None
-
