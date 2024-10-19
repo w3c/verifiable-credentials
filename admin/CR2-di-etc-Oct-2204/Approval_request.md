@@ -1,6 +1,5 @@
 Issue title: CR Snapshot Update Request for Verifiable Credential Data Integrity 1.0, EdDSA and ECDSA Cryptosuites - vc-data-integrity, vc-di-ecdsa, vc-di-eddsa
 
-
 # Document URLs
 
 - Verifiable Credential Data Integrity 1.0
@@ -13,11 +12,9 @@ Issue title: CR Snapshot Update Request for Verifiable Credential Data Integrity
   - https://w3c.github.io/vc-di-ecdsa/transitions/2024/CR2/ (not yet in place on /TR)
   - Editors' draft: https://w3c.github.io/vc-di-ecdsa/
 
-
 # Link to group's decision to request transition
 
 https://www.w3.org/2017/vc/WG/Meetings/Minutes/2024-09-27-vcwg#resolution2
-
 
 # Link to previous Candidate Recommendation transition or update request
 
@@ -25,7 +22,7 @@ https://github.com/w3c/transitions/issues/573
 
 # Substantive changes
 
-See, respectively:
+See "Changes since the First Candidate Recommendation" at each link below:
 
 - First item of https://w3c.github.io/vc-data-integrity/transitions/2024/CR2/#revision-history
 - First item of https://w3c.github.io/vc-di-eddsa/transitions/2024/CR2/#revision-history
@@ -37,7 +34,15 @@ None
 
 # Wide Review of substantive changes
 
-@@@@
+Changes to each specification has been circulated on a weekly basis to the W3C Credentials Community Group, which contains over 560+ individuals with a number of them providing continued feedback since CR1. For example:
+
+https://lists.w3.org/Archives/Public/public-credentials/2024Oct/0031.html
+
+The test suites run on a weekly basis and implementers actively track how their implementations are performing. Ecosystem reports are also available and are tracked and commented on by organizations adopting vendor solutions: 
+
+https://canivc.com/
+
+Multiple implementers have also reviewed changes and have confirmed that they will implement or plan to implement all substantive changes since CR1.
 
 # Issues status
 
@@ -53,14 +58,14 @@ None
 
 # Any changes in implementation information?
 
-None
+Seven more implementations have been added to the test suites since CR1, bringing the total implementations registered to thirteen (13) across all data integrity cryptographic suites:
+
+https://github.com/w3c/vc-test-suite-implementations/tree/main/implementations
 
 # Deadline for further comments
 
 30 days
 
-
 # Any changes in patent disclosures?
 
 None
-
