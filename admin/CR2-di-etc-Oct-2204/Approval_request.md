@@ -11,6 +11,7 @@ Issue title: CR Snapshot Update Request for Verifiable Credential Data Integrity
 - Data Integrity ECDSA Cryptosuites v1.0
   - https://w3c.github.io/vc-di-ecdsa/transitions/2024/CR2/ (not yet in place on /TR)
   - Editors' draft: https://w3c.github.io/vc-di-ecdsa/
+- Proposed publication date: 2024-11-05
 
 # Link to group's decision to request transition
 
@@ -34,7 +35,7 @@ None
 
 # Wide Review of substantive changes
 
-Changes to each specification has been circulated on a weekly basis to the W3C Credentials Community Group, which contains over 560+ individuals with a number of them providing continued feedback since CR1. For example:
+Changes to each specification has been circulated on a weekly basis to the W3C Credentials Community Group, which contains over 560+ individuals, with a number of them providing continued feedback since CR1. For example:
 
 https://lists.w3.org/Archives/Public/public-credentials/2024Oct/0031.html
 
@@ -69,3 +70,5 @@ https://github.com/w3c/vc-test-suite-implementations/tree/main/implementations
 # Any changes in patent disclosures?
 
 None
+
+cc: @msporny @brentzundel @Wind4Greg @dlongley

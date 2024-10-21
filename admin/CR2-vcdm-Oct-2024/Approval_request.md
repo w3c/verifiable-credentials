@@ -4,6 +4,7 @@ Issue Title: CR Snapshot Update Request for Verifiable Credentials Data Model v2
 
 - Verifiable Credentials Data Model v2.0 (VC-DATA-MODEL-2.0)
   - https://w3c.github.io/vc-data-model/transitions/2024/CR2/ (not yet in place on /TR)
+  - Proposed publication date: 2024-11-05
   - Editors' draft: https://w3c.github.io/vc-data-model/
 
 # Link to group's decision to request transition
@@ -24,7 +25,7 @@ None
 
 # Wide Review of substantive changes
 
-Changes to the specification are circulated on a weekly basis to the W3C Credentials Community Group, which contains over 560+ individuals with a number of them providing continued feedback since CR1. For example:
+Changes to the specification are circulated on a weekly basis to the W3C Credentials Community Group, which contains over 560+ individuals, with a number of them providing continued feedback since CR1. For example:
 
 https://lists.w3.org/Archives/Public/public-credentials/2024Oct/0031.html
 
@@ -52,7 +53,7 @@ https://w3c.github.io/vc-data-model-2.0-test-suite/#conformance
 
 https://github.com/w3c/vc-test-suite-implementations/tree/main/implementations
 
-The discrepency is due to some implementers focusing on implementation of the Data Integrity test suites (more difficult) over the VCDM v2.0 test suite (easier).
+The discrepancy is due to some implementers focusing on implementation of the Data Integrity test suites (more difficult) over the VCDM v2.0 test suite (easier).
 
 # Deadline for further comments
 
@@ -61,3 +62,6 @@ The discrepency is due to some implementers focusing on implementation of the Da
 # Any changes in patent disclosures?
 
 None
+
+
+cc: @msporny @brentzundel @dlongley @selfissued

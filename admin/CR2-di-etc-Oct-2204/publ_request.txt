@@ -1,0 +1,38 @@
+to Denis
+cc msporny@digitalbazaar.com, gregb@grotto-networking.com group-vc-wg-chairs@w3.org comm
+
+
+Dear Denis,
+
+This is an official publication request for three CR snapshots for Tuesday, 5th of November:
+
+    Document Title: Verifiable Credential Data Integrity 1.0
+    Document URL:  https://www.w3.org/TR/2023/CR-vc-data-integrity-20241105/
+    Publication Date: 2024-11-05
+
+    Document Title: Data Integrity EdDSA Cryptosuites v1.0
+    Document URL:  https://www.w3.org/TR/2023/CR-vc-di-eddsa-20241105/
+    Publication Date: 2024-11-05
+
+    Document Title: ECDSA Cryptosuites v1.0
+    Document URL:  https://www.w3.org/TR/2023/CR-vc-di-ecdsa-20241105/
+    Publication Date: 2024-11-05
+
+    Approvals:
+        Record of publication request:
+            https://github.com/w3c/transitions/issues/657
+        Director's approval:
+            https://github.com/w3c/transitions/issues/657#issuecomment-@@@@
+
+Checks:
+    Pass Pubrules' check: yes
+    Pass Link Checker's check: yes.
+
+The documents have already been checked; they have not changed since then (except for the publication date change).
+
+Xueyuan, I will send you drafts for HPN and the AC announcement in separate mails.
+
+Thank You
+
+Ivan
+

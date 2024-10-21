@@ -1,0 +1,120 @@
+Dear Advisory Committee Representative,
+[This announcement will be forwarded to W3C group chairs]
+
+I am pleased to announce that the following documents are
+W3C Candidate Recommendation Snapshots:
+
+  Verifiable Credentials Data Model v2.0
+    https://www.w3.org/TR/2024/CR-vc-data-model-2.0-20241107/
+  Verifiable Credential Data Integrity 1.0
+    https://www.w3.org/TR/2023/CR-vc-data-integrity-20241125/
+  Data Integrity EdDSA Cryptosuites v1.0
+    https://www.w3.org/TR/2023/CR-vc-di-eddsa-20241125
+  Data Integrity ECDSA Cryptosuites v1.0
+    https://www.w3.org/TR/2023/CR-vc-di-ecdsa-20241125
+
+The approval and publication are in response to this transition request:
+   https://github.com/w3c/transitions/issues/657 and 
+   https://github.com/w3c/transitions/issues/658
+
+Please provide feedback by 2024-12-05 raising an issue on GitHub:
+   https://github.com/w3c/vc-data-model/issues/
+   https://github.com/w3c/vc-data-integrity/issues/
+   https://github.com/w3c/vc-di-eddsa/issues/
+   https://github.com/w3c/vc-di-ecdsa/issues/
+
+Patent disclosures relevant to this specification may be found on the 
+VC Working Group's patent disclosure page in conformance with W3C policy:
+   https://www.w3.org/groups/wg/vc/ipr/
+
+This Call for Implementations follows section 6.3.7 "Transitioning to 
+Candidate Recommendation" of the W3C Process Document:
+   https://www.w3.org/2023/Process-20230612/#transition-cr
+
+Thank you,
+
+For Philippe le Hégaret, W3C Strategy and Project Lead,
+Ivan Herman, VC WG Team Contact;
+Xueyuan Jia, W3C Marketing & Communications
+
+==============================================
+Quoting from:
+
+Verifiable Credentials Data Model v2.0
+W3C Candidate Recommendation Snapshot, 05 November 2024
+
+This version:
+   https://www.w3.org/TR/2024/CR-vc-data-model-2.0-20240511/
+Latest published version:
+   https://www.w3.org/TR/vc-data-model-2.0/
+
+Abstract:
+Credentials are a part of our daily lives; driver's 
+licenses are used to assert that we are capable of 
+operating a motor vehicle, university degrees can be used 
+to assert our level of education, and government-issued 
+passports enable us to travel between countries. This 
+specification provides a mechanism to express these sorts 
+of credentials on the Web in a way that is cryptographically 
+secure, privacy respecting, and machine-verifiable. 
+
+Status of this document:
+https://www.w3.org/TR/2024/CR-vc-data-model-2.0-20240511/#sotd
+
+---
+
+Verifiable Credential Data Integrity 1.0
+W3C Candidate Recommendation Snapshot, 05 November 2024
+
+This version:
+   https://www.w3.org/TR/2023/CR-vc-data-integrity-20240511/
+Latest published version:
+   https://www.w3.org/TR/vc-data-integrity/
+
+Abstract:
+This specification describes mechanisms for ensuring the 
+authenticity and integrity of Verifiable Credentials and 
+similar types of constrained digital documents using cryptography, 
+especially through the use of digital signatures and related 
+mathematical proofs.
+
+Status of this document:
+https://www.w3.org/TR/2023/CR-vc-data-integrity-20240511/#sotd
+
+---
+
+Data Integrity EdDSA Cryptosuites v1.0
+W3C Candidate Recommendation Snapshot, 05 November 2024
+
+This version:
+   https://www.w3.org/TR/2023/CR-vc-di-eddsa-20240511/
+Latest published version:
+   https://www.w3.org/TR/vc-di-eddsa/
+
+Abstract:
+This specification describes a Data Integrity cryptographic suite
+for use when creating or verifying a digital signature using the 
+twisted Edwards Curve Digital Signature Algorithm (EdDSA) 
+and Curve25519 (ed25519).
+
+Status of this document:
+https://www.w3.org/TR/2023/CR-vc-di-eddsa-20240511/#sotd
+
+---
+
+Data Integrity ECDSA Cryptosuites v1.0
+W3C Candidate Recommendation Snapshot, 05 November 2024
+
+This version:
+   https://www.w3.org/TR/2023/CR-vc-di-ecdsa-20240511/
+Latest published version:
+   https://www.w3.org/TR/vc-di-ecdsa/
+
+Abstract:
+This specification describes a Data Integrity Cryptosuite for
+use when generating a digital signature using the Elliptic
+Curve Digital Signature Algorithm (ECDSA).
+
+Status of this document:
+https://www.w3.org/TR/2023/CR-vc-di-ecdsa-20240511/#sotd
+
