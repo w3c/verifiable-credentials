@@ -9,7 +9,7 @@ Issue Title: CR Snapshot Update Request for Verifiable Credentials Data Model v2
 
 # Link to group's decision to request transition
 
-- https://www.w3.org/2017/vc/WG/Meetings/Minutes/???????
+- https://www.w3.org/2017/vc/WG/Meetings/Minutes/2024-10-23-vcwg#resolution1
 
 # Link to previous Candidate Recommendation transition or update request
 
