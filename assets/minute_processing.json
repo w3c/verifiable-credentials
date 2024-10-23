@@ -1,5 +1,5 @@
 {
-    "date": "2024-10-16T16:07:01.622Z",
+    "date": "2024-10-23T16:13:23.204Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -182,9 +182,18 @@
         "2024-09-26-vcwg.md",
         "2024-09-27-vcwg.md",
         "2024-10-09-vcwg.md",
-        "2024-10-16-vcwg.md"
+        "2024-10-16-vcwg.md",
+        "2024-10-23-vcwg.md"
     ],
     "resolutions": [
+        {
+            "year": 2024,
+            "date": "2024-10-23",
+            "number": 1,
+            "text": "Transition the document at <a href=\"https://w3c.github.io/vc-jose-cose/transitions/CR2/2024-11-05/\">https://w3c.github.io/vc-jose-cose/transitions/CR2/2024-11-05/</a> to a second Candidate Recommendation with a goal to publish on November 5, 2024.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2024-10-23-vcwg#resolution1",
+            "call": "vcwg"
+        },
         {
             "year": 2024,
             "date": "2024-09-27",
