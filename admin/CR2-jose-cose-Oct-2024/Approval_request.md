@@ -3,7 +3,7 @@ Issue Title: CR Snapshot Update Request for Verifiable Credentials Data Model v2
 # Document URLs
 
 - Securing Verifiable Credentials using JOSE and COSE
-  - https://w3c.github.io/vc-jose-cose/ (not yet in place on /TR)
+  - https://w3c.github.io/vc-jose-cose/transitions/CR2/2024-11-05/ (not yet in place on /TR)
   - Proposed publication date: 2024-11-05
   - Editors' draft: https://w3c.github.io/vc-jose-cose/
 
