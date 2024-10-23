@@ -57,7 +57,7 @@ See https://github.com/w3c/vc-jose-cose/issues
 
 # Formal Objections
 
-None
+There is a noted intention to file a formal objection from PING Identity. References to this can be found around the [resoultion here](https://www.w3.org/2017/vc/WG/Meetings/Minutes/2024-10-23-vcwg#resolution1) and in [this PR comment](https://github.com/w3c/vc-jose-cose/pull/306#issuecomment-2400789855).
 
 # Any changes in implementation information?
 
