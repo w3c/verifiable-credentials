@@ -35,7 +35,9 @@ None
 
 # Wide Review of substantive changes
 
-Changes to each specification has been circulated on a weekly basis to the W3C Credentials Community Group, which contains over 560+ individuals, with a number of them providing continued feedback since CR1. For example:
+None of the substantive changes since CR1 are related to Accessibility, Internationalization, Architecture, or Privacy. Some Security-related changes have been made, but the Security review is pending the creation of Security Interest Group. We have written to each group above to get confirmation on if they concur with our analysis.
+
+With respect to wide review, changes to each specification has been circulated on a weekly basis to the W3C Credentials Community Group, which contains over 560+ individuals, with a number of them providing continued feedback since CR1. For example:
 
 https://lists.w3.org/Archives/Public/public-credentials/2024Oct/0031.html
 
