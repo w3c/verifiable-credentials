@@ -1,4 +1,4 @@
-Issue Title: CR Snapshot Update Request for Verifiable Credentials Data Model v2.0 - vc-data-model
+Issue Title: CR Snapshot Update Request for Verifiable Credentials using JOSE and COSE - vc-jose-cose
 
 # Document URLs
 
@@ -30,7 +30,7 @@ https://github.com/w3c/vc-jose-cose/pulls?page=1&q=is%3Apr+is%3Amerged+closed%3A
 * Describe encrypting credentials and presentations
 * Reference the Controller Document specification
 * Set media types (`vc+jwt`, `vp+jwt`, `vc+sd-jwt`, `vp+sd-jwt`, `vc+cose`, `vp+cose`)
-* Add guidance on differntiating secured payloads using `cty`
+* Add guidance on differentiating secured payloads using `cty`
 
 # Any changes in requirements?
 
@@ -61,7 +61,7 @@ There is a noted intention to file a formal objection from PING Identity. Refere
 
 # Any changes in implementation information?
 
-The test suite is undergoing implementation. A call for implementers will be sent out after CR2 is published. https://github.com/w3c/vc-jose-cose-test-suite.
+The test suite is undergoing implementation. A new call for implementers will be sent out after CR2 is published. https://github.com/w3c/vc-jose-cose-test-suite.
 
 # Deadline for further comments
 
