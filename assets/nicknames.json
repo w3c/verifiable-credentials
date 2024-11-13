@@ -1466,6 +1466,19 @@
         "nick": [
             "naomi"
         ],
-        "nami": "Naomi Yoshizawa"
+        "name": "Naomi Yoshizawa"
+    },
+    {
+        "nick": [
+            "Yoshii"
+        ],
+        "name": "Junichi Yoshii"
+    },
+    {
+        "name": "Adam Bradley",
+        "nick": [
+            "bradley",
+            "adam"
+        ]
     }
 ]
