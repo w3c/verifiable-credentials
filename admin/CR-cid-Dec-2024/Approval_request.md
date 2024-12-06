@@ -4,14 +4,14 @@ CR Request for Controlled Identity Document - cid
 # Document title, URLs, estimated publication date
 
 - Controlled Identifier Documents 1.0
-    - Final URL: https://www.w3.org/TR/2024/CR-cid-202501@day@/
+    - Final URL: https://www.w3.org/TR/2024/CR-cid-1.0-202501@day@/
     - Proposed publication date: @day@ January 2025
     - Editors' draft: https://w3c.github.io/cid/transitions/2025/CR1/
 
 Note: the document started its Rec track under the title "Controller Documents 1.0", with short name 
 `controller document`. The Working group resolved to [change the document title](https://www.w3.org/2017/vc/WG/Meetings/Minutes/2024-12-04-vcwg#resolution1) 
 to change the title; the plan is to do that at the publication of the CR (that also means adapting the document's header
-to ensure proper history.)
+to ensure proper history.)  
 
 # Abstract
 
@@ -23,7 +23,8 @@ to ensure proper history.)
 
 # Link to group's decision to request transition
 
-- https://www.w3.org/2017/vc/WG/Meetings/Minutes/2024-12-@@@@-vcwg#resolution1
+- https://www.w3.org/2017/vc/WG/Meetings/Minutes/2024-12-@@@@-vcwg#resolution1. This also includes the
+resolution to change the `controller-document` short name to `cid-1.0`.
 
 # Changes
 
