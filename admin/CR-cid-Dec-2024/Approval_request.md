@@ -26,6 +26,8 @@ to ensure proper history.)
 - https://www.w3.org/2017/vc/WG/Meetings/Minutes/2024-12-18-vcwg#resolution1. This also includes the
 resolution to change the `controller-document` short name to `cid-1.0`.
 
+
+
 # Changes
 
 This is the first Candidate Recommendation for the first Recommendation attempt
