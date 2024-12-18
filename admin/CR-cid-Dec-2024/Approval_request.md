@@ -23,7 +23,7 @@ to ensure proper history.)
 
 # Link to group's decision to request transition
 
-- https://www.w3.org/2017/vc/WG/Meetings/Minutes/2024-12-@@@@-vcwg#resolution1. This also includes the
+- https://www.w3.org/2017/vc/WG/Meetings/Minutes/2024-12-18-vcwg#resolution1. This also includes the
 resolution to change the `controller-document` short name to `cid-1.0`.
 
 # Changes
