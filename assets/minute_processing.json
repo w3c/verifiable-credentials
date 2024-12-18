@@ -1,5 +1,5 @@
 {
-    "date": "2024-12-11T17:12:23.996Z",
+    "date": "2024-12-18T17:01:54.171Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -187,9 +187,18 @@
         "2024-11-13-vcwg.md",
         "2024-11-20-vcwg.md",
         "2024-12-04-vcwg.md",
-        "2024-12-11-vcwg.md"
+        "2024-12-11-vcwg.md",
+        "2024-12-18-vcwg.md"
     ],
     "resolutions": [
+        {
+            "year": 2024,
+            "date": "2024-12-18",
+            "number": 1,
+            "text": "Publish the Controlled Identifier Document v1.0 specification as a First Candidate Recommendation (<a href=\"https://w3c.github.io/cid/transitions/2025/CR1/index.html\">https://w3c.github.io/cid/transitions/2025/CR1/index.html</a>) with a new short name of cid-1.0, a preferred publication date as soon as possible, and a CR period of one month. Two independent implementations of each mandatory normative feature are required to proceed this specification to the Proposed Recommendation phase.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2024-12-18-vcwg#resolution1",
+            "call": "vcwg"
+        },
         {
             "year": 2024,
             "date": "2024-12-04",
