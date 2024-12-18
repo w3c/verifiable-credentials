@@ -1,0 +1,27 @@
+to webreq@w3.org
+cc gabe.l.cohen@gmail.com, michael_b_jones@hotmail.com, group-vc-wg-chairs@w3.org, w3t-comm@w3.org, xueyuan@w3.org
+
+Dear Denis,
+
+This is an official publication request of a CR snapshot for Thursday, 19th of December, 2024:
+
+    Document Title: Securing Verifiable Credentials using JOSE and COSE
+    Document URL:  https://www.w3.org/TR/2024/CR-vc-jose-cose-20241219/
+    Publication Date: 2024-12-19
+
+    Approvals:
+        Record of publication request:
+            https://github.com/w3c/transitions/issues/660
+        Director's approval:
+            https://github.com/w3c/transitions/issues/660#issuecomment-2541466216
+
+Checks:
+    Pass Pubrules' check: yes
+    Pass Link Checker's check: yes.
+
+Xueyuan, I will send you drafts for the HPN and the AC announcement in separate mails.
+
+Thank You
+
+Ivan
+
