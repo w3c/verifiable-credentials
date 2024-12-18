@@ -1,25 +1,24 @@
 to webreq@w3.org
-cc msporny@digitalbazaar.com, michael_b_jones@hotmail.com, tthibodeau@openlinksw.com,  group-vc-wg-chairs@w3.org comm, w3t-comm@w3.org, xueyuan@w3.org
+cc msporny@digitalbazaar.com, michael_b_jones@hotmail.com, tthibodeau@openlinksw.com,  group-vc-wg-chairs@w3.org, w3t-comm@w3.org, xueyuan@w3.org
 
 Dear Denis,
 
-This is an official publication request for a CR snapshot for Tuesday, 5th of November, 2024:
+This is an official publication request of a CR snapshot for Thursday, 19th of December, 2024:
 
     Document Title: Verifiable Credentials Data Model v2.0
-    Document URL:  https://www.w3.org/TR/2024/CR-vc-data-model-2.0-20241107/
-    Publication Date: 2024-11-05
+    Document URL:  https://www.w3.org/TR/2024/CR-vc-data-model-2.0-20241219/
+    Publication Date: 2024-12-19
 
     Approvals:
         Record of publication request:
             https://github.com/w3c/transitions/issues/658
         Director's approval:
-            https://github.com/w3c/transitions/issues/658#issuecomment-@@@@
+            https://github.com/w3c/transitions/issues/658#issuecomment-2541464429
 
 Checks:
     Pass Pubrules' check: yes
-    Pass Link Checker's check: yes.
-
-The document has already been checked; it has not changed since then.
+    Pass Link Checker's check: yes. (Note that the checker does report errors, but they are all false positive,
+    including the fragment issues on github.io documents: all links work from a browser.)
 
 Xueyuan, I will send you drafts for the HPN and the AC announcement in separate mails.
 

@@ -1,34 +1,33 @@
-to Denis
-cc msporny@digitalbazaar.com, gregb@grotto-networking.com group-vc-wg-chairs@w3.org comm
+to webreq@w3.org
+cc msporny@digitalbazaar.com, gregb@grotto-networking.com, group-vc-wg-chairs@w3.org, group-vc-wg-chairs@w3.org, w3t-comm@w3.org, xueyuan@w3.org
 
 
 Dear Denis,
 
-This is an official publication request for three CR snapshots for Tuesday, 5th of November:
+This is an official publication request of three CR snapshots for Tuesday, 19th of December:
 
     Document Title: Verifiable Credential Data Integrity 1.0
-    Document URL:  https://www.w3.org/TR/2023/CR-vc-data-integrity-20241105/
-    Publication Date: 2024-11-05
+    Document URL:  https://www.w3.org/TR/2024/CR-vc-data-integrity-20241219/
+    Publication Date: 2024-12-19
 
     Document Title: Data Integrity EdDSA Cryptosuites v1.0
-    Document URL:  https://www.w3.org/TR/2023/CR-vc-di-eddsa-20241105/
-    Publication Date: 2024-11-05
+    Document URL:  https://www.w3.org/TR/2024/CR-vc-di-eddsa-20241219/
+    Publication Date: 2024-12-19
 
     Document Title: ECDSA Cryptosuites v1.0
-    Document URL:  https://www.w3.org/TR/2023/CR-vc-di-ecdsa-20241105/
-    Publication Date: 2024-11-05
+    Document URL:  https://www.w3.org/TR/2024/CR-vc-di-ecdsa-20241219/
+    Publication Date: 2024-12-19
 
     Approvals:
         Record of publication request:
             https://github.com/w3c/transitions/issues/657
         Director's approval:
-            https://github.com/w3c/transitions/issues/657#issuecomment-@@@@
+            https://github.com/w3c/transitions/issues/657#issuecomment-2541462587
 
 Checks:
     Pass Pubrules' check: yes
-    Pass Link Checker's check: yes.
-
-The documents have already been checked; they have not changed since then (except for the publication date change).
+    Pass Link Checker's check: yes. (Note that the checker does report two errors, but they are both false positive:
+    the links work from a browser.)
 
 Xueyuan, I will send you drafts for HPN and the AC announcement in separate mails.
 

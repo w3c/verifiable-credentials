@@ -2,28 +2,32 @@ Dear Advisory Committee Representative,
 [This announcement will be forwarded to W3C group chairs]
 
 I am pleased to announce that the following documents are
-W3C Candidate Recommendation Snapshots:
+W3C 2nd Candidate Recommendation Snapshots:
 
   Verifiable Credentials Data Model v2.0
-    https://www.w3.org/TR/2024/CR-vc-data-model-2.0-20241107/
+    https://www.w3.org/TR/2024/CR-vc-data-model-2.0-20241219/
   Verifiable Credential Data Integrity 1.0
-    https://www.w3.org/TR/2023/CR-vc-data-integrity-20241125/
+    https://www.w3.org/TR/2023/CR-vc-data-integrity-20241219/
   Data Integrity EdDSA Cryptosuites v1.0
-    https://www.w3.org/TR/2023/CR-vc-di-eddsa-20241125
+    https://www.w3.org/TR/2023/CR-vc-di-eddsa-20241219
   Data Integrity ECDSA Cryptosuites v1.0
-    https://www.w3.org/TR/2023/CR-vc-di-ecdsa-20241125
+    https://www.w3.org/TR/2023/CR-vc-di-ecdsa-20241219
+  Securing Verifiable Credentials using JOSE and COSE
+    https://www.w3.org/TR/2024/CR-vc-jose-cose-20241219/
 
 The approval and publication are in response to this transition request:
-   https://github.com/w3c/transitions/issues/657 and 
-   https://github.com/w3c/transitions/issues/658
+   https://github.com/w3c/transitions/issues/657,
+   https://github.com/w3c/transitions/issues/658,
+   https://github.com/w3c/transitions/issues/660,
 
-Please provide feedback by 2024-12-05 raising an issue on GitHub:
+Please provide feedback by 2025-01-19 raising an issue on GitHub:
    https://github.com/w3c/vc-data-model/issues/
    https://github.com/w3c/vc-data-integrity/issues/
    https://github.com/w3c/vc-di-eddsa/issues/
    https://github.com/w3c/vc-di-ecdsa/issues/
+   https://github.com/w3c/vc-jose-cose/issues/
 
-Patent disclosures relevant to this specification may be found on the 
+Patent disclosures relevant to these specifications may be found on the 
 VC Working Group's patent disclosure page in conformance with W3C policy:
    https://www.w3.org/groups/wg/vc/ipr/
 
@@ -41,10 +45,10 @@ Xueyuan Jia, W3C Marketing & Communications
 Quoting from:
 
 Verifiable Credentials Data Model v2.0
-W3C Candidate Recommendation Snapshot, 05 November 2024
+W3C Candidate Recommendation Snapshot, 19 December 2024
 
 This version:
-   https://www.w3.org/TR/2024/CR-vc-data-model-2.0-20240511/
+   https://www.w3.org/TR/2024/CR-vc-data-model-2.0-20241219/
 Latest published version:
    https://www.w3.org/TR/vc-data-model-2.0/
 
@@ -59,15 +63,15 @@ of credentials on the Web in a way that is cryptographically
 secure, privacy respecting, and machine-verifiable. 
 
 Status of this document:
-https://www.w3.org/TR/2024/CR-vc-data-model-2.0-20240511/#sotd
+https://www.w3.org/TR/2024/CR-vc-data-model-2.0-20241219/#sotd
 
 ---
 
 Verifiable Credential Data Integrity 1.0
-W3C Candidate Recommendation Snapshot, 05 November 2024
+W3C Candidate Recommendation Snapshot, 19 December 2024
 
 This version:
-   https://www.w3.org/TR/2023/CR-vc-data-integrity-20240511/
+   https://www.w3.org/TR/2023/CR-vc-data-integrity-20241219/
 Latest published version:
    https://www.w3.org/TR/vc-data-integrity/
 
@@ -79,15 +83,15 @@ especially through the use of digital signatures and related
 mathematical proofs.
 
 Status of this document:
-https://www.w3.org/TR/2023/CR-vc-data-integrity-20240511/#sotd
+https://www.w3.org/TR/2023/CR-vc-data-integrity-20241219/#sotd
 
 ---
 
 Data Integrity EdDSA Cryptosuites v1.0
-W3C Candidate Recommendation Snapshot, 05 November 2024
+W3C Candidate Recommendation Snapshot, 19 December 2024
 
 This version:
-   https://www.w3.org/TR/2023/CR-vc-di-eddsa-20240511/
+   https://www.w3.org/TR/2023/CR-vc-di-eddsa-20241219/
 Latest published version:
    https://www.w3.org/TR/vc-di-eddsa/
 
@@ -98,15 +102,15 @@ twisted Edwards Curve Digital Signature Algorithm (EdDSA)
 and Curve25519 (ed25519).
 
 Status of this document:
-https://www.w3.org/TR/2023/CR-vc-di-eddsa-20240511/#sotd
+https://www.w3.org/TR/2023/CR-vc-di-eddsa-20241219/#sotd
 
 ---
 
 Data Integrity ECDSA Cryptosuites v1.0
-W3C Candidate Recommendation Snapshot, 05 November 2024
+W3C Candidate Recommendation Snapshot, 19 December 2024
 
 This version:
-   https://www.w3.org/TR/2023/CR-vc-di-ecdsa-20240511/
+   https://www.w3.org/TR/2023/CR-vc-di-ecdsa-20241219/
 Latest published version:
    https://www.w3.org/TR/vc-di-ecdsa/
 
@@ -116,5 +120,26 @@ use when generating a digital signature using the Elliptic
 Curve Digital Signature Algorithm (ECDSA).
 
 Status of this document:
-https://www.w3.org/TR/2023/CR-vc-di-ecdsa-20240511/#sotd
+https://www.w3.org/TR/2023/CR-vc-di-ecdsa-20241219/#sotd
 
+---
+
+Securing Verifiable Credentials using JOSE and COSE
+W3C Candidate Recommendation Snapshot, 19 December 2024
+
+This version:
+   https://www.w3.org/TR/2024/CR-vc-jose-cose-20241219/
+Latest published version:
+   https://www.w3.org/TR/vc-jose-cose/
+
+Abstract:
+This specification defines how to secure credentials and presentations
+conforming to the Verifiable Credential data model
+with JSON Object Signing and Encryption (JOSE), Selective Disclosure
+for JWTs, and CBOR Object Signing and Encryption (COSE).
+This enables the Verifiable Credential data model to
+be implemented with standards for signing and encryption that are
+widely adopted.
+
+Status of this document:
+https://www.w3.org/TR/2024/CR-vc-jose-cose-20241219/#sotd
