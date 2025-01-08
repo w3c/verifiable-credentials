@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-05-27T08:01:42.514Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.8 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="tpUbGFzZNq81u_S3L5qY" version="24.4.8" type="device">
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.4 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.4">
   <diagram name="Page-1" id="6gULVhWcurzz5zKnDaAR">
-    <mxGraphModel dx="1600" dy="1216" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1227" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,9 +13,14 @@
         <mxCell id="r7VOtmBWi9sTdI5Oyx6i-34" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#b3b3b3;dashed=1;labelBackgroundColor=none;strokeColor=none;fontColor=#EEEEEE;" parent="1" vertex="1">
           <mxGeometry x="567.1606620892594" y="401.00263852242745" width="327.1769494850417" height="358.8390501319261" as="geometry" />
         </mxCell>
+        <mxCell id="YMxTCl_THSebrHXyHGXr-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="r7VOtmBWi9sTdI5Oyx6i-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="168" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <UserObject label="&lt;font style=&quot;font-size: 20px;&quot;&gt;VC Data Model&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;i&gt;Graph based model of verifiable claims in JSON for Issuer-Holder-Verifier relationships&lt;/i&gt;&lt;/font&gt;" link="https://www.w3.org/TR/vc-data-model-2.0/" linkTarget="_blank" id="r7VOtmBWi9sTdI5Oyx6i-1">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" parent="1" vertex="1">
-            <mxGeometry x="398.0312873957822" y="125.54089709762533" width="295.5146640510054" height="84.43271767810027" as="geometry" />
+            <mxGeometry x="398.03" y="125.54" width="301.97" height="84.43" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;JSON Schema&lt;br&gt;&lt;/span&gt;&lt;i style=&quot;font-size: 10px;&quot;&gt;JSON Schemas for the structural checking of VCs&lt;/i&gt;&lt;br&gt;&lt;/font&gt;" link="https://www.w3.org/TR/vc-json-schema/" linkTarget="_blank" id="r7VOtmBWi9sTdI5Oyx6i-7">
@@ -65,7 +70,7 @@
         </mxCell>
         <UserObject label="&lt;span style=&quot;font-size: 20px;&quot;&gt;ECDSA Cryptosuites&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;i&gt;Data Integrity with NIST elliptic curves&lt;/i&gt;&lt;/font&gt;" link="https://www.w3.org/TR/vc-di-ecdsa/" linkTarget="_blank" id="r7VOtmBWi9sTdI5Oyx6i-3">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" parent="1" vertex="1">
-            <mxGeometry x="282.2000931829328" y="517.0976253298153" width="226.91304561059343" height="52.770448548812666" as="geometry" />
+            <mxGeometry x="282.2000931829328" y="504.0976253298153" width="226.91304561059343" height="52.770448548812666" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;span style=&quot;font-size: 20px;&quot;&gt;EdDSA Cryptosuites&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;i&gt;Data Integrity with Edwards elliptic curves&lt;/i&gt;&lt;/font&gt;" link="https://www.w3.org/TR/vc-di-eddsa/" linkTarget="_blank" id="r7VOtmBWi9sTdI5Oyx6i-4">
@@ -73,9 +78,12 @@
             <mxGeometry x="282.2000931829328" y="580.4221635883906" width="226.91304561059343" height="52.770448548812666" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="YMxTCl_THSebrHXyHGXr-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="r7VOtmBWi9sTdI5Oyx6i-5" target="r7VOtmBWi9sTdI5Oyx6i-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="&lt;span style=&quot;font-size: 20px;&quot;&gt;BBS Cryptosuites&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;i&gt;Data Integrity with BBS selective disclosures&lt;/i&gt;&lt;/font&gt;" link="https://www.w3.org/TR/vc-di-bbs/" linkTarget="_blank" id="r7VOtmBWi9sTdI5Oyx6i-5">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" parent="1" vertex="1">
-            <mxGeometry x="282.2000931829328" y="643.7467018469657" width="226.91304561059343" height="52.770448548812666" as="geometry" />
+            <mxGeometry x="282.2000931829328" y="655.7467018469657" width="226.91304561059343" height="52.770448548812666" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;font style=&quot;font-size: 20px;&quot;&gt;Data Integrity&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;i&gt;General structure of embedded proofs&lt;/i&gt;&lt;/font&gt;" link="https://www.w3.org/TR/vc-data-integrity/" linkTarget="_blank" id="r7VOtmBWi9sTdI5Oyx6i-2">
@@ -122,9 +130,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <UserObject label="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Controller Documents&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;i style=&quot;font-size: 10px;&quot;&gt;Common definitions of verification methods and relationships&lt;/i&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" link="https://www.w3.org/TR/controller-document/" linkTarget="_blank" id="iExSj8y2DTFrv8wI0oQc-3">
+        <UserObject label="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Controlled Identifier Document&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;i style=&quot;font-size: 10px;&quot;&gt;Common definitions of verification methods and relationships&lt;/i&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" link="https://www.w3.org/TR/controller-document/" linkTarget="_blank" id="iExSj8y2DTFrv8wI0oQc-3">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" parent="1" vertex="1">
-            <mxGeometry x="419.13947768513975" y="260.63324538258576" width="253.29828347229034" height="73.87862796833774" as="geometry" />
+            <mxGeometry x="422.14" y="240" width="253.3" height="94.51" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="iExSj8y2DTFrv8wI0oQc-4" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=1;endSize=8;startSize=8;fontSize=12;entryX=0.25;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="r7VOtmBWi9sTdI5Oyx6i-2" target="iExSj8y2DTFrv8wI0oQc-3" edge="1">
@@ -151,7 +159,7 @@
         <mxCell id="8fynS3Y6ICNjrUd6B1vi-3" value="&lt;i style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Securing mechanisms of VCs&lt;/i&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;align=center;rounded=1;labelBackgroundColor=none;fontColor=#EEEEEE;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="429.69357282981855" y="777.78364116095" width="232.1900931829328" height="42.21635883905014" as="geometry" />
         </mxCell>
-        <mxCell id="_LNhkUWUHmIsfGNUxpDQ-3" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=1;endSize=8;startSize=8;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" edge="1" parent="1" source="r7VOtmBWi9sTdI5Oyx6i-1" target="iExSj8y2DTFrv8wI0oQc-3">
+        <mxCell id="_LNhkUWUHmIsfGNUxpDQ-3" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=1;endSize=8;startSize=8;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" parent="1" source="r7VOtmBWi9sTdI5Oyx6i-1" target="iExSj8y2DTFrv8wI0oQc-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="745" y="432" as="sourcePoint" />
             <mxPoint x="704" y="199" as="targetPoint" />
