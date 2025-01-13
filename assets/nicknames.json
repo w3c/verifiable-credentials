@@ -1487,5 +1487,19 @@
             "bowman",
             "mic"
         ]
+    },
+    {
+        "name": "Rene Leveille",
+        "nick": [
+            "Leveille",
+            "Rene"
+        ]
+    },
+    {
+        "name": "Max Crone",
+        "nick": [
+            "Max",
+            "Crone"
+        ]
     }
 ]
