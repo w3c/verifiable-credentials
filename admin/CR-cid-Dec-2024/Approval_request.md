@@ -1,16 +1,17 @@
-CR Request for Controlled Identifier Document 1.0 - cid
+CR Request for Controlled Identifiers 1.0 - cid-1.0
 
 # Document title, URLs, estimated publication date
 
-- Controlled Identifier Document 1.0
-    - Final URL: https://www.w3.org/TR/2025/CR-cid-1.0-20250130/
-    - Proposed publication date: 30 January 2025
-    - Editors' draft: https://w3c.github.io/cid/transitions/2025/CR1/
+- Controlled Identifiers 1.0
+    - Final URL: https://www.w3.org/TR/2025/CR-cid-1.0-20250130/ (not yet installed)
+    - Proposed publication date: 30 January 2025 (if it can be done earlier, we are happy to do it)
+    - Drafts: 
+      - Frozen version: https://w3c.github.io/cid/transitions/2025/CR1/
+      - Editor's draft: https://w3c.github.io/cid/
 
-Note: the document started its Rec track under the title "Controller Documents 1.0", with short name
-`controller document`. The Working group resolved to [change the document title](https://www.w3.org/2017/vc/WG/Meetings/Minutes/2024-12-04-vcwg#resolution1)
-to change the title; the plan is to do that at the publication of the CR (that also means adapting the document's header
-to ensure proper history.)
+Note: the document started its Recommendation track journey under the title "Controller Documents 1.0", with short name `controller-document`. The Working group resolved to [change the document title](https://www.w3.org/2017/vc/WG/Meetings/Minutes/2024-12-04-vcwg#resolution1); the final name was then agreed [on the meeting in January](https://www.w3.org/2017/vc/WG/Meetings/Minutes/2025-01-08-vcwg#section2). That also led to the change of the short name (and the name of the underlying Github repository.) The plan is to do the change of the short name in conjunction with the publication of the CR (including adapting the document's header to ensure proper history). This also explains why some header entries lead to a 404 (name change of a github repository does not create a redirect on the corresponding github.io URLs).
+
+This request is also a formal request for the approval of "cid-1.0" short name.  
 
 # Abstract
 
@@ -22,16 +23,17 @@ to ensure proper history.)
 
 # Link to group's decision to request transition
 
-- https://www.w3.org/2017/vc/WG/Meetings/Minutes/2024-12-18-vcwg#resolution1. This also includes the
-resolution to change the `controller-document` short name to `cid-1.0`.
+- https://www.w3.org/2017/vc/WG/Meetings/Minutes/2024-12-18-vcwg#resolution1. 
+  
+    This also includes the resolution to change the `controller-document` short name to `cid-1.0`.
 
 # Changes
 
-This is the first Candidate Recommendation for the first Recommendation attempt
-for this specification. It has a changelog based on changes made since the
-Decentralized Identifiers v1.0 specification here:
+This is the first Candidate Recommendation for the planned Recommendation for this specification. This document is a minor re-working of the [DID v1.0 specification](https://www.w3.org/TR/2022/REC-did-core-20220719/) to generalize the technology to allow non-decentralized identifiers and systems It has a changelog based on changes made since the Decentralized Identifiers v1.0 specification here:
 
 https://w3c.github.io/cid/#revision-history
+
+(Note: there is currently work going on in the DID Working Group to produce a new version of DID that would then depend on this document. See [current PR on this](https://github.com/w3c/did-core/pull/877).)
 
 # Requirements satisfied
 
@@ -39,15 +41,15 @@ Yes.
 
 # Dependencies met (or not)
 
-Yes. Most of the normative dependencies are all RFCs.
+Yes. Most of the normative dependencies are RFCs.
 
 # Wide Review
 
 Issues processed:
-- https://github.com/w3c/controller-document/issues?q=is:issue+
+- https://github.com/w3c/cid/issues?q=is:issue+
 
 PRs processed:
-- https://github.com/w3c/controller-document/pulls?q=is:pr+
+- https://github.com/w3c/cid/pulls?q=is:pr+
 
 Horizontal reviews:
 
@@ -70,9 +72,7 @@ Horizontal reviews:
   * Done; officially closed on Jun 14
     * https://github.com/w3c/i18n-request/issues/234
 
-Note that this document is a minor re-working of the [DID v1.0 specification](https://www.w3.org/TR/2022/REC-did-core-20220719/) to generalize the technology to allow non-decentralized identifiers and systems; it also incorporates other CR documents that have been reviewed and published by the Working Group, namely the [Verifiable Credential Data Integrity 1.0](https://www.w3.org/TR/vc-data-integrity/) specification.
-The documents had lots of text, terms, and concepts in common, which have been migrated into this document to serve as a
-common reference. This means that the horizontal reviews on those documents largely apply to this document as well.
+As said before, this document is a minor re-working of the [DID v1.0 specification](https://www.w3.org/TR/2022/REC-did-core-20220719/) to generalize the technology to allow non-decentralized identifiers and systems; it also incorporates other CR documents that have been reviewed and published by the Working Group, namely the [Verifiable Credential Data Integrity 1.0](https://www.w3.org/TR/vc-data-integrity/) specification. Those documents had lots of text, terms, and concepts in common, which have been migrated into this document to serve as a common reference. This means that the horizontal reviews on those documents largely apply to this document as well.
 
 Liaisons:
 
@@ -112,14 +112,7 @@ None.
 
 # Implementation
 
-Since the CID specification is a generalization of the DID specification,
-the [test suite results for the DID v1.0 Recommendation](https://w3c.github.io/did-test-suite/) prove that the features in this specification are
-implementable. There were 51 implementations of the DID v1.0 specification.
-Since using an HTTPS URL vs. a DID was effectively the only significant
-change to the specification, proving that level of conformance was deemed
-trivial (as a valid DID is a valid URL). Additionally, the [VC Data Integrity implementation reports](https://w3c.github.io/vc-data-integrity/implementations/) and the [VC JOSE COSE implementation reports](https://w3c.github.io/vc-jose-cose-test-suite/) further prove conformance as
-they require controlled identifier documents / decentralized identifier
-documents to function.
+Since the CID specification is a generalization of the DID specification, the [test suite results for the DID v1.0 Recommendation](https://w3c.github.io/did-test-suite/) proves that the features in this specification are implementable. There were 51 implementations of the DID v1.0 specification. Since using an HTTPS URL vs. a DID was effectively the only significant change to the specification, proving that level of conformance was deemed trivial (as a valid DID is a valid URL). Additionally, the [VC Data Integrity implementation reports](https://w3c.github.io/vc-data-integrity/implementations/) and the [VC JOSE COSE implementation reports](https://w3c.github.io/vc-jose-cose-test-suite/) further prove conformance as they require controlled identifier documents / decentralized identifier documents to function.
 
 # Patent disclosures
 
