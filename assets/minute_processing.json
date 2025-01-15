@@ -1,5 +1,5 @@
 {
-    "date": "2025-01-08T16:57:13.703Z",
+    "date": "2025-01-15T17:05:23.436Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -189,9 +189,18 @@
         "2024-12-04-vcwg.md",
         "2024-12-11-vcwg.md",
         "2024-12-18-vcwg.md",
-        "2025-01-08-vcwg.md"
+        "2025-01-08-vcwg.md",
+        "2025-01-15-vcwg.md"
     ],
     "resolutions": [
+        {
+            "year": 2025,
+            "date": "2025-01-15",
+            "number": 1,
+            "text": "Make the title in the controlled identifiers document specification \"Controlled Identifiers (CIDs) v1.0\".",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2025-01-15-vcwg#resolution1",
+            "call": "vcwg"
+        },
         {
             "year": 2025,
             "date": "2025-01-08",
