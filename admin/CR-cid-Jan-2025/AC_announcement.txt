@@ -1,0 +1,48 @@
+Dear Advisory Committee Representative,
+[This announcement will be forwarded to W3C group chairs]
+
+I am pleased to announce that the following document is
+W3C Candidate Recommendation Snapshot:
+  Controlled Identifiers (CIDs) v1.0
+    https://www.w3.org/TR/2025/CR-cid-1.0-20250130/
+
+The approval and publication are in response to this transition request:
+   https://github.com/w3c/transitions/issues/691
+
+Please provide feedback by 2025-02-28 raising an issue on GitHub:
+   https://github.com/w3c/cid/issues/
+
+Patent disclosures relevant to this specification may be found on the 
+VC Working Group's patent disclosure page in conformance with W3C policy:
+   https://www.w3.org/groups/wg/vc/ipr/
+
+This Call for Implementations follows section 6.3.7 "Transitioning to 
+Candidate Recommendation" of the W3C Process Document:
+   https://www.w3.org/2023/Process-20230612/#transition-cr
+
+Thank you,
+
+For Philippe le Hégaret, W3C Strategy and Project Lead,
+Ivan Herman, VC WG Team Contact;
+Xueyuan Jia, W3C Marketing & Communications
+
+==============================================
+Quoting from:
+
+Controlled Identifiers (CIDs) v1.0
+W3C Candidate Recommendation Snapshot, 30 June 2025
+
+This version:
+   https://www.w3.org/TR/2025/CR-cid-1.0-20250130/
+Latest published version:
+   https://www.w3.org/TR/cid-1.0/
+
+Abstract:
+A controlled identifier document contains cryptographic material and
+lists service endpoints for the purposes of verifying cryptographic
+proofs from, and interacting with, the controller of an identifier.
+
+
+Status of this document:
+https://www.w3.org/TR/2025/CR-cid-1.0-20250130/#sotd
+

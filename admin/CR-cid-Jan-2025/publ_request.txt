@@ -1,0 +1,31 @@
+to webreq@w3.org
+cc msporny@digitalbazaar.com, michael_b_jones@hotmail.com,  group-vc-wg-chairs@w3.org comm, w3t-comm@w3.org, xueyuan@w3.org, coralie@w3.org
+
+Dear Denis,
+
+This is an official publication request for a CR snapshots for Thursday, 30th of January, 2025:
+
+    Document Title: Controlled Identifiers (CIDs) v1.0
+    Document URL:  https://www.w3.org/TR/2025/CR-cid-1.0-20250130/
+    Publication Date: 2025-01-30
+
+    Approvals:
+        Record of publication request:
+            https://github.com/w3c/transitions/issues/691
+        Director's approval:
+            https://github.com/w3c/transitions/issues/691#event-16059131024
+
+The publication also includes a change of short names. The new short name "cid-1.0" replaces the one used for
+the Working Drafts, namely "controller-document". The necessary modifications on the source have been made
+
+Checks:
+    Pass Pubrules' check: yes, except for the references to the short name change. I presume this is a issue with the
+    checking process
+    Pass Link Checker's check: yes (apart from the issues to be expected with the new status and short name)
+
+Xueyuan, Coralie, I will send you drafts for the HPN and the AC announcement in separate mails.
+
+Thank You
+
+Ivan
+
