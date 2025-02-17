@@ -75,7 +75,9 @@ See, respectively:
 
 # Will new features be allowed to be incorporated in the Recommendation?
 
-@@@@ To be decided by the WG, and noted in respec: `updateableRec: true,` @@@@
+No. This is out of scope for the Working Group per its charter:
+
+- https://www.w3.org/2024/10/vc-wg-charter.html#scope
 
 # Link to group's decision to request transition
 
