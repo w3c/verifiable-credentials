@@ -121,7 +121,7 @@ For the official horizontal reviews: all documents have been checked, possibly s
 
 The one missing on the list (JSON-Schema) has virtually not changed since and during CR.
 
-With respect to wide review, changes to each specification has been circulated on a weekly basis to the W3C Credentials Community Group, which contains over 560+ individuals, with a number of them providing continued feedback since the CR phases. A recent example
+With respect to wide review, changes to each specification has been circulated on a weekly basis to the W3C Credentials Community Group, which contains over 560+ individuals, with a number of them providing continued feedback since the CR phases. A recent example:
 
 https://lists.w3.org/Archives/Public/public-credentials/2025Feb/0018.html
 
@@ -144,7 +144,7 @@ See the issues' list, respectively:
 
 # Formal Objections
 
-None.
+None. 
 
 # Implementation
 
