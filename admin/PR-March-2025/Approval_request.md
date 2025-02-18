@@ -166,3 +166,7 @@ Implementations reports, respectively:
 # Patent disclosures
 
 - https://www.w3.org/groups/wg/vc/ipr/ (Note that the list has been, unfortunately, polluted what can be considered as a spam.)
+
+See also:
+
+- https://lists.w3.org/Archives/Team/team-legal/2025Feb/0007.html
