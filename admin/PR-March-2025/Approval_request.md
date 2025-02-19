@@ -115,13 +115,19 @@ to the discussion on W3C's Strategy team, see:
 
 For the official horizontal reviews: all documents have been checked, possibly several times at CR transitions. A series of review calls have also been issued for the more complex specifications:
 
-* https://github.com/w3ctag/design-reviews/issues/1029
-* https://github.com/w3cping/privacy-request/issues/153
-* https://github.com/w3c/security-request/issues/81
-* https://github.com/w3c/a11y-request/issues/99
-* https://github.com/w3c/i18n-request/issues/255
+## Horizontal reviews
 
-The one missing on the list (JSON-Schema) has virtually not changed since and during CR.
+On December 15 a series of horizontal review requests were issued, covering 7 documents out of 8 making it clear that this is a request on a Proposed Rec in preparation, focussing on the changes since CR. Here are the results:
+
+* [TAG](https://github.com/w3ctag/design-reviews/issues/1029) no response, consider it as timed out
+* [Privacy](https://github.com/w3cping/privacy-request/issues/153) no response, consider it as timed out
+* [Security](https://github.com/w3c/security-request/issues/81) discussed with SING, see also [summary](https://www.w3.org/2017/vc/WG/Meetings/Minutes/2025-02-06-vcwg#section1) on a VC Call
+* [A11y](https://github.com/w3c/a11y-request/issues/99), properly [approved](https://github.com/w3c/a11y-request/issues/99#issuecomment-2612618858). There is a minor issue on how to refer to the appropriate WCAG document, which is also an APA problem; if resolved after Rec, this can be taken care of as part of the Maintenance work.
+* [I18n](https://github.com/w3c/i18n-request/issues/255) partially [approved](https://github.com/w3c/i18n-request/issues/255#issuecomment-2544027079) but timed out since.
+
+All these reviews referred to the full set of documents, concentrating on the changes since the CR publication, except for JSON-Schema. However, the document has virtually not changed since CR: see [Pull Request History](https://github.com/w3c/vc-json-schema/pulls?q=is%3Apr+) which had only editorial changes in 2024 (the [Candidate Recommendation Snapshot](https://www.w3.org/TR/2023/CR-vc-json-schema-20231121/) is from November 2023).
+
+## Other wide review
 
 With respect to wide review, changes to each specification has been circulated on a weekly basis to the W3C Credentials Community Group, which contains over 560+ individuals, with a number of them providing continued feedback since the CR phases. A recent example:
 
@@ -156,7 +162,7 @@ Implementations reports, respectively:
 - https://w3c.github.io/vc-data-integrity/implementations/
 - https://w3c.github.io/vc-di-eddsa-test-suite/
 - https://w3c.github.io/vc-di-ecdsa-test-suite/
-- https://w3c.github.io/vc-jose-cose-test-suite/
+- https://w3c.github.io/vc-jose-cose-tesJOSt-suite/
 - https://w3c.github.io/vc-json-schema-test-suite/
 - https://w3c.github.io/cid/implementations/1.0/
 - https://w3c.github.io/vc-bitstring-status-list-test-suite/
@@ -170,3 +176,5 @@ Implementations reports, respectively:
 See also:
 
 - https://lists.w3.org/Archives/Team/team-legal/2025Feb/0007.html
+
+(For non-team: the legal team of of W3C has looked at it, and determined that the PR is indeed bogus, with unknown persons/company referring to an old radiotelephone systems issue that is totally irrelevant to VC. The decision is that it can be ignored.)
