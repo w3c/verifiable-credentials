@@ -1,4 +1,4 @@
-PR Request for Verifiable Credentials Suite - vc-data-model-2.0, vc-data-integrity, vc-di-eddsa, vc-di-ecdsa, vc-jose-cose, vc-json-schema, cid-1.0, vc-bitstring-status-list
+PR Request for Verifiable Credentials Suite - vc-data-model-2.0, vc-data-integrity, vc-di-eddsa, vc-di-ecdsa, vc-jose-cose, cid-1.0, vc-bitstring-status-list
 
 
 # Document title, URLs, estimated publication date
@@ -30,11 +30,6 @@ All publications are currently set to a publication date of 20th of March; to be
   - current PR snapshot: https://w3c.github.io/vc-jose-cose/transitions/PR/
   - editors' draft: https://w3c.github.io/vc-jose-cose/
 
-- Verifiable Credentials JSON Schema Specification
-  - short name: vc-json-schema/
-  - current PR snapshot: https://w3c.github.io/vc-json-schema/PR/2025/
-  - editors' draft: https://w3c.github.io/vc-json-schema/
-
 - Controlled Identifiers v1.0
   - short name: cid-1.0/
   - current PR snapshot: https://w3c.github.io/cid/transitions/2025/PR/
@@ -55,7 +50,6 @@ See, respectively:
 - https://w3c.github.io/vc-di-eddsa/transitions/2025/PR/#abstract
 - https://w3c.github.io/vc-di-ecdsa/transitions/2025/PR/#abstract
 - https://w3c.github.io/vc-jose-cose/transitions/PR/#abstract
-- https://w3c.github.io/vc-json-schema/PR/2025/#abstract
 - https://w3c.github.io/cid/transitions/2025/PR/#abstract
 - https://w3c.github.io/vc-bitstring-status-list/transitions/2025/PR/#abstract
 
@@ -69,7 +63,6 @@ See, respectively:
 - https://w3c.github.io/vc-di-eddsa/transitions/2025/PR/#sotd
 - https://w3c.github.io/vc-di-ecdsa/transitions/2025/PR/#sotd
 - https://w3c.github.io/vc-jose-cose/transitions/PR/$sotd
-- https://w3c.github.io/vc-json-schema/PR/2025/#sotd
 - https://w3c.github.io/cid/transitions/2025/PR/#sotd
 - https://w3c.github.io/vc-bitstring-status-list/transitions/2025/PR/#sotd
 
@@ -92,7 +85,6 @@ See, respectively
 - https://w3c.github.io/vc-di-eddsa/transitions/2025/PR/#revision-history
 - https://w3c.github.io/vc-di-ecdsa/transitions/2025/PR/#revision-history
 - @@@@ missing for JOSE Cose @@@@
-- https://w3c.github.io/vc-json-schema/PR/2025/#revision-history
 - https://w3c.github.io/cid/transitions/2025/PR/#revision-history
 - https://w3c.github.io/vc-bitstring-status-list/transitions/2025/PR/#revision-history
 
@@ -105,11 +97,6 @@ Yes.
 All normative dependencies for all documents are either RECs or IETF RFCs, except for:
 
 * VC-JOSE-COSE: which depends on SD_JWT (@@@ Exact IETF terminology to say that it is in "PR" and technically stable@@@@).
-* Verifiable Credentials JSON Schema Specification: there is a dependency on JSON-Schema. This is related
-to the discussion on W3C's Strategy team, see:
-    - https://github.com/w3c/strategy/issues/108
-
-    The WG's judgement is that a normative dependency is appropriate in this case.
 
 # Wide Review
 
@@ -124,8 +111,6 @@ On December 15 a series of horizontal review requests were issued, covering 7 do
 * [Security](https://github.com/w3c/security-request/issues/81) discussed with SING, see also [summary](https://www.w3.org/2017/vc/WG/Meetings/Minutes/2025-02-06-vcwg#section1) on a VC Call
 * [A11y](https://github.com/w3c/a11y-request/issues/99), properly [approved](https://github.com/w3c/a11y-request/issues/99#issuecomment-2612618858). There is a minor issue on how to refer to the appropriate WCAG document, which is also an APA problem; if resolved after Rec, this can be taken care of as part of the Maintenance work.
 * [I18n](https://github.com/w3c/i18n-request/issues/255) partially [approved](https://github.com/w3c/i18n-request/issues/255#issuecomment-2544027079) but timed out since.
-
-All these reviews referred to the full set of documents, concentrating on the changes since the CR publication, except for JSON-Schema. However, the document has virtually not changed since CR: see [Pull Request History](https://github.com/w3c/vc-json-schema/pulls?q=is%3Apr+) which had only editorial changes in 2024 (the [Candidate Recommendation Snapshot](https://www.w3.org/TR/2023/CR-vc-json-schema-20231121/) is from November 2023).
 
 ## Other wide review
 
@@ -146,7 +131,6 @@ See the issues' list, respectively:
 - https://github.com/w3c/vc-di-eddsa/issues?q=is%3Aissue
 - https://github.com/w3c/vc-di-ecdsa/issues?q=is%3Aissue
 - https://github.com/w3c/vc-jose-cose/issues?q=is%3Aissue
-- https://github.com/w3c/vc-json-schema/issues?q=is%3Aissue%20-label%3Afuture
 - https://github.com/w3c/cid/issues?q=is%3Aissue
 - https://github.com/w3c/vc-bitstring-status-list/issues?q=is%3Aissue%20
 
@@ -163,7 +147,6 @@ Implementations reports, respectively:
 - https://w3c.github.io/vc-di-eddsa-test-suite/
 - https://w3c.github.io/vc-di-ecdsa-test-suite/
 - https://w3c.github.io/vc-jose-cose-tesJOSt-suite/
-- https://w3c.github.io/vc-json-schema-test-suite/
 - https://w3c.github.io/cid/implementations/1.0/
 - https://w3c.github.io/vc-bitstring-status-list-test-suite/
 
