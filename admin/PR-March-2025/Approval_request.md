@@ -171,10 +171,9 @@ Implementations reports, respectively:
 
 # Patent disclosures
 
-- https://www.w3.org/groups/wg/vc/ipr/ (Note that the list has been, unfortunately, polluted what can be considered as a spam.)
+- https://www.w3.org/groups/wg/vc/ipr/ 
+ 
+Note that the list has been, unfortunately, polluted what can be considered as a spam. This has been cross checked by the legal team and determined that the PR is indeed bogus, with unknown persons/company referring to an old radiotelephone systems issue that is totally irrelevant to VC. The decision is that it can be ignored, see:
 
-See also:
+- https://lists.w3.org/Archives/Team/team-legal/2025Feb/0011.html
 
-- https://lists.w3.org/Archives/Team/team-legal/2025Feb/0007.html
-
-(For non-team: the legal team of of W3C has looked at it, and determined that the PR is indeed bogus, with unknown persons/company referring to an old radiotelephone systems issue that is totally irrelevant to VC. The decision is that it can be ignored.)
