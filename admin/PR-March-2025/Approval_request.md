@@ -3,7 +3,7 @@ PR Request for Verifiable Credentials Suite - vc-data-model-2.0, vc-data-integri
 
 # Document title, URLs, estimated publication date
 
-All publications are currently set to a publication date of 6 March; to be finalized based on the transition approval. None of the documents are on /TR yet
+All publications are currently set to a publication date of 20th of March; to be finalized based on the transition approval. None of the documents are on /TR yet
 
 - Verifiable Credentials Data Model v2.0
   - short name: vc-data-model
