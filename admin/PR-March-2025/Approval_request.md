@@ -104,7 +104,7 @@ For the official horizontal reviews: all documents have been checked, possibly s
 
 ## Horizontal reviews
 
-On December 15 a series of horizontal review requests were issued, covering 7 documents out of 8 making it clear that this is a request on a Proposed Rec in preparation, focussing on the changes since CR. Here are the results:
+On December 15 a series of horizontal review requests were issued, covering 7 documents, making it clear that this is a request on a Proposed Rec in preparation, focussing on the changes since CR. Here are the results:
 
 * [TAG](https://github.com/w3ctag/design-reviews/issues/1029) no response, consider it as timed out
 * [Privacy](https://github.com/w3cping/privacy-request/issues/153) no response, consider it as timed out
