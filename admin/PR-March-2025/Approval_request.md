@@ -96,7 +96,7 @@ Yes.
 
 All normative dependencies for all documents are either RECs or IETF RFCs, except for:
 
-* VC-JOSE-COSE: which depends on SD_JWT (@@@ Exact IETF terminology to say that it is in "PR" and technically stable@@@@).
+* VC-JOSE-COSE: which depends on SD_JWT which is currently being shepherded through final IESG review, which indicates that it is a stable document.
 
 # Wide Review
 
@@ -150,7 +150,7 @@ Implementations reports, respectively:
 - https://w3c.github.io/cid/implementations/1.0/
 - https://w3c.github.io/vc-bitstring-status-list-test-suite/
 
-@@@ Worth adding some words on existing public adoptions or adoption plans: GS1, DHS, European Identity Wallets, etc. @@@
+In addition to the implementations listed in the above links, there are public adoptions plans for this technology by GS1, DHS, European Identity Wallets, California mobile driver's licences, the TruAge verification system, and others.
 
 # Patent disclosures
 
