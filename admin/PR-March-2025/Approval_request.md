@@ -146,7 +146,7 @@ Implementations reports, respectively:
 - https://w3c.github.io/vc-data-integrity/implementations/
 - https://w3c.github.io/vc-di-eddsa-test-suite/
 - https://w3c.github.io/vc-di-ecdsa-test-suite/
-- https://w3c.github.io/vc-jose-cose-tesJOSt-suite/
+- https://w3c.github.io/vc-jose-cose-test-suite/
 - https://w3c.github.io/cid/implementations/1.0/
 - https://w3c.github.io/vc-bitstring-status-list-test-suite/
 
