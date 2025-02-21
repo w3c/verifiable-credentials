@@ -96,7 +96,7 @@ Yes.
 
 All normative dependencies for all documents are either RECs or IETF RFCs, except for:
 
-* VC-JOSE-COSE: depends on SD_JWT which is currently being shepherded towards IESG review, which indicates that it is a stable document.
+* VC-JOSE-COSE: depends on SD_JWT which has completed working group last call at the IETF and is currently being shepherded towards IESG review, which indicates that it is a stable document.
 
 # Wide Review
 
