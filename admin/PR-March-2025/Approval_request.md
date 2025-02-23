@@ -16,12 +16,12 @@ All publications are currently set to a publication date of 20th of March; to be
   - editors' draft: https://w3c.github.io/vc-data-integrity/
 
 - Data Integrity EdDSA Cryptosuites v1.0
-  - short name: vc-di-eddsa/
+  - short name: vc-di-eddsa
   - current PR snapshot: https://w3c.github.io/vc-di-eddsa/transitions/2025/PR/
   - editors' draft: https://w3c.github.io/vc-di-eddsa/
 
 - Data Integrity ECDSA Cryptosuites v1.0
-  - short name: vc-di-ecdsa/
+  - short name: vc-di-ecdsa
   - current PR snapshot: https://w3c.github.io/vc-di-ecdsa/transitions/2025/PR/
   - editors' draft: https://w3c.github.io/vc-di-ecdsa/
 
@@ -31,12 +31,12 @@ All publications are currently set to a publication date of 20th of March; to be
   - editors' draft: https://w3c.github.io/vc-jose-cose/
 
 - Controlled Identifiers v1.0
-  - short name: cid-1.0/
+  - short name: cid-1.0
   - current PR snapshot: https://w3c.github.io/cid/transitions/2025/PR/
   - editors' draft: https://w3c.github.io/cid/
 
 - Bitstring Status List v1.0
-  - short name: vc-bitstring-status-list/
+  - short name: vc-bitstring-status-list
   - current PR snapshot: https://w3c.github.io/vc-bitstring-status-list/transitions/2025/PR/
   - editors' draft: https://w3c.github.io/vc-bitstring-status-list/
 
