@@ -1,5 +1,5 @@
 {
-    "date": "2025-02-19T17:15:52.238Z",
+    "date": "2025-02-26T18:37:02.257Z",
     "file_names": [
         "2021-06-14-vcwg.md",
         "2021-08-11-vcwg.md",
@@ -194,9 +194,18 @@
         "2025-01-22-vcwg.md",
         "2025-01-29-vcwg.md",
         "2025-02-05-vcwg.md",
-        "2025-02-19-vcwg.md"
+        "2025-02-19-vcwg.md",
+        "2025-02-26-vcwg.md"
     ],
     "resolutions": [
+        {
+            "year": 2025,
+            "date": "2025-02-26",
+            "number": 1,
+            "text": "Transition vc-data-model, vc-data-integrity, vc-di-eddsa, vc-di-ecdsa, vc-jose-cose (once PRs 331, 332, and 338 are merged), vc-bitstring-status-list, and cid-1.0 specifications to Proposed Recommendation.",
+            "url": "https://www.w3.org/2017/vc/WG/Meetings/Minutes/2025-02-26-vcwg#resolution1",
+            "call": "vcwg"
+        },
         {
             "year": 2025,
             "date": "2025-02-06",
