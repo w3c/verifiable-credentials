@@ -3,7 +3,7 @@ PR Request for Verifiable Credentials Suite - vc-data-model-2.0, vc-data-integri
 
 # Document title, URLs, estimated publication date
 
-All publications are currently set to a publication date of 20th of March; to be finalized based on the transition approval. None of the documents are on /TR yet
+All publications are currently set to a publication date of 20th of March; to be finalized based on the transition approval. None of the documents are on /TR yet.
 
 - Verifiable Credentials Data Model v2.0
   - short name: vc-data-model
@@ -62,7 +62,7 @@ See, respectively:
 - https://w3c.github.io/vc-data-integrity/transitions/2025/PR/#sotd
 - https://w3c.github.io/vc-di-eddsa/transitions/2025/PR/#sotd
 - https://w3c.github.io/vc-di-ecdsa/transitions/2025/PR/#sotd
-- https://w3c.github.io/vc-jose-cose/transitions/PR/$sotd
+- https://w3c.github.io/vc-jose-cose/transitions/PR/#sotd
 - https://w3c.github.io/cid/transitions/2025/PR/#sotd
 - https://w3c.github.io/vc-bitstring-status-list/transitions/2025/PR/#sotd
 
@@ -74,7 +74,7 @@ No. This is out of scope for the Working Group per its charter:
 
 # Link to group's decision to request transition
 
-@@@@ T.B.D. @@@@
+- https://www.w3.org/2017/vc/WG/Meetings/Minutes/2025-02-26-vcwg#resolution1
 
 # Changes
 
@@ -84,7 +84,7 @@ See, respectively
 - https://w3c.github.io/vc-data-integrity/transitions/2025/PR/#revision-history
 - https://w3c.github.io/vc-di-eddsa/transitions/2025/PR/#revision-history
 - https://w3c.github.io/vc-di-ecdsa/transitions/2025/PR/#revision-history
-- @@@@ missing for JOSE Cose @@@@
+- https://w3c.github.io/vc-jose-cose/transitions/PR/#revision-history
 - https://w3c.github.io/cid/transitions/2025/PR/#revision-history
 - https://w3c.github.io/vc-bitstring-status-list/transitions/2025/PR/#revision-history
 
@@ -100,16 +100,15 @@ All normative dependencies for all documents are either RECs or IETF RFCs, excep
 
 # Wide Review
 
-For the official horizontal reviews: all documents have been checked, possibly several times at CR transitions. A series of review calls have also been issued for the more complex specifications:
 
 ## Horizontal reviews
 
-On December 15 a series of horizontal review requests were issued, covering 7 documents, making it clear that this is a request on a Proposed Rec in preparation, focussing on the changes since CR. Here are the results:
+For the official horizontal reviews: all documents have been checked, possibly several times at CR transitions. On December 15 a series of horizontal review requests were issued, covering 7 documents, making it clear that this is a request on a Proposed Rec in preparation, focussing on the changes since CR. Here are the results:
 
 * [TAG](https://github.com/w3ctag/design-reviews/issues/1029) no response, consider it as timed out
 * [Privacy](https://github.com/w3cping/privacy-request/issues/153) no response, consider it as timed out
 * [Security](https://github.com/w3c/security-request/issues/81) discussed with SING, see also [summary](https://www.w3.org/2017/vc/WG/Meetings/Minutes/2025-02-06-vcwg#section1) on a VC Call
-* [A11y](https://github.com/w3c/a11y-request/issues/99), properly [approved](https://github.com/w3c/a11y-request/issues/99#issuecomment-2612618858). There is a minor issue on how to refer to the appropriate WCAG document, which is also an APA problem; if resolved after Rec, this can be taken care of as part of the Maintenance work.
+* [A11y](https://github.com/w3c/a11y-request/issues/99), properly [approved](https://github.com/w3c/a11y-request/issues/99#issuecomment-2612618858). There is a minor issue on how to refer to the appropriate WCAG document, which is also an APA problem; if resolved after Rec, this can be taken care of as part of the maintenance work.
 * [I18n](https://github.com/w3c/i18n-request/issues/255) partially [approved](https://github.com/w3c/i18n-request/issues/255#issuecomment-2544027079) but timed out since.
 
 ## Other wide review
@@ -156,7 +155,4 @@ In addition to the implementations listed in the above links, there are public a
 
 - https://www.w3.org/groups/wg/vc/ipr/ 
  
-Note that the list has been, unfortunately, polluted what can be considered as a spam. This has been cross checked by the legal team and determined that the PR is indeed bogus, with unknown persons/company referring to an old radiotelephone systems issue that is totally irrelevant to VC. The decision is that it can be ignored, see:
-
-- https://lists.w3.org/Archives/Team/team-legal/2025Feb/0011.html
 
