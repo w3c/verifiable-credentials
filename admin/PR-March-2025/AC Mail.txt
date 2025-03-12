@@ -5,10 +5,10 @@ W3C is pleased to announce that the following documents are now W3C
 Proposed Recommendations:
 
 - Verifiable Credentials Data Model v2.0
-   - https://www.w3.org/TR/2025/PR-vc-data-model-2.0-20250320/
+  - https://www.w3.org/TR/2025/PR-vc-data-model-2.0-20250320/
 
 - Verifiable Credential Data Integrity 1.0
-   - https://www.w3.org/TR/2025/PR-vc-data-integrity-20250320/
+  - https://www.w3.org/TR/2025/PR-vc-data-model-2.0-20250320/
 
 - Data Integrity EdDSA Cryptosuites v1.0
   - https://www.w3.org/TR/2025/PR-vc-di-eddsa-20250320/
@@ -28,26 +28,28 @@ Proposed Recommendations:
 Please review the specifications and indicate whether you endorse them 
 as W3C Recommendations or object to the advancement by completing the 
 following questionnaire:
-https://www.w3.org/2002/09/wbs/33280/vc-2.0/
 
-The deadline for responses is 04:59 UTC on 17 April 2025 (23:59, 
-Boston time on 24 December) [0]. Additional details about the review are 
+https://www.w3.org/2002/09/wbs/33280/vc20/
+
+The deadline for responses is 03:59 UTC on 17 April 2025 (23:59, 
+Boston time on 17 April Boston time)[0]. Additional details about the review are 
 available in the questionnaire.
 
 The approval and publication are in response to the following transition 
 requests:
 
-   https://github.com/w3c/transitions/issues/@@@@
+   https://github.com/w3c/transitions/issues/696
 
 More information about the Web Applications Working Group is available 
 on the group home page:
+
    https://www.w3.org/groups/wg/vc
 
-If you should have any questions or need further information, please 
-contact Xiaoqian Wu <xiaoqian@w3.org> and Ivan Herman 
-<ivan@w3.org>, WebApps Working Group Team Contacts.
+Should you have any questions or need further information, please 
+contact Ivan Herman <ivan@w3.org>, VC Working Group Team Contact.
 
 This Call for Review follows section 6.3.9 of the W3C Process Document:
+
    https://www.w3.org/policies/process/20231103/#transition-pr
 
 Thank you,

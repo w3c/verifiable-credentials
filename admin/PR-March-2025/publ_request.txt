@@ -1,0 +1,49 @@
+to webreq@w3.org
+cc msporny@digitalbazaar.com, gregb@grotto-networking.com, michael_b_jones@hotmail.com, mahmoud@mavennet.com, group-vc-wg-chairs@w3.org, w3t-comm@w3.org, xueyuan@w3.org
+
+
+Dear Denis,
+
+This is an official publication request of seven Proposed Recommendations for Thursday, 20th of March:
+
+    Document titles and URLs, :
+
+    Verifiable Credentials Data Model v2.0
+        https://www.w3.org/TR/2025/PR-vc-data-model-2.0-20250320/
+
+    Verifiable Credential Data Integrity 1.0
+        https://www.w3.org/TR/2025/PR-vc-data-integrity-20250320/
+
+    Data Integrity EdDSA Cryptosuites v1.0
+        https://www.w3.org/TR/2025/PR-vc-di-eddsa-20250320/
+
+    Data Integrity ECDSA Cryptosuites v1.0
+        https://www.w3.org/TR/2025/PR-vc-di-ecdsa-20250320/
+
+    Securing Verifiable Credentials using JOSE and COSE
+        https://www.w3.org/TR/2025/PR-vc-jose-cose-20250320/
+
+    Controlled Identifiers v1.0
+        https://www.w3.org/TR/2025/PR-cid-1.0-20250320/
+
+    Bitstring Status List v1.0
+        https://www.w3.org/TR/2025/PR-vc-bitstring-status-list-20250320/
+
+    Approvals:
+        Record of publication request:
+            https://github.com/w3c/transitions/issues/696
+        Director's approval:
+            https://github.com/w3c/transitions/issues/696#issuecomment-2710666567
+
+All document are in place.
+
+Checks:
+    Pass Pubrules' check: yes
+    Pass Link Checker's check: yes. 
+
+Xueyuan, I will send you drafts the AC announcement and a reference to the WBS form draft in a separate mail
+
+Thank You
+
+Ivan
+
