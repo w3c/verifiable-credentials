@@ -1,7 +1,7 @@
 
 # Document titles, URLs, estimated publication date
 
-All publications are currently set to a publication date of 8th of May; to be finalized based on the transition approval and coordination with the communication team (a Press Release is planned). As a result, none of the documents are on /TR yet.
+All publications are currently set to a publication date of 15th of May; to be finalized based on the transition approval and coordination with the communication team (a Press Release is planned). As a result, none of the documents are on /TR yet.
 
 - Verifiable Credentials Data Model v2.0
   - short name: vc-data-model
@@ -124,7 +124,9 @@ None
 - *Suggests changes but supports publication:*
     - "Too similar to the code did specification.  I wish it were presented as a clear extension of the did core specification that was clear about what’s different"
   
-        [comment source](https://lists.w3.org/Archives/Member/w3c-archive/2025Apr/0401.html), [answered by team contact](https://lists.w3.org/Archives/Team/team-vc-review/2025Apr/0009.html)
+        [comment source](https://lists.w3.org/Archives/Member/w3c-archive/2025Apr/0401.html)
+
+        [answered by team contact](https://lists.w3.org/Archives/Team/team-vc-review/2025Apr/0009.html)
 
     - "§1 Introduction should note why the CID specification is necessary as those with less experience might see it as a recommendation over Decentralized Identifiers (DIDs) v1.0 rather than providing an abstraction to further make the case of DIDs."
   
@@ -138,10 +140,6 @@ None
 ## Bitstring Status List (BSL)
 
 - *Suggests changes but supports publication:*
-    - "I don't think bitstring is fit for use in most large scale scenarios, but it is useful to publish this document because it includes an extensive section on privacy pitfalls that helps conscious reasoning."
-  
-        [comment source](https://lists.w3.org/Archives/Member/w3c-archive/2025Apr/0572.html)
-
     - "§2 Data Model has a table that is not titled/labeled. Additionally, it should consider the factor of a scheme that proves status without revealing correlatable global identifiers. The authors do indirectly acknowledge this later in §6 but it is a very desirable trait and should be mentioned upfront in the overview.  §6 Privacy Considerations should also discuss the ability/inability of using Zero-knowledge proofs for proving status."
   
         [comment source](https://lists.w3.org/Archives/Member/w3c-archive/2025Apr/0606.html)
