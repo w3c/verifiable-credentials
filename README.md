@@ -1,3 +1,8 @@
+*** This repository is obsolete and archived ***
+
+Please, refer to the [official site of the VC Working Group](https://www.w3.org/groups/wg/vc/) for further details on the group
+
+
 # W3C Verifiable Credentials Working Group
 
 Group page: [https://www.w3.org/2017/vc/WG/](https://www.w3.org/2017/vc/WG/)
